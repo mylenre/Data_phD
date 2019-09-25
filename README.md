@@ -2,3 +2,4 @@
 Contains phD data and litterature references
 - GIS data
 - Bibliography
+- figures 
