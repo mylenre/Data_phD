@@ -3,3 +3,4 @@ Contains phD data and litterature references
 - GIS data
 - Bibliography
 - Figures 
+- Conceptual models
