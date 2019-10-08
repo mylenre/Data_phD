@@ -1,1 +1,0 @@
-Numercacy modeling course folder
