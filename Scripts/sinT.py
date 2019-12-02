@@ -8,17 +8,17 @@ Created on Fri Nov 29 01:12:49 2019
 import os
 import numpy as np
 import matplotlib.pyplot as plt
-os.chdir('C:\Users\s1995204\Documents_LOCAL\Modeling\Modeling_results\1D_models\input_files')
+os.chdir(r'c:\Users\s1995204\Documents_LOCAL\Modeling\Modeling_results\1D_models\input_files')
 
 dt_d=1
 dt_s=3600*24
 
-t_y=30
+t_y=1
 t_d=dt_d*365.25*t_y
 t_s=dt_s*365.25*t_y
 
-qmax=0.1
-ref=0.11
+qmax=90
+ref=120
 #name=ref=qmax-1/2*qmax
 
 
