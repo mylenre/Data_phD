@@ -5,8 +5,10 @@ Created on Fri Nov 29 01:12:49 2019
 @author: mylen
 """
 
+import os
 import numpy as np
 import matplotlib.pyplot as plt
+os.chdir('C:\Users\s1995204\Documents_LOCAL\Modeling\Modeling_results\1D_models\input_files')
 
 dt_d=1
 dt_s=3600*24
