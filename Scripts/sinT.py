@@ -31,6 +31,7 @@ plt.xlabel('Time (days)')
 plt.ylabel('Amplitude = temperature')
 plt.grid(True, which='both')
 plt.axhline(y=0, color='k')
+plt.savefig('T_input_'+ Tmin +'_'+Tmax+'.png') 
 plt.show()
 
 data=np.stack((time_s, amplitude), axis=-1)

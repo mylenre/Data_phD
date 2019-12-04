@@ -33,6 +33,7 @@ plt.xlabel('Time (days)')
 plt.ylabel('Amplitude = flux')
 plt.grid(True, which='both')
 plt.axhline(y=0, color='k')
+plt.savefig('q_input_'+ qmin +'_'+qmax+'.png') 
 plt.show()
 
 data=np.stack((time_s, amplitude), axis=-1)
