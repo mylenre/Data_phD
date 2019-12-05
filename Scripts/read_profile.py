@@ -6,6 +6,8 @@ Created on Thu Nov 21 09:23:13 2019
 """
 import matplotlib.pyplot as plt
 import numpy as np
+import os
+
 
 def moving_average(y, K=5):
     """
@@ -19,15 +21,18 @@ def moving_average(y, K=5):
         s[n] = np.mean(y[kmin:kmax])
     return s            # return the smoothed array
 
+os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Modeling_results\Solar_1D_models\SolarFlux_test4\10_years_moreDt')
+
+
 time = []
 z = []
 T= []
-#file_name = input("Enter name : ") 
-#print(file_name)
+file_name = input("Enter name : ") 
+print(file_name)
 zi = input("Enter node depth to plot : ") 
 print(zi + ' m')
-#with open(file_name+'.tec', 'r') as file: 
-with open('M2_ply_PROD_WELL_t2.tec', 'r') as file:
+with open(file_name+'.tec', 'r') as file: 
+#with open('M2_ply_PROD_WELL_t2.tec', 'r') as file:
   next(file)
   for line in file:
     if("TITLE" in line):
@@ -47,7 +52,7 @@ IDsurf = []
 for i in range(0, len(z)) :  
     if z[i] == 0: 
         IDsurf.append(i)         #identify new time step
-IDsurf=IDsurf[0::2];             # remove doublons
+#IDsurf=IDsurf[0::2];             # remove doublons
 IDmaxz = []
 for i in range(0, len(z)) : 
     if z[i] == np.max(z): 
@@ -61,8 +66,10 @@ z= np.array(z)
 T= np.array(T)
 time=np.array(time)
 time_day=time/(3600*24)
-time_month=time/(3600*24*30.4375)
+time_month=time/(3600*24*12.4375)
 time_yrs=time/(3600*24*365.25)
+
+print('Number of time steps: ' + str(np.size(time)))
 
 timeplot=input("Enter time steps to plot (i.e. [0, 5, 120]) : ") 
 timeplot=eval(timeplot)
@@ -70,17 +77,34 @@ timeplotval=np.take(time, timeplot)
 timeplotval=list(map(str, timeplotval))
 print("The time steps are {} s.".format(', '.join(timeplotval)))
 
+
+scale = input("Plot yearly or monthly scale ? (Y/M)?") 
+if scale == 'Y':
+    time_scale = time_yrs[:]
+    time_name = '(years)'
+else:
+    time_scale = time_month[:]
+    time_name = '(months)'
+
+var = input("Plot DT or Dq? (DT/Dq)") 
+if var == 'DT':
+    var_name = 'DT'
+else:
+    var_name = 'Dq'
+    
+
+####### profile #######
 plt.figure(figsize=(20,10))
 plt.subplot(1,2,1)
 plt.rcParams['font.size'] = 12
 #for i in range(0, np.size(time),30): # change increment not to plot all time-step profiles
 for i in timeplot:
-    plt.plot(T[IDsurf[i]:IDmaxz[i]],-z[IDsurf[i]:IDmaxz[i]], label=time_yrs[i])     
+    plt.plot(T[IDsurf[i]:IDmaxz[i]],-z[IDsurf[i]:IDmaxz[i]], lw=1, label=str(int(time_scale[i])))     
 plt.xlabel('Temperature')
 plt.ylabel('Depth borehole')
 plt.legend(loc='best')
 plt.legend(fontsize=12)  
-plt.title('Sub-surface temperature for different time steps (yrs), with Tsurf=10°C')
+plt.title('Sub-surface temperature for different time steps '+ time_name + ' with '+ var_name)
 
 YN = input("Plot smooth temperature profile (Y/N)?") 
 if YN == 'Y':
@@ -89,20 +113,33 @@ if YN == 'Y':
     #for i in range(0, np.size(time),30): # change increment not to plot all time-step profiles
     for i in timeplot:
         T_smooth = moving_average(T[IDsurf[i]:IDmaxz[i]], K=eval(N_av))
-        plt.plot(T_smooth, -z[IDsurf[i]:IDmaxz[i]], lw=1,label=time[i])   
+        plt.plot(T_smooth, -z[IDsurf[i]:IDmaxz[i]], lw=1, label=str(int(time_scale[i])))  
     plt.xlabel('Temperature')
     plt.ylabel('Depth borehole')
     plt.legend(loc='best')
     plt.legend(fontsize=12)  
-    plt.title('Average sub-surface temperature for '+ eval(N_av) + 'nodes')
+    plt.title('Average sub-surface temperature of '+ N_av + ' nodes at different time steps '+ time_name + ' with '+ var_name)
     plt.savefig("Tprofiles.png") 
 else:
-    plt.savefig("Tprofiles.png")    
+    plt.savefig("Tprofiles.png")   
+    
+###### zoom ######
+plt.figure(figsize=(10,10))
+plt.rcParams['font.size'] = 12
+for i in timeplot:
+    plt.plot(T[IDsurf[i]:IDz[i]],-z[IDsurf[i]:IDz[i]], lw=1, label=str(int(time_scale[i])))     
+plt.xlabel('Temperature')
+plt.ylabel('Depth borehole')
+plt.legend(loc='best')
+plt.legend(fontsize=12)  
+plt.title('Sub-surface temperature for different time steps '+ time_name + ' with '+ var_name)
+plt.savefig("Tprofiles_shallow.png")    
 
+###### time T change ######
 plt.figure(figsize=(10,10))
 plt.subplot(2,1,1)
-plt.plot(time_yrs,T[IDz])
-plt.xlabel('Time (years)')
+plt.plot(time_scale,T[IDz])
+plt.xlabel('Time '+ time_name)
 plt.ylabel('Temperature at '+ zi + ' m depth', )
 plt.legend(loc='best')
 plt.legend(fontsize=12)  
@@ -110,11 +147,9 @@ plt.title('Change in temperature with time')
 #plt.savefig("T98m.png")
 
 plt.subplot(2,1,2)
-plt.plot(time_yrs,T[IDmaxz])
-plt.xlabel('Time (years)')
+plt.plot(time_scale,T[IDmaxz])
+plt.xlabel('Time '+ time_name)
 plt.ylabel('Bottom Hole temperature')
 plt.legend(loc='best')
 plt.legend(fontsize=12)  
-plt.title('Change in BTH with time')
-#plt.savefig("BTH.png") 
 plt.savefig("Tchange.png") 
