@@ -21,7 +21,7 @@ def moving_average(y, K=5):
         s[n] = np.mean(y[kmin:kmax])
     return s            # return the smoothed array
 
-os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Modeling_results\Solar_1D_models\SolarFlux_test4\10_years_moreDt')
+os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Modeling_results\Solar_1D_models\Rock\Flux\Test\1_year')
 
 
 time = []
@@ -66,7 +66,7 @@ z= np.array(z)
 T= np.array(T)
 time=np.array(time)
 time_day=time/(3600*24)
-time_month=time/(3600*24*12.4375)
+time_month=time/(3600*24*30.4375)
 time_yrs=time/(3600*24*365.25)
 
 print('Number of time steps: ' + str(np.size(time)))
