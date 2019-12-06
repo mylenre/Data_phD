@@ -8,7 +8,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os
 
-os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Modeling_results\Solar_1D_models\Rock\Flux\Test\1_year')
+os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Modeling_results\Solar_1D_models\Rock\Flux\Flux_8-8\30_years')
 
 
 file_name = input("Enter name : ") 
