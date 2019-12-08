@@ -1,0 +1,1 @@
+ogs.exe TDiff-Wall > out.txt       
