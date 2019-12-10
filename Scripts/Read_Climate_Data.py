@@ -27,19 +27,22 @@ def fit_sin(tt, yy):
 
 import pandas as pd
 import numpy as np
+from numpy import log as ln
 import matplotlib.pyplot as plt
 import os
 
 #datelist=np.arange(2000,2011,1)
 datelist=np.arange(2000,2011,1)
+time=np.arange(0,86400*366,86400)
 
 ########################### AIR TEMPERATURE##########################
 
+
+os.chdir(r'R:\GitHub\Data_phD\Data\Paisley\AirTemperature')
 AT={}
 alldate=[]
 alltemp=[]
-time=np.arange(0,86400*366,86400)
-os.chdir(r'D:\mylen\Documents\phD\Data_phD\Data\Paisley\AirTemperature')
+
 with open('listfile.txt', 'r') as filehandle:
     for line in filehandle:
         line = line[:-1]
@@ -85,9 +88,7 @@ plt.plot(table[:,0], ATfit , label="Fit Air Temperature", linewidth=2)
 
 ########################### SOIL TEMPERATURE##########################
 
-
-
-os.chdir(r'D:\mylen\Documents\phD\Data_phD\Data\Paisley\Soil_Temp_CEDA')
+os.chdir(r'R:\GitHub\Data_phD\Data\Paisley\Soil_Temp_CEDA')
 ST= {}
 with open('listfile.txt', 'r') as filehandle:
     for line in filehandle:
@@ -120,7 +121,7 @@ plt.legend(loc="best")
 ########################### WINDSPEED ##########################
 
 
-os.chdir(r'D:\mylen\Documents\phD\Data_phD\Data\Paisley\Windspeed')
+os.chdir(r'R:\GitHub\Data_phD\Data\Paisley\Windspeed')
 WS= {}
 alldate=[]
 allwind=[]
@@ -167,10 +168,11 @@ plt.plot(table[:,0],WSfit, "r-", label="Fit Wind Speed", linewidth=2)
 plt.ylabel('m/s')
 plt.legend(loc="best")
 
-########################### SHORTWAVE ##########################
+########################### SHORTWAVE (solar radiations) ##########################
  
+albedo=0.15
 
-os.chdir(r'D:\mylen\Documents\phD\Data_phD\Data\Paisley\Shortwave')
+os.chdir(r'R:\GitHub\Data_phD\Data\Paisley\Shortwave')
 SW= {}
 alldate=[]
 allSW=[]
@@ -202,9 +204,10 @@ for year in SW:
      else:
         shortwave= SW[year]
         shortwave=np.array(shortwave[0:366])
-        list_SW.append(shortwave)        
+        list_SW.append(shortwave)  
         
-averageSW= np.mean(list_SW, axis=0)
+#absorbed radiations:        
+averageSW= (1-albedo)*np.mean(list_SW, axis=0)
 table=np.stack((time, averageSW), axis=-1)
 
 plt.subplot(4,1,3)
@@ -217,7 +220,7 @@ plt.plot(table[:,0],SWfit, "g-", label="Fit shortwave", linewidth=2)
 
 ########################### LONGWAVE ##########################
 
-os.chdir(r'D:\mylen\Documents\phD\Data_phD\Data\Paisley\Longwave')
+os.chdir(r'R:\GitHub\Data_phD\Data\Paisley\Longwave')
 LW= {}
 alldate=[]
 allLW=[]
@@ -263,11 +266,22 @@ plt.plot(table[:,0],LWfit, "b-", label="Fit longwave", linewidth=2)
 
 ########################## Longwave Radiation from Earth ##################
 
-RH= 80 #0.00477*100
-Td= np.mean(ATfit) - ((100 - RH)/5)
-Tsky= (averageAT+273)*(0.711+0.0056*Td+0.000073*Td**2)**(1/4)
-TLWm=0.5*((STfit+273)+Tsky)
-LWEarth=4*5.67*10**(-8)*TLWm**3*((STfit+273)-Tsky)    
+a=17.3          # Qin et al., 2013 (q_irr)
+b=237.7
+c=5.67*10**(-8) # Stefan-Boltzmann constant
+e=0.9 # ground surface emissivity
+RH= 80 
+#Td= np.mean(ATfit) - ((100 - RH)/5) # Larwa, 2018
+#Tsky= (averageAT+273.15)*(0.711+0.0056*Td+0.000073*Td**2)**(1/4)
+#TLWm=0.5*((STfit+273.15)+Tsky)
+#LWEarth=e*c*TLWm**3*((STfit+273)-Tsky)    
+
+gamma=(a*ATfit)/(b+ATfit)+ln(RH/100) # Qin et al., 2013 (q_irr)
+Tdp=(b*gamma)/(a-gamma)
+Esky=0.754+0.0044*Tdp
+Tsky=Esky*ATfit
+LWEarth=c*e*((Tsky+273.15)**4-(STfit+273.15)**4)   
+
 plt.plot(table[:,0],LWEarth, label='Average Longwave from Earth')  
 plt.legend(loc="best")
 
@@ -289,10 +303,11 @@ plt.legend(loc="best")
 
 
 ######################### conductive heat flux ##########################
-os.chdir(r'D:\mylen\Documents\phD\Data_phD\Data\Paisley')
+os.chdir(r'R:\GitHub\Data_phD\Data\Paisley')
 
 plt.subplot(4,1,4)
-qcond=H+SWfit-LWEarth
+#qcond=H+SWfit-LWEarth
+qcond=H+SWfit+LWEarth  #qconv+qabs+qirr in Qin et al., 2013
 plt.plot(table[:,0],qcond, label='Conductive heat flux')
 plt.legend(loc="best")
 plt.xlabel('Time (s)')
