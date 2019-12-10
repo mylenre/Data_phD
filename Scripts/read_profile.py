@@ -21,13 +21,14 @@ def moving_average(y, K=5):
         s[n] = np.mean(y[kmin:kmax])
     return s            # return the smoothed array
 
-os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Modeling_results\Solar_1D_models\Rock\T_q')
+os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Modeling_results\Solar_1D_models\Analysis\ST_sin\qinput_PaisleyBased\Cyclical_Production')
 
 
 time = []
 z = []
 T= []
-file_name = input("Enter name : ") 
+#file_name = input("Enter name : ") 
+file_name='TDiff-Wall_ply_OUT_t2'
 print(file_name)
 zi = input("Enter node depth to plot : ") 
 print(zi + ' m')
@@ -73,9 +74,9 @@ print('Number of time steps: ' + str(np.size(time)))
 
 timeplot=input("Enter time steps to plot (i.e. [0, 5, 120]) : ") 
 timeplot=eval(timeplot)
-timeplotval=np.take(time, timeplot)
-timeplotval=list(map(str, timeplotval))
-print("The time steps are {} s.".format(', '.join(timeplotval)))
+#timeplotval=np.take(time, timeplot)
+#timeplotval=list(map(str, timeplotval))
+#print("The time steps are {} s.".format(', '.join(timeplotval)))
 
 
 scale = input("Plot yearly or monthly scale ? (Y/M)?") 
