@@ -8,7 +8,8 @@ Created on Fri Nov 29 01:12:49 2019
 import os
 import numpy as np
 import matplotlib.pyplot as plt
-os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Modeling_results\Solar_1D_models\input_files')
+#os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Modeling_results\Solar_1D_models\input_files')
+os.chdir(r'D:\mylen\Documents\phD\Data_phD\Modeling\Midlothian')
 
 qmax=input("Enter qmax : ")
 qmin=input("Enter qmin : ")
