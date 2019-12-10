@@ -21,7 +21,7 @@ def moving_average(y, K=5):
         s[n] = np.mean(y[kmin:kmax])
     return s            # return the smoothed array
 
-os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Modeling_results\Solar_1D_models\Analysis\ST_sin\qinput_PaisleyBased\Cyclical_Production')
+os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Modeling_results\Solar_1D_models\Analysis\ST_sin\qinput\qinput_PaisleyBased_v2')
 
 
 time = []

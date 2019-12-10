@@ -11,12 +11,12 @@ import matplotlib.pyplot as plt
 #os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Modeling_results\Solar_1D_models\input_files')
 #os.chdir(r'D:\mylen\Documents\phD\Data_phD\Modeling\Midlothian')
 #os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Modeling_results\Solar_1D_models\Analysis\ST_sin\Tinput\Cyclical_Production')
-os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Modeling_results\Solar_1D_models\Analysis\ST_sin\qinput\qinput_PaisleyBased')
+os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Modeling_results\Solar_1D_models\Analysis\ST_sin\qinput\qinput_PaisleyBased_v2')
 
 qmax=input("Enter qmax : ")
 qmin=input("Enter qmin : ")
-#amp=(abs(eval(qmax))+abs(eval(qmin)))/2
-amp=abs((abs(eval(qmax))-abs(eval(qmin))))/2
+amp=(abs(eval(qmax))+abs(eval(qmin)))/2
+#amp=abs((abs(eval(qmax))-abs(eval(qmin))))/2
 
 dt_d=1
 dt_s=3600*24
