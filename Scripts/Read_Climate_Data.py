@@ -18,11 +18,11 @@ def fit_sin(tt, yy):
     guess_offset = numpy.mean(yy)
     guess = numpy.array([guess_amp, 2.*numpy.pi*guess_freq, 0., guess_offset])
 
-    def sinfunc(t, A, w, p, c):  return A * numpy.sin(w*t + p) + c
+    def sinfunc(t, A, w, p, c):  return A * numpy.cos(w*t + p) + c
     popt, pcov = scipy.optimize.curve_fit(sinfunc, tt, yy, p0=guess)
     A, w, p, c = popt
     f = w/(2.*numpy.pi)
-    fitfunc = lambda t: A * numpy.sin(w*t + p) + c
+    fitfunc = lambda t: A * numpy.cos(w*t + p) + c
     return {"amp": A, "omega": w, "phase": p, "offset": c, "freq": f, "period": 1./f, "fitfunc": fitfunc, "maxcov": numpy.max(pcov), "rawres": (guess,popt,pcov)}
 
 import pandas as pd
@@ -31,9 +31,17 @@ from numpy import log as ln
 import matplotlib.pyplot as plt
 import os
 
+
+
+#########################define parameters############################
 #datelist=np.arange(2000,2011,1)
-datelist=np.arange(2000,2011,1)
-time=np.arange(0,86400*366,86400)
+datelist=np.arange(2000,2011,1) # years to consider for average
+time=np.arange(0,86400*366,86400) # time steps in one year
+t=30 #total simulation time (years)
+tt=np.arange(0,t*366*24*3600,86400) #10980 steps
+
+#w=2*np.pi/365 # frequency of annual cyle
+#L= (2*a/w) #damping depth
 
 ########################### AIR TEMPERATURE##########################
 
@@ -81,6 +89,7 @@ plt.subplot(4,1,1)
 plt.scatter(table[:,0],table[:,1], s=1, label='Air temperature data')
 
 res = fit_sin(table[:,0],table[:,1])
+ATfit_lt=res["fitfunc"](tt)
 ATfit=res["fitfunc"](table[:,0])
 print( "Amplitude=%(amp)s, Angular freq.=%(omega)s, phase=%(phase)s, offset=%(offset)s, Max. Cov.=%(maxcov)s" % res )
 plt.plot(table[:,0], ATfit , label="Fit Air Temperature", linewidth=2)
@@ -108,9 +117,10 @@ for i in datelist:
 #average= np.mean(total, axis=0)-273
 averageST= np.nanmean(list_ST, axis=0)
 table=np.stack((time, averageST), axis=-1)
-plt.plot(table[:,0],table[:,1], "k", label="Soil temperature data")
+plt.scatter(table[:,0],table[:,1], c="k", s=1, label="Soil temperature data")
 
 res = fit_sin(table[:,0],table[:,1])
+STfit_lt=res["fitfunc"](tt)
 STfit=res["fitfunc"](table[:,0])
 print( "Amplitude=%(amp)s, Angular freq.=%(omega)s, phase=%(phase)s, offset=%(offset)s, Max. Cov.=%(maxcov)s" % res )
 plt.plot(table[:,0], STfit , "k-", label="Fit Soil Temperature", linewidth=2) 
@@ -163,6 +173,7 @@ plt.scatter(table[:,0],table[:,1], c="r", s=1, label='Wind speed data')
         
 res = fit_sin(table[:,0],table[:,1])
 print( "Amplitude=%(amp)s, Angular freq.=%(omega)s, phase=%(phase)s, offset=%(offset)s, Max. Cov.=%(maxcov)s" % res )
+WSfit_lt= res["fitfunc"](tt)
 WSfit= res["fitfunc"](table[:,0])
 plt.plot(table[:,0],WSfit, "r-", label="Fit Wind Speed", linewidth=2)
 plt.ylabel('m/s')
@@ -215,6 +226,7 @@ plt.scatter(table[:,0],table[:,1], s=1, c="g", label='shortwave data')
      
 res = fit_sin(table[:,0],table[:,1])
 print( "Amplitude=%(amp)s, Angular freq.=%(omega)s, phase=%(phase)s, offset=%(offset)s, Max. Cov.=%(maxcov)s" % res )
+SWfit_lt= res["fitfunc"](tt)
 SWfit= res["fitfunc"](table[:,0])
 plt.plot(table[:,0],SWfit, "g-", label="Fit shortwave", linewidth=2)
 
@@ -261,6 +273,7 @@ plt.scatter(table[:,0],table[:,1], s=1, c="b", label='longwave data')
      
 res = fit_sin(table[:,0],table[:,1])
 print( "Amplitude=%(amp)s, Angular freq.=%(omega)s, phase=%(phase)s, offset=%(offset)s, Max. Cov.=%(maxcov)s" % res )
+LWfit_lt= res["fitfunc"](tt)
 LWfit= res["fitfunc"](table[:,0])
 plt.plot(table[:,0],LWfit, "b-", label="Fit longwave", linewidth=2)
 
@@ -271,19 +284,29 @@ b=237.7
 c=5.67*10**(-8) # Stefan-Boltzmann constant
 e=0.9 # ground surface emissivity
 RH= 80 
-#Td= np.mean(ATfit) - ((100 - RH)/5) # Larwa, 2018
-#Tsky= (averageAT+273.15)*(0.711+0.0056*Td+0.000073*Td**2)**(1/4)
-#TLWm=0.5*((STfit+273.15)+Tsky)
-#LWEarth=e*c*TLWm**3*((STfit+273)-Tsky)    
 
-gamma=(a*ATfit)/(b+ATfit)+ln(RH/100) # Qin et al., 2013 (q_irr)
-Tdp=(b*gamma)/(a-gamma)
-Esky=0.754+0.0044*Tdp
-Tsky=Esky*ATfit
-LWEarth=c*e*((Tsky+273.15)**4-(STfit+273.15)**4)   
+#gamma=(a*ATfit)/(b+ATfit)+ln(RH/100) # Qin et al., 2013 (q_irr)
+#Tdp=(b*gamma)/(a-gamma)
+#Esky=0.754+0.0044*Tdp
+#Tsky=Esky*ATfit
+#LWEarth0=c*e*((Tsky+273.15)**4-(STfit+273.15)**4) 
 
-plt.plot(table[:,0],LWEarth, label='Average Longwave from Earth')  
+Td= np.mean(ATfit) - ((100 - RH)/5) 
+Tsky = (ATfit+273.15)*(0.711+0.0056*Td+0.000073*Td**2)**(1/4)  # Gwadera et al (2017)
+TLWm=0.5*((STfit+273.15)+Tsky)
+LWEarth=4*c*TLWm**3*((STfit+273)-Tsky)
+#LWEarth=c*((STfit+273)**4-Tsky**4)
+#LWEarth=e*c*((STfit+273)**4-Tsky*4) # Larwa, 2018 
+#LWEarth=e*4.83*((STfit+273)-Tsky) 
+
+plt.plot(table[:,0],LWEarth, label='Average Longwave from Earth') 
 plt.legend(loc="best")
+
+# for long term calcultions
+Td= np.mean(ATfit_lt) - ((100 - RH)/5) 
+Tsky = (ATfit_lt+273.15)*(0.711+0.0056*Td+0.000073*Td**2)**(1/4)  # Gwadera et al (2017)
+TLWm=0.5*((STfit_lt+273.15)+Tsky)
+LWEarth_lt=4*c*TLWm**3*((STfit_lt+273)-Tsky)
 
 
 ############################## Convective Flux #######################
@@ -301,13 +324,23 @@ plt.plot(table[:,0],H, label='Convective flux')
 plt.ylabel('W/m2')
 plt.legend(loc="best")
 
+hu=[]
+# for long-term caluclations
+for u in WSfit_lt:
+    if u < 4.88:
+        h=5.7+3.8*u
+    else:
+        h=7.2*u**0.78
+    hu.append(h)
+       
+H_lt=hu*(ATfit_lt-STfit_lt)
+
 
 ######################### conductive heat flux ##########################
 os.chdir(r'R:\GitHub\Data_phD\Data\Paisley')
 
 plt.subplot(4,1,4)
-#qcond=H+SWfit-LWEarth
-qcond=H+SWfit+LWEarth  #qconv+qabs+qirr in Qin et al., 2013
+qcond=H+SWfit-LWEarth  #qconv+qabs+qirr in Qin et al., 2013
 plt.plot(table[:,0],qcond, label='Conductive heat flux')
 plt.legend(loc="best")
 plt.xlabel('Time (s)')
@@ -316,8 +349,7 @@ plt.grid(True, which='both')
 plt.savefig('Paisley_meteo.png') 
 
 #######################"" create AT and qcond output file###############
-t=30
-tt=np.arange(0,t*366*24*3600,86400) #10980 steps
+
 AT_sim=[]
 for i in range(30):
      AT_sim.append(ATfit)
@@ -330,18 +362,38 @@ for i in range(30):
 qcond_sim=[x for xs in qcond_sim for x in xs]
 Curve_qcond=np.stack((tt, qcond_sim), axis=-1)
 
-
 plt.figure(figsize=(16,5))
-plt.plot(Curve_AT[:,0],Curve_AT[:,1])
+plt.plot(tt, AT_sim, label="AT stack")
+plt.plot(tt, ATfit_lt, label="lt interpolation")
 plt.xlabel('Time (s)')
 plt.ylabel('Temperature (°C)')
+plt.legend(loc='best')
+
+
+####################### interp #####################################
+def moving_average(y, K=5):
+    """
+    2K+1 point moving average of array y
+    """
+    N = np.size(y)      # find the size of y
+    s = np.zeros(N)     # make an array of zeros with the same size
+    for n in range(N):  # loop for the moving average
+        kmin = max(n-K, 0)    # limit to indices within the array
+        kmax = min(n+K+1, N)  # i.e. range 0 to N-1
+        s[n] = np.mean(y[kmin:kmax])
+    return s            # return the smoothed array
+
+# plot smoothed temperatures
+AT_smooth = moving_average(AT_sim, K=30)
+plt.plot(tt, AT_smooth, color='black', lw=1)
+
 
 plt.twinx()
 plt.plot(Curve_qcond[:,0],Curve_qcond[:,1],c='r')
 plt.ylim(-150,150)
 plt.ylabel('Flux (W/m²)',color='r')
-plt.savefig('Paisley_inputs.png') 
 
+plt.savefig('Paisley_inputs.png') 
 
 np.savetxt('Curve_AT_Paisley.txt', Curve_AT)
 np.savetxt('Curve_qcond_Paisley.txt', Curve_qcond)
