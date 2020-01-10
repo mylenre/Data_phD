@@ -36,7 +36,11 @@ datelist=np.arange(2000,2001,1)
 ########################### EVAPOTRANSPIRATION ##########################
 
 
+#os.chdir(r'D:\mylen\Documents\phD\Data_phD\Data\Paisley\Evapotranspiration')
 os.chdir(r'D:\mylen\Documents\phD\Data_phD\Data\Paisley\Evapotranspiration')
+
+time=np.arange(0,86400*366,86400) # time steps in one year
+
 EV= {}
 alldate=[]
 allEV=[]
