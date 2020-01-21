@@ -8,7 +8,9 @@ import os
 import numpy as np
 import matplotlib.pyplot as plt
 #os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Modeling_results\Solar_1D_models\input_files')
-os.chdir(r'D:\mylen\Documents\phD\Data_phD\Modeling\Midlothian')
+#os.chdir(r'D:\mylen\Documents\phD\Data_phD\Modeling\Midlothian')
+os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Modeling_results\Solar_1D_models\Updates')
+
 
 Tmax=input("Enter Tmax : ")
 Tmin=input("Enter Tmin : ")

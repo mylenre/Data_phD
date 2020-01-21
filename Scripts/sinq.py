@@ -11,11 +11,12 @@ import matplotlib.pyplot as plt
 #os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Modeling_results\Solar_1D_models\input_files')
 #os.chdir(r'D:\mylen\Documents\phD\Data_phD\Modeling\Midlothian')
 #os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Modeling_results\Solar_1D_models\Analysis\ST_sin\Tinput\Cyclical_Production')
-os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Modeling_results\Solar_1D_models\Analysis\ST_sin\qinput\qinput_PaisleyBased_v2')
+#os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Modeling_results\Solar_1D_models\Analysis\ST_sin\qinput\qinput_PaisleyBased_v2')
+os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Modeling_results\Solar_1D_models\Updates')
 
 qmax=input("Enter qmax : ")
 qmin=input("Enter qmin : ")
-amp=(abs(eval(qmax))+abs(eval(qmin)))/2
+amp=abs((abs(eval(qmax))-abs(eval(qmin)))/2)
 #amp=abs((abs(eval(qmax))-abs(eval(qmin))))/2
 
 dt_d=1
@@ -41,5 +42,6 @@ plt.savefig('q_input_'+ qmin +'_'+qmax+'.png')
 plt.show()
 
 data=np.stack((time_s, amplitude), axis=-1)
-np.savetxt('sinq_'+ qmin +'_'+qmax+'.txt', data)
+#np.savetxt('sinq_'+ qmin +'_'+qmax+'.txt', data)
+np.savetxt('extraction_'+ qmin +'_'+qmax+'W.txt', data)
 
