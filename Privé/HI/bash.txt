@@ -1,0 +1,56 @@
+# Pour les fichiers .grd ou .nc
+gmt grd2xyz nom_du_fichier_grille > nom_du_fichier_texte
+
+# Pour le fichier los.rdr ou filt_topophase.unw.geo ISCE
+gdal_translate -of XYZ -b 1 nom_du_fichier_grille_ISCE nom_du_fichier_texte
+
+Voici les lignes à ajouter à ton fichier de configuration pour utiliser 
+une dislocation d'okada dans mon programme:
+
+======================================================================
+okada nom lon1 lat1 strike length dip depth width disl1 disl2 opening
+======================================================================
+ou
+======================================================================
+okada_ll nom lon1 lat1 lon2 lat2 dip depth width disl1 disl2 opening
+======================================================================
+
+DEFMOD
+
+Before running it you will need to execute these two commands (you can add them to your .bashrc file if you don't want do it every new login):export PETSC_DIR=/home/software/PETSc/v3.8.3/ PETSC_ARCH=arch-linux2-c-opt
+export PATH=$PATH:$PETSC_DIR/$PETSC_ARCH/bin
+
+Then you can run defmod. For example:
+mpiexec -n 2 /home/software/defmod/v20171210/defmod -f /home/software/defmod/v20171210/examples/two_quads_qs.inp -ksp_monitor
+
+------------------------------------------
+DECOMPOSITION
+
+# Create folder where the decomp will be done
+mkdir East_Iceland
+cd East_Iceland
+
+# Prepare one track (3 parameters: trackname ts_avg.nc los.rdr.geo.vrt)
+V_Decomp_step1_prep.sh T111 
+/mnt/ofviti/work/vincent/TS/Iceland/T111/VEL/2015-2017_sel/ts_avg.nc 
+/mnt/ofviti/Sentinel1/ifg/T111/Iceland/20170816-20170828/merged/los.rdr.geo.vrt
+
+# Prepare another track
+V_Decomp_step1_prep.sh T147 
+/mnt/ofviti/work/vincent/TS/Iceland/T147/VEL/2015-2017_sel/ts_avg.nc 
+/mnt/ofviti/Sentinel1/ifg/T147/Iceland/20170824-20170818/merged/los.rdr.geo.vrt
+
+# Crop images to common area
+V_Decomp_step2_area.sh
+
+# Do decomposition
+V_Decomp_step3_decomp.sh
+
+# You will obtain two grid files:
+#  nearE.nc (near-East)
+#  nearU.nc (near-Up)
+
+-------------------------------------
+GRILLE PLOT
+convert +append in*.png out.png //horizontal
+convert -append in*.png out.png //vertical
