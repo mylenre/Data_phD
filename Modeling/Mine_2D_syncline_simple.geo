@@ -71,17 +71,30 @@ Plane Surface(22) = {21};
 Line Loop(23) = {3, -18, -17, 10, -20, -19};
 Plane Surface(24) = {23};
 
-//top
-Line Loop(29) = {13, 14, 6, 7};
-Plane Surface(30) = {29};
-
 //middle
 Line Loop(25) = {16, 9, 17, 18, 4, 15};
 Plane Surface(26) = {25};
 
-// reservoir
-Line Loop(27) = {7, 8, 9, 10, 11, 12, 1, 2, 3, 4, 5, 6};
-Plane Surface(28) = {27, 21, 23, 25, 29};
+//top
+Line Loop(29) = {13, 14, 6, 7};
+Plane Surface(30) = {29};
 
-//Point {100} In Surface {78};
-//Point {101} In Surface {76};
+// reservoir 
+Line Loop(27) = {20, 11, 12, 1, 2, 19};
+Plane Surface(28) = {27};
+
+//Line Loop(27) = {7, 8, 9, 10, 11, 12, 1, 2, 3, 4, 5, 6};
+//Plane Surface(28) = {27, 21, 23, 58};
+
+Point {100} In Surface {24};
+Point {101} In Surface {22};
+
+Physical Surface(1) = {22,24}; // seam
+Physical Surface(2) = {26}; // middle
+Physical Surface(3) = {28, 30}; // undisrubed rock
+
+
+
+
+
+
