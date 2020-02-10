@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 #os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Modeling_results\Solar_1D_models\input_files')
 #os.chdir(r'D:\mylen\Documents\phD\Data_phD\Modeling\Midlothian')
-os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Modeling_results\Solar_1D_models\Updates')
+os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\1D_Models')
 
 
 Tmax=input("Enter Tmax : ")
@@ -26,7 +26,8 @@ t_s=dt_s*365.25*t_y
 
 time = np.arange(0, t_d, dt_d)
 time_s= np.arange(0, t_s, dt_s)
-amplitude = (amp+eval(Tmin))-amp*np.cos(2*np.pi*(time/t_d*t_y))
+#amplitude = (amp+eval(Tmin))+amp*np.cos(2*np.pi*(time/t_d*t_y))
+amplitude = (eval(Tmax)-eval(Tmin))/2*np.cos(2*np.pi*(time/t_d*t_y))+amp
 
 plt.plot(time, amplitude)
 plt.title('Sine wave')

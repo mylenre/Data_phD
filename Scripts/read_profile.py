@@ -21,7 +21,7 @@ def moving_average(y, K=5):
         s[n] = np.mean(y[kmin:kmax])
     return s            # return the smoothed array
 
-os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\1D_Models\A6')
+os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\1D_Models\A3solar')
 
 time = []
 z = []
