@@ -1,0 +1,2121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1198.1318mm"
+   height="1210.4208mm"
+   viewBox="0 0 1198.1318 1210.4208"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="Brainstorming.svg"
+   inkscape:export-filename="R:\Data\Brainstorming.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs2">
+    <pattern
+       y="0"
+       x="0"
+       height="6"
+       width="6"
+       patternUnits="userSpaceOnUse"
+       id="EMFhbasepattern" />
+    <pattern
+       y="0"
+       x="0"
+       height="6"
+       width="6"
+       patternUnits="userSpaceOnUse"
+       id="EMFhbasepattern-3" />
+    <pattern
+       y="0"
+       x="0"
+       height="6"
+       width="6"
+       patternUnits="userSpaceOnUse"
+       id="EMFhbasepattern-37" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.25000001"
+     inkscape:cx="1325.6208"
+     inkscape:cy="3278.7351"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(512.25132,251.04562)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-403.98096"
+       y="292.16193"
+       id="text817"><tspan
+         sodipodi:role="line"
+         x="-403.98096"
+         y="301.81741"
+         style="stroke-width:0.26458332"
+         id="tspan849" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-41.859161"
+       y="-147.69981"
+       id="text829"><tspan
+         sodipodi:role="line"
+         id="tspan827"
+         x="-41.859161"
+         y="-147.69981"
+         style="stroke-width:0.26458332">Aquifer + GW recharge</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-298.21487"
+       y="521.2818"
+       id="text833"><tspan
+         sodipodi:role="line"
+         id="tspan831"
+         x="-298.21487"
+         y="521.2818"
+         style="stroke-width:0.26458332">Zone of surface cracking</tspan><tspan
+         sodipodi:role="line"
+         x="-298.21487"
+         y="534.51099"
+         style="stroke-width:0.26458332"
+         id="tspan835">Aquiclude (confining) zone</tspan><tspan
+         sodipodi:role="line"
+         x="-298.21487"
+         y="547.74011"
+         style="stroke-width:0.26458332"
+         id="tspan881">= Continuous zone in Guo et al. (2018)</tspan><tspan
+         sodipodi:role="line"
+         x="-298.21487"
+         y="560.9693"
+         style="stroke-width:0.26458332"
+         id="tspan837">Fractured zone</tspan><tspan
+         sodipodi:role="line"
+         x="-298.21487"
+         y="574.19849"
+         style="stroke-width:0.26458332"
+         id="tspan839">Caved zone</tspan><tspan
+         sodipodi:role="line"
+         x="-298.21487"
+         y="587.42761"
+         style="stroke-width:0.26458332"
+         id="tspan841">Coal Seam</tspan><tspan
+         sodipodi:role="line"
+         x="-298.21487"
+         y="600.6568"
+         style="stroke-width:0.26458332"
+         id="tspan1069">(Singh and Kendorski, 1981 in Booth, 2002,</tspan><tspan
+         sodipodi:role="line"
+         x="-298.21487"
+         y="613.88599"
+         style="stroke-width:0.26458332"
+         id="tspan2079">Guo et al., 2018)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="65.734901"
+       y="103.77421"
+       id="text847"><tspan
+         sodipodi:role="line"
+         id="tspan845"
+         x="65.734901"
+         y="103.77421"
+         style="stroke-width:0.26458332">Longwall Mining</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="320.05206"
+       y="652.86053"
+       id="text859"><tspan
+         sodipodi:role="line"
+         id="tspan857"
+         x="320.05206"
+         y="652.86053"
+         style="stroke-width:0.26458332">Assums homogeneous K, n, S</tspan><tspan
+         sodipodi:role="line"
+         x="320.05206"
+         y="666.08972"
+         style="stroke-width:0.26458332"
+         id="tspan1577">in each subdomain</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-180.21906"
+       y="440.5546"
+       id="text865"><tspan
+         sodipodi:role="line"
+         id="tspan863"
+         x="-180.21906"
+         y="440.5546"
+         style="stroke-width:0.26458332">Numerical model</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-136.85547"
+       y="-235.0901"
+       id="text869"><tspan
+         sodipodi:role="line"
+         id="tspan867"
+         x="-136.85547"
+         y="-235.0901"
+         style="stroke-width:0.26458332">CONCEPTUAL MODEL</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-179.76549"
+       y="334.11713"
+       id="text873"><tspan
+         sodipodi:role="line"
+         id="tspan871"
+         x="-179.76549"
+         y="334.11713"
+         style="stroke-width:0.26458332">Analytical model</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-179.76546"
+       y="347.7243"
+       id="text877"><tspan
+         sodipodi:role="line"
+         x="-179.76546"
+         y="347.7243"
+         style="stroke-width:0.26458332"
+         id="tspan879">(Loredo et al., 2017)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-395.43878"
+       y="384.08514"
+       id="text885"><tspan
+         sodipodi:role="line"
+         id="tspan883"
+         x="-395.43878"
+         y="384.08514"
+         style="stroke-width:0.26458332">Heat extraction from mine tunnel</tspan><tspan
+         sodipodi:role="line"
+         x="-395.43878"
+         y="397.3143"
+         style="stroke-width:0.26458332"
+         id="tspan887">(Goreishi et al., 2012)</tspan></text>
+    <g
+       id="g909"
+       transform="translate(-258.23334,39.687466)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path889"
+         d="m 180.67262,397.54167 37.79762,0.75594"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path891"
+         d="m 214.88469,394.95428 3.58555,3.34333 -3.45191,3.20476"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-17.771709"
+       y="411.3645"
+       id="text895"><tspan
+         sodipodi:role="line"
+         id="tspan893"
+         x="-17.771709"
+         y="411.3645"
+         style="stroke-width:0.26458332">Ignore infiltration through rock mass</tspan><tspan
+         sodipodi:role="line"
+         x="-17.771709"
+         y="424.59366"
+         style="stroke-width:0.26458332"
+         id="tspan897">(only consider forced convective flow inside</tspan><tspan
+         sodipodi:role="line"
+         x="-17.771709"
+         y="437.82285"
+         style="stroke-width:0.26458332"
+         id="tspan899">the mine gallery + conduction in the rock mass)</tspan><tspan
+         sodipodi:role="line"
+         x="-17.771709"
+         y="451.052"
+         style="stroke-width:0.26458332"
+         id="tspan1989">(Ghoreishi et al., 2012)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-17.084532"
+       y="471.39749"
+       id="text903"><tspan
+         sodipodi:role="line"
+         id="tspan901"
+         x="-17.084532"
+         y="471.39749"
+         style="stroke-width:0.26458332">seasonal heat load variations </tspan><tspan
+         sodipodi:role="line"
+         x="-17.084532"
+         y="484.62665"
+         style="stroke-width:0.26458332"
+         id="tspan905">(pumping rate adjusted)</tspan></text>
+    <g
+       transform="translate(95.15422,32.19714)"
+       id="g909-5">
+      <path
+         inkscape:connector-curvature="0"
+         id="path889-6"
+         d="m 180.67262,397.54167 37.79762,0.75594"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path891-6"
+         d="m 214.88469,394.95428 3.58555,3.34333 -3.45191,3.20476"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="325.81546"
+       y="428.30817"
+       id="text934"><tspan
+         sodipodi:role="line"
+         id="tspan932"
+         x="325.81546"
+         y="428.30817"
+         style="stroke-width:0.26458332">results: zone of influence</tspan><tspan
+         sodipodi:role="line"
+         x="325.81546"
+         y="441.53732"
+         style="stroke-width:0.26458332"
+         id="tspan936">around the mine tunnel</tspan></text>
+    <g
+       transform="matrix(1.4231277,-0.80983427,1.1964931,0.96322966,-976.28503,129.27173)"
+       id="g909-9">
+      <path
+         inkscape:connector-curvature="0"
+         id="path889-4"
+         d="m 180.67262,397.54167 37.79762,0.75594"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path891-8"
+         d="m 214.88469,394.95428 3.58555,3.34333 -3.45191,3.20476"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-352.38013"
+       y="-181.64926"
+       id="text984"><tspan
+         sodipodi:role="line"
+         id="tspan982"
+         x="-352.38013"
+         y="-181.64926"
+         style="stroke-width:0.26458332">Boundary conditions</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-12.464857"
+       y="518.25793"
+       id="text988"><tspan
+         sodipodi:role="line"
+         id="tspan986"
+         x="-12.464857"
+         y="518.25793"
+         style="stroke-width:0.26458332">Thermal mine reservoir = dual-porosity medium</tspan><tspan
+         sodipodi:role="line"
+         x="-12.464857"
+         y="531.48712"
+         style="stroke-width:0.26458332"
+         id="tspan1071">- Primary porosity = small fractures / pores in matrix</tspan><tspan
+         sodipodi:role="line"
+         x="-12.464857"
+         y="544.71625"
+         style="stroke-width:0.26458332"
+         id="tspan1073">- Secondary porosity = fractures induced by mining</tspan><tspan
+         sodipodi:role="line"
+         x="-12.464857"
+         y="557.94543"
+         style="stroke-width:0.26458332"
+         id="tspan1872">for both fractured / caved zone</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="338.14584"
+       y="518.86279"
+       id="text992"><tspan
+         sodipodi:role="line"
+         id="tspan990"
+         x="338.14584"
+         y="518.86279"
+         style="stroke-width:0.26458332">results depends on:</tspan><tspan
+         sodipodi:role="line"
+         x="338.14584"
+         y="532.09198"
+         style="stroke-width:0.26458332"
+         id="tspan2102">- Fracture permeability</tspan><tspan
+         sodipodi:role="line"
+         x="338.14584"
+         y="545.32111"
+         style="stroke-width:0.26458332"
+         id="tspan994">- height of fracture zone</tspan></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.60000002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1017"
+       width="206.57359"
+       height="26.512798"
+       x="-304.2106"
+       y="550.65753" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.60000002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1017-4"
+       width="68.632744"
+       height="15.867271"
+       x="-280.11438"
+       y="372.93872" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-395.03088"
+       y="559.50293"
+       id="text1067"><tspan
+         sodipodi:role="line"
+         id="tspan1065"
+         x="-395.03088"
+         y="559.50293"
+         style="stroke-width:0.26458332">Goaf =</tspan><tspan
+         sodipodi:role="line"
+         x="-395.03088"
+         y="572.73212"
+         style="stroke-width:0.26458332"
+         id="tspan1110">Main reservoir</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-311.93832"
+       y="94.418396"
+       id="text1077"><tspan
+         sodipodi:role="line"
+         id="tspan1075"
+         x="-311.93832"
+         y="94.418396"
+         style="stroke-width:0.26458332">Residual void volume:</tspan><tspan
+         sodipodi:role="line"
+         x="-311.93832"
+         y="107.64756"
+         style="stroke-width:0.26458332"
+         id="tspan1079">- Depends on volume of mining coal &amp; <tspan
+   style="fill:#005700;fill-opacity:1"
+   id="tspan1772">subsidence</tspan> </tspan><tspan
+         sodipodi:role="line"
+         x="-311.93832"
+         y="120.87673"
+         style="stroke-width:0.26458332"
+         id="tspan1472">                                               (Guo et al., 2018)</tspan><tspan
+         sodipodi:role="line"
+         x="-311.93832"
+         y="134.1059"
+         style="stroke-width:0.26458332"
+         id="tspan1213">- =(mines area x seam thickness) x 0.25 (coorection factor</tspan><tspan
+         sodipodi:role="line"
+         x="-311.93832"
+         y="147.33507"
+         style="stroke-width:0.26458332"
+         id="tspan1719">accounting for subsidence/pillars/backfilling) (Jessop, 1995)</tspan><tspan
+         sodipodi:role="line"
+         x="-311.93832"
+         y="160.56422"
+         style="stroke-width:0.26458332"
+         id="tspan1437">- = assumes 10% thickness extracted (Whitworth, 2002)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-43.059616"
+       y="-107.02119"
+       id="text1108"><tspan
+         sodipodi:role="line"
+         id="tspan1106"
+         x="-43.059616"
+         y="-107.02119"
+         style="stroke-width:0.26458332">Injection + extraction:</tspan><tspan
+         sodipodi:role="line"
+         x="-43.059616"
+         y="-93.792023"
+         style="stroke-width:0.26458332"
+         id="tspan1417">--&gt; Flow rate + Temperature </tspan><tspan
+         sodipodi:role="line"
+         x="-43.059616"
+         y="-80.562851"
+         style="stroke-width:0.26458332"
+         id="tspan1429">(of reinjected water)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-214.15291"
+       y="560.28888"
+       id="text1114"><tspan
+         sodipodi:role="line"
+         id="tspan1112"
+         x="-214.15291"
+         y="560.28888"
+         style="stroke-width:0.26458332">(anisotropic)</tspan><tspan
+         sodipodi:role="line"
+         x="-214.15291"
+         y="573.51807"
+         style="stroke-width:0.26458332"
+         id="tspan1116">(isotropic)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-489.98627"
+       y="-128.88306"
+       id="text1120"><tspan
+         sodipodi:role="line"
+         id="tspan1118"
+         x="-489.98627"
+         y="-128.88306"
+         style="stroke-width:0.26458332">Heat flux</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-471.26834"
+       y="782.0282"
+       id="text1124"><tspan
+         sodipodi:role="line"
+         id="tspan1122"
+         x="-471.26834"
+         y="782.0282"
+         style="stroke-width:0.26458332">Specific case study</tspan><tspan
+         sodipodi:role="line"
+         x="-471.26834"
+         y="795.25739"
+         style="stroke-width:0.26458332"
+         id="tspan1557">(3D numerical models)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-296.17377"
+       y="730.15161"
+       id="text1128"><tspan
+         sodipodi:role="line"
+         id="tspan1126"
+         x="-296.17377"
+         y="730.15161"
+         style="stroke-width:0.26458332">Lorraine (France) coal mines</tspan><tspan
+         sodipodi:role="line"
+         x="-296.17377"
+         y="743.3808"
+         style="stroke-width:0.26458332"
+         id="tspan1130">(Hamm and Bazargan, 2010)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-30.585299"
+       y="732.29034"
+       id="text1134"><tspan
+         sodipodi:role="line"
+         id="tspan1132"
+         x="-30.585299"
+         y="732.29034"
+         style="stroke-width:0.26458332">1) Exchanges between shaft and surrounding rock</tspan><tspan
+         sodipodi:role="line"
+         x="-30.585299"
+         y="745.51953"
+         style="stroke-width:0.26458332"
+         id="tspan1140">density driven convection / mixing in well before production</tspan><tspan
+         sodipodi:role="line"
+         x="-30.585299"
+         y="758.74866"
+         style="stroke-width:0.26458332"
+         id="tspan1150" /><tspan
+         sodipodi:role="line"
+         x="-30.585299"
+         y="771.97784"
+         style="stroke-width:0.26458332"
+         id="tspan1152">2) Fluid/heat transport in porous media:</tspan><tspan
+         sodipodi:role="line"
+         x="-30.585299"
+         y="785.20703"
+         style="stroke-width:0.26458332"
+         id="tspan1154">- high velocity/pososity in shaft/galleries</tspan><tspan
+         sodipodi:role="line"
+         x="-30.585299"
+         y="798.43616"
+         style="stroke-width:0.26458332"
+         id="tspan1156">- low velocity in rock mass  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-32.263557"
+       y="820.31366"
+       id="text1138"><tspan
+         sodipodi:role="line"
+         x="-32.263557"
+         y="820.31366"
+         style="stroke-width:0.26458332"
+         id="tspan1162">no hydraulic connections between </tspan><tspan
+         sodipodi:role="line"
+         x="-32.263557"
+         y="833.54285"
+         style="stroke-width:0.26458332"
+         id="tspan1164">production zone and upper galeries </tspan><tspan
+         sodipodi:role="line"
+         x="-32.263557"
+         y="846.77197"
+         style="stroke-width:0.26458332"
+         id="tspan1166">through production shaft</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="328.24289"
+       y="722.74329"
+       id="text1144"><tspan
+         sodipodi:role="line"
+         id="tspan1142"
+         x="328.24289"
+         y="722.74329"
+         style="stroke-width:0.26458332">result: </tspan><tspan
+         sodipodi:role="line"
+         x="328.24289"
+         y="735.97247"
+         style="stroke-width:0.26458332"
+         id="tspan1146">1) - free convection = main heat transfer process </tspan><tspan
+         sodipodi:role="line"
+         x="328.24289"
+         y="749.2016"
+         style="stroke-width:0.26458332"
+         id="tspan2104">in borehole inducing intra-well mixing</tspan><tspan
+         sodipodi:role="line"
+         x="328.24289"
+         y="762.43079"
+         style="stroke-width:0.26458332"
+         id="tspan1219">(depends on temperature gradients, size of channels, </tspan><tspan
+         sodipodi:role="line"
+         x="328.24289"
+         y="775.65997"
+         style="stroke-width:0.26458332"
+         id="tspan2106">water properties (Jessop, 1999))</tspan><tspan
+         sodipodi:role="line"
+         x="328.24289"
+         y="788.8891"
+         style="stroke-width:0.26458332"
+         id="tspan1148">    - forced convection = slight temperature decrease </tspan><tspan
+         sodipodi:role="line"
+         x="328.24289"
+         y="802.11829"
+         style="stroke-width:0.26458332"
+         id="tspan2108">when water pumped from shaft (depends on pumping rate)</tspan><tspan
+         sodipodi:role="line"
+         x="328.24289"
+         y="815.34747"
+         style="stroke-width:0.26458332"
+         id="tspan1158">(or incoming water recharge from greater depth (jessop, 1999))</tspan><tspan
+         sodipodi:role="line"
+         x="328.24289"
+         y="828.5766"
+         style="stroke-width:0.26458332"
+         id="tspan1160">2) important parameter: ratio gallery/shaft to rock permeabilities</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-491.66455"
+       y="-115.87304"
+       id="text1176"><tspan
+         sodipodi:role="line"
+         id="tspan1174"
+         x="-491.66455"
+         y="-115.87304"
+         style="stroke-width:0.26458332">--&gt; Constant geothermal gradient</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="74.633415"
+       y="150.40413"
+       id="text1180"><tspan
+         sodipodi:role="line"
+         id="tspan1178"
+         x="74.633415"
+         y="150.40413"
+         style="stroke-width:0.26458332">room-and-pillar</tspan></text>
+    <g
+       transform="matrix(1.4102139,-0.58678185,0.73288546,1.1290822,-539.51463,-213.18318)"
+       id="g909-9-8-0">
+      <path
+         inkscape:connector-curvature="0"
+         id="path889-4-1-3"
+         d="m 180.67262,397.54167 37.79762,0.75594"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path891-8-6-7"
+         d="m 214.88469,394.95428 3.58555,3.34333 -3.45191,3.20476"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-42.471497"
+       y="-131.72603"
+       id="text1225"><tspan
+         sodipodi:role="line"
+         x="-42.471497"
+         y="-131.72603"
+         style="stroke-width:0.26458332"
+         id="tspan1227">Seawater recharge</tspan><tspan
+         sodipodi:role="line"
+         x="-42.471497"
+         y="-118.49686"
+         style="stroke-width:0.26458332"
+         id="tspan1231" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-238.92346"
+       y="-152.68907"
+       id="text1239"><tspan
+         sodipodi:role="line"
+         id="tspan1237"
+         x="-238.92346"
+         y="-152.68907"
+         style="stroke-width:0.26458332">Hydraulic</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-412.6748"
+       y="-147.34422"
+       id="text1243"><tspan
+         sodipodi:role="line"
+         id="tspan1241"
+         x="-412.6748"
+         y="-147.34422"
+         style="stroke-width:0.26458332">Thermal</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-44.118031"
+       y="-170.52119"
+       id="text1247"><tspan
+         sodipodi:role="line"
+         id="tspan1245"
+         x="-44.118031"
+         y="-170.52119"
+         style="stroke-width:0.26458332">Sink / sources</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-39.884663"
+       y="-60.45451"
+       id="text1251"><tspan
+         sodipodi:role="line"
+         id="tspan1249"
+         x="-39.884663"
+         y="-60.45451"
+         style="stroke-width:0.26458332">Exothermic reaction</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-498.57147"
+       y="-5.347497"
+       id="text1255"><tspan
+         sodipodi:role="line"
+         x="-498.57147"
+         y="4.3079987"
+         style="stroke-width:0.26458332"
+         id="tspan1403" /><tspan
+         sodipodi:role="line"
+         x="-498.57147"
+         y="17.537165"
+         style="stroke-width:0.26458332"
+         id="tspan1405">Rock Mass</tspan><tspan
+         sodipodi:role="line"
+         x="-498.57147"
+         y="30.766331"
+         style="stroke-width:0.26458332"
+         id="tspan1724" /><tspan
+         sodipodi:role="line"
+         x="-498.57147"
+         y="43.995499"
+         style="stroke-width:0.26458332"
+         id="tspan1614">Mine workings:</tspan><tspan
+         sodipodi:role="line"
+         x="-498.57147"
+         y="57.224663"
+         style="stroke-width:0.26458332"
+         id="tspan1737">Shallow Mineworkings</tspan><tspan
+         sodipodi:role="line"
+         x="-498.57147"
+         y="70.453827"
+         style="stroke-width:0.26458332"
+         id="tspan1739">Intermediate Mineworkings</tspan><tspan
+         sodipodi:role="line"
+         x="-498.57147"
+         y="83.682999"
+         style="stroke-width:0.26458332"
+         id="tspan1741">Deep mineworkings</tspan><tspan
+         sodipodi:role="line"
+         x="-498.57147"
+         y="96.912163"
+         style="stroke-width:0.26458332"
+         id="tspan1743">(Whitworth, 2002)</tspan><tspan
+         sodipodi:role="line"
+         x="-498.57147"
+         y="110.14133"
+         style="stroke-width:0.26458332"
+         id="tspan1745" /><tspan
+         sodipodi:role="line"
+         x="-498.57147"
+         y="123.3705"
+         style="stroke-width:0.26458332"
+         id="tspan1726" /><tspan
+         sodipodi:role="line"
+         x="-498.57147"
+         y="136.59966"
+         style="stroke-width:0.26458332"
+         id="tspan1616">Shaft, drift, roads, tunnels</tspan><tspan
+         sodipodi:role="line"
+         x="-498.57147"
+         y="149.82883"
+         style="stroke-width:0.26458332"
+         id="tspan1509" /><tspan
+         sodipodi:role="line"
+         x="-498.57147"
+         y="163.058"
+         style="stroke-width:0.26458332"
+         id="tspan1511" /><tspan
+         sodipodi:role="line"
+         x="-498.57147"
+         y="176.28716"
+         style="stroke-width:0.26458332"
+         id="tspan1513">Structural/hydraulic barriers </tspan><tspan
+         sodipodi:role="line"
+         x="-498.57147"
+         y="189.51633"
+         style="stroke-width:0.26458332"
+         id="tspan1564">(i.e. Faults)</tspan><tspan
+         sodipodi:role="line"
+         x="-498.57147"
+         y="202.7455"
+         style="stroke-width:0.26458332"
+         id="tspan1515">(Banks et al., 2010)</tspan><tspan
+         sodipodi:role="line"
+         x="-498.57147"
+         y="215.97466"
+         style="stroke-width:0.26458332"
+         id="tspan1618" /><tspan
+         sodipodi:role="line"
+         x="-498.57147"
+         y="229.20383"
+         style="stroke-width:0.26458332"
+         id="tspan1407" /><tspan
+         sodipodi:role="line"
+         x="-498.57147"
+         y="242.433"
+         style="stroke-width:0.26458332"
+         id="tspan1401" /><tspan
+         sodipodi:role="line"
+         x="-498.57147"
+         y="255.66216"
+         style="stroke-width:0.26458332"
+         id="tspan1555" /><tspan
+         sodipodi:role="line"
+         x="-498.57147"
+         y="268.89133"
+         style="stroke-width:0.26458332"
+         id="tspan1423" /><tspan
+         sodipodi:role="line"
+         x="-498.57147"
+         y="282.12048"
+         style="stroke-width:0.26458332"
+         id="tspan1395" /><tspan
+         sodipodi:role="line"
+         x="-498.57147"
+         y="295.34967"
+         style="stroke-width:0.26458332"
+         id="tspan1397" /><tspan
+         sodipodi:role="line"
+         x="-498.57147"
+         y="308.57883"
+         style="stroke-width:0.26458332"
+         id="tspan1399" /></text>
+    <g
+       transform="rotate(-27.460811,-90.26201,858.68922)"
+       id="g909-9-7">
+      <path
+         inkscape:connector-curvature="0"
+         id="path889-4-6"
+         d="m 180.67262,397.54167 37.79762,0.75594"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path891-8-5"
+         d="m 214.88469,394.95428 3.58555,3.34333 -3.45191,3.20476"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       transform="matrix(0.88641885,0.60554512,0.46067013,-1.1651865,-405.79612,678.36623)"
+       id="g909-9-4">
+      <path
+         inkscape:connector-curvature="0"
+         id="path889-4-18"
+         d="m 180.67262,397.54167 37.79762,0.75594"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path891-8-7"
+         d="m 214.88469,394.95428 3.58555,3.34333 -3.45191,3.20476"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-23.411764"
+       y="288.60196"
+       id="text1304"><tspan
+         sodipodi:role="line"
+         id="tspan1302"
+         x="-23.411764"
+         y="288.60196"
+         style="stroke-width:0.26458332">Lauwerier-Pruess-Bovardsson model (1955,1983)</tspan><tspan
+         sodipodi:role="line"
+         x="-23.411764"
+         y="301.83112"
+         style="stroke-width:0.26458332"
+         id="tspan1306">Circular mine tunnel </tspan><tspan
+         sodipodi:role="line"
+         x="-23.411764"
+         y="315.0603"
+         style="stroke-width:0.26458332"
+         id="tspan1966">   + radially divergent conductive heat transfer</tspan><tspan
+         sodipodi:role="line"
+         x="-23.411764"
+         y="328.28946"
+         style="stroke-width:0.26458332"
+         id="tspan1435">(porosity = 1 for mine tunnels and [0-1] for mine area)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="325.96661"
+       y="298.5874"
+       id="text1310"><tspan
+         sodipodi:role="line"
+         id="tspan1308"
+         x="325.96661"
+         y="298.5874"
+         style="stroke-width:0.26458332">Formula derived for a planar fracture</tspan><tspan
+         sodipodi:role="line"
+         x="325.96661"
+         y="311.81656"
+         style="stroke-width:0.26458332"
+         id="tspan1312">with aperure b --&gt; conservative values</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-22.22501"
+       y="350.44571"
+       id="text1316"><tspan
+         sodipodi:role="line"
+         id="tspan1314"
+         x="-22.22501"
+         y="350.44571"
+         style="stroke-width:0.26458332">Rodriguez and Diaz (2009)</tspan><tspan
+         sodipodi:role="line"
+         x="-22.22501"
+         y="363.67487"
+         style="stroke-width:0.26458332"
+         id="tspan1318">Radial divergent heat conduction from/to tunnel</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="322.79166"
+       y="352.56241"
+       id="text1322"><tspan
+         sodipodi:role="line"
+         id="tspan1320"
+         x="322.79166"
+         y="352.56241"
+         style="stroke-width:0.26458332">Approximation over-estimates radius of thermal front</tspan><tspan
+         sodipodi:role="line"
+         x="322.79166"
+         y="365.79156"
+         style="stroke-width:0.26458332"
+         id="tspan1324">+ Nusselt number assumes turbulent flow conditions</tspan><tspan
+         sodipodi:role="line"
+         x="322.79166"
+         y="379.02075"
+         style="stroke-width:0.26458332"
+         id="tspan1326">--&gt; more appropriate to simulate heat exchanges in tunnel</tspan><tspan
+         sodipodi:role="line"
+         x="322.79166"
+         y="392.24991"
+         style="stroke-width:0.26458332"
+         id="tspan1328">if using appropriate Nu number if laminar regime</tspan></text>
+    <g
+       transform="translate(96.45339,-85.988961)"
+       id="g909-5-6">
+      <path
+         inkscape:connector-curvature="0"
+         id="path889-6-7"
+         d="m 180.67262,397.54167 37.79762,0.75594"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path891-6-2"
+         d="m 214.88469,394.95428 3.58555,3.34333 -3.45191,3.20476"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-492.88089"
+       y="-94.638733"
+       id="text1411"><tspan
+         sodipodi:role="line"
+         id="tspan1409"
+         x="-492.88089"
+         y="-94.638733"
+         style="stroke-width:0.26458332">Average air temperature</tspan><tspan
+         sodipodi:role="line"
+         x="-492.88089"
+         y="-81.409569"
+         style="stroke-width:0.26458332"
+         id="tspan1608">--&gt; Constant surface temperature,</tspan><tspan
+         sodipodi:role="line"
+         x="-492.88089"
+         y="-68.180397"
+         style="stroke-width:0.26458332"
+         id="tspan1546">      seasonal variations?</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-485.82507"
+       y="-4.3666482"
+       id="text1421"><tspan
+         sodipodi:role="line"
+         id="tspan1419"
+         x="-485.82507"
+         y="-4.3666482"
+         style="stroke-width:0.26458332">Geometry</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-25.311628"
+       y="36.033844"
+       id="text1466"><tspan
+         sodipodi:role="line"
+         id="tspan1464"
+         x="-25.311628"
+         y="36.033844"
+         style="fill:#005500;fill-opacity:1;stroke-width:0.26458332">For a 200m wide panel, </tspan><tspan
+         sodipodi:role="line"
+         x="-25.311628"
+         y="49.263012"
+         style="fill:#005500;fill-opacity:1;stroke-width:0.26458332"
+         id="tspan1470">subsidence = 90% / 35% of extracted </tspan><tspan
+         sodipodi:role="line"
+         x="-25.311628"
+         y="62.492176"
+         style="fill:#005500;fill-opacity:1;stroke-width:0.26458332"
+         id="tspan1598">thickness at 100m / 500m depth</tspan><tspan
+         sodipodi:role="line"
+         x="-25.311628"
+         y="75.721344"
+         style="fill:#005500;fill-opacity:1;stroke-width:0.26458332"
+         id="tspan1874">(Whitworth, 2002)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-70.714035"
+       y="199.53944"
+       id="text1476"><tspan
+         sodipodi:role="line"
+         id="tspan1474"
+         x="-70.714035"
+         y="199.53944"
+         style="stroke-width:0.26458332">Shaft waters (interconnection mine workings / aquifer)</tspan><tspan
+         sodipodi:role="line"
+         x="-70.714035"
+         y="212.76862"
+         style="stroke-width:0.26458332"
+         id="tspan1478">Coal Measures inflow (from aquifers)</tspan><tspan
+         sodipodi:role="line"
+         x="-70.714035"
+         y="225.99777"
+         style="stroke-width:0.26458332"
+         id="tspan1480">Shallow working waters (shaft, CM and surface waters)</tspan><tspan
+         sodipodi:role="line"
+         x="-70.714035"
+         y="239.22694"
+         style="stroke-width:0.26458332"
+         id="tspan1482">  = can gravitate to deeper workings via mine connections</tspan><tspan
+         sodipodi:role="line"
+         x="-70.714035"
+         y="252.45612"
+         style="stroke-width:0.26458332"
+         id="tspan1484">(Whiteworthm 2002)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-15.170719"
+       y="598.17212"
+       id="text1488"><tspan
+         sodipodi:role="line"
+         id="tspan1486"
+         x="-15.170719"
+         y="598.17212"
+         style="stroke-width:0.26458332">Detailed site characterization (geology, hydrology),</tspan><tspan
+         sodipodi:role="line"
+         x="-15.170719"
+         y="611.40131"
+         style="stroke-width:0.26458332"
+         id="tspan1490">mine geometry (depth and interconnections of </tspan><tspan
+         sodipodi:role="line"
+         x="-15.170719"
+         y="624.63043"
+         style="stroke-width:0.26458332"
+         id="tspan1514">workings/galleries/shafts/roads), water levels, </tspan><tspan
+         sodipodi:role="line"
+         x="-15.170719"
+         y="637.85962"
+         style="stroke-width:0.26458332"
+         id="tspan1518">rock properties (host rock &amp; workings)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-294.58203"
+       y="663.71735"
+       id="text1498"><tspan
+         sodipodi:role="line"
+         x="-294.58203"
+         y="663.71735"
+         style="stroke-width:0.26458332"
+         id="tspan1500">Gaspe Mine, Quebec</tspan><tspan
+         sodipodi:role="line"
+         x="-294.58203"
+         y="676.94653"
+         style="stroke-width:0.26458332"
+         id="tspan1504">(Raymond and Therrien, 2008)</tspan></text>
+    <g
+       transform="translate(-268.07746,260.56046)"
+       id="g909-3">
+      <path
+         inkscape:connector-curvature="0"
+         id="path889-7"
+         d="m 180.67262,397.54167 37.79762,0.75594"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path891-4"
+         d="m 214.88469,394.95428 3.58555,3.34333 -3.45191,3.20476"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       transform="translate(-267.89587,335.83431)"
+       id="g909-37">
+      <path
+         inkscape:connector-curvature="0"
+         id="path889-63"
+         d="m 180.67262,397.54167 37.79762,0.75594"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path891-91"
+         d="m 214.88469,394.95428 3.58555,3.34333 -3.45191,3.20476"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-14.422361"
+       y="655.79547"
+       id="text1561"><tspan
+         sodipodi:role="line"
+         id="tspan1559"
+         x="-14.422361"
+         y="655.79547"
+         style="stroke-width:0.26458332">Road/shafts = 1D line elements (pipe flow)</tspan><tspan
+         sodipodi:role="line"
+         x="-14.422361"
+         y="669.02466"
+         style="stroke-width:0.26458332"
+         id="tspan1563">Workings = 3D porous subdomain of high K</tspan><tspan
+         sodipodi:role="line"
+         x="-14.422361"
+         y="682.25378"
+         style="stroke-width:0.26458332"
+         id="tspan1565">Host Rock = 3D porous medium of low K</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="72.086845"
+       y="165.10909"
+       id="text1581"><tspan
+         sodipodi:role="line"
+         id="tspan1579"
+         x="72.086845"
+         y="165.10909"
+         style="stroke-width:0.26458332">(voids left empty)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="63.399509"
+       y="117.90479"
+       id="text1585"><tspan
+         sodipodi:role="line"
+         id="tspan1583"
+         x="63.399509"
+         y="117.90479"
+         style="stroke-width:0.26458332">(voids backfilled)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-280.05154"
+       y="-57.017391"
+       id="text1589"><tspan
+         sodipodi:role="line"
+         id="tspan1587"
+         x="-280.05154"
+         y="-57.017391"
+         style="stroke-width:0.26458332">No flow lateral &amp; bottom boundary</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-276.57294"
+       y="-130.92827"
+       id="text1593"><tspan
+         sodipodi:role="line"
+         id="tspan1591"
+         x="-276.57294"
+         y="-130.92827"
+         style="stroke-width:0.26458332">Top BC:</tspan><tspan
+         sodipodi:role="line"
+         x="-276.57294"
+         y="-117.6991"
+         style="stroke-width:0.26458332"
+         id="tspan1612">Constant head (i.e. river)</tspan><tspan
+         sodipodi:role="line"
+         x="-276.57294"
+         y="-104.46993"
+         style="stroke-width:0.26458332"
+         id="tspan1595">Constant flux (i.e. if recharge by </tspan><tspan
+         sodipodi:role="line"
+         x="-276.57294"
+         y="-91.240768"
+         style="stroke-width:0.26458332"
+         id="tspan1610">precipitation + infiltration)</tspan><tspan
+         sodipodi:role="line"
+         x="-276.57294"
+         y="-78.011604"
+         style="stroke-width:0.26458332"
+         id="tspan1521" /><tspan
+         sodipodi:role="line"
+         x="-276.57294"
+         y="-64.78244"
+         style="stroke-width:0.26458332"
+         id="tspan1519" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="326.31253"
+       y="328.05963"
+       id="text1626"><tspan
+         sodipodi:role="line"
+         id="tspan1624"
+         x="326.31253"
+         y="328.05963"
+         style="stroke-width:0.26458332">results depends on: Tunnel diameter + abstraction rate</tspan><tspan
+         sodipodi:role="line"
+         x="326.31253"
+         y="341.28879"
+         style="stroke-width:0.26458332"
+         id="tspan1628" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-305.61884"
+       y="-21.369196"
+       id="text1659"><tspan
+         sodipodi:role="line"
+         id="tspan1657"
+         x="-305.61884"
+         y="-21.369196"
+         style="stroke-width:0.26458332">Rock thermal properties:</tspan><tspan
+         sodipodi:role="line"
+         x="-305.61884"
+         y="-8.1400299"
+         style="stroke-width:0.26458332"
+         id="tspan1661">- thermal conductivity</tspan><tspan
+         sodipodi:role="line"
+         x="-305.61884"
+         y="5.0891366"
+         style="stroke-width:0.26458332"
+         id="tspan1663">- specfic heat capacity of reservoir</tspan><tspan
+         sodipodi:role="line"
+         x="-305.61884"
+         y="18.318302"
+         style="stroke-width:0.26458332"
+         id="tspan1665">- hydraulic conductivity / permeability</tspan><tspan
+         sodipodi:role="line"
+         x="-305.61884"
+         y="31.54747"
+         style="stroke-width:0.26458332"
+         id="tspan1667">- effective porosity</tspan><tspan
+         sodipodi:role="line"
+         x="-305.61884"
+         y="44.776634"
+         style="stroke-width:0.26458332"
+         id="tspan1566">specific storage coefficient</tspan><tspan
+         sodipodi:role="line"
+         x="-305.61884"
+         y="58.005802"
+         style="stroke-width:0.26458332"
+         id="tspan1747">- density (host rock and water)</tspan><tspan
+         sodipodi:role="line"
+         x="-305.61884"
+         y="71.23497"
+         style="stroke-width:0.26458332"
+         id="tspan1671">(Raymond and Therrien, 2008)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-305.87567"
+       y="199.2462"
+       id="text1684"><tspan
+         sodipodi:role="line"
+         id="tspan1682"
+         x="-305.87567"
+         y="199.2462"
+         style="stroke-width:0.26458332">Lateral and vertical interconnctivity </tspan><tspan
+         sodipodi:role="line"
+         x="-305.87567"
+         y="212.47537"
+         style="stroke-width:0.26458332"
+         id="tspan1686">(Watzlaf and Ackmann, 2006)</tspan><tspan
+         sodipodi:role="line"
+         x="-305.87567"
+         y="225.70453"
+         style="stroke-width:0.26458332"
+         id="tspan1688" /><tspan
+         sodipodi:role="line"
+         x="-305.87567"
+         y="238.9337"
+         style="stroke-width:0.26458332"
+         id="tspan1690" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-492.33862"
+       y="-53.345833"
+       id="text1589-4"><tspan
+         sodipodi:role="line"
+         id="tspan1587-7"
+         x="-492.33862"
+         y="-53.345833"
+         style="stroke-width:0.26458332">No flow lateral  boundary</tspan></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.18307258;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1710"
+       width="60.833488"
+       height="17.880198"
+       x="-420.58313"
+       y="-159.92429" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1712"
+       width="64.558334"
+       height="17.991667"
+       x="-249.69144"
+       y="-165.33589" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1714"
+       width="81.570656"
+       height="17.212158"
+       x="-47.894699"
+       y="-183.44371" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.30000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1716"
+       width="184.18239"
+       height="238.30403"
+       x="-511.70764"
+       y="-27.85903" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1718"
+       width="119.73675"
+       height="15.715447"
+       x="-356.96515"
+       y="-193.1723" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1720"
+       width="136.94891"
+       height="23.198996"
+       x="-148.92258"
+       y="-250.79562" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.30000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1722"
+       width="443.26773"
+       height="173.64839"
+       x="-512.10132"
+       y="-210.39954" />
+    <g
+       transform="matrix(1.4103437,0.56971015,0.7329529,-1.096233,-539.53798,465.67254)"
+       id="g909-9-8-0-6">
+      <path
+         inkscape:connector-curvature="0"
+         id="path889-4-1-3-1"
+         d="m 180.67262,397.54167 37.79762,0.75594"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path891-8-6-7-3"
+         d="m 214.88469,394.95428 3.58555,3.34333 -3.45191,3.20476"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.31392536px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -444.49783,209.1551 1.05401,176.52627"
+       id="path1876"
+       inkscape:connector-curvature="0" />
+    <g
+       transform="translate(-624.11724,-10.553476)"
+       id="g909-32"
+       style="stroke:#ec00f8;stroke-width:1.10000002;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+      <path
+         inkscape:connector-curvature="0"
+         id="path889-8"
+         d="m 180.67262,397.54167 37.79762,0.75594"
+         style="fill:none;stroke:#ec00f8;stroke-width:1.10000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path891-89"
+         d="m 214.88469,394.95428 3.58555,3.34333 -3.45191,3.20476"
+         style="fill:none;stroke:#ec00f8;stroke-width:1.10000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       transform="matrix(1.4219606,1.027337,1.1955118,-1.2219308,-979.69468,700.45103)"
+       id="g909-9-9">
+      <path
+         inkscape:connector-curvature="0"
+         id="path889-4-7"
+         d="m 180.67262,397.54167 37.79762,0.75594"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path891-8-6"
+         d="m 214.88469,394.95428 3.58555,3.34333 -3.45191,3.20476"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-305.85837"
+       y="234.0287"
+       id="text1964"><tspan
+         sodipodi:role="line"
+         id="tspan1962"
+         x="-305.85837"
+         y="234.0287"
+         style="stroke-width:0.26458332">Porosity, length, radius of channel</tspan></text>
+    <g
+       transform="translate(95.607787,-38.257594)"
+       id="g909-5-6-3">
+      <path
+         inkscape:connector-curvature="0"
+         id="path889-6-7-6"
+         d="m 180.67262,397.54167 37.79762,0.75594"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path891-6-2-8"
+         d="m 214.88469,394.95428 3.58555,3.34333 -3.45191,3.20476"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.45508102px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -443.44462,386.98819 1.04989,372.41812"
+       id="path1876-9"
+       inkscape:connector-curvature="0" />
+    <g
+       transform="translate(-621.47599,164.60736)"
+       id="g909-32-8">
+      <path
+         inkscape:connector-curvature="0"
+         id="path889-8-1"
+         d="m 180.67262,397.54167 37.79762,0.75594"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path891-89-0"
+         d="m 214.88469,394.95428 3.58555,3.34333 -3.45191,3.20476"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-420.06274"
+       y="539.5943"
+       id="text865-9"><tspan
+         sodipodi:role="line"
+         id="tspan863-6"
+         x="-420.06274"
+         y="539.5943"
+         style="stroke-width:0.26458332">2D numerical model</tspan></text>
+    <g
+       transform="matrix(1.218277,-1.0982867,1.0242651,1.3063195,-703.47702,243.21673)"
+       id="g909-9-97">
+      <path
+         inkscape:connector-curvature="0"
+         id="path889-4-2"
+         d="m 174.51046,391.58658 43.95978,6.71103"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path891-8-1"
+         d="m 214.88469,394.95428 3.58555,3.34333 -3.45191,3.20476"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       transform="translate(104.60361,143.77567)"
+       id="g909-5-5">
+      <path
+         inkscape:connector-curvature="0"
+         id="path889-6-0"
+         d="m 180.67262,397.54167 37.79762,0.75594"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path891-6-3"
+         d="m 214.88469,394.95428 3.58555,3.34333 -3.45191,3.20476"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       transform="translate(92.432784,231.08825)"
+       id="g909-5-5-4">
+      <path
+         inkscape:connector-curvature="0"
+         id="path889-6-0-2"
+         d="m 180.67262,397.54167 37.79762,0.75594"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path891-6-3-7"
+         d="m 214.88469,394.95428 3.58555,3.34333 -3.45191,3.20476"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       transform="translate(87.141122,383.48825)"
+       id="g909-5-5-1">
+      <path
+         inkscape:connector-curvature="0"
+         id="path889-6-0-8"
+         d="m 180.67262,397.54167 37.79762,0.75594"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path891-6-3-3"
+         d="m 214.88469,394.95428 3.58555,3.34333 -3.45191,3.20476"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-412.4209"
+       y="119.14344"
+       id="text1087"><tspan
+         sodipodi:role="line"
+         id="tspan1085"
+         x="-412.4209"
+         y="119.14344"
+         style="fill:#ff0000;fill-opacity:1;stroke-width:0.26458332">ADVECTION</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-417.30743"
+       y="16.720333"
+       id="text1087-4"><tspan
+         sodipodi:role="line"
+         id="tspan1085-6"
+         x="-417.30743"
+         y="16.720333"
+         style="fill:#ff0000;fill-opacity:1;stroke-width:0.26458332">CONDUCTION</tspan></text>
+    <g
+       transform="translate(-79.508847,-538.85595)"
+       id="g909-5-6-30">
+      <path
+         inkscape:connector-curvature="0"
+         id="path889-6-7-1"
+         d="m 180.67262,397.54167 37.79762,0.75594"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path891-6-2-9"
+         d="m 214.88469,394.95428 3.58555,3.34333 -3.45191,3.20476"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="150.8409"
+       y="-151.85286"
+       id="text1130"><tspan
+         sodipodi:role="line"
+         id="tspan1128"
+         x="150.8409"
+         y="-151.85286"
+         style="stroke-width:0.26458332">Development of density-related</tspan><tspan
+         sodipodi:role="line"
+         x="150.8409"
+         y="-138.62369"
+         style="stroke-width:0.26458332"
+         id="tspan1133">stratification (meteoric VS GW saline water)</tspan><tspan
+         sodipodi:role="line"
+         x="150.8409"
+         y="-125.39452"
+         style="stroke-width:0.26458332"
+         id="tspan1135">Pumping induce mixing / </tspan><tspan
+         sodipodi:role="line"
+         x="150.8409"
+         y="-112.16536"
+         style="stroke-width:0.26458332"
+         id="tspan1151">reduce stratification (turbulent flow)</tspan><tspan
+         sodipodi:role="line"
+         x="150.8409"
+         y="-98.936195"
+         style="stroke-width:0.26458332"
+         id="tspan1137">(Burnside et al., 2016)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="471.2316"
+       y="-200.57236"
+       id="text984-0"><tspan
+         sodipodi:role="line"
+         id="tspan982-5"
+         x="471.2316"
+         y="-200.57236"
+         style="stroke-width:0.26458332">Initial conditions</tspan></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.46329185;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1718-0"
+       width="102.5613"
+       height="15.752156"
+       x="466.62823"
+       y="-212.11375" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="462.90475"
+       y="-164.57487"
+       id="text1165"><tspan
+         sodipodi:role="line"
+         id="tspan1163"
+         x="462.90475"
+         y="-164.57487"
+         style="stroke-width:0.26458332">Steady-state temperature</tspan><tspan
+         sodipodi:role="line"
+         x="462.90475"
+         y="-151.3457"
+         style="stroke-width:0.26458332"
+         id="tspan1167">+ pre-pumping head</tspan><tspan
+         sodipodi:role="line"
+         x="462.90475"
+         y="-138.11655"
+         style="stroke-width:0.26458332"
+         id="tspan1169">+ Regional groundwater conditions</tspan><tspan
+         sodipodi:role="line"
+         x="462.90475"
+         y="-124.88737"
+         style="stroke-width:0.26458332"
+         id="tspan1171">+ Mine dewatering conditions</tspan><tspan
+         sodipodi:role="line"
+         x="462.90475"
+         y="-111.65821"
+         style="stroke-width:0.26458332"
+         id="tspan1173">(Szczepinski, 2019)</tspan></text>
+    <text
+       id="text1302"
+       y="147.55161"
+       x="443.65421"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.88606763px;line-height:125%;font-family:Calibri;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         y="150.95192"
+         x="443.65421"
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.28888893px;line-height:8.93999958px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+         id="tspan1467" /></text>
+    <text
+       id="text1336"
+       y="171.03706"
+       x="443.33856"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.88606763px;line-height:125%;font-family:Calibri;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         y="174.43738"
+         x="443.33856"
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.28888893px;line-height:8.85999966px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+         id="tspan1356" /></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000f8;stroke-width:1.01441395;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1517"
+       width="90.330971"
+       height="15.302664"
+       x="63.656654"
+       y="93.030525" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-180.68022"
+       y="-158.89799"
+       id="text1525"><tspan
+         sodipodi:role="line"
+         id="tspan1523"
+         x="-180.68022"
+         y="-158.89799"
+         style="stroke-width:0.26458332">Discharge zones? </tspan><tspan
+         sodipodi:role="line"
+         x="-180.68022"
+         y="-145.66882"
+         style="stroke-width:0.26458332"
+         id="tspan1529">Dewatering history?</tspan></text>
+    <rect
+       style="opacity:1;fill:#fff6ab;fill-opacity:0.58201055;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1527"
+       width="72.590401"
+       height="12.722029"
+       x="-282.45645"
+       y="-100.21638" />
+    <rect
+       style="opacity:1;fill:#fff6ab;fill-opacity:0.58201055;stroke:none;stroke-width:1.09826481;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1527-6"
+       width="87.557495"
+       height="12.722029"
+       x="-448.21698"
+       y="-104.33232" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="291.88669"
+       y="36.322636"
+       id="text1570"><tspan
+         sodipodi:role="line"
+         id="tspan1568"
+         x="291.88669"
+         y="36.322636"
+         style="stroke-width:0.26458332">Distribution of void space in mines (Banks et al., 2010):</tspan><tspan
+         sodipodi:role="line"
+         x="291.88669"
+         y="49.551804"
+         style="stroke-width:0.26458332"
+         id="tspan1572">- workings void</tspan><tspan
+         sodipodi:role="line"
+         x="291.88669"
+         y="62.780968"
+         style="stroke-width:0.26458332"
+         id="tspan1576">      - depends on worked seam dimensions/dip</tspan><tspan
+         sodipodi:role="line"
+         x="291.88669"
+         y="76.010132"
+         style="stroke-width:0.26458332"
+         id="tspan1578">      - based on geometric/geotechnical calculations</tspan><tspan
+         sodipodi:role="line"
+         x="291.88669"
+         y="89.239304"
+         style="stroke-width:0.26458332"
+         id="tspan1580">- void space in tunnel, drifts and galleries (Rogoz et al., 1999)</tspan><tspan
+         sodipodi:role="line"
+         x="291.88669"
+         y="102.46847"
+         style="stroke-width:0.26458332"
+         id="tspan1584">      - depends on dimensions of tunnel / shaft </tspan><tspan
+         sodipodi:role="line"
+         x="291.88669"
+         y="115.69763"
+         style="stroke-width:0.26458332"
+         id="tspan1586">         + correcting factor for compression/backfilling</tspan><tspan
+         sodipodi:role="line"
+         x="291.88669"
+         y="128.9268"
+         style="stroke-width:0.26458332"
+         id="tspan1644">- Voids in fractures induced above workings</tspan><tspan
+         sodipodi:role="line"
+         x="291.88669"
+         y="142.15596"
+         style="stroke-width:0.26458332"
+         id="tspan1721">- Voids in pores in dewatered aquifer strata</tspan><tspan
+         sodipodi:role="line"
+         x="291.88669"
+         y="155.38513"
+         style="stroke-width:0.26458332"
+         id="tspan1921">   (related to specific yield) </tspan></text>
+    <g
+       transform="translate(75.501383,-312.24101)"
+       id="g909-32-2"
+       style="stroke:#ec00f8;stroke-width:1.10000002;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+      <path
+         inkscape:connector-curvature="0"
+         id="path889-8-4"
+         d="m 201.83929,398.46771 16.63095,-0.1701"
+         style="fill:none;stroke:#ec00f8;stroke-width:1.10000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path891-89-2"
+         d="m 214.88469,394.95428 3.58555,3.34333 -3.45191,3.20476"
+         style="fill:none;stroke:#ec00f8;stroke-width:1.10000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       transform="translate(75.985703,-351.65614)"
+       id="g909-32-2-9"
+       style="stroke:#0000f8;stroke-width:1.10000002;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.86666667">
+      <path
+         inkscape:connector-curvature="0"
+         id="path889-8-4-6"
+         d="m 201.83929,398.46771 16.63095,-0.1701"
+         style="fill:none;stroke:#0000f8;stroke-width:1.10000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.86666667"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path891-89-2-1"
+         d="m 214.88469,394.95428 3.58555,3.34333 -3.45191,3.20476"
+         style="fill:none;stroke:#0000f8;stroke-width:1.10000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.86666667" />
+    </g>
+    <g
+       transform="translate(77.615363,-272.02435)"
+       id="g909-32-2-3"
+       style="stroke:#ff6200;stroke-width:1.10000002;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+      <path
+         inkscape:connector-curvature="0"
+         id="path889-8-4-7"
+         d="m 201.83929,398.46771 16.63095,-0.1701"
+         style="fill:none;stroke:#ff6200;stroke-width:1.10000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path891-89-2-0"
+         d="m 214.88469,394.95428 3.58555,3.34333 -3.45191,3.20476"
+         style="fill:none;stroke:#ff6200;stroke-width:1.10000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       transform="translate(-518.69976,159.79288)"
+       id="g909-32-2-3-3"
+       style="stroke:#ff6200;stroke-width:1.10000002;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+      <path
+         inkscape:connector-curvature="0"
+         id="path889-8-4-7-7"
+         d="m 201.83929,398.46771 16.63095,-0.1701"
+         style="fill:none;stroke:#ff6200;stroke-width:1.10000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path891-89-2-0-1"
+         d="m 214.88469,394.95428 3.58555,3.34333 -3.45191,3.20476"
+         style="fill:none;stroke:#ff6200;stroke-width:1.10000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       transform="translate(-518.69976,173.5513)"
+       id="g909-32-2-9-2"
+       style="stroke:#0000f8;stroke-width:1.10000002;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.86666667">
+      <path
+         inkscape:connector-curvature="0"
+         id="path889-8-4-6-7"
+         d="m 201.83929,398.46771 16.63095,-0.1701"
+         style="fill:none;stroke:#0000f8;stroke-width:1.10000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.86666667"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path891-89-2-1-6"
+         d="m 214.88469,394.95428 3.58555,3.34333 -3.45191,3.20476"
+         style="fill:none;stroke:#0000f8;stroke-width:1.10000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.86666667" />
+    </g>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:0.58201055;stroke:#000000;stroke-width:0.68106639;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.6931217"
+       id="rect1723"
+       width="328.56772"
+       height="53.421673"
+       x="298.77655"
+       y="78.581024" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:0.74074073;stroke:none;stroke-width:0.26458332"
+       x="555.40027"
+       y="145.25435"
+       id="text1727"><tspan
+         sodipodi:role="line"
+         id="tspan1725"
+         x="555.40027"
+         y="145.25435"
+         style="fill:#000000;fill-opacity:0.74074073;stroke-width:0.26458332">numerically negligible </tspan><tspan
+         sodipodi:role="line"
+         x="555.40027"
+         y="158.48352"
+         style="fill:#000000;fill-opacity:0.74074073;stroke-width:0.26458332"
+         id="tspan1729">in overall void budget</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-267.09036"
+       y="364.53506"
+       id="text1733"><tspan
+         sodipodi:role="line"
+         id="tspan1731"
+         x="-267.09036"
+         y="364.53506"
+         style="stroke-width:0.26458332">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-116.90831"
+       y="569.35754"
+       id="text1737"><tspan
+         sodipodi:role="line"
+         id="tspan1735"
+         x="-116.90831"
+         y="569.35754"
+         style="stroke-width:0.26458332">2</tspan></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:0.74074073;stroke:#000000;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1739"
+       width="18.708866"
+       height="15.34127"
+       x="-273.82556"
+       y="353.6839" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:0.74074073;stroke:#000000;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1739-1"
+       width="18.708866"
+       height="15.34127"
+       x="-122.1469"
+       y="557.19684" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="308.89056"
+       y="886.19025"
+       id="text1177"><tspan
+         sodipodi:role="line"
+         x="308.89056"
+         y="886.19025"
+         style="fill:#0000f8;fill-opacity:1;stroke-width:0.26458332"
+         id="tspan1181">Permeability distribution in goaf (&quot;fully&quot; and &quot;partly caved&quot; zones) </tspan><tspan
+         sodipodi:role="line"
+         x="308.89056"
+         y="899.41943"
+         style="fill:#0000f8;fill-opacity:1;stroke-width:0.26458332"
+         id="tspan1189">calculated from modelled bulking factor (depends on block size and</tspan><tspan
+         sodipodi:role="line"
+         x="308.89056"
+         y="912.64856"
+         style="fill:#0000f8;fill-opacity:1;stroke-width:0.26458332"
+         id="tspan1493">fall height) + goaf compaction, using the Carman-Kozeny equation </tspan><tspan
+         sodipodi:role="line"
+         x="308.89056"
+         y="925.87775"
+         style="fill:#0000f8;fill-opacity:1;stroke-width:0.26458332"
+         id="tspan1485">- high-k &quot;fully caved&quot; zone = ~ 1.5 x mining height</tspan><tspan
+         sodipodi:role="line"
+         x="308.89056"
+         y="939.10693"
+         style="fill:#0000f8;fill-opacity:1;stroke-width:0.26458332"
+         id="tspan1489">- total caved rock height =~ 4-6 x mining height (Mucho et al., 2000)  </tspan><tspan
+         sodipodi:role="line"
+         x="308.89056"
+         y="952.33606"
+         style="fill:#0000f8;fill-opacity:1;stroke-width:0.26458332"
+         id="tspan1277" /><tspan
+         sodipodi:role="line"
+         x="308.89056"
+         y="965.56525"
+         style="fill:#0000f8;fill-opacity:1;stroke-width:0.26458332"
+         id="tspan1279" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-33.054741"
+       y="877.81427"
+       id="text1364"><tspan
+         sodipodi:role="line"
+         id="tspan1362"
+         x="-33.054741"
+         y="877.81427"
+         style="stroke-width:0.26458332">3 reservoirs sections (Esterhuizen and Karacan, XXX):</tspan><tspan
+         sodipodi:role="line"
+         x="-33.054741"
+         y="891.04346"
+         style="stroke-width:0.26458332"
+         id="tspan1366">- undistrubed rock unit (pre-mining propertie)</tspan><tspan
+         sodipodi:role="line"
+         x="-33.054741"
+         y="904.27258"
+         style="stroke-width:0.26458332"
+         id="tspan1368">- goaf <tspan
+   style="fill:#0000fc;fill-opacity:1;stroke-width:0.26458332"
+   id="tspan1459">(using heterogeneous k from geomechanical model)</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="-33.054741"
+         y="917.50177"
+         style="stroke-width:0.26458332"
+         id="tspan1370">- tailgate/headgate entries + longwall face in mining layer</tspan><tspan
+         sodipodi:role="line"
+         x="-33.054741"
+         y="930.73096"
+         style="stroke-width:0.26458332"
+         id="tspan1372">--&gt; modelled into a typical longwall panel considering</tspan><tspan
+         sodipodi:role="line"
+         x="-33.054741"
+         y="943.96008"
+         style="stroke-width:0.26458332"
+         id="tspan1376">1) typical dimensions (1650 x 2300 ft)</tspan><tspan
+         sodipodi:role="line"
+         x="-33.054741"
+         y="957.18927"
+         style="stroke-width:0.26458332"
+         id="tspan1384">2) typical thickness of caved zone + 12 overlying rock layers</tspan></text>
+    <g
+       transform="translate(-269.34526,502.70875)"
+       id="g909-37-4">
+      <path
+         inkscape:connector-curvature="0"
+         id="path889-63-0"
+         d="m 180.67262,397.54167 37.79762,0.75594"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path891-91-1"
+         d="m 214.88469,394.95428 3.58555,3.34333 -3.45191,3.20476"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-297.27448"
+       y="880.04529"
+       id="text1128-8"><tspan
+         sodipodi:role="line"
+         x="-297.27448"
+         y="880.04529"
+         style="stroke-width:0.26458332"
+         id="tspan1130-1">Typical longwall panel  </tspan><tspan
+         sodipodi:role="line"
+         x="-297.27448"
+         y="893.27448"
+         style="stroke-width:0.26458332"
+         id="tspan1860">in the Pittsburgh CoalBed (Eastern US)</tspan><tspan
+         sodipodi:role="line"
+         x="-297.27448"
+         y="906.5036"
+         style="stroke-width:0.26458332"
+         id="tspan1862">(Esterhuizen and Karacan, XXX)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-673.87073"
+       y="-450.64005"
+       id="text1877"
+       transform="rotate(-90.050014)"><tspan
+         sodipodi:role="line"
+         id="tspan1875"
+         x="-673.87073"
+         y="-450.64005"
+         style="stroke-width:0.26458332">Geothermal potential / sustainable heat production simulations</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="321.71533"
+       y="606.95013"
+       id="text1881"><tspan
+         sodipodi:role="line"
+         id="tspan1879"
+         x="321.71533"
+         y="606.95013"
+         style="stroke-width:0.26458332">HydroGeoSphere code (Therrien et al., 2004)</tspan><tspan
+         sodipodi:role="line"
+         x="321.71533"
+         y="620.17932"
+         style="stroke-width:0.26458332"
+         id="tspan1883">solves silmutaneously for 1D pipe flow</tspan><tspan
+         sodipodi:role="line"
+         x="321.71533"
+         y="633.40845"
+         style="stroke-width:0.26458332"
+         id="tspan1917">and 3D laminar flow</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-506.95966"
+       y="-234.42476"
+       id="text1925"><tspan
+         sodipodi:role="line"
+         id="tspan1923"
+         x="-506.95966"
+         y="-234.42476"
+         style="stroke-width:0.26458332">External Input DATA</tspan></text>
+    <rect
+       style="opacity:1;fill:#fff6ab;fill-opacity:0.58201055;stroke:none;stroke-width:1.25906837;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1527-6-0"
+       width="115.07416"
+       height="12.722029"
+       x="-507.34674"
+       y="-245.01917" />
+  </g>
+</svg>

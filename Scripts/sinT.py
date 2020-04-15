@@ -7,10 +7,7 @@ Created on Fri Nov 29 01:12:49 2019
 import os
 import numpy as np
 import matplotlib.pyplot as plt
-#os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Modeling_results\Solar_1D_models\input_files')
-#os.chdir(r'D:\mylen\Documents\phD\Data_phD\Modeling\Midlothian')
-os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\1D_Models')
-
+os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling')
 
 Tmax=input("Enter Tmax : ")
 Tmin=input("Enter Tmin : ")
@@ -28,15 +25,23 @@ time = np.arange(0, t_d, dt_d)
 time_s= np.arange(0, t_s, dt_s)
 #amplitude = (amp+eval(Tmin))+amp*np.cos(2*np.pi*(time/t_d*t_y))
 amplitude = (eval(Tmax)-eval(Tmin))/2*np.cos(2*np.pi*(time/t_d*t_y))+amp
+Tundisturbed = np.mean(amplitude)
+k=3.14
+q=k*(amplitude-Tundisturbed)/20
 
-plt.plot(time, amplitude)
-plt.title('Sine wave')
+#plt.plot(time, amplitude)
+plt.plot(time, q)
+#plt.title('Surface temperature')
+plt.title('Surface heat flux')
 plt.xlabel('Time (days)')
-plt.ylabel('Amplitude = temperature')
+#plt.ylabel('Amplitude = temperature')
+plt.ylabel('Amplitude = flux')
 plt.grid(True, which='both')
 plt.axhline(y=0, color='k')
-plt.savefig('T_input_'+ Tmin +'_'+Tmax+'.png') 
+#plt.savefig('T_input_'+ Tmin +'_'+Tmax+'.png') 
 plt.show()
 
-data=np.stack((time_s, amplitude), axis=-1)
-np.savetxt('sinT_'+ Tmin +'_'+Tmax+'.txt', data)
+#data=np.stack((time_s, amplitude), axis=-1)
+#np.savetxt('sinT_'+ Tmin +'_'+Tmax+'.txt', data)
+
+

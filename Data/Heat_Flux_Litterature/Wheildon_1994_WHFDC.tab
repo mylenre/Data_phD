@@ -1,0 +1,57 @@
+/* DATA DESCRIPTION:
+Citation:	Wheildon, J; Morgan, Paul; Williamson, K H; Evans, T R; Swanberg, C A (1994): Component parts of the World Heat Flow Data Collection. PANGAEA, https://doi.org/10.1594/PANGAEA.806192
+Related to:	International Heat Flow Commission, I H F C (2012): Global Heat Flow Database. The Global Heat Flow Database of the International Heat Flow Commission (IHFC), University of North Dakota, USA; (data copied, 2012-10), http://www.heatflow.und.edu/index2.html
+	Wheildon, J; Morgan, Paul; Williamson, K H; Evans, T R; Swanberg, C A (1994): Heat flow in the Kenya rift zone. Tectonophysics, 236(1-4), 131-149, https://doi.org/10.1016/0040-1951(94)90173-2
+Further details:	Jessop, Alan M; Hobart, Michael A; Sclater, John G (1976): The World Heat Flow Data Collection - 1975. Geological Survey of Canada, Earth Physics Branch, Geothermal Series, 5, 10 pp, hdl:10013/epic.40176.d002
+Coverage:	MEDIAN LATITUDE: -0.543231 * MEDIAN LONGITUDE: 36.516672 * SOUTH-BOUND LATITUDE: -2.083300 * WEST-BOUND LONGITUDE: 34.716700 * NORTH-BOUND LATITUDE: 3.183300 * EAST-BOUND LONGITUDE: 39.616700
+	MINIMUM ELEVATION: 607 m a.s.l. * MAXIMUM ELEVATION: 2150 m a.s.l.
+Parameter(s):	Area/locality (Area) * PI: Wheildon, J
+	Sample, optional label/labor no (Lab no) * PI: Wheildon, J
+	LATITUDE (Latitude) * GEOCODE
+	LONGITUDE (Longitude) * GEOCODE
+	ELEVATION [m a.s.l.] (Elevation) * GEOCODE
+	Depth, top/min [m] (Depth top) * PI: Wheildon, J * COMMENT: Minimum depth
+	Depth, bottom/max [m] (Depth bot) * PI: Wheildon, J * COMMENT: Maximum depth
+	Number of temperature data (No Temps) * PI: Wheildon, J
+	Temperature gradient [mK/m] (T grad) * PI: Wheildon, J
+	Number of conductivity measurements (No Cond) * PI: Wheildon, J
+	Conductivity, average [W/m K] (Cond average) * PI: Wheildon, J
+	Heat flow [mW/m**2] (HF) * PI: Wheildon, J
+	Number (No) * PI: Wheildon, J * COMMENT: Number of individual sites
+	Method comment (Method comm) * PI: Wheildon, J
+License:	Creative Commons Attribution 3.0 Unported (CC-BY-3.0)
+Size:	270 data points
+*/
+Area	Lab no	Latitude	Longitude	Elevation [m a.s.l.]	Depth top [m]	Depth bot [m]	No Temps	T grad [mK/m]	No Cond	Cond average [W/m K]	HF [mW/m**2]	No	Method comm
+KEN031	C2099/NAKU2099	-0.2333	35.8167	2127	79	167	54	65	14	1.04	67	1	borehole
+KEN037	C3437/NRIF3437	0.8000	36.2667	1155	79	151	22	66	16	1.31	87	1	borehole
+KEN041	C3698/ELDO3698	0.7000	35.2167	607	8	121	73	48	5	1.34	64	1	borehole
+KEN043	C1780/ELDO178	0.4833	35.2667	2150	61	123	40	28		1.48	45	1	borehole
+KEN051	C3133/Kenya 16	3.1833	38.1500	850	31	221	13	17	1	5.25	102	1	borehole
+Kenya	C2670	-0.3000	35.9167		60	110		56		1.00	56	1	
+Kenya	C3142	0.1833	35.4667		165	213		15		1.50	22	1	
+Kenya	C3148	-0.1333	35.0333		18	54		56		1.00	27	1	
+Kenya	C3671	-0.4833	34.7167		15	91		2		1.50	3	1	
+Kenya	C3724	2.2500	38.1000		160	175		16		1.50	24	1	
+Kenya	C3784	-0.2667	36.3833		52	89		58		1.10	64	1	
+Kenya	C3792	0.7667	39.6167		97	113		14		2.00	28	1	
+Kenya	C4028	-1.3667	37.9833		110	146		21		2.40	50	1	
+Kenya	C4111	-1.5000	35.2667		31	124		24		2.00	58	1	
+Kenya	C4135	1.8000	36.5833		31	157		26		1.90	51	1	
+Kenya	C4143	-1.2167	35.9333		31	186		64		1.40	90	1	
+Kenya	C4182	-1.8833	36.6000		31	98		9		1.90	17	1	
+Kenya	C4222	-0.3000	36.8500		37	119		24		1.80	42	1	
+Kenya	C4227	-1.4667	36.9500		62	115		17		1.60	26	1	
+Kenya	C4250	-2.0833	36.8167		95	168		17		3.00	51	1	
+Kenya	C4252	-0.2500	36.2833		31	183		25		1.60	39	1	
+Kenya	C4332	-1.1000	36.0500		66	191		50		1.40	68	1	
+Kenya	C4415	-2.0833	36.8167		44	136		12		3.00	35	1	
+Kenya	C4416	-1.3667	36.6667		63	184		1		1.90	1	1	
+Kenya	C4442	-1.1000	35.4000		32	119		18		1.40	25	1	
+Kenya	C4450	-1.4833	37.2167		32	124		14		2.40	33	1	
+Kenya	C4451	-1.9000	36.5833		32	177		14		1.90	27	1	
+Kenya	C4483	-1.5333	37.2667		32	69		9		2.40	21	1	
+Kenya	C4498	-1.8000	36.7333		73	98		18		1.90	35	1	
+Kenya	C4535	-1.3167	37.2167		38	86		5		2.40	11	1	
+Kenya	C4537	-1.1167	36.6333		85	149		2		1.90	4	1	
+Kenya	C4538	-1.2667	36.7333		10	73		0		1.90	0	1	

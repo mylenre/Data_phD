@@ -1,0 +1,57 @@
+/* DATA DESCRIPTION:
+Citation:	Richardson, S W; Oxburgh, E R (1978): Component parts of the World Heat Flow Data Collection. PANGAEA, https://doi.org/10.1594/PANGAEA.805619
+Related to:	International Heat Flow Commission, I H F C (2012): Global Heat Flow Database. The Global Heat Flow Database of the International Heat Flow Commission (IHFC), University of North Dakota, USA; (data copied, 2012-10), http://www.heatflow.und.edu/index2.html
+	Richardson, S W; Oxburgh, E R (1978): Heat flow, radiogenic heat production and crustal temperatures in England and Wales. Journal of the Geological Society, 135, 323-337, https://doi.org/10.1144/gsjgs.135.3.0323
+Further details:	Jessop, Alan M; Hobart, Michael A; Sclater, John G (1976): The World Heat Flow Data Collection - 1975. Geological Survey of Canada, Earth Physics Branch, Geothermal Series, 5, 10 pp, hdl:10013/epic.40176.d002
+Coverage:	MEDIAN LATITUDE: 52.887655 * MEDIAN LONGITUDE: -1.774474 * SOUTH-BOUND LATITUDE: 50.856300 * WEST-BOUND LONGITUDE: -4.150000 * NORTH-BOUND LATITUDE: 54.643600 * EAST-BOUND LONGITUDE: 1.406300
+	MINIMUM ELEVATION: 5 m a.s.l. * MAXIMUM ELEVATION: 284 m a.s.l.
+Parameter(s):	Area/locality (Area) * PI: Richardson, S W
+	Sample, optional label/labor no (Lab no) * PI: Richardson, S W
+	LATITUDE (Latitude) * GEOCODE
+	LONGITUDE (Longitude) * GEOCODE
+	ELEVATION [m a.s.l.] (Elevation) * GEOCODE
+	Depth, top/min [m] (Depth top) * PI: Richardson, S W * COMMENT: Minimum depth
+	Depth, bottom/max [m] (Depth bot) * PI: Richardson, S W * COMMENT: Maximum depth
+	Number of temperature data (No Temps) * PI: Richardson, S W
+	Temperature gradient [mK/m] (T grad) * PI: Richardson, S W
+	Number of conductivity measurements (No Cond) * PI: Richardson, S W
+	Conductivity, average [W/m K] (Cond average) * PI: Richardson, S W
+	Heat production, average [W/m**3] (Heat prod average) * PI: Richardson, S W
+	Heat flow [mW/m**2] (HF) * PI: Richardson, S W
+	Number (No) * PI: Richardson, S W * COMMENT: Number of individual sites
+	Method comment (Method comm) * PI: Richardson, S W
+License:	Creative Commons Attribution 3.0 Unported (CC-BY-3.0)
+Size:	289 data points
+*/
+Area	Lab no	Latitude	Longitude	Elevation [m a.s.l.]	Depth top [m]	Depth bot [m]	No Temps	T grad [mK/m]	No Cond	Cond average [W/m K]	Heat prod average [W/m**3]	HF [mW/m**2]	No	Method comm
+United Kingdom	Approach Farm	53.8413	-1.0455	9	10	160		16		3.20		54	1	borehole
+United Kingdom	Barton Stacey	51.1822	-1.3747	65	84	270		25		1.91		52	1	borehole
+United Kingdom	Boulby	54.5547	-0.8230	83	799	1087		21	27	2.23		47	1	borehole
+United Kingdom	Bradley Mill	53.2850	-2.7037	60	70	190		17		3.22		59	1	borehole
+United Kingdom	Bryn Teg	52.8705	-3.9328	185	294	340		11	44	4.30	0.6		1	borehole
+United Kingdom	Clotton	53.1672	-2.7062	40		305		10		3.18		34	1	borehole
+United Kingdom	Clumphill	50.8563	-1.9062	50	110	400		31		1.92		67	1	borehole
+United Kingdom	Coed-y-Brenin	52.8147	-3.8592	171	200	450		15	23	3.49	1.3		1	borehole
+United Kingdom	Corringham	53.4313	-0.6467	20	40	385		36		2.02		63	1	borehole
+United Kingdom	Croft Quarry	52.5628	-1.2430	25	222	324		12	30		0.8		1	borehole
+United Kingdom	Eyam	53.2805	-1.6855	230	82	470		5		3.46		17	1	borehole
+United Kingdom	Fair Cross	51.3633	-0.9987	55	75	310		31		1.90		59	1	borehole
+United Kingdom	Glanfred	52.4733	-4.0163	14	281	396		24	39	3.02	2.0		1	borehole
+United Kingdom	Kirkham	53.7855	-2.8622	15	20	405		37		1.98		71	1	borehole
+United Kingdom	Long Bennington	52.9650	-0.7522	20	35	230		27		3.19		88	1	borehole
+United Kingdom	Malvern Gas Wks	52.1403	-2.3097	50	35	245		16		2.09		34	1	borehole
+United Kingdom	Mochras	52.8167	-4.1500	5		450		18	38	3.08			1	borehole
+United Kingdom	North Duffield	53.8087	-0.9500	7	875	960		26	45	2.66		60	1	borehole
+United Kingdom	Organsdale	53.2095	-2.6725	105	70	470		10		3.22		25	1	borehole
+United Kingdom	Priors Heyes	53.1922	-2.7305	30	10	340		11		3.24		34	1	borehole
+United Kingdom	Raydale	54.2580	-2.1495	268	520	593		23	50	3.65	2.9		1	borehole
+United Kingdom	Skipwith	53.8225	-0.9912	10	10	210		17		3.23		54	1	borehole
+United Kingdom	Skipwith Bridge	53.8580	-1.0055	6	10	165		18		3.30		59	1	borehole
+United Kingdom	Steeple Aston	51.9287	-1.3180	131	34	440		25	21	1.74		46	1	borehole
+United Kingdom	Stenigot	53.3192	-0.1383	73	30	195		63	10	1.51		75	1	borehole
+United Kingdom	Thorpe-by-Water	52.5583	-0.6933	74	280	360		34	47	1.75	1.9		1	borehole
+United Kingdom	Trunch	52.8587	1.4063	30	530	650		29	47	1.78		63	1	borehole
+United Kingdom	Vernhamsdean	51.3062	-1.5078	130	60	130		17				25	1	borehole
+United Kingdom	West Lavington	51.3053	-2.0145	83	80	152		38		1.30		46	1	borehole
+United Kingdom	Withycombe Farm	52.0578	-1.3700	144	850	1060		30	56	2.03	1.5		1	borehole
+United Kingdom	Woodland	54.6436	-1.8583	284	197	488	4	39	27	3.83		105	1	borehole

@@ -4,7 +4,11 @@ Created on Mon Dec  9 09:57:16 2019
 
 @author: mylen
 """
-
+######################### import packages ############################
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import os
 import numpy, scipy.optimize
 
 def fit_sin(tt, yy):
@@ -25,16 +29,8 @@ def fit_sin(tt, yy):
     fitfunc = lambda t: A * numpy.cos(w*t + p) + c
     return {"amp": A, "omega": w, "phase": p, "offset": c, "freq": f, "period": 1./f, "fitfunc": fitfunc, "maxcov": numpy.max(pcov), "rawres": (guess,popt,pcov)}
 
-import pandas as pd
-import numpy as np
-from numpy import log as ln
-import matplotlib.pyplot as plt
-import os
-
-
 
 #########################define parameters############################
-#datelist=np.arange(2000,2011,1)
 datelist=np.arange(2000,2011,1) # years to consider for average
 time=np.arange(0,86400*366,86400) # time steps in one year
 t=30 #total simulation time (years)
@@ -44,9 +40,7 @@ tt=np.arange(0,t*366*24*3600,86400) #10980 steps
 #L= (2*a/w) #damping depth
 
 ########################### AIR TEMPERATURE##########################
-
-
-os.chdir(r'R:\GitHub\Data_phD\Data\Paisley\AirTemperature')
+os.chdir(r'R:\GitHub\Data_phD\Data\Climate_Data\Paisley\AirTemperature')
 AT={}
 alldate=[]
 alltemp=[]
@@ -89,7 +83,7 @@ plt.subplot(4,1,1)
 plt.scatter(table[:,0],table[:,1], s=1, label='Air temperature data')
 
 res = fit_sin(table[:,0],table[:,1])
-ATfit_lt=res["fitfunc"](tt)
+#ATfit_lt=res["fitfunc"](tt)
 ATfit=res["fitfunc"](table[:,0])
 print( "Amplitude=%(amp)s, Angular freq.=%(omega)s, phase=%(phase)s, offset=%(offset)s, Max. Cov.=%(maxcov)s" % res )
 plt.plot(table[:,0], ATfit , label="Fit Air Temperature", linewidth=2)
@@ -97,7 +91,7 @@ plt.plot(table[:,0], ATfit , label="Fit Air Temperature", linewidth=2)
 
 ########################### SOIL TEMPERATURE##########################
 
-os.chdir(r'R:\GitHub\Data_phD\Data\Paisley\Soil_Temp_CEDA')
+os.chdir(r'R:\GitHub\Data_phD\Data\Climate_Data\Paisley\Soil_Temp_CEDA')
 ST= {}
 ST2= {}
 with open('listfile.txt', 'r') as filehandle:
@@ -122,21 +116,25 @@ for i in datelist:
             temp2= ST2[year]
             temp2=np.array(temp2)
             list_ST2.append(temp2)
-#average= np.mean(total, axis=0)-273
+            
+#soil temperature at 30 cm
 averageST= np.nanmean(list_ST, axis=0)
 table=np.stack((time, averageST), axis=-1)
 plt.scatter(table[:,0],table[:,1], c="k", s=1, label="Soil temperature data 30 cm")
+
 res = fit_sin(table[:,0],table[:,1])
-STfit_lt=res["fitfunc"](tt)
+#STfit_lt=res["fitfunc"](tt)
 STfit=res["fitfunc"](table[:,0])
 print( "Amplitude=%(amp)s, Angular freq.=%(omega)s, phase=%(phase)s, offset=%(offset)s, Max. Cov.=%(maxcov)s" % res )
 plt.plot(table[:,0], STfit , "k-", label="Fit Soil Temperature 30 cm", linewidth=2) 
 
-averageST= np.nanmean(list_ST2, axis=0)
-table=np.stack((time, averageST), axis=-1)
+#soil temperature at 100 cm
+averageST2= np.nanmean(list_ST2, axis=0)
+table=np.stack((time, averageST2), axis=-1)
 plt.scatter(table[:,0],table[:,1], c="r", s=1, label="Soil temperature data 100 cm")
+
 res = fit_sin(table[:,0],table[:,1])
-STfit_lt=res["fitfunc"](tt)
+#STfit_lt=res["fitfunc"](tt)
 STfit=res["fitfunc"](table[:,0])
 print( "Amplitude=%(amp)s, Angular freq.=%(omega)s, phase=%(phase)s, offset=%(offset)s, Max. Cov.=%(maxcov)s" % res )
 plt.plot(table[:,0], STfit , "r-", label="Fit Soil Temperature 100 cm", linewidth=2) 
@@ -148,7 +146,7 @@ plt.legend(loc="best")
 ########################### WINDSPEED ##########################
 
 
-os.chdir(r'R:\GitHub\Data_phD\Data\Paisley\Windspeed')
+os.chdir(r'R:\GitHub\Data_phD\Data\Climate_Data\Paisley\Windspeed')
 WS= {}
 alldate=[]
 allwind=[]
@@ -198,9 +196,9 @@ plt.legend(loc="best")
 
 ########################### SHORTWAVE (solar radiations) ##########################
  
-albedo=0.15
+albedo=0
 
-os.chdir(r'R:\GitHub\Data_phD\Data\Paisley\Shortwave')
+os.chdir(r'R:\GitHub\Data_phD\Data\Climate_Data\Paisley\Shortwave')
 SW= {}
 alldate=[]
 allSW=[]
@@ -249,7 +247,7 @@ plt.plot(table[:,0],SWfit, "g-", label="Fit shortwave", linewidth=2)
 
 ########################### LONGWAVE ##########################
 
-os.chdir(r'R:\GitHub\Data_phD\Data\Paisley\Longwave')
+os.chdir(r'R:\GitHub\Data_phD\Data\Climate_Data\Paisley\Longwave')
 LW= {}
 alldate=[]
 allLW=[]
@@ -299,7 +297,7 @@ plt.plot(table[:,0],LWfit, "b-", label="Fit longwave", linewidth=2)
 a=17.3          # Qin et al., 2013 (q_irr)
 b=237.7
 c=5.67*10**(-8) # Stefan-Boltzmann constant
-e=0.9 # ground surface emissivity
+e=0.9           # ground surface emissivity
 RH= 80 
 
 #gamma=(a*ATfit)/(b+ATfit)+ln(RH/100) # Qin et al., 2013 (q_irr)
@@ -313,7 +311,7 @@ Tsky = (ATfit+273.15)*(0.711+0.0056*Td+0.000073*Td**2)**(1/4)  # Gwadera et al (
 TLWm=0.5*((STfit+273.15)+Tsky)
 LWEarth=4*c*TLWm**3*((STfit+273)-Tsky)
 #LWEarth=c*((STfit+273)**4-Tsky**4)
-#LWEarth=e*c*((STfit+273)**4-Tsky*4) # Larwa, 2018 
+#LWEarth=e*c*((STfit+273)**4-Tsky*4)                           # Larwa, 2018 
 #LWEarth=e*4.83*((STfit+273)-Tsky) 
 
 plt.plot(table[:,0],LWEarth, label='Average Longwave from Earth') 
@@ -337,18 +335,18 @@ plt.legend(loc="best")
 
 
 ######################### conductive heat flux ##########################
-os.chdir(r'R:\GitHub\Data_phD\Data\Paisley')
+os.chdir(r'R:\GitHub\Data_phD\Data\Climate_Data\Paisley')
 
 plt.subplot(4,1,4)
-qcond=H+SWfit-LWEarth  #qconv+qabs+qirr in Qin et al., 2013
+qcond=H+SWfit-LWEarth      #qconv+qabs+qirr in Qin et al., 2013
 plt.plot(table[:,0],qcond, label='Conductive heat flux')
 plt.legend(loc="best")
 plt.xlabel('Time (s)')
 plt.ylabel('W/m2')
 plt.grid(True, which='both')
-plt.savefig('Paisley_meteo.png') 
+#plt.savefig('Paisley_meteo.png') 
 
-#######################"" create AT and qcond output file###############
+#######"" create AT and qcond output file for 30 years simulation ###########
 
 AT_sim=[]
 for i in range(30):
@@ -366,7 +364,6 @@ plt.figure(figsize=(16,5))
 #plt.plot(tt, AT_sim, label="AT stack")
 #plt.plot(tt, ATfit_lt, label="lt interpolation")
 
-####################### interp #####################################
 def moving_average(y, K=5):
     """
     2K+1 point moving average of array y
@@ -391,15 +388,85 @@ plt.plot(Curve_qcond[:,0],Curve_qcond[:,1],c='r')
 plt.ylim(-150,150)
 plt.ylabel('Flux (W/m²)',color='r')
 
-
-
-##################### surface flux from AT and average soil T###########
-k = 1.7 # soil conductivity
-Tav = 10
-Dx = 20 # from previous analysis, depth where no annual fluctuation
-q = k * (Tav - AT_smooth)/Dx
-
 #plt.savefig('Paisley_inputs.png') 
-
 #np.savetxt('Curve_AT_Paisley.txt', Curve_AT)
 #np.savetxt('Curve_qcond_Paisley.txt', Curve_qcond)
+
+
+
+########################################################################
+########### Effective surface temperature Singh and Sharma 2017 T########
+########################################################################
+
+os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling')
+c=5.67*10**(-8)  # Stefan-Boltzmann constant
+e=0.9            # ground surface emissivity
+absorp=0.5
+hr=4*e*c*ATfit**3
+hc=2.8+3*WSfit
+Tsky=ATfit-12
+h=hr+hc
+S=SWfit
+DR=c*((ATfit+273.15)**4-(Tsky+273.15)**4)
+
+#calculate effetcive air temperature
+Te=ATfit+absorp*S/h-e*DR/h
+meanSoilTemp=np.mean(STfit)
+meanTe=np.mean(Te)
+
+# calculate ground temperature
+Tg0=[]
+Dy=2
+k=3.14
+for i in np.arange(366):
+    temp=(STfit[i]+(h[i]*Dy/k)*Te[i])/(1+(h[i]*Dy/k))
+    Tg0.append(temp)
+
+# plot Teff
+plt.figure(figsize=(16,10))
+plt.subplot(2,1,1)
+plt.plot(table[:,0], STfit , "k-", label="Fit Soil Temperature 30 cm", linewidth=2) 
+plt.plot(table[:,0], Te, color='blue', label="Effective temperature", linewidth=2)
+plt.plot(table[:,0], Tg0, color='r', label="Calculated ground temperature", linewidth=2)
+plt.xlabel('Time (s)')
+plt.ylabel('Temperature (°C)')
+plt.legend(loc='best')
+
+
+#plot flux
+plt.subplot(2,1,2)
+qsurf= 1.2 *(Tg0-STfit)/0.3 # Soil conductivity and temperature at 30 cm              #v3 (deleted)
+averageq = np.mean(qsurf)
+minq= np.min(qsurf) 
+maxq= np.max(qsurf) 
+
+plt.plot(table[:,0], qsurf , "k-", linewidth=2) 
+plt.xlabel('Time (s)')
+plt.ylabel('Flux (W/m2)')
+#plt.savefig('Surface_Temperature.png') 
+
+###################### R:\Modeling\2D_Models\M1 ######################
+dt_d = 1 
+dt_s=3600*24 # 1 day
+t_y= 1000 # year
+t_d=dt_d*365.25*t_y
+t_s=dt_s*365.25*t_y
+
+time = np.arange(0, t_d, dt_d)
+time_s= np.arange(0, t_s, dt_s)
+#surflux = 4*np.cos(2*np.pi*(time/t_d*t_y)+1.571) -0.026                                #BEMCHMARK        
+surflux = 4*np.cos(2*np.pi*(time/t_d*t_y)+1.5708) -0.068                                #M1    
+
+plt.figure(figsize=(16,5))
+plt.plot(time, surflux)
+plt.title('Average daily surface flux for 30 years')
+plt.xlabel('Time (days)')
+plt.ylabel('Amplitude = flux')
+plt.grid(True, which='both')
+plt.axhline(y=0, color='k')
+
+#plt.savefig('q_surface_4.png') 
+
+qsurfaceinput=np.stack((time_s, surflux), axis=-1)
+
+#np.savetxt('qsurf_4.txt', qsurfaceinput)

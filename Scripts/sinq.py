@@ -8,40 +8,66 @@ Created on Fri Nov 29 01:12:49 2019
 import os
 import numpy as np
 import matplotlib.pyplot as plt
-#os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Modeling_results\Solar_1D_models\input_files')
-#os.chdir(r'D:\mylen\Documents\phD\Data_phD\Modeling\Midlothian')
-#os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Modeling_results\Solar_1D_models\Analysis\ST_sin\Tinput\Cyclical_Production')
-#os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Modeling_results\Solar_1D_models\Analysis\ST_sin\qinput\qinput_PaisleyBased_v2')
-os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Modeling_results\Solar_1D_models\Updates')
+os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Heat_Models\1D')
 
-qmax=input("Enter qmax : ")
-qmin=input("Enter qmin : ")
-amp=abs((abs(eval(qmax))-abs(eval(qmin)))/2)
-#amp=abs((abs(eval(qmax))-abs(eval(qmin))))/2
+#qmax=input("Enter qmax : ")
+#qmin=input("Enter qmin : ")
+#amp=(abs(eval(qmax))+abs(eval(qmin)))/2
+
+qmax=6
+qmin=-qmax
+amp=abs(qmax-qmin)/2
 
 dt_d=1
 dt_s=3600*24
 
-t_y=input("Enter nb year : ")
-t_y=eval(t_y)
-t_d=dt_d*365.25*t_y
-t_s=dt_s*365.25*t_y
-
-
+#t_y=input("Enter nb year : ")
+#t_y=eval(t_y)
+t_y=2
+t_d=dt_d*365*t_y
+t_s=dt_s*365*t_y
 time = np.arange(0, t_d, dt_d)
 time_s= np.arange(0, t_s, dt_s)
-amplitude = (amp+eval(qmin))-amp*np.cos(2*np.pi*(time/t_d*t_y))
+time_yr = time/365
 
-plt.plot(time, amplitude)
-plt.title('Sine wave')
+plt.figure(figsize=(14,6))
+
+##surface flux
+plt.subplot(1,2,1)
+amplitude = amp*np.sin(2*np.pi*(time/t_d*t_y))-0.06
+data=np.stack((time_s, amplitude), axis=-1)
+#np.savetxt('surface_flux.txt', data)
+plt.plot(time_yr, amplitude, "k-", label="Surface flux", linewidth=2)
+plt.title('Surface flux and temperature')
 plt.xlabel('Time (days)')
-plt.ylabel('Amplitude = flux')
+plt.ylabel('Amplitude surface flux (W/m²) ')
+plt.ylim(-10,10)
 plt.grid(True, which='both')
 plt.axhline(y=0, color='k')
-plt.savefig('q_input_'+ qmin +'_'+qmax+'.png') 
-plt.show()
 
+##temperature y=0
+plt.twinx()
+t = np.loadtxt('POINT0.txt', skiprows=0, usecols=0)  # first column 
+tyr= t/(3600*24*365)
+T = np.loadtxt('POINT0.txt', skiprows=0, usecols=1)  # 2nd column 
+plt.plot(tyr[0:721], T[0:721], "r-", label="Temperature", linewidth=2)
+plt.ylim(-2,15)
+plt.ylabel('Temperature (degC)',color='r')
+
+
+##extraction
+plt.subplot(1,2,2)
+amplitude = -294*np.sin(2*np.pi*(time/t_d*t_y))-1000
 data=np.stack((time_s, amplitude), axis=-1)
-#np.savetxt('sinq_'+ qmin +'_'+qmax+'.txt', data)
-np.savetxt('extraction_'+ qmin +'_'+qmax+'W.txt', data)
+#np.savetxt('extraction_rate.txt', data)
+plt.plot(time_yr, amplitude, "k-", label="Extraction rate", linewidth=2)
+plt.title('Extraction rate along borehole')
+plt.xlabel('Time (days)')
+plt.ylabel('Extraction rate (W)')
+plt.ylim(-1500,-600)
+plt.grid(True, which='both')
+plt.ylabel('Extraction rate (W)')
+plt.tight_layout()
 
+#plt.savefig('q_input_'+ qmin +'_'+qmax+'.png') 
+plt.savefig('surface_flux_extraction_rate.png') 

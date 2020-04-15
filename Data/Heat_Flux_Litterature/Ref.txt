@@ -1,0 +1,10 @@
+OR17006fig47: The most recent heat flow map for the UK is shown in Figure 47, from Busby. This heat flow map originates from the third version of the Geothermal Catalogue of the UK (Rollin, 1987[3]) and includes data from 390 deep (>1000 m) boreholes.
+http://earthwise.bgs.ac.uk/index.php/OR/17/006_Geothermal_data_for_the_Glasgow_area
+BUSBY, J, KINGDON, A, and WILLIAMS, J, 2011. The measured shallow temperature field in Britain. Quarterly Journal of Engineering Geology and Hydrogeology, 44:3, 373–387. 
+In Monaghan, A A, Dochartaigh, B O, Fordyce, F, Loveless, S, Entwisle, D, Quinn, M, Smith, K, Ellen, R, Arkley, S, Kearsey, T, Campbell, S D G, Fellgett, M, and Mosca, I. 2017. UKGEOS - Glasgow geothermal Energy Research Field Site (GGERFS): initial summary of the geological platform. British Geological Survey Open Report, OR/17/006.
+
+
+Busby_2017:
+https://link.springer.com/article/10.1186/s40517-017-0066-z
+Locations in Great Britain with significant quantities of heat producing granites within the upper crust. Quantitative figures of average heat production in, μWm-3, are shown for depths to 5 and 10 km respectively
+

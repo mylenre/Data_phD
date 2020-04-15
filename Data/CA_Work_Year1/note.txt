@@ -1,7 +1,0 @@
-Check data available in Dawdon area / Bilston Glen 
-water data into two systems: Access database and SevenTren Svc
-Read reports about mine geometries in area of interests (Lee)
-Temperature data from Bren: where are the data + what are the limitations ? Plot and understand patterns depending on location where the pump is installed
-GIS data - Emily 
-Prospect - GIS system with Contour water level for Dawdon 
-

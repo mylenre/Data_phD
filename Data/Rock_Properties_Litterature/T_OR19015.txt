@@ -1,0 +1,207 @@
+Busby, J P. 2019. Thermal conductivity and subsurface temperature data pertaining to the Glasgow Geothermal Energy Research Field Site (GGERFS). British Geological Survey Open Report, OR/19/015.
+
+Hallside Borehole (266940E, 659750N) Data ref. Burley et al. (1984)
+Depth (m) Temperature (⁰C) Type Comment
+350.0 11.8 LOG 60 hr after circulation correction applied
+
+Queenslie No. 4 Borehole (264660E, 665980N) Data ref. Burley et al. (1984)
+Depth (m Temperature (⁰C) Type Comment
+691.0 36.0 BHT No correction applied
+
+Bargeddie No. 1 Borehole (269378E, 664649N) Data ref. DECC Onshore Wells
+Depth (m) Temperature (⁰C) Type Comment
+720.8 30.3 DST DST 6; tight?
+773.9 29.5 DST DST 2; produced gas
+802.8 32.9 DST DST 4; tight?
+884.0 36.1 DST DST 5; produced water
+934.9 38.0 DST DST 3; produced water
+978.9 38.7 DST DST 1; produced water
+
+Blythswood Borehole (250030E, 668230N) Data ref. Burley et al. (1984)
+Depth (m) Temperature (⁰C) Type Comment
+105.0 12.0 EQM
+
+Highhouse Colliery (253210E, 672020N) Data ref. Burley et al. (1984)
+Depth (m) Temperature (⁰C) Type Comment
+436.0 18.0 MWT
+
+South Balgray Borehole (250000E, 675000N) Data ref. Burley et al. (1984)
+Depth (m) Temperature (⁰C) Type Comment
+137.0 14.5 EQM
+160.0 15.3 EQM
+
+Salsburgh 1A Borehole (281660E, 664860N) Data ref. Burley et al. (1984)
+Depth (m) Temperature (⁰C) Type Comment
+874.0 29.0 DST No correction applied
+883.0 30.0 BHT No correction applied
+
+Salsburgh 2 Borehole (282110E, 663850N) Data ref. Rollin (1987)
+Depth (m) Temperature (⁰C) Type Comment
+1104.0 44.0 BHT No correction applied
+
+Craighead No. 1 Borehole (282670E, 662120N) Data ref. Burley et al. (1984)
+Depth (m) Temperature (⁰C) Type Comment
+977.0 35.0 BHT No correction applied
+
+Clachie Bridge Borehole (264470E, 683680N) Data ref. Burley et al. (1984) & Oxburgh (1982)
+Depth (m) Temperature (⁰C) Type Comment
+30 7.0 LOG 
+35 7.1 LOG 
+45 7.4 LOG 
+55 7.6 LOG 
+80 8.3 LOG 
+90 8.6 LOG 
+120 9.3 LOG 
+130 9.6 LOG 
+135 9.7 LOG 
+140 9.8 LOG 
+145 9.9 LOG 
+170 10.6 LOG 
+180 10.8 LOG 
+200 11.3 LOG 
+205 11.4 LOG 
+215 11.6 LOG 
+225 11.8 LOG 
+230 11.9 LOG 
+235 12.0 LOG 
+245 12.2 LOG 
+265 12.6 LOG 
+285 13.0 LOG 
+290 13.0 LOG 
+300 13.2 LOG 
+ 
+Maryhill Borehole (257180E, 668560N) Data ref. Wheildon et al. (1985)
+Depth (m) Temperature (⁰C) Type Comment
+6.12 9.36 EQM 
+9.18 9.39 EQM 
+12.24 9.39 EQM 
+15.30 9.43 EQM 
+18.35 9.50 EQM 
+21.41 9.64 EQM 
+24.47 9.80 EQM 
+27.53 10.01 EQM 
+30.59 10.17 EQM 
+33.65 10.26 EQM 
+36.71 10.31 EQM 
+39.77 10.39 EQM
+42.83 10.49 EQM 
+45.89 10.62 EQM 
+48.95 10.77 EQM 
+52.00 10.92 EQM 
+55.06 11.01 EQM 
+58.12 11.09 EQM 
+61.18 11.18 EQM 
+64.24 11.29 EQM 
+67.30 11.36 EQM 
+70.36 11.43 EQM 
+73.42 11.48 EQM 
+76.48 11.53 EQM 
+79.54 11.61 EQM 
+82.60 11.72 EQM 
+85.65 11.83 EQM 
+88.71 11.92 EQM 
+91.77 12.00 EQM 
+94.83 12.08 EQM 
+97.89 12.28 EQM 
+100.95 12.29 EQM 
+104.01 12.40 EQM 
+107.07 12.51 EQM 
+110.13 12.71 EQM 
+113.19 12.91 EQM 
+116.25 13.09 EQM 
+119.30 13.27 EQM 
+122.36 13.45 EQM 
+125.42 13.67 EQM 
+128.48 13.87 EQM 
+131.54 14.05 EQM 
+134.60 14.17 EQM 
+137.66 14.27 EQM 
+140.72 14.37 EQM 
+143.78 14.47 EQM 
+146.84 14.55 EQM 
+149.89 14.64 EQM 
+152.95 14.73 EQM 
+156.01 14.82 EQM 
+159.07 14.94 EQM 
+162.13 15.07 EQM 
+165.19 15.23 EQM 
+168.25 15.37 EQM 
+171.31 15.49 EQM
+174.37 15.61 EQM
+177.43 15.73 EQM
+180.49 15.84 EQM
+183.54 15.93 EQM
+186.60 16.01 EQM
+189.66 16.09 EQM
+192.72 16.18 EQM
+195.78 16.27 EQM
+198.84 16.35 EQM
+201.90 16.43 EQM
+204.96 16.51 EQM
+208.02 16.60 EQM
+211.08 16.69 EQM
+214.14 16.77 EQM
+217.19 16.86 EQM
+220.25 16.95 EQM 
+223.31 17.04 EQM 
+226.37 17.13 EQM
+229.43 17.24 EQM
+232.49 17.32 EQM
+235.55 17.41 EQM
+238.61 17.50 EQM
+241.67 17.58 EQM
+244.73 17.64 EQM
+247.79 17.69 EQM
+250.84 17.73 EQM
+253.90 17.78 EQM
+256.96 17.82 EQM
+260.02 17.88 EQM
+263.08 17.97 EQM
+266.14 18.07 EQM
+269.20 18.18 EQM
+272.26 18.30 EQM 
+275.32 18.40 EQM 
+278.38 18.49 EQM
+281.44 18.61 EQM 
+284.49 18.78 EQM
+287.55 18.96 EQM
+290.61 19.18 EQM
+293.67 19.39 EQM
+296.73 19.57 EQM
+299.79 19.80 EQM
+302.85 20.01 EQM
+303.12 20.03 EQM
+ 
+Hurlet House borehole (250100E, 661200N) Data ref. Oxburgh (1982)
+Depth (m) Temperature (⁰C) Type Comment
+15 9.2 LOG
+21 9.3 LOG
+40 9.8 LOG
+75 10.7 LOG
+85 11.0 LOG 
+90 11.2 LOG 
+95 11.3 LOG 
+105 11.5 LOG 
+115 11.6 LOG 
+125 11.9  LOG 
+135 12.1 LOG 
+145 12.3 LOG 
+160 12.6 LOG 
+175 12.9 LOG 
+185 13.1 LOG 
+195 13.3 LOG 
+205 13.5 LOG 
+215 13.6 LOG 
+225 13.8 LOG 
+235 14.0 LOG 
+240 14.1 LOG 
+245 14.2 LOG 
+255 14.4 LOG 
+260 14.6 LOG 
+265 14.7 LOG 
+270 14.8 LOG 
+275 15.0 LOG 
+280 15.1 LOG 
+285 15.3 LOG 
+290 15.5 LOG 
+295 15.6 LOG 

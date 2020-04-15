@@ -1,0 +1,26 @@
+/* DATA DESCRIPTION:
+Citation:	Oxburgh, E R; Richardson, S W; Bloomer, J R; Martin, A; Wright, S (1977): Component parts of the World Heat Flow Data Collection. PANGAEA, https://doi.org/10.1594/PANGAEA.805369
+Related to:	International Heat Flow Commission, I H F C (2012): Global Heat Flow Database. The Global Heat Flow Database of the International Heat Flow Commission (IHFC), University of North Dakota, USA; (data copied, 2012-10), http://www.heatflow.und.edu/index2.html
+	Oxburgh, E R; Richardson, S W; Bloomer, J R; Martin, A; Wright, S (1977): Sub-surface temperatures from heat flow studies in the United Kingdom. Seminar Geothermal Energy (Commission of the European Communities), 1, 155-173
+Further details:	Jessop, Alan M; Hobart, Michael A; Sclater, John G (1976): The World Heat Flow Data Collection - 1975. Geological Survey of Canada, Earth Physics Branch, Geothermal Series, 5, 10 pp, hdl:10013/epic.40176.d002
+Coverage:	MEDIAN LATITUDE: 53.342350 * MEDIAN LONGITUDE: -2.893900 * SOUTH-BOUND LATITUDE: 50.779700 * WEST-BOUND LONGITUDE: -3.570800 * NORTH-BOUND LATITUDE: 55.905000 * EAST-BOUND LONGITUDE: -2.217000
+	MINIMUM ELEVATION: 61 m a.s.l. * MAXIMUM ELEVATION: 160 m a.s.l.
+Parameter(s):	Area/locality (Area) * PI: Oxburgh, E R
+	Sample, optional label/labor no (Lab no) * PI: Oxburgh, E R
+	LATITUDE (Latitude) * GEOCODE
+	LONGITUDE (Longitude) * GEOCODE
+	ELEVATION [m a.s.l.] (Elevation) * GEOCODE
+	Depth, top/min [m] (Depth top) * PI: Oxburgh, E R * COMMENT: Minimum depth
+	Depth, bottom/max [m] (Depth bot) * PI: Oxburgh, E R * COMMENT: Maximum depth
+	Temperature gradient [mK/m] (T grad) * PI: Oxburgh, E R
+	Number of conductivity measurements (No Cond) * PI: Oxburgh, E R
+	Conductivity, average [W/m K] (Cond average) * PI: Oxburgh, E R
+	Heat flow [mW/m**2] (HF) * PI: Oxburgh, E R
+	Number (No) * PI: Oxburgh, E R * COMMENT: Number of individual sites
+	Method comment (Method comm) * PI: Oxburgh, E R
+License:	Creative Commons Attribution 3.0 Unported (CC-BY-3.0)
+Size:	20 data points
+*/
+Area	Lab no	Latitude	Longitude	Elevation [m a.s.l.]	Depth top [m]	Depth bot [m]	T grad [mK/m]	No Cond	Cond average [W/m K]	HF [mW/m**2]	No	Method comm
+United Kingdom	Livingston	55.9050	-3.5708	160	276	640	42	81	1.84	62	1	borehole
+United Kingdom	Winterborne Kingston	50.7797	-2.2170	61	324	1803	34	234	2.26	78	1	borehole

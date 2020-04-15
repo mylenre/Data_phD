@@ -1,0 +1,24 @@
+/* DATA DESCRIPTION:
+Citation:	England, P C; Oxburgh, E R; Richardson, S W (1980): Component parts of the World Heat Flow Data Collection. PANGAEA, https://doi.org/10.1594/PANGAEA.804249
+Related to:	England, P C; Oxburgh, E R; Richardson, S W (1980): Heat refraction and heat production in and around granite plutons in north-east England. Geophysical Journal International, 62(2), 439-455, https://doi.org/10.1111/j.1365-246X.1980.tb04866.x
+	International Heat Flow Commission, I H F C (2012): Global Heat Flow Database. The Global Heat Flow Database of the International Heat Flow Commission (IHFC), University of North Dakota, USA; (data copied, 2012-10), http://www.heatflow.und.edu/index2.html
+Further details:	Jessop, Alan M; Hobart, Michael A; Sclater, John G (1976): The World Heat Flow Data Collection - 1975. Geological Survey of Canada, Earth Physics Branch, Geothermal Series, 5, 10 pp, hdl:10013/epic.40176.d002
+Coverage:	LATITUDE: 54.216700 * LONGITUDE: -2.209200
+	MINIMUM ELEVATION: 337 m a.s.l. * MAXIMUM ELEVATION: 337 m a.s.l.
+Parameter(s):	Area/locality (Area) * PI: England, P C
+	Sample, optional label/labor no (Lab no) * PI: England, P C
+	LATITUDE (Latitude) * GEOCODE
+	LONGITUDE (Longitude) * GEOCODE
+	ELEVATION [m a.s.l.] (Elevation) * GEOCODE
+	Depth, top/min [m] (Depth top) * PI: England, P C * COMMENT: Minimum depth
+	Depth, bottom/max [m] (Depth bot) * PI: England, P C * COMMENT: Maximum depth
+	Temperature gradient [mK/m] (T grad) * PI: England, P C
+	Number of conductivity measurements (No Cond) * PI: England, P C
+	Conductivity, average [W/m K] (Cond average) * PI: England, P C
+	Number (No) * PI: England, P C * COMMENT: Number of individual sites
+	Method comment (Method comm) * PI: England, P C
+License:	Creative Commons Attribution 3.0 Unported (CC-BY-3.0)
+Size:	9 data points
+*/
+Area	Lab no	Latitude	Longitude	Elevation [m a.s.l.]	Depth top [m]	Depth bot [m]	T grad [mK/m]	No Cond	Cond average [W/m K]	No	Method comm
+United Kingdom	Beckermonds	54.2167	-2.2092	337	267	44	19	15	3.85	1	lake
