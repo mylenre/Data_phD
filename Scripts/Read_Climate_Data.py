@@ -117,17 +117,6 @@ for i in datelist:
             temp2=np.array(temp2)
             list_ST2.append(temp2)
             
-#soil temperature at 30 cm
-averageST= np.nanmean(list_ST, axis=0)
-table=np.stack((time, averageST), axis=-1)
-plt.scatter(table[:,0],table[:,1], c="k", s=1, label="Soil temperature data 30 cm")
-
-res = fit_sin(table[:,0],table[:,1])
-#STfit_lt=res["fitfunc"](tt)
-STfit=res["fitfunc"](table[:,0])
-print( "Amplitude=%(amp)s, Angular freq.=%(omega)s, phase=%(phase)s, offset=%(offset)s, Max. Cov.=%(maxcov)s" % res )
-plt.plot(table[:,0], STfit , "k-", label="Fit Soil Temperature 30 cm", linewidth=2) 
-
 #soil temperature at 100 cm
 averageST2= np.nanmean(list_ST2, axis=0)
 table=np.stack((time, averageST2), axis=-1)
@@ -138,6 +127,17 @@ res = fit_sin(table[:,0],table[:,1])
 STfit=res["fitfunc"](table[:,0])
 print( "Amplitude=%(amp)s, Angular freq.=%(omega)s, phase=%(phase)s, offset=%(offset)s, Max. Cov.=%(maxcov)s" % res )
 plt.plot(table[:,0], STfit , "r-", label="Fit Soil Temperature 100 cm", linewidth=2) 
+
+#soil temperature at 30 cm
+averageST= np.nanmean(list_ST, axis=0)
+table=np.stack((time, averageST), axis=-1)
+plt.scatter(table[:,0],table[:,1], c="k", s=1, label="Soil temperature data 30 cm")
+
+res = fit_sin(table[:,0],table[:,1])
+#STfit_lt=res["fitfunc"](tt)
+STfit=res["fitfunc"](table[:,0])
+print( "Amplitude=%(amp)s, Angular freq.=%(omega)s, phase=%(phase)s, offset=%(offset)s, Max. Cov.=%(maxcov)s" % res )
+plt.plot(table[:,0], STfit , "k-", label="Fit Soil Temperature 30 cm", linewidth=2) 
 
 plt.title('Paisley station')
 plt.ylabel('°C')
@@ -470,3 +470,81 @@ plt.axhline(y=0, color='k')
 qsurfaceinput=np.stack((time_s, surflux), axis=-1)
 
 #np.savetxt('qsurf_4.txt', qsurfaceinput)
+
+########################### SHORTWAVE (solar radiations) ##########################
+ 
+os.chdir(r'R:\GitHub\Data_phD\Data\Climate_Data\Paisley\RelativeHumidity')
+RH= {}
+alldate=[]
+allRH=[]
+with open('listfile.txt', 'r') as filehandle:
+    for line in filehandle:
+        line = line[:-1]
+        data = pd.read_csv(line, delimiter=',', header=6)
+        year=data['DATES']
+        srh=data['Near-Surface Specific Humidity (kg kg-1)']
+        date=np.array(year)
+        relhumidity=np.array(srh)
+        alldate.append(date)
+        allRH.append(relhumidity)
+alldate=[x for xs in alldate for x in xs]
+allRH=[x for xs in allRH for x in xs]  
+
+for i in datelist:
+    i=str(i)
+    for line in alldate:
+        if(i in line):
+            id=alldate.index(line)
+            if i not in RH:
+                RH[i] = []
+            RH[i].append(allRH[id])   
+list_RH=[]       
+for year in RH:
+     if(np.size(RH[year])<366):
+        continue
+     else:
+        relhumidity= RH[year]
+        relhumidity=np.array(relhumidity[0:366])
+        list_RH.append(relhumidity)  
+      
+averageRH= np.mean(list_RH, axis=0)
+table=np.stack((time, averageRH), axis=-1)
+
+
+plt.figure(figsize=(16,5))
+plt.scatter(table[:,0],table[:,1], s=1, c="g", label='relative humidity data')       
+     
+res = fit_sin(table[:,0],table[:,1])
+print( "Amplitude=%(amp)s, Angular freq.=%(omega)s, phase=%(phase)s, offset=%(offset)s, Max. Cov.=%(maxcov)s" % res )
+RHfit_lt= res["fitfunc"](tt)
+RHfit= res["fitfunc"](table[:,0])
+plt.plot(table[:,0],RHfit, "g-", label="Fit relative humidity", linewidth=2)
+
+plt.title('Average daily relative humidity')
+plt.xlabel('Time (days)')
+plt.ylabel('Relative humidity')
+plt.grid(True, which='both')
+plt.axhline(y=0, color='k')
+
+
+
+########################################################################
+########### sALAHsAADIeTaL 2017 T########
+########################################################################
+f=0.7
+alb=0.1
+sigma=5.67e-8
+HTC = 0.5+1.2*WSfit**(0.5)
+CE = HTC * (ATfit - STfit) #Convective energy
+LR = e  * sigma * ((STfit+273)**4  - (ATfit+273)**4)# longwave radiation emitted from the ground, T in Kelvin
+SR = (1 - alb) * SWfit #absorbed solar radiations
+LE = 0.0168*f* HTC*(103*STfit+609-RHfit*(103*ATfit+609))# latent heat due to evaporation
+
+q = CE - LR + DR - LE
+plt.figure(figsize=(16,5))
+plt.scatter(table[:,0],q)    
+plt.title('surface heat flux')
+plt.xlabel('Time (days)')
+plt.ylabel('Relative humidity')
+plt.grid(True, which='both')
+plt.axhline(y=0, color='k')

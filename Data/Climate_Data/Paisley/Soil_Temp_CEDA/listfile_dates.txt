@@ -1,0 +1,17 @@
+midas-open_uk-soil-temperature-obs_dv-201908_renfrewshire_00968_paisley_qcv-1_2000.csv
+midas-open_uk-soil-temperature-obs_dv-201908_renfrewshire_00968_paisley_qcv-1_2001.csv
+midas-open_uk-soil-temperature-obs_dv-201908_renfrewshire_00968_paisley_qcv-1_2002.csv
+midas-open_uk-soil-temperature-obs_dv-201908_renfrewshire_00968_paisley_qcv-1_2003.csv
+midas-open_uk-soil-temperature-obs_dv-201908_renfrewshire_00968_paisley_qcv-1_2004.csv
+midas-open_uk-soil-temperature-obs_dv-201908_renfrewshire_00968_paisley_qcv-1_2005.csv
+midas-open_uk-soil-temperature-obs_dv-201908_renfrewshire_00968_paisley_qcv-1_2006.csv
+midas-open_uk-soil-temperature-obs_dv-201908_renfrewshire_00968_paisley_qcv-1_2007.csv
+midas-open_uk-soil-temperature-obs_dv-201908_renfrewshire_00968_paisley_qcv-1_2008.csv
+midas-open_uk-soil-temperature-obs_dv-201908_renfrewshire_00968_paisley_qcv-1_2009.csv
+midas-open_uk-soil-temperature-obs_dv-201908_renfrewshire_00968_paisley_qcv-1_2010.csv
+
+http://artefacts.ceda.ac.uk/badc_datadocs/ukmo-midas/ST_Table.html
+
+Met Office (2006): MIDAS: UK Soil Temperature Data. NCAS British Atmospheric Data Centre, date of citation. https://catalogue.ceda.ac.uk/uuid/8dc05f6ecc6065a5d10fc7b8829589ec
+
+http://data.ceda.ac.uk/badc/ukmo-midas-open/data/uk-soil-temperature-obs/dataset-version-201908/
