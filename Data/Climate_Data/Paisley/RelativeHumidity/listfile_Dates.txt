@@ -9,4 +9,3 @@ chess (7).csv
 chess (8).csv
 chess (9).csv
 chess (10).csv
-chess (11).csv
