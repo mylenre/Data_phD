@@ -1,0 +1,5 @@
+recording
+date
+name of broadcaster
+programme title
+this recording is to be used only for educational and non commercial purposes under ther terms of the ERA License
