@@ -1,0 +1,69 @@
+$scale_shift
+0.001
+
+$Determine_porosity_distribution
+1 0.2 50 //1st number = 1 indicates a porosity distribution is needed, second number indicates size of steps in mm, third is no bins for statistical output
+
+$Bezier_point_density
+50  //indicates initial density to interprete svg curves with. This is adjusted then to minimum point spacing below.
+
+$min_area_tolerance 
+0.001 //Give as (units in svg file)^2.Pores smaller than this will be ignored.
+
+$max_area_tolerance 
+1000000.0 //Give as (units in svg file)^2.Pores smaller larger this will be ignored.
+
+$box_tolerance
+5.0 //Give as %, used to calculate an extrsa box around the mesh with deltax and deltay as a function of the overal size.
+
+$mesh_quality_min_acute_angle
+0.0001//Sharpest angle allowed in degrees
+
+$mesh_density, in metric coordinate units given in svg file, by default mm.
+0.25 //mm for meshing default density (size of elements)
+
+$mesh_spacing
+0.1 //mm minimum point spacing along voids, this will override the meshing density
+
+$edge_mesh_density
+0.25 //mm edge of model mesh density
+
+$min_void_width
+0.1 //mm  Careful with this, it should set a minimum void width, and move points around a bit if the minimum width is not adhered to. Needs a bit more testing.
+
+$min_polygon_spacing
+1.0 // mm, if macropores are too close, the smallest is ignored. Not yet functioning properly, checks no overlap right now. 
+
+$process
+1 //Switch for original coordinate system and no processing for debuging, 1=false 0=true
+
+$angle_check
+1 // Switch for angle check, 0=false 1=true
+
+$distance_check
+1 // Switch for dpoint distance check, 0=false 1=true
+
+$void_space_correct
+1 // Switch for void space correction, 0=false 1=true //NOTE this can only be used if the distance check is also used
+
+$cross_over
+1 // Switch for void space correction, 0=false 1=true
+
+$output_OGS_gli_file
+1 // Triggers OGS gli output file to go with GMSH mesh onces converted
+
+$just_shape_out
+0  //For output for James, 1 = on
+
+$Coefficient_for_area_of_influence_for_connections
+8 //Multiple of vug elipse dimensions to create seach radius 
+
+
+
+$Boundary_links
+1 1 1.5 1.6
+
+//1 1 1.2 1.3  1=Boundary Links Active 1= Define a frame 1.2=1.2*box tolerance in x direction 1.3=1.3*box tolerance in y direction
+//1 2 8.0      1=Boundary links active 2=extend elipses 8.0= multiple to extend ellipses by
+//0            0=No boundary links
+//1 1 1.5 1.6 
