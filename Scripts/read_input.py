@@ -6,6 +6,8 @@ This is a temporary script file.
 """
 import numpy as np
 import itertools
+import os
+os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\2D_Mine_Models\Benchmark\TH\Layers\LM4\SANDWICH_v2_tri')
 
 variables = []
 file_name = input("Enter name : ") 

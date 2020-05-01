@@ -21,13 +21,13 @@ def moving_average(y, K=5):
         s[n] = np.mean(y[kmin:kmax])
     return s            # return the smoothed array
 
-os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\1D_Models\A3solar')
+os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\2D_Mine_Models\Benchmark\TH\Layers\LM4\V2\COMPLEX_v2')
 
 time = []
 z = []
 T= []
 #file_name = input("Enter name : ") 
-file_name='TDiff-Wall_ply_OUT_t2'
+file_name='LM4_ply_XLINE_t1'
 print(file_name)
 zi = input("Enter node depth to plot : ") 
 print(zi + ' m')
