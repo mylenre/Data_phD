@@ -2,10 +2,12 @@
 """
 Created on Tue Oct 22 19:58:32 2019
 
-@author: Boris
+@author: Boris & Mylene
 """
-
+import os
 import numpy as np
+os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\2D_Mine_Models\Benchmark\TH\Layers')
+filename = "Complex.geo"
 
 # Initialising a dictionary to store the variables, a dictionary is a container where you access a value with a key: ex to add an entry mydict["Boris"] = 27; access the entry: print(mydict["Boris"] ) -> and it will display 27
 variables = {}
@@ -13,7 +15,7 @@ variables = {}
 Point = []
 Point_name = []
 
-with open('M1_v2.geo', 'r') as glifile: 
+with open(filename, 'r') as glifile: 
   for line in glifile:
     # print(line)
     # I am jsut reading the variables so far, break will break the loop when the condition is reached
@@ -36,7 +38,7 @@ for key,val in variables.items():
   print("key:", key,"val",val)
 
 # Alright We now have loaded our values, let's read the rest
-with open('M1_v2.geo', 'r') as glifile: 
+with open(filename, 'r') as glifile: 
   for line in glifile:
     if "Point(" in line:
       # weeeeeeeeeeeeeeeeeeeee
@@ -61,4 +63,11 @@ y = Point[:,1]
 z = Point[:,2]
 tab=np.vstack((nb,x,y,z)).T
 #tab = Point.reshape((len(Point),4))
-np.savetxt('M1_v2.gli', tab, fmt='%s')
+#np.savetxt(filename+'.gli', tab, fmt='%s')
+
+
+with open(filename+'.gli', 'w') as outfile:
+    outfile.write('# POINT\n')
+    np.savetxt(outfile, tab, fmt='%d %s %s %s') #
+    outfile.write('# STOP\n')
+                  
