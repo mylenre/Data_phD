@@ -5,12 +5,10 @@ Created on Fri May  1 13:11:12 2020
 @author: s1995204
 """
 
-import matplotlib.pyplot as plt
 import numpy as np
 import os
 os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\2D_Mine_Models\Benchmark\TH\Layers\LM4\V2\COMPLEX_v2')
-
-####### profile X1 #######
+filename='LM4_domain_quad'
 
 time = []
 x = []
@@ -23,8 +21,6 @@ node = {}
 N= []
 E=[]
 i=0
-
-filename='LM4_domain_quad'
 
 print(filename)
 with open(filename+'.tec', 'r') as file: 
@@ -66,5 +62,3 @@ with open(filename+'.tec', 'r') as file:
    #     yn.append(float(this_linec[1].rstrip())) 
    #     j=j+1
    # element[time[i-1]] = [xn,yn]
-                
-
