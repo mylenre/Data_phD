@@ -1,0 +1,221 @@
+import matplotlib.pyplot as plt
+import numpy as np
+import os
+os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\2D_Mine_Models\Benchmark\TH\Layers\LM4\V2\COMPLEX_v2')
+
+# function to get unique values 
+def unique(list1): 
+    # intilize a null list 
+    unique_list = [] 
+      
+    # traverse for all elements 
+    for x in list1: 
+        # check if exists in unique_list or not 
+        if x not in unique_list: 
+            unique_list.append(x) 
+    # print list 
+    for x in unique_list: 
+        print(x)
+      
+ 
+####### profile X1 #######
+
+time = []
+x = []
+y = []
+T = []
+#xn = []
+#yn = []
+#element = {}
+node = {}
+N= []
+E=[]
+i=0
+
+filename='LM4_domain_quad'
+
+print(filename)
+with open(filename+'.tec', 'r') as file: 
+  next(file)
+  for line in file:
+    if("TITLE" in line):
+       continue
+    if('STRANDID' in line):
+       continue
+    if("VARIABLES" in line):
+       this_line = line.replace('"','').replace('=',',').split(",")
+       variables = this_line[1:np.size(this_line)]
+       continue
+    if('ZONE T' in line):
+       this_line = line.replace('"','').replace('e+','e').replace('s','').replace('=',',').split(",")
+       time.append(float(this_line[1]))
+       N=int(this_line[3])
+       E=int(this_line[5])
+       j=0
+       x = []
+       y = []
+       T = []
+#       xn = []
+#       yn = []
+       i=i+1
+       print("time step : " + str(i-1))
+       continue   
+    if j < N:
+          this_line=line.replace('e+','e').split(' ')
+          x.append(float(this_line[0].rstrip()))
+          y.append(float(this_line[1].rstrip()))
+          T.append(float(this_line[3].rstrip()))
+          j=j+1
+    node[time[i-1]] = [x,y,T]
+   # else:
+   #     this_line=line.split(' ')
+   #     this_linec = [c for c in this_line if c != ""]
+   #     xn.append(float(this_linec[0].rstrip()))
+   #     yn.append(float(this_linec[1].rstrip())) 
+   #     j=j+1
+   # element[time[i-1]] = [xn,yn]
+                
+t = 1000
+val = node[t]
+xval= val[0]
+yval=val[1]
+Tval=val[2]
+uxval= set()
+uyval= set()
+for x in xval:
+    uxval.add(x)
+for y in yval:
+    uyval.add(y)
+uxval = sorted(list(uxval))
+uyval = sorted(list(uyval))
+
+kth = 2.0
+poro = 0.1
+K = (kth* poro)+(1-poro)*0.63 #Need to create a list of kth & porosity 
+                           #for each cell in put in loop
+xsize = [0]
+ysize = [0]
+xflux = []
+yflux = []
+
+for i in range(np.size(uxval)):
+     if i == 0:
+         continue
+     else:
+         sx = uxval[i] - uxval[i-1] 
+         xsize.append(sx)
+for i in range(np.size(uyval)):
+     if i == 0:
+         continue
+     else:
+         sy = uyval[i] - uyval[i-1] 
+         ysize.append(sy)
+xsize[0] = xsize[1]
+ysize[0] = ysize[1]
+        
+        
+for ii in range(len(uxval)-1):
+ if ii == 0 :
+     qx = 0
+     xflux.append(qx)
+     continue
+ if ii == len(uxval) :
+     qx = 0
+     xflux.append(qx)
+     continue
+ else:
+     for jj in range(len(uyval)-1):
+        if jj == 0 :
+          qy = 0
+          yflux.append(qy)
+          continue
+        if jj == len(uyval) :
+          qy = 0
+          yflux.append(qy)
+          continue
+        else:
+          for k in range(len(xval)):
+            if xval[k] == uxval[ii] and yval[k] == uyval[jj]:
+                Txn = Tval[k]
+                n = str(k)
+                print("Look a node " + n)  
+                continue
+            if xval[k] == uxval[ii-1] and yval[k] == uyval[jj]:
+                Txp = Tval[k]
+                n = str(k)
+                print("Previous node in x direction " + n) 
+                continue
+            if xval[k] == uxval[ii+1] and yval[k] == uyval[jj]:
+                Txn = Tval[k]
+                n = str(k)
+                print("Next node in x direction " + n)
+                continue
+            if xval[k] == uxval[ii] and yval[k] == uyval[jj-1]:
+                Typ = Tval[k]
+                n = str(k)
+                print("Previous node in y direction " + n)
+                continue
+            if xval[k] == uxval[ii] and yval[k] == uyval[jj+1]:
+                Tyn =Tval[k]
+                n = str(k)
+                print("Next node in y direction " + n)
+                continue
+
+        qx = ((Txn - Txp)/(2 * xsize[ii])) * K
+        qy = ((Tyn - Typ)/(2 * ysize[jj])) * K
+        xflux.append(qx)
+        yflux.append(qy)
+        
+        
+        
+  
+        ################### version 2 ##########################
+        
+              if ii == 0 :
+                  Txn = 0
+                  Txp = 0
+                  continue
+              if ii == len(uxval) :
+                  Txn = 0
+                  Txp = 0
+                  continue
+              if jj == 0 :
+                  Txn = 0
+                  Txp = 0               
+                  continue
+              if jj == len(uyval) :
+                  Txn = 0
+                  Txp = 0
+                  continue
+              if xval[k] == uxval[ii] and yval[k] == uyval[jj]:
+                   Tx = Tval[k]
+                   n = str(k)
+                   print("Look a node " + n)  
+              if ii == 0:
+                   Txp = 0 
+              if ii != 0 and xval[k] == uxval[ii-1] and yval[k] == uyval[jj]:
+                   Txp = Tval[k]
+                   n = str(k)
+                   print("Previous node in x direction " + n) 
+              if ii == len(uxval):
+                   Txn = 0                   
+              if ii !=len(uxval) and xval[k] == uxval[ii+1] and yval[k] == uyval[jj]:
+                   Txn = Tval[k]
+                   n = str(k)
+                   print("Next node in x direction " + n)
+              if jj == 0:
+                   Typ = 0                   
+              if jj != 0 and xval[k] == uxval[ii] and yval[k] == uyval[jj-1]:
+                   Typ = Tval[k]
+                   n = str(k)
+                   print("Previous node in y direction " + n)
+              if jj == len(uyval):
+                   Tyn = 0
+              if jj !=len(uyval) and xval[k] == uxval[ii] and yval[k] == uyval[jj+1]:
+                   Tyn = Tval[k]
+                   n = str(k)
+                   print("Next node in y direction " + n)
+          qx = ((Txn - Txp)/(2 * xsize[ii])) * K
+          qy = ((Tyn - Typ)/(2 * ysize[jj])) * K
+          xflux.append(qx)
+          yflux.append(qy)
