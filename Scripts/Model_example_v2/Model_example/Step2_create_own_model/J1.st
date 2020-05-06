@@ -1,0 +1,12 @@
+GeoSys-ST: Source Terms ------------------------------------------------
+#SOURCE_TERM
+ $PCS_TYPE
+  HEAT_TRANSPORT
+ $PRIMARY_VARIABLE
+  TEMPERATURE1
+ $GEO_TYPE
+  POLYLINE MACROPORE20
+ $DIS_TYPE
+  CONSTANT_NEUMANN 1.
+#STOP
+

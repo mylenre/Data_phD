@@ -1,0 +1,21 @@
+Hi all
+
+I have further developed the ogs code, and included a bit more functionality for HEAT_TRANSPORT.  Please see the models attached. The key thing is we can now evaluate flux across a boundary, and the change in energy in a material group with a couple of commands. See particularly Step 7 models attached. This will stop you having to post process the models to work out how much heat energy has moved where.
+
+As you know too big models will take a long time to run on normal laptops.
+For understanding and for now try out 2D models (Mylene, Jesus).
+
+Jesus, remember GINA is only a pre-processor, so will not be able to cope with some of the new functions. Better to use GINA to sort geometry out, but be aware if developing a model to see what is happening in the text files. To visualise, if you do not have Tecplot, use the VTK output and use PARAVIEW.
+
+
+NOTE!! This is currently only for HEAT_TRANSPORT without fluid flow,, i.e. heat diffusion//conduction. It will be the dominant process. Although necessary to describe an mfp file, it is not used in the calculations. In the msp file the heat conductivity, heat capacity and density are input for the media.
+
+My next step in a couple of weeks will be to update this to include the new functions for fluid flow and advection. All the previous functionality of ogs remains, i.e. if you want coupled fluid flow and adection its all there, but the TOTAL_FLUX calculations will not work. I think the energy will though, but haven’t tested it yet.
+
+After this we should look at including an analytical function for heat exchange between the matrix and advection fluid flow, and decouple the calculation for stability reasons.
+
+GUS, this is all developed on the back of OGS5 October 2019.
+
+All the best
+
+Chris
