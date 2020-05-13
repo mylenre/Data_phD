@@ -1,0 +1,10 @@
+GeoSys-PCS: Processes ------------------------------------------------
+
+#PROCESS
+ $PCS_TYPE
+  HEAT_TRANSPORT
+ $NUM_TYPE
+   NEW
+$RELOAD
+1 180      
+#STOP

@@ -1,0 +1,12 @@
+GeoSys-IC  Initial Conditions ------------------------------------------------
+#INITIAL_CONDITION
+ $PCS_TYPE
+  HEAT_TRANSPORT   
+ $PRIMARY_VARIABLE
+  TEMPERATURE1
+ $GEO_TYPE
+  SUB_DOMAIN 
+   1
+   1  10
+#STOP
+

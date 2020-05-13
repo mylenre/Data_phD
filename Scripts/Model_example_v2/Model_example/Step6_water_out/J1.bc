@@ -1,0 +1,11 @@
+GeoSys-BC: Boundary Conditions ------------------------------------------------
+#BOUNDARY_CONDITION
+ $PCS_TYPE
+  HEAT_TRANSPORT
+ $PRIMARY_VARIABLE
+  TEMPERATURE1
+ $GEO_TYPE
+  POLYLINE TOP
+ $DIS_TYPE
+  CONSTANT 7
+#STOP
