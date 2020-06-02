@@ -1,0 +1,144 @@
+# -*- coding: utf-8 -*-
+"""
+ERANING: FOE EVERY INSTANCE OF CLASS, PLEASE RUN FDE FUNCTION FIRSTLY.
+"""
+
+import numpy as np
+import pandas as pd
+import scipy as sp
+import scipy.integrate
+import matplotlib.pyplot as plt
+
+class BC_Direchlet:
+    
+    # Define attributes
+    dx = 0                      # The length of space element
+    dt = 0                      # The length of time element
+    x = np.array([])            # The space points at which solution is calculated
+    t = np.array([])            # The time points at which solution is calculated
+    iter_num = 0                # The number of iteration for calculating analytical solution 
+    
+    def __init__(self, nt, nx, t_f, L, c, f_x):
+        
+        ###############################################
+        ###############################################
+        # Don't make calculation in function __init__()
+        ###############################################
+        ###############################################
+        
+        # nx: the number of space nodes
+        # nt: the number of time nodes
+        # L: the length of domain
+        # tmax: the maximum time that should be calculated
+        # iter_num: the number of iteration for analytical solution
+        
+        self.nt = nt
+        self.nx = nx
+        self.t_f = t_f
+        self.L = L
+        self.c = c
+        self.f_x = f_x
+        self.iter_num = 200
+    
+    def FDM_Solution(self):
+        
+        # Define space step length
+        self.dx = self.L/(self.nx - 1)
+        
+        #Define x series
+        self.x = np.array([self.dx * j for j in range(self.nx)])
+    
+        #Define time step length
+        self.dt = self.t_f/(self.nt - 1)
+        
+        #Define t series
+        self.t = np.array([self.dt * i for i in range(self.nt)])
+        
+        # Define s
+        self.s = self.c ** 2 * self.dt / self.dx ** 2
+        
+        # Define (nt x nx) matrix to store result
+        U = np.zeros((self.nt, self.nx))
+        
+        if self.s <= 0.5:
+            pass
+        else:
+            print('The value of %s is more than %.2f, which will lead to instable result.' % ('s', 0.5))
+            return 'None'
+    
+        #Specify BC, here homogeneous BC is applied
+        U[:, 0] = 0
+        U[:, self.nx - 1] = 0
+        
+        #Specify IC = f(x), f(x) should be constant number
+        U[0, 1:-1] = self.f_x
+        
+        # Calculation begins here
+        for i in range(0, self.nt - 1):
+            for j in range(1, self.nx - 1):
+                U[i + 1, j] = (1 - 2 * self.s) * U[i, j] + self.s * (U[i, j - 1] + U[i, j + 1])
+                
+        U = U[self.nt - 1, :]
+                
+        return U
+    
+    def Ana_Solution(self):
+        
+        # Define (1 x nx) matrix to store result
+        Ue = np.zeros(self.nx)
+        
+        for i in range(self.x.shape[0]):
+            
+            # The iteration should begin from j = 1
+            for j in range(1, self.iter_num):
+                
+                # Calculate the integrate part
+                bn = sp.integrate.quad(lambda x: self.f_x * np.sin(j * np.pi * x / self.L), 0, self.L)
+                bn = bn[0]
+                
+                # Calculate sin part
+                sin = np.sin(j * np.pi * self.x[i] / self.L)
+                
+                # Calculate exp part
+                en = np.exp(-(self.c * j * np.pi / self.L) ** 2 * self.tmax)
+                
+                # Calculate Ue without 2./L
+                Ue[i] += en * sin * bn
+                
+        # Final result
+        Ue = 2. / self.L * Ue
+    
+        # Return value
+        return Ue
+    
+    def plot(self):
+        # This function is to plot and compare FDE and 
+        # analytical results
+        
+        # FDE result
+        y1 = self.FDM_Solution()
+        
+        # Analytical result
+        y2 = self.Ana_Solution()
+        
+        if y1 == 'None':
+            return None
+        else:
+            fig = plt.figure(figsize = (8, 8))
+            plt.plot(self.x, y1, color = 'blue', marker = '^')
+            plt.plot(self.x, y2, color = 'red', marker = 'D')
+            plt.xlabel('The value of x')
+            plt.ylabel('The value of PDE at tmax')
+            plt.legend(['FDE result: nt = %d, nx = %d' % (self.nt, self.nx), 'Analytical result'],
+                        loc = 'upper left')
+            plt.show()
+            
+    def error_out(self):
+        # Calculate errors.
+        y1 = self.FDM_Direchlet()
+        y2 = self.Analytical_Direchlet()
+        
+        error = (y1 - y2)**2
+        error = 1. / self.nx * np.sqrt(error.sum())
+        
+        return error

@@ -1,7 +1,0 @@
-fluids>=0.1.64
-scipy
-pytest
-pytest-cov
-coveralls
-mpmath
-pint
