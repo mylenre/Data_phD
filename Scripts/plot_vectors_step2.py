@@ -10,9 +10,7 @@ import matplotlib.pyplot as plt
 kth = 2.0
 poro = 0.1
 K = (kth* poro)+(1-poro)*0.63 #Need to create a list of kth & porosity 
-                           #for each cell in put in loop
-                           
-                           
+                           #for each cell in put in loop                           
 # extract values for time step t  
 print("Available time steps: %s", node.keys())          
 t = input("Enter time step (sec) : ") #1000
@@ -111,7 +109,6 @@ for ii in range(len(uxval)):
 #save results in text file
 tab = np.vstack((xasc, yasc, Tasc, xflux, yflux, Q)).T
 np.savetxt('Flux_Results_t' + str(t) +'.txt', tab, fmt='%f')
-
 
 # plot results 
 T2D = np.reshape(Tasc,(len(uyval),len(uxval)), order = 'F')        

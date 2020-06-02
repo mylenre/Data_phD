@@ -44,9 +44,7 @@ t_tot = 1000
 dt=1
 Ti = 0
 T0= 100
-Q = T0 * rho_c
 
-n=1
 ###################Advection + Diffusion##################"
 ##### solution time continuous 
 x=0.1 #MIDDLE point
@@ -104,10 +102,10 @@ for t in range(1,1001,1):
     #T = (1/(rho_c*(16*np.pi*DD)**((1+n)/2)))*(math.exp(t1))*(special.erfc(t1)+t2*special.erfc(t3))*T0/2 --> if n=1, rho_c*DD = lambda
     #T = (1/(16*lambda_x*np.pi))*(math.exp(-t1))*T0/2 #*(special.erfc(t1)+t2*special.erfc(t3))
     #T = (1/(16*lambda_x*np.pi))*(math.exp(-t1)-t2*special.erfc(t3))*T0/2
-    T = (T0/np.sqrt(8*lambda_r*np.pi*t))*math.exp(-t1)-(T0**2/(2*8*lambda_r))*t2*special.erfc(t3)
+    T = (T0/(np.sqrt(8*lambda_r*np.pi*t)))*math.exp(-t1)
     st.append(T) 
 plt.subplot(2,2,3)   
-plt.plot(range(1000),st,color='blue', lw=2,label="analytical HT")
+plt.plot(range(1000),st,color='black', lw=2,label="analytical HT")
 plt.xlabel('time')
 plt.ylabel('temperature')
 plt.legend(loc='best')
@@ -131,10 +129,10 @@ for x in list:
     t3 = (x+vT*t_tot)**2/(4*DD*t_tot)
     #T = (1/(rho_c*(16*np.pi*DD)**((1+n)/2)))*(math.exp(t1))*(special.erfc(t1)+t2*special.erfc(t3))*T0/2
     #T = (1/(16*lambda_r*np.pi))*(math.exp(-t1))*T0/2#*(special.erfc(t1)+t2*special.erfc(t3))  
-    T = (T0/(np.sqrt(8*lambda_r*np.pi*t_tot)))*(math.exp(-t1))-(T0**2/(2*8*lambda_r))*t2*special.erfc(t3)
+    T = (T0/np.sqrt(8*lambda_r*np.pi*t_tot))*math.exp(-t1)
     sd.append(T) 
 plt.subplot(2,2,4)   
-plt.plot(list,sd,color='blue',label="analytical HT")
+plt.plot(list,sd,color='black',label="analytical HT")
 
 
 #import data
@@ -145,32 +143,31 @@ plt.plot(xc,Tc, '--', color='red',label="numerical HT")
 plt.xlabel('distance')
 plt.ylabel('temperature')
 plt.legend(loc='best')
-#plt.savefig("analytical_vs_numerical_1D.png")  
+plt.savefig("analytical_vs_numerical_1D_HT.png")  
 
 
 ###########################Diffusion only#############################
-tau = 1
-dx = 1e-3
-#Q = T0 * rho_c * dx / tau  (W)
-Q = T0 * lambda_r # (W/m)
-
 ##### solution time continuous 
 plt.figure(figsize=(8,8))   
 plt.subplot(2,2,1)   
 x=0.1 #MIDDLE point
 st=[]
 for t in range(1, 10001, 1):
-    t1 = x/np.sqrt(4*Dr*t)
+    t1 = x/np.sqrt(4*DD*t)
     T = T0*special.erfc(t1)
     st.append(T)  
-plt.plot(range(10000),st,color='black', lw=2,label="analytical T")
-    
+plt.plot(range(10000),st,color='black', lw=2,label="analytical T (saturated matrix)")
+
 
 #import data 
 data = pd.read_csv('1D_Cont_time_Diff.csv', delimiter=',', header=0) #mesh = 1 mm poro=0.5
 T = data['T']
 t = data['t']
-plt.plot(t,T,'--', color='red',label="numerical T")
+plt.plot(t,T,'--', color='blue',label="numerical T (solid material)") #without GW, use Dr istead of DD in t1
+data = pd.read_csv('1D_Cont_time_Diff_GW.csv', delimiter=',', header=0) #mesh = 1 mm poro=0.5
+T = data['T']
+t = data['t']
+plt.plot(t,T,'--', color='red',label="numerical T (saturated matrix)")
 plt.xlabel('time')
 plt.ylabel('temperature')
 plt.legend(loc='best')
@@ -179,23 +176,29 @@ plt.legend(loc='best')
 ###### solution distance: continuous
 plt.subplot(2,2,2) 
 sd=[]
-n=2
+n=0
 list = np.arange(0.0001,1,0.0001)
 for x in list:
-    t0 = 1/(4*np.pi*Dr*t_tot)**((n+1)/2)
-    t1 = x/np.sqrt(4*Dr*t_tot)
-    t2 = math.exp(-x**2/(4*Dr*t_tot))
-    t3 = ((Dr * t_tot)/np.pi)**((n+1)/2)
-    T= T0*special.erfc(t1) #Heat conduction (Dirichlet)
-    #T= 0.1*T0/(dx*lambda_m) * (t3 * t2 - x/2 * special.erfc(t1)) #Heatconduction (Neumann)
+    #t0 = 1/(4*np.pi*DD*t_tot)**((n+1)/2)
+    t1 = x/(16*np.pi*DD*t_tot)**((n+1)/2)
+    #t2 = math.exp(-x**2/(4*DD*t_tot))
+    #t3 = ((DD * t_tot)/np.pi)**((n+1)/2)
+    #T= T0*special.erfc(t1) #Heat conduction (Dirichlet)
+    #T= 2*T0* (t3 * t2 - x/2 * special.erfc(t1)) #Heatconduction (Neumann)
+    T=T0/(2*np.pi*lambda_m)*special.exp1(x**2/(4*DD*t_tot))
     sd.append(T) 
-plt.plot(list,sd,color='black',lw=2,label="analytical T")
+plt.plot(list,sd,color='black',lw=2,label="analytical T (saturated matrix)")
+
 
 #import data
 data = pd.read_csv('1D_Cont_Diff.csv', delimiter=',', header=0) #mesh = 1 mm poro=0.5
 xp = data['x']
 Tp = data['T']
-plt.plot(xp,Tp,'--', color='red',label="numerical T")
+plt.plot(xp,Tp,'--', color='blue',label="numerical T (solid material)")
+data = pd.read_csv('1D_Cont_Diff_GW.csv', delimiter=',', header=0) #mesh = 1 mm poro=0.5
+xp = data['x']
+Tp = data['T']
+plt.plot(xp,Tp,'--', color='red',label="numerical T (saturated matrix)")
 plt.xlabel('distance')
 plt.ylabel('temperature')
 plt.legend(loc='best')
@@ -205,57 +208,78 @@ plt.legend(loc='best')
 plt.subplot(2,2,3)    
 x=0.1 #MIDDLE point
 n=2
+q = T0 * lambda_r # (W/m)
 st=[]
 for t in range(1, 10001, 1):
     t0 = 1/(4*np.pi*Dr*t)**((n+1)/2)
     t1 = x/np.sqrt(4*Dr*t)
     t2 = math.exp(-x**2/(4*Dr*t))
-    T =  Q/(d_r*c_r) * t0 * t2 #- (T0^2)/(16*lambda_r) * math.exp(-x/(2*Dr)) * special.erfc(t1) 
+    T =  q/(d_r * c_r) * t0 * t2 
     st.append(T) 
-plt.plot(range(10000),st,color='blue', lw=2,label="analytical T")
-    
+plt.plot(range(10000),st,color='green', lw=2,label="analytical T (solid material)")
+
+q = T0 * lambda_m # (W/m)
+st=[]
+for t in range(1, 10001, 1):
+    t0 = 1/(4*np.pi*DD*t)**((n+1)/2)
+    t1 = x/np.sqrt(4*DD*t)
+    t2 = math.exp(-x**2/(4*DD*t))
+    T =  q/(rho_c) * t0 * t2  #T = T0 * DD * t0 * t2 #- (T0^2)/(16*lambda_m) * math.exp(-x/(2*DD)) * special.erfc(t1) 
+    st.append(T) 
+plt.plot(range(10000),st,color='black', lw=2,label="analytical T (saturated matrix)")
+
 
 #import data 
 data = pd.read_csv('1D_Pulse_time_Diff.csv', delimiter=',', header=0) #mesh = 1 mm poro=0.5
 T = data['T']
 t = data['t']
-plt.plot(t,T,'--', color='red',label="numerical T")
+plt.plot(t,T,'--', color='blue',label="numerical T (solid material)")
+data = pd.read_csv('1D_Pulse_time_Diff_GW.csv', delimiter=',', header=0) #mesh = 1 mm poro=0.5
+T = data['T']
+t = data['t']
+plt.plot(t,T,'--', color='red',label="numerical T (saturated matrix)")
 plt.xlabel('time')
 plt.ylabel('temperature')
 plt.legend(loc='best')
 
-
-
 ###### #solution distance: pulse
-plt.subplot(2,2,4)   
+plt.subplot(2,2,4)  
+q = T0 * lambda_r # (W/m) 
 sd=[]
+n=0
 list = np.arange(0.0001,1,0.0001)
 for x in list:
-    t0 = 1/(4*np.pi*Dr*t_tot)**((n+1)/2)
+    t0 = 1/(8*np.pi*Dr*t_tot)**((n+1)/2)
     t1 = x/np.sqrt(4*Dr*t_tot)
     t2 = math.exp(-x**2/(4*Dr*t_tot))
-    T =  Q/(d_r*c_r) * t0 * t2 #- (T0^2)/(16*lambda_r) * math.exp(-x/(2*Dr)) * special.erfc(t1) 
+    T =  q/(d_r*c_r) * t0 * t2  
     sd.append(T) 
-plt.plot(list,sd,color='blue',label="analytical T")
+plt.plot(list,sd,color='green',label="analytical T (solid material)")
 
+q = T0 * lambda_m # (W/m) 
 sd=[]
+n=0
 list = np.arange(0.0001,1,0.0001)
 for x in list:
-    t1 = x**2/(4*DD*t_tot)
-    t2 = math.exp((-x)/(2*DD))  
-    t3 = x**2/(4*DD*t_tot)
-    T = (T0/(np.sqrt(8*lambda_r*np.pi*t_tot)))*(math.exp(-t1))-(T0**2/(2*8*lambda_r))*t2*special.erfc(t3)
+    t0 = 1/(8*np.pi*DD*t_tot)**((n+1)/2)
+    t1 = x/np.sqrt(4*DD*t_tot)
+    t2 = math.exp(-x**2/(4*DD*t_tot))
+    T =  q/(rho_c) * t0 * t2  
     sd.append(T) 
-plt.plot(list,sd,color='black',label="analytical HT")
-
+plt.plot(list,sd,color='black',label="analytical T (saturated matrix)")
 
 #import data
 data = pd.read_csv('1D_Pulse_Diff.csv', delimiter=',', header=0) #poro = 0.5, mesh=1 mm
 xc = data['x']
 Tc = data['T']
-plt.plot(xc,Tc, '--', color='red',label="numerical T")
+plt.plot(xc,Tc, '--', color='blue',label="numerical T (solid material)")
+data = pd.read_csv('1D_Pulse_Diff_GW.csv', delimiter=',', header=0) #poro = 0.5, mesh=1 mm
+xc = data['x']
+Tc = data['T']
+plt.plot(xc,Tc, '--', color='red',label="numerical T (saturated matrix)")
 plt.xlabel('distance')
 plt.ylabel('temperature')
 plt.legend(loc='best')
-#plt.savefig("analytical_vs_numerical_1D.png")  
+
+plt.savefig("analytical_vs_numerical_1D_T.png")  
 
