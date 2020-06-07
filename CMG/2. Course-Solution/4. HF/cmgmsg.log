@@ -1,0 +1,2775 @@
+2020-03-24 14:51:45     File: resgbview.cpp  Line: 5350
+Errors were found while opening dataset file:
+'C:\Users\ehsan\Desktop\HF\IMEX_TUTORIAL_CONS_BHP_TIGHT.dat'.
+
+Builder may delete some data while saving.
+
+It is recommended that you save the dataset under a different name.
+
+2020-03-24 14:53:11     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,2 is already refined
+
+
+2020-03-24 14:53:11     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:30  1:2
+
+
+2020-03-24 14:53:11     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_2"  "wl5 - Frac_1"   at blocks:
+15,16,1  15,17,1  15,18,1  15,19,1  15,20,1  15,21,1  15,22,1  15,23,1  15,24,1  15,25,1  15,26,1  15,27,1  15,28,1  15,29,1  15,30,1  15,16,2  15,17,2  15,18,2  15,19,2  15,20,2  15,21,2  15,22,2  15,23,2  15,24,2  15,25,2  15,26,2  15,27,2  15,28,2  15,29,2  15,30,2  
+
+
+2020-03-24 14:53:11     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_2" <15,23,2 15:15 15:31 1:3>   "wl5 - Frac_1" <15,23,1 15:15 16:30 1:2>   at blocks:  15:15 16:30 1:2
+
+
+2020-03-24 14:53:11     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:11     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,1 is already refined
+
+
+2020-03-24 14:53:11     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  1:2
+
+
+2020-03-24 14:53:11     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_1"  "wl5 - Frac_2"   at blocks:
+15,16,1  15,17,1  15,18,1  15,19,1  15,20,1  15,21,1  15,22,1  15,23,1  15,16,2  15,17,2  15,18,2  15,19,2  15,20,2  15,21,2  15,22,2  15,23,2  
+
+
+2020-03-24 14:53:11     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_1" <15,23,1 15:15 15:31 1:2>   "wl5 - Frac_2" <15,23,2 15:15 16:23 1:3>   at blocks:  15:15 16:23 1:2
+
+
+2020-03-24 14:53:11     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:11     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,2 is already refined
+
+
+2020-03-24 14:53:11     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  1:2
+
+
+2020-03-24 14:53:11     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_2"  "wl5 - Frac_1"   at blocks:
+15,16,1  15,17,1  15,18,1  15,19,1  15,20,1  15,21,1  15,22,1  15,23,1  15,16,2  15,17,2  15,18,2  15,19,2  15,20,2  15,21,2  15,22,2  15,23,2  
+
+
+2020-03-24 14:53:11     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_2" <15,23,2 15:15 15:25 1:3>   "wl5 - Frac_1" <15,23,1 15:15 16:23 1:2>   at blocks:  15:15 16:23 1:2
+
+
+2020-03-24 14:53:11     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:11     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,1 is already refined
+
+
+2020-03-24 14:53:11     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  1:2
+
+
+2020-03-24 14:53:11     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_1"  "wl5 - Frac_2"   at blocks:
+15,16,1  15,17,1  15,18,1  15,19,1  15,20,1  15,21,1  15,22,1  15,23,1  15,16,2  15,17,2  15,18,2  15,19,2  15,20,2  15,21,2  15,22,2  15,23,2  
+
+
+2020-03-24 14:53:11     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_1" <15,23,1 15:15 15:25 1:2>   "wl5 - Frac_2" <15,23,2 15:15 16:23 1:3>   at blocks:  15:15 16:23 1:2
+
+
+2020-03-24 14:53:11     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:11     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,2 is already refined
+
+
+2020-03-24 14:53:11     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  1:2
+
+
+2020-03-24 14:53:11     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_2"  "wl5 - Frac_1"   at blocks:
+15,16,1  15,17,1  15,18,1  15,19,1  15,20,1  15,21,1  15,22,1  15,23,1  15,16,2  15,17,2  15,18,2  15,19,2  15,20,2  15,21,2  15,22,2  15,23,2  
+
+
+2020-03-24 14:53:11     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_2" <15,23,2 15:15 15:25 1:3>   "wl5 - Frac_1" <15,23,1 15:15 16:23 1:2>   at blocks:  15:15 16:23 1:2   iLoop detected
+
+
+2020-03-24 14:53:11     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  2:2
+
+
+2020-03-24 14:53:11     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_3"  "wl5 - Frac_1"   at blocks:
+15,16,2  15,17,2  15,18,2  15,19,2  15,20,2  15,21,2  15,22,2  15,23,2  
+
+
+2020-03-24 14:53:11     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_3" <15,23,3 15:15 16:30 3:4>   "wl5 - Frac_1" <15,23,1 15:15 16:23 1:2>   at blocks:  15:15 16:23 2:2
+
+
+2020-03-24 14:53:11     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:11     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  2:2
+
+
+2020-03-24 14:53:11     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_1"  "wl5 - Frac_3"   at blocks:
+15,16,2  15,17,2  15,18,2  15,19,2  15,20,2  15,21,2  15,22,2  15,23,2  
+
+
+2020-03-24 14:53:11     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_1" <15,23,1 15:15 16:23 1:1>   "wl5 - Frac_3" <15,23,3 15:15 16:23 2:4>   at blocks:  15:15 16:23 2:2
+
+
+2020-03-24 14:53:11     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:11     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  2:2
+
+
+2020-03-24 14:53:11     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_3"  "wl5 - Frac_1"   at blocks:
+15,16,2  15,17,2  15,18,2  15,19,2  15,20,2  15,21,2  15,22,2  15,23,2  
+
+
+2020-03-24 14:53:11     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_3" <15,23,3 15:15 16:23 3:4>   "wl5 - Frac_1" <15,23,1 15:15 16:23 1:2>   at blocks:  15:15 16:23 2:2
+
+
+2020-03-24 14:53:11     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:11     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  2:2
+
+
+2020-03-24 14:53:11     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_1"  "wl5 - Frac_3"   at blocks:
+15,16,2  15,17,2  15,18,2  15,19,2  15,20,2  15,21,2  15,22,2  15,23,2  
+
+
+2020-03-24 14:53:11     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_1" <15,23,1 15:15 16:23 1:1>   "wl5 - Frac_3" <15,23,3 15:15 16:23 2:4>   at blocks:  15:15 16:23 2:2   iLoop detected
+
+
+2020-03-24 14:53:11     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,4 is already refined
+
+
+2020-03-24 14:53:11     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  3:4
+
+
+2020-03-24 14:53:11     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_4"  "wl5 - Frac_3"   at blocks:
+15,16,3  15,17,3  15,18,3  15,19,3  15,20,3  15,21,3  15,22,3  15,23,3  15,16,4  15,17,4  15,18,4  15,19,4  15,20,4  15,21,4  15,22,4  15,23,4  
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_4" <15,23,4 15:15 15:31 3:5>   "wl5 - Frac_3" <15,23,3 15:15 16:23 2:4>   at blocks:  15:15 16:23 3:4
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,3 is already refined
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  3:4
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_3"  "wl5 - Frac_4"   at blocks:
+15,16,3  15,17,3  15,18,3  15,19,3  15,20,3  15,21,3  15,22,3  15,23,3  15,16,4  15,17,4  15,18,4  15,19,4  15,20,4  15,21,4  15,22,4  15,23,4  
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_3" <15,23,3 15:15 15:25 2:4>   "wl5 - Frac_4" <15,23,4 15:15 16:23 3:5>   at blocks:  15:15 16:23 3:4
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,4 is already refined
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  3:4
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_4"  "wl5 - Frac_3"   at blocks:
+15,16,3  15,17,3  15,18,3  15,19,3  15,20,3  15,21,3  15,22,3  15,23,3  15,16,4  15,17,4  15,18,4  15,19,4  15,20,4  15,21,4  15,22,4  15,23,4  
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_4" <15,23,4 15:15 15:25 3:5>   "wl5 - Frac_3" <15,23,3 15:15 16:23 2:4>   at blocks:  15:15 16:23 3:4
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,3 is already refined
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  3:4
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_3"  "wl5 - Frac_4"   at blocks:
+15,16,3  15,17,3  15,18,3  15,19,3  15,20,3  15,21,3  15,22,3  15,23,3  15,16,4  15,17,4  15,18,4  15,19,4  15,20,4  15,21,4  15,22,4  15,23,4  
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_3" <15,23,3 15:15 15:25 2:4>   "wl5 - Frac_4" <15,23,4 15:15 16:23 3:5>   at blocks:  15:15 16:23 3:4   iLoop detected
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,5 is already refined
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  4:5
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_5"  "wl5 - Frac_4"   at blocks:
+15,16,4  15,17,4  15,18,4  15,19,4  15,20,4  15,21,4  15,22,4  15,23,4  15,16,5  15,17,5  15,18,5  15,19,5  15,20,5  15,21,5  15,22,5  15,23,5  
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_5" <15,23,5 15:15 15:31 4:6>   "wl5 - Frac_4" <15,23,4 15:15 16:23 3:5>   at blocks:  15:15 16:23 4:5
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,4 is already refined
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  4:5
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_4"  "wl5 - Frac_5"   at blocks:
+15,16,4  15,17,4  15,18,4  15,19,4  15,20,4  15,21,4  15,22,4  15,23,4  15,16,5  15,17,5  15,18,5  15,19,5  15,20,5  15,21,5  15,22,5  15,23,5  
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_4" <15,23,4 15:15 15:25 3:5>   "wl5 - Frac_5" <15,23,5 15:15 16:23 4:6>   at blocks:  15:15 16:23 4:5
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,5 is already refined
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  4:5
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_5"  "wl5 - Frac_4"   at blocks:
+15,16,4  15,17,4  15,18,4  15,19,4  15,20,4  15,21,4  15,22,4  15,23,4  15,16,5  15,17,5  15,18,5  15,19,5  15,20,5  15,21,5  15,22,5  15,23,5  
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_5" <15,23,5 15:15 15:25 4:6>   "wl5 - Frac_4" <15,23,4 15:15 16:23 3:5>   at blocks:  15:15 16:23 4:5
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,4 is already refined
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  4:5
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_4"  "wl5 - Frac_5"   at blocks:
+15,16,4  15,17,4  15,18,4  15,19,4  15,20,4  15,21,4  15,22,4  15,23,4  15,16,5  15,17,5  15,18,5  15,19,5  15,20,5  15,21,5  15,22,5  15,23,5  
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_4" <15,23,4 15:15 15:25 3:5>   "wl5 - Frac_5" <15,23,5 15:15 16:23 4:6>   at blocks:  15:15 16:23 4:5   iLoop detected
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,6 is already refined
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  5:6
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_6"  "wl5 - Frac_5"   at blocks:
+15,16,5  15,17,5  15,18,5  15,19,5  15,20,5  15,21,5  15,22,5  15,23,5  15,16,6  15,17,6  15,18,6  15,19,6  15,20,6  15,21,6  15,22,6  15,23,6  
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_6" <15,23,6 15:15 15:31 5:7>   "wl5 - Frac_5" <15,23,5 15:15 16:23 4:6>   at blocks:  15:15 16:23 5:6
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,5 is already refined
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  5:6
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_5"  "wl5 - Frac_6"   at blocks:
+15,16,5  15,17,5  15,18,5  15,19,5  15,20,5  15,21,5  15,22,5  15,23,5  15,16,6  15,17,6  15,18,6  15,19,6  15,20,6  15,21,6  15,22,6  15,23,6  
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_5" <15,23,5 15:15 15:25 4:6>   "wl5 - Frac_6" <15,23,6 15:15 16:23 5:7>   at blocks:  15:15 16:23 5:6
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,6 is already refined
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  5:6
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_6"  "wl5 - Frac_5"   at blocks:
+15,16,5  15,17,5  15,18,5  15,19,5  15,20,5  15,21,5  15,22,5  15,23,5  15,16,6  15,17,6  15,18,6  15,19,6  15,20,6  15,21,6  15,22,6  15,23,6  
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_6" <15,23,6 15:15 15:25 5:7>   "wl5 - Frac_5" <15,23,5 15:15 16:23 4:6>   at blocks:  15:15 16:23 5:6
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,5 is already refined
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  5:6
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_5"  "wl5 - Frac_6"   at blocks:
+15,16,5  15,17,5  15,18,5  15,19,5  15,20,5  15,21,5  15,22,5  15,23,5  15,16,6  15,17,6  15,18,6  15,19,6  15,20,6  15,21,6  15,22,6  15,23,6  
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_5" <15,23,5 15:15 15:25 4:6>   "wl5 - Frac_6" <15,23,6 15:15 16:23 5:7>   at blocks:  15:15 16:23 5:6   iLoop detected
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,7 is already refined
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  6:7
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_7"  "wl5 - Frac_6"   at blocks:
+15,16,6  15,17,6  15,18,6  15,19,6  15,20,6  15,21,6  15,22,6  15,23,6  15,16,7  15,17,7  15,18,7  15,19,7  15,20,7  15,21,7  15,22,7  15,23,7  
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_7" <15,23,7 15:15 15:31 6:8>   "wl5 - Frac_6" <15,23,6 15:15 16:23 5:7>   at blocks:  15:15 16:23 6:7
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,6 is already refined
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  6:7
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_6"  "wl5 - Frac_7"   at blocks:
+15,16,6  15,17,6  15,18,6  15,19,6  15,20,6  15,21,6  15,22,6  15,23,6  15,16,7  15,17,7  15,18,7  15,19,7  15,20,7  15,21,7  15,22,7  15,23,7  
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_6" <15,23,6 15:15 15:25 5:7>   "wl5 - Frac_7" <15,23,7 15:15 16:23 6:8>   at blocks:  15:15 16:23 6:7
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,7 is already refined
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  6:7
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_7"  "wl5 - Frac_6"   at blocks:
+15,16,6  15,17,6  15,18,6  15,19,6  15,20,6  15,21,6  15,22,6  15,23,6  15,16,7  15,17,7  15,18,7  15,19,7  15,20,7  15,21,7  15,22,7  15,23,7  
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_7" <15,23,7 15:15 15:25 6:8>   "wl5 - Frac_6" <15,23,6 15:15 16:23 5:7>   at blocks:  15:15 16:23 6:7
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,6 is already refined
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  6:7
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_6"  "wl5 - Frac_7"   at blocks:
+15,16,6  15,17,6  15,18,6  15,19,6  15,20,6  15,21,6  15,22,6  15,23,6  15,16,7  15,17,7  15,18,7  15,19,7  15,20,7  15,21,7  15,22,7  15,23,7  
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_6" <15,23,6 15:15 15:25 5:7>   "wl5 - Frac_7" <15,23,7 15:15 16:23 6:8>   at blocks:  15:15 16:23 6:7   iLoop detected
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,8 is already refined
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  7:8
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_8"  "wl5 - Frac_7"   at blocks:
+15,16,7  15,17,7  15,18,7  15,19,7  15,20,7  15,21,7  15,22,7  15,23,7  15,16,8  15,17,8  15,18,8  15,19,8  15,20,8  15,21,8  15,22,8  15,23,8  
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_8" <15,23,8 15:15 15:31 7:9>   "wl5 - Frac_7" <15,23,7 15:15 16:23 6:8>   at blocks:  15:15 16:23 7:8
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,7 is already refined
+
+
+2020-03-24 14:53:12     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  7:8
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_7"  "wl5 - Frac_8"   at blocks:
+15,16,7  15,17,7  15,18,7  15,19,7  15,20,7  15,21,7  15,22,7  15,23,7  15,16,8  15,17,8  15,18,8  15,19,8  15,20,8  15,21,8  15,22,8  15,23,8  
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_7" <15,23,7 15:15 15:25 6:8>   "wl5 - Frac_8" <15,23,8 15:15 16:23 7:9>   at blocks:  15:15 16:23 7:8
+
+
+2020-03-24 14:53:12     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,8 is already refined
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  7:8
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_8"  "wl5 - Frac_7"   at blocks:
+15,16,7  15,17,7  15,18,7  15,19,7  15,20,7  15,21,7  15,22,7  15,23,7  15,16,8  15,17,8  15,18,8  15,19,8  15,20,8  15,21,8  15,22,8  15,23,8  
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_8" <15,23,8 15:15 15:25 7:9>   "wl5 - Frac_7" <15,23,7 15:15 16:23 6:8>   at blocks:  15:15 16:23 7:8
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,7 is already refined
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  7:8
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_7"  "wl5 - Frac_8"   at blocks:
+15,16,7  15,17,7  15,18,7  15,19,7  15,20,7  15,21,7  15,22,7  15,23,7  15,16,8  15,17,8  15,18,8  15,19,8  15,20,8  15,21,8  15,22,8  15,23,8  
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_7" <15,23,7 15:15 15:25 6:8>   "wl5 - Frac_8" <15,23,8 15:15 16:23 7:9>   at blocks:  15:15 16:23 7:8   iLoop detected
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,9 is already refined
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  8:9
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_9"  "wl5 - Frac_8"   at blocks:
+15,16,8  15,17,8  15,18,8  15,19,8  15,20,8  15,21,8  15,22,8  15,23,8  15,16,9  15,17,9  15,18,9  15,19,9  15,20,9  15,21,9  15,22,9  15,23,9  
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_9" <15,23,9 15:15 15:31 8:10>   "wl5 - Frac_8" <15,23,8 15:15 16:23 7:9>   at blocks:  15:15 16:23 8:9
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,8 is already refined
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  8:9
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_8"  "wl5 - Frac_9"   at blocks:
+15,16,8  15,17,8  15,18,8  15,19,8  15,20,8  15,21,8  15,22,8  15,23,8  15,16,9  15,17,9  15,18,9  15,19,9  15,20,9  15,21,9  15,22,9  15,23,9  
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_8" <15,23,8 15:15 15:25 7:9>   "wl5 - Frac_9" <15,23,9 15:15 16:23 8:10>   at blocks:  15:15 16:23 8:9
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,9 is already refined
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  8:9
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_9"  "wl5 - Frac_8"   at blocks:
+15,16,8  15,17,8  15,18,8  15,19,8  15,20,8  15,21,8  15,22,8  15,23,8  15,16,9  15,17,9  15,18,9  15,19,9  15,20,9  15,21,9  15,22,9  15,23,9  
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_9" <15,23,9 15:15 15:25 8:10>   "wl5 - Frac_8" <15,23,8 15:15 16:23 7:9>   at blocks:  15:15 16:23 8:9
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,8 is already refined
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  8:9
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_8"  "wl5 - Frac_9"   at blocks:
+15,16,8  15,17,8  15,18,8  15,19,8  15,20,8  15,21,8  15,22,8  15,23,8  15,16,9  15,17,9  15,18,9  15,19,9  15,20,9  15,21,9  15,22,9  15,23,9  
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_8" <15,23,8 15:15 15:25 7:9>   "wl5 - Frac_9" <15,23,9 15:15 16:23 8:10>   at blocks:  15:15 16:23 8:9   iLoop detected
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,10 is already refined
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  9:10
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_10"  "wl5 - Frac_9"   at blocks:
+15,16,9  15,17,9  15,18,9  15,19,9  15,20,9  15,21,9  15,22,9  15,23,9  15,16,10  15,17,10  15,18,10  15,19,10  15,20,10  15,21,10  15,22,10  15,23,10  
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_10" <15,23,10 15:15 15:31 9:11>   "wl5 - Frac_9" <15,23,9 15:15 16:23 8:10>   at blocks:  15:15 16:23 9:10
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,9 is already refined
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  9:10
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_9"  "wl5 - Frac_10"   at blocks:
+15,16,9  15,17,9  15,18,9  15,19,9  15,20,9  15,21,9  15,22,9  15,23,9  15,16,10  15,17,10  15,18,10  15,19,10  15,20,10  15,21,10  15,22,10  15,23,10  
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_9" <15,23,9 15:15 15:25 8:10>   "wl5 - Frac_10" <15,23,10 15:15 16:23 9:11>   at blocks:  15:15 16:23 9:10
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,10 is already refined
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  9:10
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_10"  "wl5 - Frac_9"   at blocks:
+15,16,9  15,17,9  15,18,9  15,19,9  15,20,9  15,21,9  15,22,9  15,23,9  15,16,10  15,17,10  15,18,10  15,19,10  15,20,10  15,21,10  15,22,10  15,23,10  
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_10" <15,23,10 15:15 15:25 9:11>   "wl5 - Frac_9" <15,23,9 15:15 16:23 8:10>   at blocks:  15:15 16:23 9:10
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,9 is already refined
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  9:10
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_9"  "wl5 - Frac_10"   at blocks:
+15,16,9  15,17,9  15,18,9  15,19,9  15,20,9  15,21,9  15,22,9  15,23,9  15,16,10  15,17,10  15,18,10  15,19,10  15,20,10  15,21,10  15,22,10  15,23,10  
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_9" <15,23,9 15:15 15:25 8:10>   "wl5 - Frac_10" <15,23,10 15:15 16:23 9:11>   at blocks:  15:15 16:23 9:10   iLoop detected
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,11 is already refined
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  10:11
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_11"  "wl5 - Frac_10"   at blocks:
+15,16,10  15,17,10  15,18,10  15,19,10  15,20,10  15,21,10  15,22,10  15,23,10  15,16,11  15,17,11  15,18,11  15,19,11  15,20,11  15,21,11  15,22,11  15,23,11  
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_11" <15,23,11 15:15 15:31 10:12>   "wl5 - Frac_10" <15,23,10 15:15 16:23 9:11>   at blocks:  15:15 16:23 10:11
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,10 is already refined
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  10:11
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_10"  "wl5 - Frac_11"   at blocks:
+15,16,10  15,17,10  15,18,10  15,19,10  15,20,10  15,21,10  15,22,10  15,23,10  15,16,11  15,17,11  15,18,11  15,19,11  15,20,11  15,21,11  15,22,11  15,23,11  
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_10" <15,23,10 15:15 15:25 9:11>   "wl5 - Frac_11" <15,23,11 15:15 16:23 10:12>   at blocks:  15:15 16:23 10:11
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,11 is already refined
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  10:11
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_11"  "wl5 - Frac_10"   at blocks:
+15,16,10  15,17,10  15,18,10  15,19,10  15,20,10  15,21,10  15,22,10  15,23,10  15,16,11  15,17,11  15,18,11  15,19,11  15,20,11  15,21,11  15,22,11  15,23,11  
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_11" <15,23,11 15:15 15:25 10:12>   "wl5 - Frac_10" <15,23,10 15:15 16:23 9:11>   at blocks:  15:15 16:23 10:11
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,10 is already refined
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  10:11
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_10"  "wl5 - Frac_11"   at blocks:
+15,16,10  15,17,10  15,18,10  15,19,10  15,20,10  15,21,10  15,22,10  15,23,10  15,16,11  15,17,11  15,18,11  15,19,11  15,20,11  15,21,11  15,22,11  15,23,11  
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_10" <15,23,10 15:15 15:25 9:11>   "wl5 - Frac_11" <15,23,11 15:15 16:23 10:12>   at blocks:  15:15 16:23 10:11   iLoop detected
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,12 is already refined
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  11:12
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_12"  "wl5 - Frac_11"   at blocks:
+15,16,11  15,17,11  15,18,11  15,19,11  15,20,11  15,21,11  15,22,11  15,23,11  15,16,12  15,17,12  15,18,12  15,19,12  15,20,12  15,21,12  15,22,12  15,23,12  
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_12" <15,23,12 15:15 15:31 11:13>   "wl5 - Frac_11" <15,23,11 15:15 16:23 10:12>   at blocks:  15:15 16:23 11:12
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,11 is already refined
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  11:12
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_11"  "wl5 - Frac_12"   at blocks:
+15,16,11  15,17,11  15,18,11  15,19,11  15,20,11  15,21,11  15,22,11  15,23,11  15,16,12  15,17,12  15,18,12  15,19,12  15,20,12  15,21,12  15,22,12  15,23,12  
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_11" <15,23,11 15:15 15:25 10:12>   "wl5 - Frac_12" <15,23,12 15:15 16:23 11:13>   at blocks:  15:15 16:23 11:12
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,12 is already refined
+
+
+2020-03-24 14:53:13     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  11:12
+
+
+2020-03-24 14:53:13     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_12"  "wl5 - Frac_11"   at blocks:
+15,16,11  15,17,11  15,18,11  15,19,11  15,20,11  15,21,11  15,22,11  15,23,11  15,16,12  15,17,12  15,18,12  15,19,12  15,20,12  15,21,12  15,22,12  15,23,12  
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_12" <15,23,12 15:15 15:25 11:13>   "wl5 - Frac_11" <15,23,11 15:15 16:23 10:12>   at blocks:  15:15 16:23 11:12
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:14     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,11 is already refined
+
+
+2020-03-24 14:53:14     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  11:12
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_11"  "wl5 - Frac_12"   at blocks:
+15,16,11  15,17,11  15,18,11  15,19,11  15,20,11  15,21,11  15,22,11  15,23,11  15,16,12  15,17,12  15,18,12  15,19,12  15,20,12  15,21,12  15,22,12  15,23,12  
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_11" <15,23,11 15:15 15:25 10:12>   "wl5 - Frac_12" <15,23,12 15:15 16:23 11:13>   at blocks:  15:15 16:23 11:12   iLoop detected
+
+
+2020-03-24 14:53:14     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,13 is already refined
+
+
+2020-03-24 14:53:14     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  12:13
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_13"  "wl5 - Frac_12"   at blocks:
+15,16,12  15,17,12  15,18,12  15,19,12  15,20,12  15,21,12  15,22,12  15,23,12  15,16,13  15,17,13  15,18,13  15,19,13  15,20,13  15,21,13  15,22,13  15,23,13  
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_13" <15,23,13 15:15 15:31 12:14>   "wl5 - Frac_12" <15,23,12 15:15 16:23 11:13>   at blocks:  15:15 16:23 12:13
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:14     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,12 is already refined
+
+
+2020-03-24 14:53:14     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  12:13
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_12"  "wl5 - Frac_13"   at blocks:
+15,16,12  15,17,12  15,18,12  15,19,12  15,20,12  15,21,12  15,22,12  15,23,12  15,16,13  15,17,13  15,18,13  15,19,13  15,20,13  15,21,13  15,22,13  15,23,13  
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_12" <15,23,12 15:15 15:25 11:13>   "wl5 - Frac_13" <15,23,13 15:15 16:23 12:14>   at blocks:  15:15 16:23 12:13
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:14     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,13 is already refined
+
+
+2020-03-24 14:53:14     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  12:13
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_13"  "wl5 - Frac_12"   at blocks:
+15,16,12  15,17,12  15,18,12  15,19,12  15,20,12  15,21,12  15,22,12  15,23,12  15,16,13  15,17,13  15,18,13  15,19,13  15,20,13  15,21,13  15,22,13  15,23,13  
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_13" <15,23,13 15:15 15:25 12:14>   "wl5 - Frac_12" <15,23,12 15:15 16:23 11:13>   at blocks:  15:15 16:23 12:13
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:14     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,12 is already refined
+
+
+2020-03-24 14:53:14     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  12:13
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_12"  "wl5 - Frac_13"   at blocks:
+15,16,12  15,17,12  15,18,12  15,19,12  15,20,12  15,21,12  15,22,12  15,23,12  15,16,13  15,17,13  15,18,13  15,19,13  15,20,13  15,21,13  15,22,13  15,23,13  
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_12" <15,23,12 15:15 15:25 11:13>   "wl5 - Frac_13" <15,23,13 15:15 16:23 12:14>   at blocks:  15:15 16:23 12:13   iLoop detected
+
+
+2020-03-24 14:53:14     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,14 is already refined
+
+
+2020-03-24 14:53:14     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  13:14
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_14"  "wl5 - Frac_13"   at blocks:
+15,16,13  15,17,13  15,18,13  15,19,13  15,20,13  15,21,13  15,22,13  15,23,13  15,16,14  15,17,14  15,18,14  15,19,14  15,20,14  15,21,14  15,22,14  15,23,14  
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_14" <15,23,14 15:15 15:31 13:15>   "wl5 - Frac_13" <15,23,13 15:15 16:23 12:14>   at blocks:  15:15 16:23 13:14
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:14     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,13 is already refined
+
+
+2020-03-24 14:53:14     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  13:14
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_13"  "wl5 - Frac_14"   at blocks:
+15,16,13  15,17,13  15,18,13  15,19,13  15,20,13  15,21,13  15,22,13  15,23,13  15,16,14  15,17,14  15,18,14  15,19,14  15,20,14  15,21,14  15,22,14  15,23,14  
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_13" <15,23,13 15:15 15:25 12:14>   "wl5 - Frac_14" <15,23,14 15:15 16:23 13:15>   at blocks:  15:15 16:23 13:14
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:14     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,14 is already refined
+
+
+2020-03-24 14:53:14     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  13:14
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_14"  "wl5 - Frac_13"   at blocks:
+15,16,13  15,17,13  15,18,13  15,19,13  15,20,13  15,21,13  15,22,13  15,23,13  15,16,14  15,17,14  15,18,14  15,19,14  15,20,14  15,21,14  15,22,14  15,23,14  
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_14" <15,23,14 15:15 15:25 13:15>   "wl5 - Frac_13" <15,23,13 15:15 16:23 12:14>   at blocks:  15:15 16:23 13:14
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:14     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,13 is already refined
+
+
+2020-03-24 14:53:14     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  13:14
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_13"  "wl5 - Frac_14"   at blocks:
+15,16,13  15,17,13  15,18,13  15,19,13  15,20,13  15,21,13  15,22,13  15,23,13  15,16,14  15,17,14  15,18,14  15,19,14  15,20,14  15,21,14  15,22,14  15,23,14  
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_13" <15,23,13 15:15 15:25 12:14>   "wl5 - Frac_14" <15,23,14 15:15 16:23 13:15>   at blocks:  15:15 16:23 13:14   iLoop detected
+
+
+2020-03-24 14:53:14     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,15 is already refined
+
+
+2020-03-24 14:53:14     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  14:15
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_15"  "wl5 - Frac_14"   at blocks:
+15,16,14  15,17,14  15,18,14  15,19,14  15,20,14  15,21,14  15,22,14  15,23,14  15,16,15  15,17,15  15,18,15  15,19,15  15,20,15  15,21,15  15,22,15  15,23,15  
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_15" <15,23,15 15:15 15:31 14:16>   "wl5 - Frac_14" <15,23,14 15:15 16:23 13:15>   at blocks:  15:15 16:23 14:15
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:14     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,14 is already refined
+
+
+2020-03-24 14:53:14     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  14:15
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_14"  "wl5 - Frac_15"   at blocks:
+15,16,14  15,17,14  15,18,14  15,19,14  15,20,14  15,21,14  15,22,14  15,23,14  15,16,15  15,17,15  15,18,15  15,19,15  15,20,15  15,21,15  15,22,15  15,23,15  
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_14" <15,23,14 15:15 15:25 13:15>   "wl5 - Frac_15" <15,23,15 15:15 16:23 14:16>   at blocks:  15:15 16:23 14:15
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:14     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,15 is already refined
+
+
+2020-03-24 14:53:14     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  14:15
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_15"  "wl5 - Frac_14"   at blocks:
+15,16,14  15,17,14  15,18,14  15,19,14  15,20,14  15,21,14  15,22,14  15,23,14  15,16,15  15,17,15  15,18,15  15,19,15  15,20,15  15,21,15  15,22,15  15,23,15  
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_15" <15,23,15 15:15 15:25 14:16>   "wl5 - Frac_14" <15,23,14 15:15 16:23 13:15>   at blocks:  15:15 16:23 14:15
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:14     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,14 is already refined
+
+
+2020-03-24 14:53:14     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  14:15
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_14"  "wl5 - Frac_15"   at blocks:
+15,16,14  15,17,14  15,18,14  15,19,14  15,20,14  15,21,14  15,22,14  15,23,14  15,16,15  15,17,15  15,18,15  15,19,15  15,20,15  15,21,15  15,22,15  15,23,15  
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_14" <15,23,14 15:15 15:25 13:15>   "wl5 - Frac_15" <15,23,15 15:15 16:23 14:16>   at blocks:  15:15 16:23 14:15   iLoop detected
+
+
+2020-03-24 14:53:14     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,16 is already refined
+
+
+2020-03-24 14:53:14     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  15:16
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_16"  "wl5 - Frac_15"   at blocks:
+15,16,15  15,17,15  15,18,15  15,19,15  15,20,15  15,21,15  15,22,15  15,23,15  15,16,16  15,17,16  15,18,16  15,19,16  15,20,16  15,21,16  15,22,16  15,23,16  
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_16" <15,23,16 15:15 15:31 15:17>   "wl5 - Frac_15" <15,23,15 15:15 16:23 14:16>   at blocks:  15:15 16:23 15:16
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:14     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,15 is already refined
+
+
+2020-03-24 14:53:14     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  15:16
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_15"  "wl5 - Frac_16"   at blocks:
+15,16,15  15,17,15  15,18,15  15,19,15  15,20,15  15,21,15  15,22,15  15,23,15  15,16,16  15,17,16  15,18,16  15,19,16  15,20,16  15,21,16  15,22,16  15,23,16  
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_15" <15,23,15 15:15 15:25 14:16>   "wl5 - Frac_16" <15,23,16 15:15 16:23 15:17>   at blocks:  15:15 16:23 15:16
+
+
+2020-03-24 14:53:14     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,16 is already refined
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  15:16
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_16"  "wl5 - Frac_15"   at blocks:
+15,16,15  15,17,15  15,18,15  15,19,15  15,20,15  15,21,15  15,22,15  15,23,15  15,16,16  15,17,16  15,18,16  15,19,16  15,20,16  15,21,16  15,22,16  15,23,16  
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_16" <15,23,16 15:15 15:25 15:17>   "wl5 - Frac_15" <15,23,15 15:15 16:23 14:16>   at blocks:  15:15 16:23 15:16
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,15 is already refined
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  15:16
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_15"  "wl5 - Frac_16"   at blocks:
+15,16,15  15,17,15  15,18,15  15,19,15  15,20,15  15,21,15  15,22,15  15,23,15  15,16,16  15,17,16  15,18,16  15,19,16  15,20,16  15,21,16  15,22,16  15,23,16  
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_15" <15,23,15 15:15 15:25 14:16>   "wl5 - Frac_16" <15,23,16 15:15 16:23 15:17>   at blocks:  15:15 16:23 15:16   iLoop detected
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,17 is already refined
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  16:17
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_17"  "wl5 - Frac_16"   at blocks:
+15,16,16  15,17,16  15,18,16  15,19,16  15,20,16  15,21,16  15,22,16  15,23,16  15,16,17  15,17,17  15,18,17  15,19,17  15,20,17  15,21,17  15,22,17  15,23,17  
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_17" <15,23,17 15:15 15:31 16:18>   "wl5 - Frac_16" <15,23,16 15:15 16:23 15:17>   at blocks:  15:15 16:23 16:17
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,16 is already refined
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  16:17
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_16"  "wl5 - Frac_17"   at blocks:
+15,16,16  15,17,16  15,18,16  15,19,16  15,20,16  15,21,16  15,22,16  15,23,16  15,16,17  15,17,17  15,18,17  15,19,17  15,20,17  15,21,17  15,22,17  15,23,17  
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_16" <15,23,16 15:15 15:25 15:17>   "wl5 - Frac_17" <15,23,17 15:15 16:23 16:18>   at blocks:  15:15 16:23 16:17
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,17 is already refined
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  16:17
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_17"  "wl5 - Frac_16"   at blocks:
+15,16,16  15,17,16  15,18,16  15,19,16  15,20,16  15,21,16  15,22,16  15,23,16  15,16,17  15,17,17  15,18,17  15,19,17  15,20,17  15,21,17  15,22,17  15,23,17  
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_17" <15,23,17 15:15 15:25 16:18>   "wl5 - Frac_16" <15,23,16 15:15 16:23 15:17>   at blocks:  15:15 16:23 16:17
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,16 is already refined
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  16:17
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_16"  "wl5 - Frac_17"   at blocks:
+15,16,16  15,17,16  15,18,16  15,19,16  15,20,16  15,21,16  15,22,16  15,23,16  15,16,17  15,17,17  15,18,17  15,19,17  15,20,17  15,21,17  15,22,17  15,23,17  
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_16" <15,23,16 15:15 15:25 15:17>   "wl5 - Frac_17" <15,23,17 15:15 16:23 16:18>   at blocks:  15:15 16:23 16:17   iLoop detected
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,18 is already refined
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  17:18
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_18"  "wl5 - Frac_17"   at blocks:
+15,16,17  15,17,17  15,18,17  15,19,17  15,20,17  15,21,17  15,22,17  15,23,17  15,16,18  15,17,18  15,18,18  15,19,18  15,20,18  15,21,18  15,22,18  15,23,18  
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_18" <15,23,18 15:15 15:31 17:19>   "wl5 - Frac_17" <15,23,17 15:15 16:23 16:18>   at blocks:  15:15 16:23 17:18
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,17 is already refined
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  17:18
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_17"  "wl5 - Frac_18"   at blocks:
+15,16,17  15,17,17  15,18,17  15,19,17  15,20,17  15,21,17  15,22,17  15,23,17  15,16,18  15,17,18  15,18,18  15,19,18  15,20,18  15,21,18  15,22,18  15,23,18  
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_17" <15,23,17 15:15 15:25 16:18>   "wl5 - Frac_18" <15,23,18 15:15 16:23 17:19>   at blocks:  15:15 16:23 17:18
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,18 is already refined
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  17:18
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_18"  "wl5 - Frac_17"   at blocks:
+15,16,17  15,17,17  15,18,17  15,19,17  15,20,17  15,21,17  15,22,17  15,23,17  15,16,18  15,17,18  15,18,18  15,19,18  15,20,18  15,21,18  15,22,18  15,23,18  
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_18" <15,23,18 15:15 15:25 17:19>   "wl5 - Frac_17" <15,23,17 15:15 16:23 16:18>   at blocks:  15:15 16:23 17:18
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,17 is already refined
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  17:18
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_17"  "wl5 - Frac_18"   at blocks:
+15,16,17  15,17,17  15,18,17  15,19,17  15,20,17  15,21,17  15,22,17  15,23,17  15,16,18  15,17,18  15,18,18  15,19,18  15,20,18  15,21,18  15,22,18  15,23,18  
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_17" <15,23,17 15:15 15:25 16:18>   "wl5 - Frac_18" <15,23,18 15:15 16:23 17:19>   at blocks:  15:15 16:23 17:18   iLoop detected
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,19 is already refined
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  18:19
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_19"  "wl5 - Frac_18"   at blocks:
+15,16,18  15,17,18  15,18,18  15,19,18  15,20,18  15,21,18  15,22,18  15,23,18  15,16,19  15,17,19  15,18,19  15,19,19  15,20,19  15,21,19  15,22,19  15,23,19  
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_19" <15,23,19 15:15 15:31 18:20>   "wl5 - Frac_18" <15,23,18 15:15 16:23 17:19>   at blocks:  15:15 16:23 18:19
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,18 is already refined
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  18:19
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_18"  "wl5 - Frac_19"   at blocks:
+15,16,18  15,17,18  15,18,18  15,19,18  15,20,18  15,21,18  15,22,18  15,23,18  15,16,19  15,17,19  15,18,19  15,19,19  15,20,19  15,21,19  15,22,19  15,23,19  
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_18" <15,23,18 15:15 15:25 17:19>   "wl5 - Frac_19" <15,23,19 15:15 16:23 18:20>   at blocks:  15:15 16:23 18:19
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,19 is already refined
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  18:19
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_19"  "wl5 - Frac_18"   at blocks:
+15,16,18  15,17,18  15,18,18  15,19,18  15,20,18  15,21,18  15,22,18  15,23,18  15,16,19  15,17,19  15,18,19  15,19,19  15,20,19  15,21,19  15,22,19  15,23,19  
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_19" <15,23,19 15:15 15:25 18:20>   "wl5 - Frac_18" <15,23,18 15:15 16:23 17:19>   at blocks:  15:15 16:23 18:19
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,18 is already refined
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  18:19
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_18"  "wl5 - Frac_19"   at blocks:
+15,16,18  15,17,18  15,18,18  15,19,18  15,20,18  15,21,18  15,22,18  15,23,18  15,16,19  15,17,19  15,18,19  15,19,19  15,20,19  15,21,19  15,22,19  15,23,19  
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_18" <15,23,18 15:15 15:25 17:19>   "wl5 - Frac_19" <15,23,19 15:15 16:23 18:20>   at blocks:  15:15 16:23 18:19   iLoop detected
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,20 is already refined
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  19:20
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_20"  "wl5 - Frac_19"   at blocks:
+15,16,19  15,17,19  15,18,19  15,19,19  15,20,19  15,21,19  15,22,19  15,23,19  15,16,20  15,17,20  15,18,20  15,19,20  15,20,20  15,21,20  15,22,20  15,23,20  
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_20" <15,23,20 15:15 15:31 19:20>   "wl5 - Frac_19" <15,23,19 15:15 16:23 18:20>   at blocks:  15:15 16:23 19:20
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,19 is already refined
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  19:20
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_19"  "wl5 - Frac_20"   at blocks:
+15,16,19  15,17,19  15,18,19  15,19,19  15,20,19  15,21,19  15,22,19  15,23,19  15,16,20  15,17,20  15,18,20  15,19,20  15,20,20  15,21,20  15,22,20  15,23,20  
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_19" <15,23,19 15:15 15:25 18:20>   "wl5 - Frac_20" <15,23,20 15:15 16:23 19:20>   at blocks:  15:15 16:23 19:20
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,20 is already refined
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  19:20
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_20"  "wl5 - Frac_19"   at blocks:
+15,16,19  15,17,19  15,18,19  15,19,19  15,20,19  15,21,19  15,22,19  15,23,19  15,16,20  15,17,20  15,18,20  15,19,20  15,20,20  15,21,20  15,22,20  15,23,20  
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_20" <15,23,20 15:15 15:25 19:20>   "wl5 - Frac_19" <15,23,19 15:15 16:23 18:20>   at blocks:  15:15 16:23 19:20
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 682
+Calculating fractures along well wl5
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 392
+Perforation block 15,23,19 is already refined
+
+
+2020-03-24 14:53:15     File: resds_hf.cpp  Line: 985
+Overlapping planar fractures at blocks:   15:15  16:23  19:20
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 459
+Overlapping fractures:  "wl5 - Frac_19"  "wl5 - Frac_20"   at blocks:
+15,16,19  15,17,19  15,18,19  15,19,19  15,20,19  15,21,19  15,22,19  15,23,19  15,16,20  15,17,20  15,18,20  15,19,20  15,20,20  15,21,20  15,22,20  15,23,20  
+
+
+2020-03-24 14:53:15     File: planarfracture.cpp  Line: 628
+Overlapping fractures:
+"wl5 - Frac_19" <15,23,19 15:15 15:25 18:20>   "wl5 - Frac_20" <15,23,20 15:15 16:23 19:20>   at blocks:  15:15 16:23 19:20   iLoop detected
+
+
+2020-03-24 14:54:32     File: resgbview.cpp  Line: 5325
+Errors were found while opening dataset file:
+'C:\Users\ehsan\Desktop\HF\IMEX_TUTORIAL_CONS_BHP_TIGHT.dat'.
+
+Builder may delete some data while saving.
+
+It is recommended that you save the dataset under a different name.
+
+2020-03-24 15:04:54     File: resds_hf.cpp  Line: 396
+Perforation block 15,23,2 is already refined
+
+
+2020-03-24 15:04:54     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  16:30  1:2
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_2"  "wl5 - Frac_1"   at blocks:
+15,16,1  15,17,1  15,18,1  15,19,1  15,20,1  15,21,1  15,22,1  15,23,1  15,24,1  15,25,1  15,26,1  15,27,1  15,28,1  15,29,1  15,30,1  15,16,2  15,17,2  15,18,2  15,19,2  15,20,2  15,21,2  15,22,2  15,23,2  15,24,2  15,25,2  15,26,2  15,27,2  15,28,2  15,29,2  15,30,2  
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_2" <15,23,2 15:15 15:31 1:3>   "wl5 - Frac_1" <15,23,1 15:15 16:30 1:2>   at blocks:  15:15 16:30 1:2
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:04:54     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  16:30  2:2
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_3"  "wl5 - Frac_1"   at blocks:
+15,16,2  15,17,2  15,18,2  15,19,2  15,20,2  15,21,2  15,22,2  15,23,2  15,24,2  15,25,2  15,26,2  15,27,2  15,28,2  15,29,2  15,30,2  
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_3" <15,23,3 15:15 15:31 2:4>   "wl5 - Frac_1" <15,23,1 15:15 16:30 1:2>   at blocks:  15:15 16:30 2:2
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:04:54     File: resds_hf.cpp  Line: 396
+Perforation block 15,23,5 is already refined
+
+
+2020-03-24 15:04:54     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  16:30  4:5
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_5"  "wl5 - Frac_4"   at blocks:
+15,16,4  15,17,4  15,18,4  15,19,4  15,20,4  15,21,4  15,22,4  15,23,4  15,24,4  15,25,4  15,26,4  15,27,4  15,28,4  15,29,4  15,30,4  15,16,5  15,17,5  15,18,5  15,19,5  15,20,5  15,21,5  15,22,5  15,23,5  15,24,5  15,25,5  15,26,5  15,27,5  15,28,5  15,29,5  15,30,5  
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_5" <15,23,5 15:15 15:31 4:6>   "wl5 - Frac_4" <15,23,4 15:15 16:30 3:5>   at blocks:  15:15 16:30 4:5
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:04:54     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  16:30  5:5
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_6"  "wl5 - Frac_4"   at blocks:
+15,16,5  15,17,5  15,18,5  15,19,5  15,20,5  15,21,5  15,22,5  15,23,5  15,24,5  15,25,5  15,26,5  15,27,5  15,28,5  15,29,5  15,30,5  
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_6" <15,23,6 15:15 15:31 5:7>   "wl5 - Frac_4" <15,23,4 15:15 16:30 3:5>   at blocks:  15:15 16:30 5:5
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:04:54     File: resds_hf.cpp  Line: 396
+Perforation block 15,23,8 is already refined
+
+
+2020-03-24 15:04:54     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  16:30  7:8
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_8"  "wl5 - Frac_7"   at blocks:
+15,16,7  15,17,7  15,18,7  15,19,7  15,20,7  15,21,7  15,22,7  15,23,7  15,24,7  15,25,7  15,26,7  15,27,7  15,28,7  15,29,7  15,30,7  15,16,8  15,17,8  15,18,8  15,19,8  15,20,8  15,21,8  15,22,8  15,23,8  15,24,8  15,25,8  15,26,8  15,27,8  15,28,8  15,29,8  15,30,8  
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_8" <15,23,8 15:15 15:31 7:9>   "wl5 - Frac_7" <15,23,7 15:15 16:30 6:8>   at blocks:  15:15 16:30 7:8
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:04:54     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  16:30  8:8
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_9"  "wl5 - Frac_7"   at blocks:
+15,16,8  15,17,8  15,18,8  15,19,8  15,20,8  15,21,8  15,22,8  15,23,8  15,24,8  15,25,8  15,26,8  15,27,8  15,28,8  15,29,8  15,30,8  
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_9" <15,23,9 15:15 15:31 8:10>   "wl5 - Frac_7" <15,23,7 15:15 16:30 6:8>   at blocks:  15:15 16:30 8:8
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:04:54     File: resds_hf.cpp  Line: 396
+Perforation block 15,23,11 is already refined
+
+
+2020-03-24 15:04:54     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  16:30  10:11
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_11"  "wl5 - Frac_10"   at blocks:
+15,16,10  15,17,10  15,18,10  15,19,10  15,20,10  15,21,10  15,22,10  15,23,10  15,24,10  15,25,10  15,26,10  15,27,10  15,28,10  15,29,10  15,30,10  15,16,11  15,17,11  15,18,11  15,19,11  15,20,11  15,21,11  15,22,11  15,23,11  15,24,11  15,25,11  15,26,11  15,27,11  15,28,11  15,29,11  15,30,11  
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_11" <15,23,11 15:15 15:31 10:12>   "wl5 - Frac_10" <15,23,10 15:15 16:30 9:11>   at blocks:  15:15 16:30 10:11
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:04:54     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  16:30  11:11
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_12"  "wl5 - Frac_10"   at blocks:
+15,16,11  15,17,11  15,18,11  15,19,11  15,20,11  15,21,11  15,22,11  15,23,11  15,24,11  15,25,11  15,26,11  15,27,11  15,28,11  15,29,11  15,30,11  
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_12" <15,23,12 15:15 15:31 11:13>   "wl5 - Frac_10" <15,23,10 15:15 16:30 9:11>   at blocks:  15:15 16:30 11:11
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:04:54     File: resds_hf.cpp  Line: 396
+Perforation block 15,23,14 is already refined
+
+
+2020-03-24 15:04:54     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  16:30  13:14
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_14"  "wl5 - Frac_13"   at blocks:
+15,16,13  15,17,13  15,18,13  15,19,13  15,20,13  15,21,13  15,22,13  15,23,13  15,24,13  15,25,13  15,26,13  15,27,13  15,28,13  15,29,13  15,30,13  15,16,14  15,17,14  15,18,14  15,19,14  15,20,14  15,21,14  15,22,14  15,23,14  15,24,14  15,25,14  15,26,14  15,27,14  15,28,14  15,29,14  15,30,14  
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_14" <15,23,14 15:15 15:31 13:15>   "wl5 - Frac_13" <15,23,13 15:15 16:30 12:14>   at blocks:  15:15 16:30 13:14
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:04:54     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  16:30  14:14
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_15"  "wl5 - Frac_13"   at blocks:
+15,16,14  15,17,14  15,18,14  15,19,14  15,20,14  15,21,14  15,22,14  15,23,14  15,24,14  15,25,14  15,26,14  15,27,14  15,28,14  15,29,14  15,30,14  
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_15" <15,23,15 15:15 15:31 14:16>   "wl5 - Frac_13" <15,23,13 15:15 16:30 12:14>   at blocks:  15:15 16:30 14:14
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:04:54     File: resds_hf.cpp  Line: 396
+Perforation block 15,23,17 is already refined
+
+
+2020-03-24 15:04:54     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  16:30  16:17
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_17"  "wl5 - Frac_16"   at blocks:
+15,16,16  15,17,16  15,18,16  15,19,16  15,20,16  15,21,16  15,22,16  15,23,16  15,24,16  15,25,16  15,26,16  15,27,16  15,28,16  15,29,16  15,30,16  15,16,17  15,17,17  15,18,17  15,19,17  15,20,17  15,21,17  15,22,17  15,23,17  15,24,17  15,25,17  15,26,17  15,27,17  15,28,17  15,29,17  15,30,17  
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_17" <15,23,17 15:15 15:31 16:18>   "wl5 - Frac_16" <15,23,16 15:15 16:30 15:17>   at blocks:  15:15 16:30 16:17
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:04:54     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  16:30  17:17
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_18"  "wl5 - Frac_16"   at blocks:
+15,16,17  15,17,17  15,18,17  15,19,17  15,20,17  15,21,17  15,22,17  15,23,17  15,24,17  15,25,17  15,26,17  15,27,17  15,28,17  15,29,17  15,30,17  
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_18" <15,23,18 15:15 15:31 17:19>   "wl5 - Frac_16" <15,23,16 15:15 16:30 15:17>   at blocks:  15:15 16:30 17:17
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:04:54     File: resds_hf.cpp  Line: 396
+Perforation block 15,23,20 is already refined
+
+
+2020-03-24 15:04:54     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  16:30  19:20
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_20"  "wl5 - Frac_19"   at blocks:
+15,16,19  15,17,19  15,18,19  15,19,19  15,20,19  15,21,19  15,22,19  15,23,19  15,24,19  15,25,19  15,26,19  15,27,19  15,28,19  15,29,19  15,30,19  15,16,20  15,17,20  15,18,20  15,19,20  15,20,20  15,21,20  15,22,20  15,23,20  15,24,20  15,25,20  15,26,20  15,27,20  15,28,20  15,29,20  15,30,20  
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_20" <15,23,20 15:15 15:31 19:20>   "wl5 - Frac_19" <15,23,19 15:15 16:30 18:20>   at blocks:  15:15 16:30 19:20
+
+
+2020-03-24 15:04:54     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:27:15     File: resgbview.cpp  Line: 5325
+Errors were found while opening dataset file:
+'C:\Users\ehsan\Desktop\HF\IMEX_TUTORIAL_CONS_BHP_TIGHT.dat'.
+
+Builder may delete some data while saving.
+
+It is recommended that you save the dataset under a different name.
+
+2020-03-24 15:28:34     File: resds_hf.cpp  Line: 396
+Perforation block 39,20,2 is already refined
+
+
+2020-03-24 15:28:34     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   39:39  13:27  1:3
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl16 - Frac_2"  "wl16 - Frac_1"   at blocks:
+39,13,1  39,14,1  39,15,1  39,16,1  39,17,1  39,18,1  39,19,1  39,20,1  39,21,1  39,22,1  39,23,1  39,24,1  39,25,1  39,26,1  39,27,1  39,13,2  39,14,2  39,15,2  39,16,2  39,17,2  39,18,2  39,19,2  39,20,2  39,21,2  39,22,2  39,23,2  39,24,2  39,25,2  39,26,2  39,27,2  39,13,3  39,14,3  39,15,3  39,16,3  39,17,3  39,18,3  39,19,3  39,20,3  39,21,3  39,22,3  39,23,3  39,24,3  39,25,3  39,26,3  39,27,3  
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl16 - Frac_2" <39,20,2 39:39 12:28 1:4>   "wl16 - Frac_1" <39,20,1 39:39 13:27 1:3>   at blocks:  39:39 13:27 1:3
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl16"
+
+
+2020-03-24 15:28:34     File: resds_hf.cpp  Line: 396
+Perforation block 39,20,3 is already refined
+
+
+2020-03-24 15:28:34     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   39:39  13:27  1:3
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl16 - Frac_3"  "wl16 - Frac_1"   at blocks:
+39,13,1  39,14,1  39,15,1  39,16,1  39,17,1  39,18,1  39,19,1  39,20,1  39,21,1  39,22,1  39,23,1  39,24,1  39,25,1  39,26,1  39,27,1  39,13,2  39,14,2  39,15,2  39,16,2  39,17,2  39,18,2  39,19,2  39,20,2  39,21,2  39,22,2  39,23,2  39,24,2  39,25,2  39,26,2  39,27,2  39,13,3  39,14,3  39,15,3  39,16,3  39,17,3  39,18,3  39,19,3  39,20,3  39,21,3  39,22,3  39,23,3  39,24,3  39,25,3  39,26,3  39,27,3  
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl16 - Frac_3" <39,20,3 39:39 12:28 1:5>   "wl16 - Frac_1" <39,20,1 39:39 13:27 1:3>   at blocks:  39:39 13:27 1:3
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl16"
+
+
+2020-03-24 15:28:34     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   39:39  13:27  2:3
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl16 - Frac_4"  "wl16 - Frac_1"   at blocks:
+39,13,2  39,14,2  39,15,2  39,16,2  39,17,2  39,18,2  39,19,2  39,20,2  39,21,2  39,22,2  39,23,2  39,24,2  39,25,2  39,26,2  39,27,2  39,13,3  39,14,3  39,15,3  39,16,3  39,17,3  39,18,3  39,19,3  39,20,3  39,21,3  39,22,3  39,23,3  39,24,3  39,25,3  39,26,3  39,27,3  
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl16 - Frac_4" <39,20,4 39:39 12:28 2:6>   "wl16 - Frac_1" <39,20,1 39:39 13:27 1:3>   at blocks:  39:39 13:27 2:3
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl16"
+
+
+2020-03-24 15:28:34     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   39:39  13:27  3:3
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl16 - Frac_5"  "wl16 - Frac_1"   at blocks:
+39,13,3  39,14,3  39,15,3  39,16,3  39,17,3  39,18,3  39,19,3  39,20,3  39,21,3  39,22,3  39,23,3  39,24,3  39,25,3  39,26,3  39,27,3  
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl16 - Frac_5" <39,20,5 39:39 12:28 3:7>   "wl16 - Frac_1" <39,20,1 39:39 13:27 1:3>   at blocks:  39:39 13:27 3:3
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl16"
+
+
+2020-03-24 15:28:34     File: resds_hf.cpp  Line: 396
+Perforation block 39,20,7 is already refined
+
+
+2020-03-24 15:28:34     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   39:39  13:27  5:8
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl16 - Frac_7"  "wl16 - Frac_6"   at blocks:
+39,13,5  39,14,5  39,15,5  39,16,5  39,17,5  39,18,5  39,19,5  39,20,5  39,21,5  39,22,5  39,23,5  39,24,5  39,25,5  39,26,5  39,27,5  39,13,6  39,14,6  39,15,6  39,16,6  39,17,6  39,18,6  39,19,6  39,20,6  39,21,6  39,22,6  39,23,6  39,24,6  39,25,6  39,26,6  39,27,6  39,13,7  39,14,7  39,15,7  39,16,7  39,17,7  39,18,7  39,19,7  39,20,7  39,21,7  39,22,7  39,23,7  39,24,7  39,25,7  39,26,7  39,27,7  39,13,8  39,14,8  39,15,8  39,16,8  39,17,8  39,18,8  39,19,8  39,20,8  39,21,8  39,22,8  39,23,8  39,24,8  39,25,8  39,26,8  39,27,8  
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl16 - Frac_7" <39,20,7 39:39 12:28 5:9>   "wl16 - Frac_6" <39,20,6 39:39 13:27 4:8>   at blocks:  39:39 13:27 5:8
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl16"
+
+
+2020-03-24 15:28:34     File: resds_hf.cpp  Line: 396
+Perforation block 39,20,8 is already refined
+
+
+2020-03-24 15:28:34     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   39:39  13:27  6:8
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl16 - Frac_8"  "wl16 - Frac_6"   at blocks:
+39,13,6  39,14,6  39,15,6  39,16,6  39,17,6  39,18,6  39,19,6  39,20,6  39,21,6  39,22,6  39,23,6  39,24,6  39,25,6  39,26,6  39,27,6  39,13,7  39,14,7  39,15,7  39,16,7  39,17,7  39,18,7  39,19,7  39,20,7  39,21,7  39,22,7  39,23,7  39,24,7  39,25,7  39,26,7  39,27,7  39,13,8  39,14,8  39,15,8  39,16,8  39,17,8  39,18,8  39,19,8  39,20,8  39,21,8  39,22,8  39,23,8  39,24,8  39,25,8  39,26,8  39,27,8  
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl16 - Frac_8" <39,20,8 39:39 12:28 6:10>   "wl16 - Frac_6" <39,20,6 39:39 13:27 4:8>   at blocks:  39:39 13:27 6:8
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl16"
+
+
+2020-03-24 15:28:34     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   39:39  13:27  7:8
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl16 - Frac_9"  "wl16 - Frac_6"   at blocks:
+39,13,7  39,14,7  39,15,7  39,16,7  39,17,7  39,18,7  39,19,7  39,20,7  39,21,7  39,22,7  39,23,7  39,24,7  39,25,7  39,26,7  39,27,7  39,13,8  39,14,8  39,15,8  39,16,8  39,17,8  39,18,8  39,19,8  39,20,8  39,21,8  39,22,8  39,23,8  39,24,8  39,25,8  39,26,8  39,27,8  
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl16 - Frac_9" <39,20,9 39:39 12:28 7:11>   "wl16 - Frac_6" <39,20,6 39:39 13:27 4:8>   at blocks:  39:39 13:27 7:8
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl16"
+
+
+2020-03-24 15:28:34     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   39:39  13:27  8:8
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl16 - Frac_10"  "wl16 - Frac_6"   at blocks:
+39,13,8  39,14,8  39,15,8  39,16,8  39,17,8  39,18,8  39,19,8  39,20,8  39,21,8  39,22,8  39,23,8  39,24,8  39,25,8  39,26,8  39,27,8  
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl16 - Frac_10" <39,20,10 39:39 12:28 8:12>   "wl16 - Frac_6" <39,20,6 39:39 13:27 4:8>   at blocks:  39:39 13:27 8:8
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl16"
+
+
+2020-03-24 15:28:34     File: resds_hf.cpp  Line: 396
+Perforation block 39,20,12 is already refined
+
+
+2020-03-24 15:28:34     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   39:39  13:27  10:13
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl16 - Frac_12"  "wl16 - Frac_11"   at blocks:
+39,13,10  39,14,10  39,15,10  39,16,10  39,17,10  39,18,10  39,19,10  39,20,10  39,21,10  39,22,10  39,23,10  39,24,10  39,25,10  39,26,10  39,27,10  39,13,11  39,14,11  39,15,11  39,16,11  39,17,11  39,18,11  39,19,11  39,20,11  39,21,11  39,22,11  39,23,11  39,24,11  39,25,11  39,26,11  39,27,11  39,13,12  39,14,12  39,15,12  39,16,12  39,17,12  39,18,12  39,19,12  39,20,12  39,21,12  39,22,12  39,23,12  39,24,12  39,25,12  39,26,12  39,27,12  39,13,13  39,14,13  39,15,13  39,16,13  39,17,13  39,18,13  39,19,13  39,20,13  39,21,13  39,22,13  39,23,13  39,24,13  39,25,13  39,26,13  39,27,13  
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl16 - Frac_12" <39,20,12 39:39 12:28 10:14>   "wl16 - Frac_11" <39,20,11 39:39 13:27 9:13>   at blocks:  39:39 13:27 10:13
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl16"
+
+
+2020-03-24 15:28:34     File: resds_hf.cpp  Line: 396
+Perforation block 39,20,13 is already refined
+
+
+2020-03-24 15:28:34     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   39:39  13:27  11:13
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl16 - Frac_13"  "wl16 - Frac_11"   at blocks:
+39,13,11  39,14,11  39,15,11  39,16,11  39,17,11  39,18,11  39,19,11  39,20,11  39,21,11  39,22,11  39,23,11  39,24,11  39,25,11  39,26,11  39,27,11  39,13,12  39,14,12  39,15,12  39,16,12  39,17,12  39,18,12  39,19,12  39,20,12  39,21,12  39,22,12  39,23,12  39,24,12  39,25,12  39,26,12  39,27,12  39,13,13  39,14,13  39,15,13  39,16,13  39,17,13  39,18,13  39,19,13  39,20,13  39,21,13  39,22,13  39,23,13  39,24,13  39,25,13  39,26,13  39,27,13  
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl16 - Frac_13" <39,20,13 39:39 12:28 11:15>   "wl16 - Frac_11" <39,20,11 39:39 13:27 9:13>   at blocks:  39:39 13:27 11:13
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl16"
+
+
+2020-03-24 15:28:34     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   39:39  13:27  12:13
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl16 - Frac_14"  "wl16 - Frac_11"   at blocks:
+39,13,12  39,14,12  39,15,12  39,16,12  39,17,12  39,18,12  39,19,12  39,20,12  39,21,12  39,22,12  39,23,12  39,24,12  39,25,12  39,26,12  39,27,12  39,13,13  39,14,13  39,15,13  39,16,13  39,17,13  39,18,13  39,19,13  39,20,13  39,21,13  39,22,13  39,23,13  39,24,13  39,25,13  39,26,13  39,27,13  
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl16 - Frac_14" <39,20,14 39:39 12:28 12:16>   "wl16 - Frac_11" <39,20,11 39:39 13:27 9:13>   at blocks:  39:39 13:27 12:13
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl16"
+
+
+2020-03-24 15:28:34     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   39:39  13:27  13:13
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl16 - Frac_15"  "wl16 - Frac_11"   at blocks:
+39,13,13  39,14,13  39,15,13  39,16,13  39,17,13  39,18,13  39,19,13  39,20,13  39,21,13  39,22,13  39,23,13  39,24,13  39,25,13  39,26,13  39,27,13  
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl16 - Frac_15" <39,20,15 39:39 12:28 13:17>   "wl16 - Frac_11" <39,20,11 39:39 13:27 9:13>   at blocks:  39:39 13:27 13:13
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl16"
+
+
+2020-03-24 15:28:34     File: resds_hf.cpp  Line: 396
+Perforation block 39,20,17 is already refined
+
+
+2020-03-24 15:28:34     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   39:39  13:27  15:18
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl16 - Frac_17"  "wl16 - Frac_16"   at blocks:
+39,13,15  39,14,15  39,15,15  39,16,15  39,17,15  39,18,15  39,19,15  39,20,15  39,21,15  39,22,15  39,23,15  39,24,15  39,25,15  39,26,15  39,27,15  39,13,16  39,14,16  39,15,16  39,16,16  39,17,16  39,18,16  39,19,16  39,20,16  39,21,16  39,22,16  39,23,16  39,24,16  39,25,16  39,26,16  39,27,16  39,13,17  39,14,17  39,15,17  39,16,17  39,17,17  39,18,17  39,19,17  39,20,17  39,21,17  39,22,17  39,23,17  39,24,17  39,25,17  39,26,17  39,27,17  39,13,18  39,14,18  39,15,18  39,16,18  39,17,18  39,18,18  39,19,18  39,20,18  39,21,18  39,22,18  39,23,18  39,24,18  39,25,18  39,26,18  39,27,18  
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl16 - Frac_17" <39,20,17 39:39 12:28 15:19>   "wl16 - Frac_16" <39,20,16 39:39 13:27 14:18>   at blocks:  39:39 13:27 15:18
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl16"
+
+
+2020-03-24 15:28:34     File: resds_hf.cpp  Line: 396
+Perforation block 39,20,18 is already refined
+
+
+2020-03-24 15:28:34     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   39:39  13:27  16:18
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl16 - Frac_18"  "wl16 - Frac_16"   at blocks:
+39,13,16  39,14,16  39,15,16  39,16,16  39,17,16  39,18,16  39,19,16  39,20,16  39,21,16  39,22,16  39,23,16  39,24,16  39,25,16  39,26,16  39,27,16  39,13,17  39,14,17  39,15,17  39,16,17  39,17,17  39,18,17  39,19,17  39,20,17  39,21,17  39,22,17  39,23,17  39,24,17  39,25,17  39,26,17  39,27,17  39,13,18  39,14,18  39,15,18  39,16,18  39,17,18  39,18,18  39,19,18  39,20,18  39,21,18  39,22,18  39,23,18  39,24,18  39,25,18  39,26,18  39,27,18  
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl16 - Frac_18" <39,20,18 39:39 12:28 16:20>   "wl16 - Frac_16" <39,20,16 39:39 13:27 14:18>   at blocks:  39:39 13:27 16:18
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl16"
+
+
+2020-03-24 15:28:34     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   39:39  13:27  17:18
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl16 - Frac_19"  "wl16 - Frac_16"   at blocks:
+39,13,17  39,14,17  39,15,17  39,16,17  39,17,17  39,18,17  39,19,17  39,20,17  39,21,17  39,22,17  39,23,17  39,24,17  39,25,17  39,26,17  39,27,17  39,13,18  39,14,18  39,15,18  39,16,18  39,17,18  39,18,18  39,19,18  39,20,18  39,21,18  39,22,18  39,23,18  39,24,18  39,25,18  39,26,18  39,27,18  
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl16 - Frac_19" <39,20,19 39:39 12:28 17:20>   "wl16 - Frac_16" <39,20,16 39:39 13:27 14:18>   at blocks:  39:39 13:27 17:18
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl16"
+
+
+2020-03-24 15:28:34     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   39:39  13:27  18:18
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl16 - Frac_20"  "wl16 - Frac_16"   at blocks:
+39,13,18  39,14,18  39,15,18  39,16,18  39,17,18  39,18,18  39,19,18  39,20,18  39,21,18  39,22,18  39,23,18  39,24,18  39,25,18  39,26,18  39,27,18  
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl16 - Frac_20" <39,20,20 39:39 12:28 18:20>   "wl16 - Frac_16" <39,20,16 39:39 13:27 14:18>   at blocks:  39:39 13:27 18:18
+
+
+2020-03-24 15:28:34     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl16"
+
+
+2020-03-24 15:34:46     File: resds_hf.cpp  Line: 396
+Perforation block 15,23,2 is already refined
+
+
+2020-03-24 15:34:46     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  14:31  1:2
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_2"  "wl5 - Frac_1"   at blocks:
+15,14,1  15,15,1  15,16,1  15,17,1  15,18,1  15,19,1  15,20,1  15,21,1  15,22,1  15,23,1  15,24,1  15,25,1  15,26,1  15,27,1  15,28,1  15,29,1  15,30,1  15,31,1  15,14,2  15,15,2  15,16,2  15,17,2  15,18,2  15,19,2  15,20,2  15,21,2  15,22,2  15,23,2  15,24,2  15,25,2  15,26,2  15,27,2  15,28,2  15,29,2  15,30,2  15,31,2  
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_2" <15,23,2 15:15 13:33 1:3>   "wl5 - Frac_1" <15,23,1 15:15 14:31 1:2>   at blocks:  15:15 14:31 1:2
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:34:46     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  14:31  2:2
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_3"  "wl5 - Frac_1"   at blocks:
+15,14,2  15,15,2  15,16,2  15,17,2  15,18,2  15,19,2  15,20,2  15,21,2  15,22,2  15,23,2  15,24,2  15,25,2  15,26,2  15,27,2  15,28,2  15,29,2  15,30,2  15,31,2  
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_3" <15,23,3 15:15 13:33 2:4>   "wl5 - Frac_1" <15,23,1 15:15 14:31 1:2>   at blocks:  15:15 14:31 2:2
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:34:46     File: resds_hf.cpp  Line: 396
+Perforation block 15,23,5 is already refined
+
+
+2020-03-24 15:34:46     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  14:31  4:5
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_5"  "wl5 - Frac_4"   at blocks:
+15,14,4  15,15,4  15,16,4  15,17,4  15,18,4  15,19,4  15,20,4  15,21,4  15,22,4  15,23,4  15,24,4  15,25,4  15,26,4  15,27,4  15,28,4  15,29,4  15,30,4  15,31,4  15,14,5  15,15,5  15,16,5  15,17,5  15,18,5  15,19,5  15,20,5  15,21,5  15,22,5  15,23,5  15,24,5  15,25,5  15,26,5  15,27,5  15,28,5  15,29,5  15,30,5  15,31,5  
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_5" <15,23,5 15:15 13:33 4:6>   "wl5 - Frac_4" <15,23,4 15:15 14:31 3:5>   at blocks:  15:15 14:31 4:5
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:34:46     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  14:31  5:5
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_6"  "wl5 - Frac_4"   at blocks:
+15,14,5  15,15,5  15,16,5  15,17,5  15,18,5  15,19,5  15,20,5  15,21,5  15,22,5  15,23,5  15,24,5  15,25,5  15,26,5  15,27,5  15,28,5  15,29,5  15,30,5  15,31,5  
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_6" <15,23,6 15:15 13:33 5:7>   "wl5 - Frac_4" <15,23,4 15:15 14:31 3:5>   at blocks:  15:15 14:31 5:5
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:34:46     File: resds_hf.cpp  Line: 396
+Perforation block 15,23,8 is already refined
+
+
+2020-03-24 15:34:46     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  14:31  7:8
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_8"  "wl5 - Frac_7"   at blocks:
+15,14,7  15,15,7  15,16,7  15,17,7  15,18,7  15,19,7  15,20,7  15,21,7  15,22,7  15,23,7  15,24,7  15,25,7  15,26,7  15,27,7  15,28,7  15,29,7  15,30,7  15,31,7  15,14,8  15,15,8  15,16,8  15,17,8  15,18,8  15,19,8  15,20,8  15,21,8  15,22,8  15,23,8  15,24,8  15,25,8  15,26,8  15,27,8  15,28,8  15,29,8  15,30,8  15,31,8  
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_8" <15,23,8 15:15 13:33 7:9>   "wl5 - Frac_7" <15,23,7 15:15 14:31 6:8>   at blocks:  15:15 14:31 7:8
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:34:46     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  14:31  8:8
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_9"  "wl5 - Frac_7"   at blocks:
+15,14,8  15,15,8  15,16,8  15,17,8  15,18,8  15,19,8  15,20,8  15,21,8  15,22,8  15,23,8  15,24,8  15,25,8  15,26,8  15,27,8  15,28,8  15,29,8  15,30,8  15,31,8  
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_9" <15,23,9 15:15 13:33 8:10>   "wl5 - Frac_7" <15,23,7 15:15 14:31 6:8>   at blocks:  15:15 14:31 8:8
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:34:46     File: resds_hf.cpp  Line: 396
+Perforation block 15,23,11 is already refined
+
+
+2020-03-24 15:34:46     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  14:31  10:11
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_11"  "wl5 - Frac_10"   at blocks:
+15,14,10  15,15,10  15,16,10  15,17,10  15,18,10  15,19,10  15,20,10  15,21,10  15,22,10  15,23,10  15,24,10  15,25,10  15,26,10  15,27,10  15,28,10  15,29,10  15,30,10  15,31,10  15,14,11  15,15,11  15,16,11  15,17,11  15,18,11  15,19,11  15,20,11  15,21,11  15,22,11  15,23,11  15,24,11  15,25,11  15,26,11  15,27,11  15,28,11  15,29,11  15,30,11  15,31,11  
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_11" <15,23,11 15:15 13:33 10:12>   "wl5 - Frac_10" <15,23,10 15:15 14:31 9:11>   at blocks:  15:15 14:31 10:11
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:34:46     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  14:31  11:11
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_12"  "wl5 - Frac_10"   at blocks:
+15,14,11  15,15,11  15,16,11  15,17,11  15,18,11  15,19,11  15,20,11  15,21,11  15,22,11  15,23,11  15,24,11  15,25,11  15,26,11  15,27,11  15,28,11  15,29,11  15,30,11  15,31,11  
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_12" <15,23,12 15:15 13:33 11:13>   "wl5 - Frac_10" <15,23,10 15:15 14:31 9:11>   at blocks:  15:15 14:31 11:11
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:34:46     File: resds_hf.cpp  Line: 396
+Perforation block 15,23,14 is already refined
+
+
+2020-03-24 15:34:46     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  14:31  13:14
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_14"  "wl5 - Frac_13"   at blocks:
+15,14,13  15,15,13  15,16,13  15,17,13  15,18,13  15,19,13  15,20,13  15,21,13  15,22,13  15,23,13  15,24,13  15,25,13  15,26,13  15,27,13  15,28,13  15,29,13  15,30,13  15,31,13  15,14,14  15,15,14  15,16,14  15,17,14  15,18,14  15,19,14  15,20,14  15,21,14  15,22,14  15,23,14  15,24,14  15,25,14  15,26,14  15,27,14  15,28,14  15,29,14  15,30,14  15,31,14  
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_14" <15,23,14 15:15 13:33 13:15>   "wl5 - Frac_13" <15,23,13 15:15 14:31 12:14>   at blocks:  15:15 14:31 13:14
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:34:46     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  14:31  14:14
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_15"  "wl5 - Frac_13"   at blocks:
+15,14,14  15,15,14  15,16,14  15,17,14  15,18,14  15,19,14  15,20,14  15,21,14  15,22,14  15,23,14  15,24,14  15,25,14  15,26,14  15,27,14  15,28,14  15,29,14  15,30,14  15,31,14  
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_15" <15,23,15 15:15 13:33 14:16>   "wl5 - Frac_13" <15,23,13 15:15 14:31 12:14>   at blocks:  15:15 14:31 14:14
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:34:46     File: resds_hf.cpp  Line: 396
+Perforation block 15,23,17 is already refined
+
+
+2020-03-24 15:34:46     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  14:31  16:17
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_17"  "wl5 - Frac_16"   at blocks:
+15,14,16  15,15,16  15,16,16  15,17,16  15,18,16  15,19,16  15,20,16  15,21,16  15,22,16  15,23,16  15,24,16  15,25,16  15,26,16  15,27,16  15,28,16  15,29,16  15,30,16  15,31,16  15,14,17  15,15,17  15,16,17  15,17,17  15,18,17  15,19,17  15,20,17  15,21,17  15,22,17  15,23,17  15,24,17  15,25,17  15,26,17  15,27,17  15,28,17  15,29,17  15,30,17  15,31,17  
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_17" <15,23,17 15:15 13:33 16:18>   "wl5 - Frac_16" <15,23,16 15:15 14:31 15:17>   at blocks:  15:15 14:31 16:17
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:34:46     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  14:31  17:17
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_18"  "wl5 - Frac_16"   at blocks:
+15,14,17  15,15,17  15,16,17  15,17,17  15,18,17  15,19,17  15,20,17  15,21,17  15,22,17  15,23,17  15,24,17  15,25,17  15,26,17  15,27,17  15,28,17  15,29,17  15,30,17  15,31,17  
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_18" <15,23,18 15:15 13:33 17:19>   "wl5 - Frac_16" <15,23,16 15:15 14:31 15:17>   at blocks:  15:15 14:31 17:17
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:34:46     File: resds_hf.cpp  Line: 396
+Perforation block 15,23,20 is already refined
+
+
+2020-03-24 15:34:46     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  14:31  19:20
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_20"  "wl5 - Frac_19"   at blocks:
+15,14,19  15,15,19  15,16,19  15,17,19  15,18,19  15,19,19  15,20,19  15,21,19  15,22,19  15,23,19  15,24,19  15,25,19  15,26,19  15,27,19  15,28,19  15,29,19  15,30,19  15,31,19  15,14,20  15,15,20  15,16,20  15,17,20  15,18,20  15,19,20  15,20,20  15,21,20  15,22,20  15,23,20  15,24,20  15,25,20  15,26,20  15,27,20  15,28,20  15,29,20  15,30,20  15,31,20  
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_20" <15,23,20 15:15 13:33 19:20>   "wl5 - Frac_19" <15,23,19 15:15 14:31 18:20>   at blocks:  15:15 14:31 19:20
+
+
+2020-03-24 15:34:46     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:35:56     File: spatprop.cpp  Line: 949
+Could not find a single valid (non-null,pinchout, or zeropor) block in grid.
+
+2020-03-24 15:36:32     File: resgbview.cpp  Line: 5820
+Errors were found while opening dataset file:
+'C:\Users\ehsan\Desktop\HF\IMEX_TUTORIAL_CONS_BHP_TIGHT.dat'.
+
+Builder may delete some data while saving.
+
+It is recommended that you save the dataset under a different name.
+
+2020-03-24 15:36:40     File: resgbview.cpp  Line: 5325
+Errors were found while opening dataset file:
+'C:\Users\ehsan\Desktop\HF\IMEX_TUTORIAL_CONS_BHP_TIGHT.dat'.
+
+Builder may delete some data while saving.
+
+It is recommended that you save the dataset under a different name.
+
+2020-03-24 15:36:50     File: resgbview.cpp  Line: 5325
+Errors were found while opening dataset file:
+'C:\Users\ehsan\Desktop\HF\IMEX_TUTORIAL_CONS_BHP_TIGHT.dat'.
+
+Builder may delete some data while saving.
+
+It is recommended that you save the dataset under a different name.
+
+2020-03-24 15:45:31     File: resgbview.cpp  Line: 5325
+Errors were found while opening dataset file:
+'C:\Users\ehsan\Desktop\HF\IMEX_TUTORIAL_CONS_BHP_TIGHT.dat'.
+
+Builder may delete some data while saving.
+
+It is recommended that you save the dataset under a different name.
+
+2020-03-24 15:48:38     File: resds_hf.cpp  Line: 396
+Perforation block 15,23,2 is already refined
+
+
+2020-03-24 15:48:38     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  14:31  1:2
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_2"  "wl5 - Frac_1"   at blocks:
+15,14,1  15,15,1  15,16,1  15,17,1  15,18,1  15,19,1  15,20,1  15,21,1  15,22,1  15,23,1  15,24,1  15,25,1  15,26,1  15,27,1  15,28,1  15,29,1  15,30,1  15,31,1  15,14,2  15,15,2  15,16,2  15,17,2  15,18,2  15,19,2  15,20,2  15,21,2  15,22,2  15,23,2  15,24,2  15,25,2  15,26,2  15,27,2  15,28,2  15,29,2  15,30,2  15,31,2  
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_2" <15,23,2 15:15 13:33 1:3>   "wl5 - Frac_1" <15,23,1 15:15 14:31 1:2>   at blocks:  15:15 14:31 1:2
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:48:38     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  14:31  2:2
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_3"  "wl5 - Frac_1"   at blocks:
+15,14,2  15,15,2  15,16,2  15,17,2  15,18,2  15,19,2  15,20,2  15,21,2  15,22,2  15,23,2  15,24,2  15,25,2  15,26,2  15,27,2  15,28,2  15,29,2  15,30,2  15,31,2  
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_3" <15,23,3 15:15 13:33 2:4>   "wl5 - Frac_1" <15,23,1 15:15 14:31 1:2>   at blocks:  15:15 14:31 2:2
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:48:38     File: resds_hf.cpp  Line: 396
+Perforation block 15,23,5 is already refined
+
+
+2020-03-24 15:48:38     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  14:31  4:5
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_5"  "wl5 - Frac_4"   at blocks:
+15,14,4  15,15,4  15,16,4  15,17,4  15,18,4  15,19,4  15,20,4  15,21,4  15,22,4  15,23,4  15,24,4  15,25,4  15,26,4  15,27,4  15,28,4  15,29,4  15,30,4  15,31,4  15,14,5  15,15,5  15,16,5  15,17,5  15,18,5  15,19,5  15,20,5  15,21,5  15,22,5  15,23,5  15,24,5  15,25,5  15,26,5  15,27,5  15,28,5  15,29,5  15,30,5  15,31,5  
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_5" <15,23,5 15:15 13:33 4:6>   "wl5 - Frac_4" <15,23,4 15:15 14:31 3:5>   at blocks:  15:15 14:31 4:5
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:48:38     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  14:31  5:5
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_6"  "wl5 - Frac_4"   at blocks:
+15,14,5  15,15,5  15,16,5  15,17,5  15,18,5  15,19,5  15,20,5  15,21,5  15,22,5  15,23,5  15,24,5  15,25,5  15,26,5  15,27,5  15,28,5  15,29,5  15,30,5  15,31,5  
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_6" <15,23,6 15:15 13:33 5:7>   "wl5 - Frac_4" <15,23,4 15:15 14:31 3:5>   at blocks:  15:15 14:31 5:5
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:48:38     File: resds_hf.cpp  Line: 396
+Perforation block 15,23,8 is already refined
+
+
+2020-03-24 15:48:38     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  14:31  7:8
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_8"  "wl5 - Frac_7"   at blocks:
+15,14,7  15,15,7  15,16,7  15,17,7  15,18,7  15,19,7  15,20,7  15,21,7  15,22,7  15,23,7  15,24,7  15,25,7  15,26,7  15,27,7  15,28,7  15,29,7  15,30,7  15,31,7  15,14,8  15,15,8  15,16,8  15,17,8  15,18,8  15,19,8  15,20,8  15,21,8  15,22,8  15,23,8  15,24,8  15,25,8  15,26,8  15,27,8  15,28,8  15,29,8  15,30,8  15,31,8  
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_8" <15,23,8 15:15 13:33 7:9>   "wl5 - Frac_7" <15,23,7 15:15 14:31 6:8>   at blocks:  15:15 14:31 7:8
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:48:38     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  14:31  8:8
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_9"  "wl5 - Frac_7"   at blocks:
+15,14,8  15,15,8  15,16,8  15,17,8  15,18,8  15,19,8  15,20,8  15,21,8  15,22,8  15,23,8  15,24,8  15,25,8  15,26,8  15,27,8  15,28,8  15,29,8  15,30,8  15,31,8  
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_9" <15,23,9 15:15 13:33 8:10>   "wl5 - Frac_7" <15,23,7 15:15 14:31 6:8>   at blocks:  15:15 14:31 8:8
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:48:38     File: resds_hf.cpp  Line: 396
+Perforation block 15,23,11 is already refined
+
+
+2020-03-24 15:48:38     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  14:31  10:11
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_11"  "wl5 - Frac_10"   at blocks:
+15,14,10  15,15,10  15,16,10  15,17,10  15,18,10  15,19,10  15,20,10  15,21,10  15,22,10  15,23,10  15,24,10  15,25,10  15,26,10  15,27,10  15,28,10  15,29,10  15,30,10  15,31,10  15,14,11  15,15,11  15,16,11  15,17,11  15,18,11  15,19,11  15,20,11  15,21,11  15,22,11  15,23,11  15,24,11  15,25,11  15,26,11  15,27,11  15,28,11  15,29,11  15,30,11  15,31,11  
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_11" <15,23,11 15:15 13:33 10:12>   "wl5 - Frac_10" <15,23,10 15:15 14:31 9:11>   at blocks:  15:15 14:31 10:11
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:48:38     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  14:31  11:11
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_12"  "wl5 - Frac_10"   at blocks:
+15,14,11  15,15,11  15,16,11  15,17,11  15,18,11  15,19,11  15,20,11  15,21,11  15,22,11  15,23,11  15,24,11  15,25,11  15,26,11  15,27,11  15,28,11  15,29,11  15,30,11  15,31,11  
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_12" <15,23,12 15:15 13:33 11:13>   "wl5 - Frac_10" <15,23,10 15:15 14:31 9:11>   at blocks:  15:15 14:31 11:11
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:48:38     File: resds_hf.cpp  Line: 396
+Perforation block 15,23,14 is already refined
+
+
+2020-03-24 15:48:38     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  14:31  13:14
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_14"  "wl5 - Frac_13"   at blocks:
+15,14,13  15,15,13  15,16,13  15,17,13  15,18,13  15,19,13  15,20,13  15,21,13  15,22,13  15,23,13  15,24,13  15,25,13  15,26,13  15,27,13  15,28,13  15,29,13  15,30,13  15,31,13  15,14,14  15,15,14  15,16,14  15,17,14  15,18,14  15,19,14  15,20,14  15,21,14  15,22,14  15,23,14  15,24,14  15,25,14  15,26,14  15,27,14  15,28,14  15,29,14  15,30,14  15,31,14  
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_14" <15,23,14 15:15 13:33 13:15>   "wl5 - Frac_13" <15,23,13 15:15 14:31 12:14>   at blocks:  15:15 14:31 13:14
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:48:38     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  14:31  14:14
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_15"  "wl5 - Frac_13"   at blocks:
+15,14,14  15,15,14  15,16,14  15,17,14  15,18,14  15,19,14  15,20,14  15,21,14  15,22,14  15,23,14  15,24,14  15,25,14  15,26,14  15,27,14  15,28,14  15,29,14  15,30,14  15,31,14  
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_15" <15,23,15 15:15 13:33 14:16>   "wl5 - Frac_13" <15,23,13 15:15 14:31 12:14>   at blocks:  15:15 14:31 14:14
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:48:38     File: resds_hf.cpp  Line: 396
+Perforation block 15,23,17 is already refined
+
+
+2020-03-24 15:48:38     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  14:31  16:17
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_17"  "wl5 - Frac_16"   at blocks:
+15,14,16  15,15,16  15,16,16  15,17,16  15,18,16  15,19,16  15,20,16  15,21,16  15,22,16  15,23,16  15,24,16  15,25,16  15,26,16  15,27,16  15,28,16  15,29,16  15,30,16  15,31,16  15,14,17  15,15,17  15,16,17  15,17,17  15,18,17  15,19,17  15,20,17  15,21,17  15,22,17  15,23,17  15,24,17  15,25,17  15,26,17  15,27,17  15,28,17  15,29,17  15,30,17  15,31,17  
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_17" <15,23,17 15:15 13:33 16:18>   "wl5 - Frac_16" <15,23,16 15:15 14:31 15:17>   at blocks:  15:15 14:31 16:17
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:48:38     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  14:31  17:17
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_18"  "wl5 - Frac_16"   at blocks:
+15,14,17  15,15,17  15,16,17  15,17,17  15,18,17  15,19,17  15,20,17  15,21,17  15,22,17  15,23,17  15,24,17  15,25,17  15,26,17  15,27,17  15,28,17  15,29,17  15,30,17  15,31,17  
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_18" <15,23,18 15:15 13:33 17:19>   "wl5 - Frac_16" <15,23,16 15:15 14:31 15:17>   at blocks:  15:15 14:31 17:17
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 15:48:38     File: resds_hf.cpp  Line: 396
+Perforation block 15,23,20 is already refined
+
+
+2020-03-24 15:48:38     File: resds_hf.cpp  Line: 989
+Overlapping planar fractures at blocks:   15:15  14:31  19:20
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 458
+Overlapping fractures:  "wl5 - Frac_20"  "wl5 - Frac_19"   at blocks:
+15,14,19  15,15,19  15,16,19  15,17,19  15,18,19  15,19,19  15,20,19  15,21,19  15,22,19  15,23,19  15,24,19  15,25,19  15,26,19  15,27,19  15,28,19  15,29,19  15,30,19  15,31,19  15,14,20  15,15,20  15,16,20  15,17,20  15,18,20  15,19,20  15,20,20  15,21,20  15,22,20  15,23,20  15,24,20  15,25,20  15,26,20  15,27,20  15,28,20  15,29,20  15,30,20  15,31,20  
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 630
+Overlapping fractures:
+"wl5 - Frac_20" <15,23,20 15:15 13:33 19:20>   "wl5 - Frac_19" <15,23,19 15:15 14:31 18:20>   at blocks:  15:15 14:31 19:20
+
+
+2020-03-24 15:48:38     File: planarfracture.cpp  Line: 684
+Calculating fractures along well  "wl5"
+
+
+2020-03-24 16:34:46     File: resgbview.cpp  Line: 5350
+Errors were found while opening dataset file:
+'D:\CMG's Modelling Workflow_2019-10\Course-Solution 2019-10\HF\IMEX_TUTORIAL_CONS_BHP_TIGHT.dat'.
+
+Builder may delete some data while saving.
+
+It is recommended that you save the dataset under a different name.
+
