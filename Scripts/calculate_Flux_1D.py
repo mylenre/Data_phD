@@ -8,8 +8,8 @@ Created on Fri May 22 13:44:57 2020
 import matplotlib.pyplot as plt
 import numpy as np
 import os
-os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Heat_Models\RHP\Ref\Step_2_Flux_unsteady_state\Flux_solar_prod')
-
+#os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Heat_Models\RHP\Ref\Step_2_Flux_unsteady_state\Flux_solar_prod')
+os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Heat_Models\RHP\Ref\Step_1_Steady_state')
 time = []
 node = {}
 N= 10001
@@ -132,8 +132,8 @@ for i in timeplot:
 plt.axhline(y=0, xmin=0, xmax=1, linewidth=1, color='r', ls='--')
 plt.axhline(y=0, xmin=0.27, xmax=0.45, linewidth=2, color='k', ls='-')
 plt.axvline(x=50, ymin=0, ymax=1, linewidth=1, color='k', ls='--')
-plt.axvline(x=50, ymin=0.1, ymax=0.35, linewidth=2, color='k', ls='--')
-plt.axvline(x=90, ymin=0.1, ymax=0.35, linewidth=2, color='k', ls='--')
+plt.axvline(x=50, ymin=0.1, ymax=0.8, linewidth=2, color='k', ls='--')
+plt.axvline(x=90, ymin=0.1, ymax=0.8, linewidth=2, color='k', ls='--')
 #plt.axvline(x=250, ymin=0, ymax=1, linewidth=1, color='k', ls='--')
 #plt.axvline(x=450, ymin=0, ymax=1, linewidth=1, color='k', ls='--')
 #plt.axvline(x=650, ymin=0, ymax=1, linewidth=1, color='k', ls='--')
