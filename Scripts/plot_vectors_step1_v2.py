@@ -11,8 +11,8 @@ import os
 #os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\2D_Mine_Models\Benchmark\TH\Layers\LM4\V2\COMPLEX_v2')
 #filename='LM4_domain_quad.tec'
 
-os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Heat_Models\3D_2_smaller_mesh_tests')
-filename='Example_.txt'
+os.chdir(r'R:\Modeling\Heat_Extraction_Paper\Unsteady_State\Profile_3D_30yr_Unsteady\26.5m')
+filename='BHE3_sfc_surface_out_t30.tec'
 
 time = []
 x = []
@@ -23,8 +23,7 @@ T = []
 #yn = []
 #element = {}
 node = {}
-N= []
-E=[]
+N= 5040
 i=0
 
 print(filename)
@@ -41,9 +40,7 @@ with open(filename, 'r') as file:
        continue
     if('ZONE T' in line):
        this_line = line.replace('"','').replace('e+','e').replace('s','').replace('=',',').split(",")
-       time.append(float(this_line[1]))
-       N=int(this_line[3])
-       E=int(this_line[5])
+       time.append(float(this_line[2]))
        j=0
        x = []
        y = []

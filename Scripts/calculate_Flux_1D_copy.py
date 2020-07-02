@@ -8,10 +8,10 @@ Created on Fri May 22 13:44:57 2020
 import matplotlib.pyplot as plt
 import numpy as np
 import os
-os.chdir(r'R:\Modeling\Heat_Extraction_Paper\Steady_state\1D\Step_2_Flux_steady_state\CST_FLUX\PROD_74m2_1yr\PROD')
+os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Heat_Models\RHP\MVS\Lithology\Sand2')
 time = []
 node = {}
-N= 10001  #need update
+N= 700  #need update
 i=0
 xflux = []
 flux = {}
@@ -26,7 +26,6 @@ K = (kth* poro)+(1-poro)*0.63 #Need to create a list of kth & porosity
 
 
 file_name='TDiff-Wall_ply_OUT_t1'
-#file_name='BHE3_ply_profile_vert_2_t5'
 
 print(file_name)
 with open(file_name+'.tec', 'r') as file: 
@@ -80,24 +79,29 @@ for i in timeplot:
 plt.xlabel('Distance z')
 plt.ylabel('Temperature')
 plt.legend(loc='best')
-plt.axhline(y=0, xmin=0, xmax=1, linewidth=1, color='r', ls='--')
-plt.axvline(x=50, ymin=0, ymax=1, linewidth=1, color='k', ls='--')
-plt.axvline(x=250, ymin=0, ymax=1, linewidth=1, color='k', ls='--')
-plt.axvline(x=450, ymin=0, ymax=1, linewidth=1, color='k', ls='--')
-plt.axvline(x=650, ymin=0, ymax=1, linewidth=1, color='k', ls='--')
 plt.title('Temperature along the line' )
 
 #thermal conductivity
 k=[]
 for i in range(len(T)):
-    if val_time[0][i]<50:
-        k.append(1.2)
-    if (val_time[0][i]>=50) and (val_time[0][i]<250):
-        k.append(1.8)
-    if val_time[0][i]>=250:
-        k.append(2.3)
-                       
-
+    if val_time[0][i]<15:
+        k.append(3.58)
+    if (val_time[0][i]>=15) and (val_time[0][i]<25):
+        k.append(1.85)
+    if (val_time[0][i]>=25) and (val_time[0][i]<26):
+        k.append(0.4)
+    if (val_time[0][i]>=26) and (val_time[0][i]<32):
+        k.append(2.23)                     
+    if (val_time[0][i]>=32) and (val_time[0][i]<33):
+        k.append(0.4)
+    if (val_time[0][i]>=33) and (val_time[0][i]<43):
+        k.append(1.85)
+    if (val_time[0][i]>=43) and (val_time[0][i]<58):
+        k.append(2.91)                     
+    if (val_time[0][i]>=58) and (val_time[0][i]<60):
+        k.append(2.35)
+    if (val_time[0][i]>=60) and (val_time[0][i]<70):
+        k.append(3.14)        
 #define size of each element --> to verify
 xsize = [0]
 for i in range(len(val_time[0])):
@@ -139,20 +143,6 @@ for i in timeplot:
     flux[ts_name] = tab
     z = plt.plot(xi[1:2000],xflux[1:2000])
 #f.close()
-plt.axhline(y=0, xmin=0, xmax=1, linewidth=1, color='r', ls='--')
-plt.axhline(y=0, xmin=0.27, xmax=0.45, linewidth=2, color='k', ls='-') #50-90m deep BH
-plt.axvline(x=50, ymin=0.1, ymax=0.8, linewidth=2, color='k', ls='--')
-plt.axvline(x=90, ymin=0.1, ymax=0.8, linewidth=2, color='k', ls='--')
-
-#plt.axhline(y=0, xmin=0.09, xmax=0.45, linewidth=2, color='k', ls='-') #5-45m deep BH
-#plt.axvline(x=50, ymin=0, ymax=1, linewidth=1, color='k', ls='--')
-#plt.axvline(x=5, ymin=0.1, ymax=0.8, linewidth=2, color='k', ls='--')
-#plt.axvline(x=45, ymin=0.1, ymax=0.8, linewidth=2, color='k', ls='--')
-
-
-#plt.axvline(x=250, ymin=0, ymax=1, linewidth=1, color='k', ls='--')
-#plt.axvline(x=450, ymin=0, ymax=1, linewidth=1, color='k', ls='--')
-#plt.axvline(x=650, ymin=0, ymax=1, linewidth=1, color='k', ls='--')
 
 plt.xlabel('Distance X')
 plt.ylabel('Flux (W/m2)')
