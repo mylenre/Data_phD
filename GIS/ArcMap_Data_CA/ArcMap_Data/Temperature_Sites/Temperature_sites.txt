@@ -1,0 +1,111 @@
+Site	Measurement_location	Sub_Site_Number	Coal	Region	Easting	Northing	Type_of_site	Type_of_measurement
+A_Winning	DC_shaft	500.1	Y	East_Midlands	443608	357743	Shaft	ECT_Log_2009
+A_Winning_	Consented_Discharge_	500.1	Y	East_Midlands_	443608	357743	Pumped_Passive_	Logger_data
+A_Winning_	Cascade	500.3	Y	East_Midlands	443790	357640	Pumped_Passive_	Temperature_logger_
+A_Winning_	DC_Shaft	500.1	Y	East_Midlands_	443608	357743	Pumped_Passive_	Logger_data
+Acomb	Deferum_inlet	378.1	Y	North_East	392565	566160	Gravity_discharge	On_Site_Testing
+Algernon_	Main_Coal_B/H	279.10	Y	North_East	432413	569267	Borehole_	Temperature_logger_
+Aspull_Sough	Sough	328.4	Y	North_West_	359640	407120	Pumped	On_Site_Testing
+Babbington	No.4_Shaft	667.1	Y	East_Midlands_	453202	343710	Shaft_	Logger_Data_
+Balgone_Dalginch	Dysart_Main_B/H	493.1	Y	Scotland	330614	701393	Borehole_	Logger_Data_
+Balgone_Muirespot	Dysart_Main_B/H	492.1	Y	Scotland	330500	699400	Borehole_	Logger_Data_
+Balgonie_Dalginch_BH	Borehole_water_level	492.1	Y	Scotland	330500	699400	Monitoring_borehole	Water_Level_Logger
+Bates	No.2_Shaft_Log	11.1	Y	North_East	430619	582281	Pumped	ECT_Log_2010
+Bates	Cascade	11.25	Y	North_East	430388	582397	Pumped	Temperature_logger
+Bates	No.3_Shaft_Log	11.2	Y	North_East	430496	582255	Pumped	ECT_Log_2010
+Bates	No.2_Shaft_Log	11.1	Y	North_East	430619	582281	Pumped	Water_level_logger
+Bates	No.3_Shaft_Log	11.2	Y	North_East	430496	582255	Pumped	Water_level_logger
+Betws	Road_Discharge	7.3	Y	South_Wales	264701	211243	Gravity_Discharge	On_Site_Testing
+Bilston_Glen_	Shaft_1_Downcast_Shaft	432.1	Y	Scotland	327269	665076	Shaft_	ETC_Log_2019_
+Blackclough_Waterloose	Downstream_Weir_	544.3	Y	North_West_	386641	427863	Gravity_discharge	On_Site_Testing
+Blackclough_Waterloose	Discharge	544.2	Y	North_West_	386540	427685	Gravity_Discharge	On_Site_Testing
+Blackvein	Forest_Discharge	594.1	Y	South_Wales	322629	191283	Passive	On_Site_Testing
+Blackvein	Floodplain_Discharge	594.1	Y	South_Wales	322629	191283	Passive	On_Site_Testing
+Blackwood_(Scotland)			Y	Scotland	280300	643200	Not_Monitored	On_Site_Testing
+Blaenavon	Vivian_Borehole	537.1	Y	South_Wales	324560	208930	Borehole	Temperature_Logger
+Blaenavon	Weir	537.4	Y	South_Wales	324560	208930	Consented_Discharge	Temperature_Logger
+Blairingone	Consented_Discharge_	575.4	Y	Scotland	298146	697750	Pumped_Passive_	Logger_Data_
+Blenkinsop	Smallburn_Shaft	607.1	Y	North_East	367006	564317	Active_-_Passive_(Chemical_Addition	Water_Level_logger_
+Blindwells_	Pumping_B/H	656.1	Y	Scotland	341785	674804	Pumped_Passive_	Water_Level_Logger_
+Blindwells_	Pumping_BH_5A	656.4	Y	Scotland	341622	674753	Pumped_Passive_	Temperature_Logger
+Blindwells_	Cascade	656.55	Y	Scotland	341763	674793	Cascade_Outflow	Temperature_Logger
+Boldon	No.1_Shaft_(South)	17.1	Y	North_East	434655	562252	Shaft_	Water_Level_Logger_
+Boythorpe	Discharge	33.1	Y	Yorkshire_	437600	370900	Discharge	On_Site_Testing
+Bridgewater_Canal_	Bottom	29.3	Y	North_West_	374828	400544	Cascade_Outflow	Temperature_Logger
+Bridgewater_Canal_	Top_	29.3	Y	North_West_	374828	400544	Cascade_Outflow	Temperature_Logger
+Broadclough	Discharge	639	Y	North_West_	386895	424387	Discharge	On_Site_Testing
+Broken_Banks	Primary_Discharge	325.2	Y	North_East	419532	529584	Discharge	On_Site_Testing
+Broomhill	Borehole	804.1	Y	North_East	424464	601079	Borehole	Water_Level_Logger
+Cadley_Hill	Borehole	407.1	Y	South_Derbyshire	427952	319076	Borehole	Pumping_Test_(Raw_Pumped)
+Cairnhill	Discharge		Y	Scotland	262785	623410	Discharge	On_Site_Testing
+Cameron	Dysart_Main_B/H	170.1	Y	Scotland	334610	699140	Shaft_	Water_Level_Logger_
+Cannock_Wood	Cascade		Y	West_Midlands_	403552	312589	Borehole	Temperature_Logger
+Cannock_Wood	Monitoring_Borehole	682.1	Y	West_Midlands_	403552	312589	Pumped_Passive_	Logger_Data
+Caphouse	Hope_Shaft	39.1	Y	North_East	424864	416190	Pumped_Discharge	On_Site_Testing
+Carling_How	Shaft_Discharge	7.4	N	North_East	471140	519215	Shaft	On_Site_Testing
+Carr_and_Craggs	Adit_Discharge	668.1	Y	North_West_	389162	425881	Adit_	On_Site_Testing
+Coalburn_Mine_(Muir_Burn)	Discharge		Y	Scotland	257424	614414	Discharge	On_Site_Testing
+Cuthill_Top	Stepped_Cascade_Top_Inlet	591.1	Y	Scotland	299056	662874	Cascade_Outflow	Temperature_Logger
+Dawdon	Shaft	24.1	Y	East_of_Wear	443580	547810	Shaft	ECT_Log_2000
+Dawdon	Shaft	24.1	Y	East_of_Wear	443580	547810	Shaft	ECT_Log_2005
+Dawdon	Shaft	24.1	Y	East_of_Wear	443580	547810	Shaft	ECT_Log_2004
+Dawdon	Shaft	24.1	Y	East_of_Wear	443580	547810	Shaft	ECT_Log_2006
+Dawdon	Shaft	24.1	Y	East_of_Wear	443580	547810	Shaft	ECT_Log_2003
+Dawdon	Shaft	24.1	Y	East_of_Wear	443580	547810	Shaft	ECT_Log_2008
+Douglas_Discharge	Rigside_Day_Level	571.1	Y	Scotland	286721	635603	Discharge	Temperature_Logger
+Easthouses	Great_Seam_Borehole_	787.1	Y	Scotland	334193	665977	Shaft_	ETC_Log_2019_
+Easthouses								
+Elginhaugh	Discharge			Scotland			Discharge	On_Site_Testing
+Fordell_Upper_Discharge	Discharge	588.1	Y	Scotland	314815	685510	Discharge	Water_level_logger
+Frances	Cascade	163.15	Y	Scotland	330940	694010	Pumped	Temperature_logger
+Frances	Shaft	163.1	Y	Scotland	330986	693887	Pumped_Passive_	Logger_Data
+Glenbuck	Discharge	720.1	Y	Scotland	234520	627652	Gravity_Discharge	On_Site_Testing
+Graig_Fawr_(Celynen_North)	Shaft	512.1	Y	South_Wales	321223	197453	Shaft	Logger_data
+Hartington	Shaft_Log	424.10	Y	East_Midlands	443399	375377	Shaft	ECT_Log_2017
+Horden	Shaft_Log	40.1	Y	North_East	444225	541858	Pumped	ECT_Log_2008
+Horden	Shaft_Log	40.1	Y	North_East	444225	541858	Pumped	ECT_Log_2006
+Horden	Shaft_Log	40.1	Y	North_East	444225	541858	Pumped	ECT_Log_2005
+Horden	Shaft_Log	40.1	Y	North_East	444225	541858	Pumped	ECT_Log_2004
+Horden	Shaft_Log	40.1	Y	North_East	444225	541858	Pumped	ECT_Log_12/2003
+Horden	Shaft_Log	40.1	Y	North_East	444225	541858	Pumped	ECT_Log_9/2003
+Horden	Cascade	40.45	Y	North_East	444370	542030	Pumped	Temperature_logger
+Horden	Shaft	40.1	Y	North_East	444225	541858	Pumped	Logger_data
+Joppa_Day_Level	Weir	315.1	Y	Scotland	331500	673512	Discharge	Water_Level_Logger
+Kames	No_1_Shaft_	369.1	Y	Scotland	268481	626239	Passive	Temperature_Logger
+Karva	Borehole_	805.1	Y	East_Midlands_			Shaft_	Temperature_logger_
+Kingshill	Raw_Pipe_Outflow_(Point_A)	417.1	Y	Scotland	285512	657314	Discharge	On_Site_Testing
+Langton	Shaft	451.1	Y	East_Midlands	447468	355059	Shaft	ECT_Log_2013
+Langton_	No.7_Shaft	451.1	Y	East_Midlands_	447468	355059	Shaft_	Water_level_logger
+Langwith	Shaft	761.1	Y	East_Midlands	452915	370692	Shaft	ECT_Log_2017
+Lathallan_Milll	Upwelling_Discharge	610.1	Y	Scotland	346460	706300	Discharge	On_Site_Testing
+Leacroft_	Monitoring_Borehole	640.1	Y	West_Midlands_	400028	309714	Borehole_	ETC_Log_2019_
+Leven_4_BH	Borehole_water_level	633.1	Y	Scotland	336451	699870	Monitoring_borehole	Water_Level_Logger
+Littleton_	Monitoring_Borehole	782.1	Y	West_Midlands_	397028	312532	Borehole_	ETC_Log_2019_
+Lynemouth	Shaft	708.1	Y	North_East	429829	590469	Pumped	On_Site_Testing
+Lynemouth_No1_Shaft	Shaft	708.1	Y	North_East	429829	590469	Shaft	ECT_Log_2010
+Michael	Shaft	164.1	Y	Scotland	333568	696104	Pumped	On_Site_Testing
+Monckton_Coke_Works_BH	Borehole_Log						Monitoring_borehole	ECT_Log_2012
+Morlais_	Shaft_discharge	528.10	Y	South_Wales	257225	202234	Pumped	Temperature_logger
+Mosside_BH	Borehole	259.1	Y	Scotland	297800	667000	Monitoring_borehole	Water_Level_Logger
+Niddrie_(Wisp)_BH	Borehole	740.1	Y	Scotland	330720	671326	Monitoring_borehole	Water_Level_Logger
+Pegswood_Busty_BH	Borehole_water_level	442.1	Y	North_East_	423947	587378	Monitoring_borehole	Water_level_logger
+Pennyvennie_No.3			Y	Scotland	248655	606625		On_Site_Testing
+Polkemmet_No1_Shaft	Shaft	135.1	Y	Scotland	293410	663992	Shaft	Logger_data
+Randolph_BH	Borehole_water_level	222.1	Y	Scotland	330442	695632	Monitoring_borehole	Water_Level_Logger
+Rigside_BH	Borehole	634.1	Y	Scotland	286850	635552	Monitoring_borehole	Water_Level_Logger
+Saltburn	Pumping_borehole		N	#N/A	#N/A	#N/A	Pumped	On_Site_Testing
+Silverdale_	Top_of_Cascade	457.8	Y	West_Midlands_	382060	346770	Pumped	Temperature_logger
+Six_Bells_(Vivian)	Cascade	444.25	Y	South_Wales	321830	203635	Pumped	Temperature_logger
+Six_Bells_(Vivian)	Pumping_borehole	444.1	Y	South_Wales	321951	203548	Pumped	Logger_data
+Star_Road	Discharge				329600	702500	Discharge	On_Site_Testing
+Stony_Heap	Borehole	382.1	Y	North_East	414785	551565	Borehole	ECT_Log_2009
+Taff_Merthyr	Raw_Mine_Water	527.1	Y	South_Wales_	310290	199020	Pumped	Temperature_logger
+Tollcross_Burn	Borehole		Y	Scotland	267400	664900	Monitoring_borehole	On_Site_Testing
+West_Cannock_No_5_	Aquifer_Borehole_	491.1	Y	West_Midlands_	401033	314133	Borehole_	ETC_Log_2019_
+West_Cannock_No_5_	Seam_Borehole_	491.2	Y	West_Midlands_	400951	314158	Borehole_	ETC_Log_2019_
+Whitrigg_BH	Borehole	258.1	Y	Scotland	297500	664900	Monitoring_borehole	Water_Level_Logger
+Williamthorpe	Shaft	484.1	Y	East_Midlands	442738	366611	Shaft	ECT_Log_2017
+Wilsontown_(Mousewater)_	Raw_Discharge	416.1	Y	Scotland	294870	653248	Passive	Temperature_Logger
+Woodside_	Shaft	530.1	Y	East_Midlands	444765	344463	Shaft	ECT_Log_2010
+Woodside_	Shaft	530.1	Y	East_Midlands	444765	344463	Shaft	Logger_data
+Woolley__	Stepped_Cascade_Top_Inlet	83.15	Y	Yorkshire_	430572	411510	Pumped_	Temperature_logger

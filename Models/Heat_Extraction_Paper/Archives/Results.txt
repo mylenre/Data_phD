@@ -1,0 +1,71 @@
+Steady_state
+
+40m BHE:
+Integrated temperature difference along profile after 30 years of production, for: 
+ a 1D rock column (2200 m2) with infinite vertical recharge (no lateral recharge): 1805.37, 
+ a 1D rock column (2200 m2) of BHE height (40m): 1817.93, 
+ at 26.5m from the BHE for an infinite 3D rock volume (lateral and vertical recharge): 483.155
+ and at 26.5m from the BHE for a volume with lateral recharge only: 463.765
+In those models, only the geothermal flux contribute to recharge, as steady state gradient and heat comes from below (explain the cooling at the surface).
+Percentage axial recharge (1D) : 43.7%
+Percentage lateral recharge : 74.5%
+Percentage axial recharge (3D) : 
+
+20m BHE:
+Integrated temperature difference along profile after 30 years of production, for: 
+ a 1D rock column (2200 m2) with infinite vertical recharge (no lateral recharge): 1810.961, 
+ a 1D rock column (2200 m2) of BHE height (20 m): 1819.968, 
+ at 26.5m from the BHE for an infinite 3D rock volume (lateral and vertical recharge): 483.284
+ and at 26.5m from the BHE for a volume with lateral recharge only: 464.006
+In those models, only the geothermal flux contribute to recharge, as steady state gradient and heat comes from below (explain the cooling at the surface).
+Percentage axial recharge (1D) : 65.7%
+Percentage lateral recharge : 74.5%
+Percentage axial recharge (3D) : 66.0%
+
+1 year
+Integrated temperature difference along profile after 1 years of production, for: 
+ a 1D rock column (70 m2) with infinite vertical recharge (no lateral recharge): 1902.093, 
+ a 1D rock column (70 m2) of BHE height (40 m): 1909.666, 
+ at 4.5m from the BHE for an infinite 3D rock volume (lateral and vertical recharge): 517.63
+ and at 4.5m from the BHE for a volume with lateral recharge only: 520.174
+In those models, only the geothermal flux contribute to recharge, as steady state gradient and heat comes from below (explain the cooling at the surface).
+Percentage axial recharge (1D) : 9.2%
+Percentage lateral recharge : 72.8%
+Percentage axial recharge (3D) : 9.8%
+
+Unsteady state
+1 year
+Integrated temperature difference along profile after 1 years of production, for: 
+ a 1D rock column (70 m2) with infinite vertical recharge (no lateral recharge): 1891.467, 
+ a 1D rock column (70 m2) of BHE height (40 m): 1902.53, 
+ at 4.5m from the BHE for an infinite 3D rock volume (lateral and vertical recharge): 488.033
+ and at 4.5m from the BHE for a volume with lateral recharge only: 515.815
+In those models, only the geothermal flux contribute to recharge, as steady state gradient and heat comes from below (explain the cooling at the surface).
+Percentage axial recharge (1D) : 8.9%
+Percentage lateral recharge : 72.9%
+Percentage axial recharge (3D) : 10.8%
+
+30 years - 40m BHE
+Integrated temperature difference along profile after 30 years of production, for: 
+ a 1D rock column (2200 m2) with infinite vertical recharge (no lateral recharge): 1488.433, 
+ a 1D rock column (2200 m2) of BHE height (40 m): 1791.866, 
+ at 26.5m from the BHE for an infinite 3D rock volume (lateral and vertical recharge): 370.255
+ and at 26.5m from the BHE for a volume with lateral recharge only: 440.503
+In those models, only the geothermal flux contribute to recharge, as steady state gradient and heat comes from below (explain the cooling at the surface).
+Percentage axial recharge (1D) : 43.9%
+Percentage lateral recharge : 75.4%
+Percentage axial recharge (3D) : 47.6%
+
+Average temperature gradient at 0.031°C/km
+Temperature gradient at steady state in BHE interval is = 0.036 °C/m 
+For BHE = 40m, mid BHE at 70m  T= 12.417 °C 
+Q= Vz αρc => V = Q / z αρc 
+Q for one year = 3.15 x 1010 J
+Q	3.15E+10
+T (z alpha)	1.24E+01
+rho c 	2.38E+06
+V	1068.18
+H	4.00E+01
+V=pi x r2 x H
+r=	2.915522
+area=	26.70439
