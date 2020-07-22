@@ -1,0 +1,2 @@
+Axial recharge = 50%
+Time :30 31622400 
