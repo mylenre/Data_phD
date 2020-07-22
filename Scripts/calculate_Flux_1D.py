@@ -8,13 +8,11 @@ Created on Fri May 22 13:44:57 2020
 import matplotlib.pyplot as plt
 import numpy as np
 import os
-#os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Heat_Models\RHP\Ref\Step_2_Flux_unsteady_state\Flux_solar_prod')
-os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Heat_Models\RHP\Ref\Step_1_Steady_state')
+os.chdir(r'R:\Modeling\Heat_Extraction_Paper\Steady_state\1D\Step_2_Flux_steady_state\CST_FLUX\PROD_74m2_1yr\PROD')
 time = []
 node = {}
-N= 10001
+N= 10001  #need update
 i=0
-xsize = 0.1 
 xflux = []
 flux = {}
 
@@ -28,6 +26,8 @@ K = (kth* poro)+(1-poro)*0.63 #Need to create a list of kth & porosity
 
 
 file_name='TDiff-Wall_ply_OUT_t1'
+#file_name='BHE3_ply_profile_vert_2_t5'
+
 print(file_name)
 with open(file_name+'.tec', 'r') as file: 
   next(file)
@@ -90,17 +90,27 @@ plt.title('Temperature along the line' )
 #thermal conductivity
 k=[]
 for i in range(len(T)):
-    if i<500:
+    if val_time[0][i]<50:
         k.append(1.2)
-    if (i>=500) and (i<2500):
+    if (val_time[0][i]>=50) and (val_time[0][i]<250):
         k.append(1.8)
-    if i>=2500:
+    if val_time[0][i]>=250:
         k.append(2.3)
                        
+
+#define size of each element --> to verify
+xsize = [0]
+for i in range(len(val_time[0])):
+     if i == 0:
+         continue
+     else:
+         sx = val_time[0][i] - val_time[0][i-1] 
+         xsize.append(sx)
+xsize[0] = xsize[1]
+
 #calculate flux - Finite difference approach
 #f = open('flux.txt', 'a')  
 plt.subplot(1,2,2)
-
 for i in timeplot:
     ts = list(node.keys())[i]
     ts_name = str(ts)
@@ -113,15 +123,15 @@ for i in timeplot:
            if ii == 0 :
               Tn = Ti[ii]
               Txn = Ti[ii+1]
-              q = k[ii] * (Txn - Tn)/(xsize)
+              q = k[ii] * (Txn - Tn)/(xsize[ii])
            if ii == N-1 :
               Tn = Ti[ii]
               Txp = Ti[ii-1]
-              q = k[ii] * (Tn - Txp)/(xsize)
+              q = k[ii] * (Tn - Txp)/(xsize[ii])
            else :
               Txp = Ti[ii-1]
               Txn = Ti[ii+1]
-              q = k[ii] * ((Txn - Txp)/(2 * xsize)) 
+              q = k[ii] * ((Txn - Txp)/(2 * xsize[ii])) 
            xflux.append(q)
     tab = np.vstack((xi, xflux)).T#[xi,xflux]
     np.savetxt('Flux_ts_' + ts_name +'.txt', tab, fmt='%f')
@@ -130,10 +140,16 @@ for i in timeplot:
     z = plt.plot(xi[1:2000],xflux[1:2000])
 #f.close()
 plt.axhline(y=0, xmin=0, xmax=1, linewidth=1, color='r', ls='--')
-plt.axhline(y=0, xmin=0.27, xmax=0.45, linewidth=2, color='k', ls='-')
-plt.axvline(x=50, ymin=0, ymax=1, linewidth=1, color='k', ls='--')
+plt.axhline(y=0, xmin=0.27, xmax=0.45, linewidth=2, color='k', ls='-') #50-90m deep BH
 plt.axvline(x=50, ymin=0.1, ymax=0.8, linewidth=2, color='k', ls='--')
 plt.axvline(x=90, ymin=0.1, ymax=0.8, linewidth=2, color='k', ls='--')
+
+#plt.axhline(y=0, xmin=0.09, xmax=0.45, linewidth=2, color='k', ls='-') #5-45m deep BH
+#plt.axvline(x=50, ymin=0, ymax=1, linewidth=1, color='k', ls='--')
+#plt.axvline(x=5, ymin=0.1, ymax=0.8, linewidth=2, color='k', ls='--')
+#plt.axvline(x=45, ymin=0.1, ymax=0.8, linewidth=2, color='k', ls='--')
+
+
 #plt.axvline(x=250, ymin=0, ymax=1, linewidth=1, color='k', ls='--')
 #plt.axvline(x=450, ymin=0, ymax=1, linewidth=1, color='k', ls='--')
 #plt.axvline(x=650, ymin=0, ymax=1, linewidth=1, color='k', ls='--')
@@ -142,7 +158,9 @@ plt.xlabel('Distance X')
 plt.ylabel('Flux (W/m2)')
 plt.title('Vertical flux' )
 #plt.suptitle('Change in the temperature profile and flux due to surface warming for 1000 years')
-plt.suptitle('Change in the temperature profile and flux due to heat extraction (50-90m) for 50 years')
+#plt.suptitle('Steady state profile with constant flux (Production in 2200 m2) - shallow well ')
+#plt.suptitle('Steady state profile - CUT well ')
+plt.suptitle('Steady state profile with solar flux - 1000 W extraction ')
 
 plt.savefig('Flux_prod.png')  
 

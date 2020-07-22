@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="183.12621mm"
+   height="118.69676mm"
+   viewBox="0 0 183.12621 118.69676"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="Temperature.svg"
+   inkscape:export-filename="R:\GitHub\Data_phD\Data\CoalAuthority_Data\temperatures.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path920"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path920-3"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-2"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path920-5"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <clipPath
+       id="clipEmfPath1"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path1640"
+         d="M 0,-0.67779528 H 316.53039 V 260.27339 H 0 Z"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clipEmfPath2"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path1643"
+         d="M 0.67779528,0 H 316.53039 V 260.27339 H 0.67779528 Z"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clipEmfPath3"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path1646"
+         d="M 0.67773438,0 V 260.27344 H 316.53125 V 0 Z"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <pattern
+       y="0"
+       x="0"
+       height="6"
+       width="6"
+       patternUnits="userSpaceOnUse"
+       id="EMFhbasepattern" />
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-4"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path920-2"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-4-7"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path920-2-3"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-4-7-0"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path920-2-3-6"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.9098259"
+     inkscape:cx="562.57868"
+     inkscape:cy="168.55304"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-23.918639,-80.83882)">
+    <path
+       id="rect815"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.47342137;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 32.258056,111.89454 v 87.40433 H 191.92759 V 111.89454 H 63.952395 c 0.196097,0.21333 0.354732,0.44354 0.414635,0.71875 0.141652,0.65072 -1.109312,0.86568 -1.487645,0.9244 -0.557096,0.0865 0.341138,-0.15999 -0.310173,0.0103 -0.128596,0.0336 -0.254356,0.0776 -0.381422,0.11626 -0.267881,0.0405 -0.534273,0.0908 -0.803555,0.12143 -0.06653,0.008 -0.130684,-0.0354 -0.197674,-0.0346 -0.135785,0.002 -0.265533,0.0335 -0.393742,0.0729 0.166858,0.43261 -0.162585,1.05192 -0.661056,1.85604 -0.03413,0.0551 -0.328443,0.0675 -0.637488,0.0661 -0.03179,0.0258 -0.04095,0.0363 -0.08196,0.0682 -0.142121,0.11067 -0.287925,0.21734 -0.439813,0.3152 -0.01127,0.007 -0.02973,-0.0139 -0.04018,-0.006 -0.910862,0.72455 0.129716,0.005 -0.848019,0.65261 -0.104832,0.0524 -0.198167,0.17664 -0.314456,0.15708 -0.07872,-0.0132 0.206919,-0.23161 0.142497,-0.18601 -0.22158,0.15682 -0.398606,0.36734 -0.620345,0.52394 -0.08612,0.0608 -0.21011,0.18549 -0.2941,0.12195 -0.03132,-0.0237 1.102968,-1.03442 -0.284996,0.22942 -0.08965,0.0498 -0.169683,0.12162 -0.268923,0.14985 -0.02452,0.007 -0.026,-0.0776 -0.04446,-0.0605 -0.207035,0.19174 -0.378726,0.41605 -0.571062,0.62161 -0.04603,0.0597 -0.09146,0.11988 -0.13714,0.17982 -0.132348,0.17365 -0.265017,0.34728 -0.397492,0.52084 -0.1869,0.19896 -0.373438,0.39784 -0.560343,0.59681 -0.13875,0.0939 -0.296055,0.16635 -0.416242,0.28161 -0.435096,0.41725 -0.574885,0.95935 -0.699576,2.44696 -0.31843,1.13223 -0.534122,1.96182 -0.955929,3.20365 0,0 -1.922574,0.36528 -2.376995,-0.20408 -0.09141,-0.12762 -1.049417,-1.99792 -1.136109,-2.12858 -0.03528,-0.0532 -0.283447,-1.44225 -0.222485,-1.45693 -0.103448,-0.93631 0.12384,-1.48599 -0.08814,-1.82015 -0.190967,-0.48942 0.232543,-0.50602 -0.393638,-1.3963 -0.0098,-0.0139 0.05482,0.0334 0.04875,0.0176 -0.08844,-0.23003 -0.210892,-0.44684 -0.302136,-0.67586 -0.01901,-0.0477 -0.132593,-0.27034 -0.177893,-0.36058 -0.09725,-0.1236 -0.525797,-0.70198 -0.822302,-1.19568 -0.09687,-0.1086 -0.193491,-0.21743 -0.290353,-0.32604 0.01662,-0.0238 0.06569,-0.047 0.04982,-0.0713 -0.187659,-0.28707 -0.88311,-0.26915 -1.109975,-0.5658 -0.512528,-0.21322 -1.007848,-0.42645 -1.446934,-0.77197 -0.195526,-0.15387 -0.357461,-0.34391 -0.53624,-0.51568 0.0069,-0.0318 0.0454,-0.0728 0.0209,-0.0951 -0.09681,-0.0881 -0.228571,-0.13205 -0.34285,-0.1979 -0.277225,-0.28618 -0.767948,-0.3141 -1.086941,-0.53583 -0.676964,-0.47056 -0.856791,-0.67833 -0.749448,-0.94249 -0.338525,-0.0906 -0.590363,-0.24363 -0.765521,-0.42629 z m 27.697995,3.51624 c -0.168924,0.0646 -0.164673,0.0619 -0.205176,0.10748 0.101248,-0.0318 0.18275,-0.0708 0.205176,-0.10748 z"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccsccccccccccccccccccccccccc" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817"
+       width="1.168622"
+       height="42.771564"
+       x="83.826691"
+       y="111.42281" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect819"
+       width="1.3891712"
+       height="28.413551"
+       x="91.778564"
+       y="112.18473" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.46499997;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect821"
+       width="4.9082122"
+       height="77.129051"
+       x="135.56015"
+       y="111.89027" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.46499997;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect823"
+       width="89.750175"
+       height="6.3105588"
+       x="45.664516"
+       y="175.34248" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 164.07473,111.89033 V 90.387683 h 8.41408 l 0.23373,7.946631 h 6.31056 v 5.609386 l 7.24545,0.46745 v 7.47918"
+       id="path825"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="opacity:1;fill:#916f6f;fill-opacity:1;stroke:#680000;stroke-width:0.46499997;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect827"
+       width="1.2124454"
+       height="4.1632161"
+       x="83.728943"
+       y="126.89382" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 84.49536,126.87748 84.46615,111.42281"
+       id="path829"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.46499997;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect827-2"
+       width="1.2124454"
+       height="4.1632161"
+       x="91.882149"
+       y="121.66475" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.37034094px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 92.493121,121.74662 -0.02921,-9.7879"
+       id="path829-2"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.46499997;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect827-2-2"
+       width="1.2124454"
+       height="4.1632161"
+       x="137.09491"
+       y="134.82536" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.56880188px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 137.70603,134.97942 -0.0292,-23.08915"
+       id="path829-2-9"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#0000ff;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 57.000723,120.5696 5.183078,-5.85101"
+       id="path915"
+       inkscape:connector-curvature="0"
+       inkscape:transform-center-x="5.1421323"
+       inkscape:transform-center-y="-3.4592453" />
+    <path
+       style="fill:#0000ff;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend-6)"
+       d="m 148.80762,112.12399 7.42489,-2.44327"
+       id="path915-1"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#0000ff;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend-2)"
+       d="m 135.56015,111.89027 -7.69476,-1.37452"
+       id="path915-4"
+       inkscape:connector-curvature="0"
+       inkscape:transform-center-x="-1.1633555"
+       inkscape:transform-center-y="3.3924558" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#0000f3;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="57.849064"
+       y="122.73894"
+       id="text1638"><tspan
+         sodipodi:role="line"
+         id="tspan1636"
+         x="57.849064"
+         y="122.73894"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#0000f3;fill-opacity:1;stroke-width:0.26458332">Passive </tspan><tspan
+         sodipodi:role="line"
+         x="57.849064"
+         y="128.03059"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#0000f3;fill-opacity:1;stroke-width:0.26458332"
+         id="tspan4201">discharge </tspan><tspan
+         sodipodi:role="line"
+         x="57.849064"
+         y="133.32227"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#0000f3;fill-opacity:1;stroke-width:0.26458332"
+         id="tspan2807">= 11.3°C</tspan><tspan
+         sodipodi:role="line"
+         x="57.849064"
+         y="138.61394"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#0000f3;fill-opacity:1;stroke-width:0.26458332"
+         id="tspan934">(consistent </tspan><tspan
+         sodipodi:role="line"
+         x="57.849064"
+         y="143.90561"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#0000f3;fill-opacity:1;stroke-width:0.26458332"
+         id="tspan936">across UK)</tspan></text>
+    <g
+       id="g1652"
+       clip-path="url(#clipEmfPath2)"
+       transform="matrix(0.26458333,0,0,0.26458333,21.614645,2.3528587)" />
+    <g
+       id="g1668"
+       clip-path="url(#clipEmfPath2)"
+       transform="matrix(0.26458333,0,0,0.26458333,21.614645,2.3528587)" />
+    <g
+       id="g1828"
+       clip-path="url(#clipEmfPath1)"
+       transform="matrix(0.26458333,0,0,0.26458333,21.614645,2.3528587)" />
+    <rect
+       style="opacity:1;fill:#916f6f;fill-opacity:1;stroke:#5e0000;stroke-width:0.46499997;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect827-3"
+       width="1.2124454"
+       height="4.1632161"
+       x="19.493528"
+       y="127.76035"
+       transform="rotate(-13.709542)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 49.881159,119.33853 45.592724,108.33985"
+       id="path829-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#007b00;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="23.505228"
+       y="105.065"
+       id="text1638-2"><tspan
+         sodipodi:role="line"
+         id="tspan1636-1"
+         x="23.505228"
+         y="105.065"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#007b00;fill-opacity:1;stroke-width:0.26458332">Pumped discharge </tspan><tspan
+         sodipodi:role="line"
+         x="23.505228"
+         y="110.35667"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#007b00;fill-opacity:1;stroke-width:0.26458332"
+         id="tspan2301">= 12.7°C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#007b00;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="46.718094"
+       y="153.75374"
+       id="text1638-2-4"><tspan
+         sodipodi:role="line"
+         id="tspan1636-1-6"
+         x="46.718094"
+         y="153.75374"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#007b00;fill-opacity:1;stroke-width:0.26458332">Average BH </tspan><tspan
+         sodipodi:role="line"
+         x="46.718094"
+         y="159.04541"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#007b00;fill-opacity:1;stroke-width:0.26458332"
+         id="tspan4224">temp. profile (LOG)</tspan><tspan
+         sodipodi:role="line"
+         x="46.718094"
+         y="164.33707"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#007b00;fill-opacity:1;stroke-width:0.26458332"
+         id="tspan2301-9">= 12.5°C</tspan><tspan
+         sodipodi:role="line"
+         x="46.718094"
+         y="169.62874"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#007b00;fill-opacity:1;stroke-width:0.26458332"
+         id="tspan1639">dT/dz = 0.04</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#0000f3;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="95.202904"
+       y="120.95724"
+       id="text1638-2-4-7"><tspan
+         sodipodi:role="line"
+         x="95.202904"
+         y="120.95724"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#0000f3;fill-opacity:1;stroke-width:0.26458332"
+         id="tspan2301-9-3">Average BH </tspan><tspan
+         sodipodi:role="line"
+         x="95.202904"
+         y="126.2489"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#0000f3;fill-opacity:1;stroke-width:0.26458332"
+         id="tspan4255">temp. Logger</tspan><tspan
+         sodipodi:role="line"
+         x="95.202904"
+         y="131.54057"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#0000f3;fill-opacity:1;stroke-width:0.26458332"
+         id="tspan4259">= 11.4 °C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#d35f5f;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="75.686417"
+       y="101.84008"
+       id="text1638-2-4-7-9"><tspan
+         sodipodi:role="line"
+         x="75.686417"
+         y="101.84008"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#d35f5f;stroke-width:0.26458332"
+         id="tspan4255-9">Pumped BH*</tspan><tspan
+         sodipodi:role="line"
+         x="75.686417"
+         y="107.13174"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#d35f5f;stroke-width:0.26458332"
+         id="tspan4259-6">= 14 °C</tspan></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.46499997;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect821-6"
+       width="4.9082122"
+       height="77.129051"
+       x="143.8994"
+       y="112.12399" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#d35f5f;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="160.85803"
+       y="155.77856"
+       id="text1638-2-4-7-0"><tspan
+         sodipodi:role="line"
+         x="160.85803"
+         y="155.77856"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#d35f5f;stroke-width:0.26458332"
+         id="tspan2301-9-3-2">Average shaft </tspan><tspan
+         sodipodi:role="line"
+         x="160.85803"
+         y="161.07024"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#d35f5f;stroke-width:0.26458332"
+         id="tspan4255-3">temp. Logger</tspan><tspan
+         sodipodi:role="line"
+         x="160.85803"
+         y="166.36189"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#d35f5f;stroke-width:0.26458332"
+         id="tspan1635">= 13.9 °C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="134.48666"
+       y="145.35292"
+       id="text1638-2-4-0"><tspan
+         sodipodi:role="line"
+         id="tspan1636-1-6-2"
+         x="135.97495"
+         y="145.35292"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;stroke-width:0.26458332">Average shaft </tspan><tspan
+         sodipodi:role="line"
+         x="134.48666"
+         y="150.64459"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;stroke-width:0.26458332"
+         id="tspan4224-3">temp. profile (LOG)</tspan><tspan
+         sodipodi:role="line"
+         x="135.97495"
+         y="155.93625"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;stroke-width:0.26458332"
+         id="tspan2301-9-7">= 15.5°C </tspan><tspan
+         sodipodi:role="line"
+         x="134.48666"
+         y="161.22792"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;stroke-width:0.26458332"
+         id="tspan1637">(dT/dz~0.02)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#d35f5f;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="118.04337"
+       y="98.354561"
+       id="text1638-5"><tspan
+         sodipodi:role="line"
+         id="tspan1636-16"
+         x="118.04337"
+         y="98.354561"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#d35f5f;stroke-width:0.26458332">Passive </tspan><tspan
+         sodipodi:role="line"
+         x="118.04337"
+         y="103.64622"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#d35f5f;stroke-width:0.26458332"
+         id="tspan4201-3">discharge </tspan><tspan
+         sodipodi:role="line"
+         x="118.04337"
+         y="108.9379"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#d35f5f;stroke-width:0.26458332"
+         id="tspan2807-6">= 13.9°C</tspan></text>
+    <rect
+       style="opacity:1;fill:#916f6f;fill-opacity:1;stroke:#680000;stroke-width:0.46499997;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect827-6"
+       width="1.2124454"
+       height="4.1632161"
+       x="145.54701"
+       y="127.86913" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.47685039px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 146.3246,128.39635 -0.0293,-16.16357"
+       id="path829-2-9-9"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#d35f5f;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="149.7554"
+       y="136.97824"
+       id="text1638-2-4-7-9-6"><tspan
+         sodipodi:role="line"
+         x="149.7554"
+         y="136.97824"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#d35f5f;stroke-width:0.26458332"
+         id="tspan4259-6-8">Pumped shaft*</tspan><tspan
+         sodipodi:role="line"
+         x="149.7554"
+         y="142.26991"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#d35f5f;stroke-width:0.26458332"
+         id="tspan4916">= 14.2 °C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#d35f5f;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="150.49817"
+       y="116.53297"
+       id="text1638-2-4-7-9-6-6"><tspan
+         sodipodi:role="line"
+         x="150.49817"
+         y="116.53297"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#d35f5f;stroke-width:0.26458332"
+         id="tspan4259-6-8-7">Pumped discharge</tspan><tspan
+         sodipodi:role="line"
+         x="150.49817"
+         y="121.82463"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#d35f5f;stroke-width:0.26458332"
+         id="tspan5257">from shaft</tspan><tspan
+         sodipodi:role="line"
+         x="150.49817"
+         y="127.1163"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#d35f5f;stroke-width:0.26458332"
+         id="tspan4916-7">= 14 °C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="172.91318"
+       y="88.87706"
+       id="text1638-5-8"><tspan
+         sodipodi:role="line"
+         x="172.91318"
+         y="88.87706"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+         id="tspan4201-3-3">Top</tspan><tspan
+         sodipodi:role="line"
+         x="172.91318"
+         y="94.168724"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+         id="tspan2807-6-4">= 13.5°C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="140.82266"
+       y="84.055161"
+       id="text1638-5-5"><tspan
+         sodipodi:role="line"
+         x="140.82266"
+         y="84.055161"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+         id="tspan2807-6-8">Cascade</tspan><tspan
+         sodipodi:role="line"
+         x="140.82266"
+         y="89.346825"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+         id="tspan5542">Average T° </tspan><tspan
+         sodipodi:role="line"
+         x="140.82266"
+         y="94.638496"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+         id="tspan5544">= 14.2 °C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="187.37886"
+       y="105.83681"
+       id="text1638-5-56"><tspan
+         sodipodi:role="line"
+         x="187.37886"
+         y="105.83681"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+         id="tspan2807-6-9">Bottom</tspan><tspan
+         sodipodi:role="line"
+         x="187.37886"
+         y="111.12847"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+         id="tspan5551">= 12.1°C</tspan></text>
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend-4)"
+       d="m 138.30736,138.98859 21.36852,14.16263"
+       id="path915-16"
+       inkscape:connector-curvature="0"
+       inkscape:transform-center-x="5.1421323"
+       inkscape:transform-center-y="-3.4592453"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="160.46158"
+       y="172.42162"
+       id="text1638-2-4-0-0"><tspan
+         sodipodi:role="line"
+         x="160.46158"
+         y="172.42162"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+         id="tspan1668">* but what </tspan><tspan
+         sodipodi:role="line"
+         x="160.46158"
+         y="177.71329"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+         id="tspan2505">depth??</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="79.032837"
+       y="170.95125"
+       id="text1638-2-4-0-0-3"><tspan
+         sodipodi:role="line"
+         x="79.032837"
+         y="170.95125"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+         id="tspan2301-9-7-7-0">depends on depth interval</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="36.538723"
+       y="190.84842"
+       id="text1638-2-4-7-9-69"><tspan
+         sodipodi:role="line"
+         x="36.538723"
+         y="190.84842"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:0.26458332"
+         id="tspan4259-6-2">*very variable across UK</tspan><tspan
+         sodipodi:role="line"
+         x="36.538723"
+         y="196.14009"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:0.26458332"
+         id="tspan2501">LOG : T° depends on depth interval</tspan></text>
+  </g>
+</svg>

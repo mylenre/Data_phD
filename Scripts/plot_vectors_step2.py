@@ -5,6 +5,8 @@ Created on Sun May  3 00:41:21 2020
 @author: s1995204
 """
 import matplotlib.pyplot as plt
+import os
+os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\Heat_Models\3D_2_structures')
 
 #define rock properties
 kth = 2.0
@@ -13,16 +15,19 @@ K = (kth* poro)+(1-poro)*0.63 #Need to create a list of kth & porosity
                            #for each cell in put in loop                           
 # extract values for time step t  
 print("Available time steps: %s", node.keys())          
-t = input("Enter time step (sec) : ") #1000
+t = eval(input("Enter time step (sec) : ")) #1000
 val = node[t]
 xval= val[0]
 yval=val[1]
-Tval=val[2]
+Tval=val[3]
+
 uxval= set()
 uyval= set()
 for x in xval:
+    x=round(x,0)
     uxval.add(x)
 for y in yval:
+    y=round(y,0)
     uyval.add(y)
 uxval = sorted(list(uxval))
 uyval = sorted(list(uyval))
@@ -59,39 +64,39 @@ for ii in range(len(uxval)):
     for jj in range(len(uyval)):
         print("look at val node jj " + str(jj))
         for k in range(len(xval)):
-            if uxval[ii] == xval[k] and uyval[jj] == yval[k] :
+            if uxval[ii] == round(xval[k],0) and uyval[jj] == round(yval[k],0) :
                 Tx = Tval[k]
                 print("Selected node: n " + str(k))
             if ii!=0 :
-                if uxval[ii-1] == xval[k] and uyval[jj] == yval[k] :
+                if uxval[ii-1] == round(xval[k],0) and uyval[jj] == round(yval[k],0)  :
                     Txp = Tval[k]
                     print("Previous node in x direction: " + str(k))
-                if ii!=(len(uxval)-1) and uxval[ii+1] == xval[k] and uyval[jj] == yval[k] :
+                if ii!=(len(uxval)-1) and uxval[ii+1] == round(xval[k],0) and uyval[jj] == round(yval[k],0)  :
                     Txn = Tval[k]
                     print("Next node in x direction: " + str(k))
                 if ii==(len(uxval)-1) :
-                    Txn = 0
-                    print("Node at x_right boundary, Tn = 0 ")
+                    Txn = 10.86
+                    print("Node at x_right boundary, Tn = 10.86 ")
             if ii==0 :
-                Txp = 100
-                print("Node at x_left boundary, Tp = 100")
-                if uxval[ii+1] == xval[k] and uyval[jj] == yval[k] :
+                Txp = 10.86
+                print("Node at x_left boundary, Tp = 10.86")
+                if uxval[ii+1] == round(xval[k],0) and uyval[jj] == round(yval[k],0)  :
                     Txn = Tval[k]
                     print("Next node in x direction: " + str(k))
             if jj!=0 :
-                if uxval[ii] == xval[k] and uyval[jj-1] == yval[k] :
+                if uxval[ii] == round(xval[k],0) and uyval[jj-1] == round(yval[k],0)  :
                     Typ = Tval[k]
                     print("Previous node in y direction: " + str(k))
-                if jj!=(len(uyval)-1) and uxval[ii] == xval[k] and uyval[jj+1] == yval[k] :
+                if jj!=(len(uyval)-1) and uxval[ii] == round(xval[k],0) and uyval[jj+1] == round(yval[k],0)  :
                     Tyn = Tval[k]
                     print("Next node in y direction: " + str(k))
                 if jj==(len(uyval)-1) :
-                    Tyn = 0
-                    print("Node at y_top boundary, Tn = 0 ")
+                    Tyn = 10.86
+                    print("Node at y_top boundary, Tn = 10.86 ")
             if jj==0 :
-                Typ = 0
-                print("Node at y_bottom boundary, Tp = 0")
-                if uxval[ii] == xval[k] and uyval[jj+1] == yval[k] :
+                Typ = 10.86
+                print("Node at y_bottom boundary, Tp = 10.86")
+                if uxval[ii] == round(xval[k],0) and uyval[jj+1] == round(yval[k],0)  :
                     Tyn = Tval[k]
                     print("Next node in y direction: " + str(k))               
             else:
@@ -101,7 +106,7 @@ for ii in range(len(uxval)):
         Tasc.append(Tx)
         qx = ((Txn - Txp)/(2 * xsize[ii])) * K
         qy = ((Tyn - Typ)/(2 * ysize[jj])) * K
-        q  = sqrt(qx**2+qy**2)
+        q  = np.sqrt(qx**2+qy**2)
         xflux.append(qx)
         yflux.append(qy)
         Q.append(q)
