@@ -11,8 +11,8 @@ import os
 #os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\2D_Mine_Models\Benchmark\TH\Layers\LM4\V2\COMPLEX_v2')
 #filename='LM4_domain_quad.tec'
 
-os.chdir(r'R:\Modeling\Heat_Extraction_Paper\Unsteady_State\Profile_3D_30yr_Unsteady\26.5m')
-filename='BHE3_sfc_surface_out_t30.tec'
+os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\1_year\Sensitivity_analysis\lambda_1.2\PROD_3D')
+filename='BHE3_sfc_surface_out_t366.tec'
 
 time = []
 x = []

@@ -16,7 +16,7 @@ sns.set()
 col = ["k","y","g","b","c","m","r"]
 
 
-os.chdir(r'R:\Modeling\Heat_Extraction_Paper\Steady_state\Analysis\1_year')
+os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\30_years\1_Sensitivity_Analysis\Time\Analysis')
 
 #variables
 BHEt=50
@@ -62,13 +62,14 @@ for i in filelist:
     ax.plot(data_new['ZONE'], data_new['T'],label = name, color=col[id], lw=3)
     d = pd.merge(df, data_new, on='ZONE', how='left')
     df[name] = d['T']
-plt.axvline(x=15, ymin=0, ymax=0.3, linewidth=1, color='k', ls='--')
+plt.axvline(x=25, ymin=0, ymax=0.44, linewidth=1, color='k', ls='--')
+#plt.axvline(x=80, ymin=0, ymax=0.44, linewidth=1, color='k', ls='--')
 plt.axvline(x=BHEt, ymin=0, ymax=1, linewidth=1, color='k', ls='--')
 plt.axvline(x=BHEb, ymin=0, ymax=1, linewidth=1, color='k', ls='--')
 ax.set(xlabel="Distance along profile",
        ylabel="Temperature",
        title="Temperature along profile after 1 year production")
-plt.axis((0,200,2,18))
+plt.axis((0,200,4,16))
 plt.legend(loc='best')
 plt.savefig('Temp_profile.png')
 
@@ -81,19 +82,36 @@ v5 = df['3D_BHE']
 solar_recharge = v2 - v1
 axial = v1 - v3
 lateral = v5 - v3
-fig, ax = plt.subplots(figsize=(8,5))
-ax.plot(d['ZONE'], solar_recharge, 'g',lw=3, label = 'solar effects')
-ax.plot(d['ZONE'], axial, 'y', lw=3,label = 'axial effects')
-ax.plot(d['ZONE'], lateral, 'c', lw=3, label = 'lateral effects')
+
+fig, ax1 = plt.subplots(figsize=(8,5))
+color = 'tab:red'
+ax1.plot(d['ZONE'], solar_recharge, color=color ,lw=3)
+ax1.set_xlabel('Distance along profile (m))')
+ax1.set_ylabel('DT between constant temperature and \n constant flux boundary profiles', color=color)
+ax1.tick_params(axis='y', labelcolor=color)
+ax1.axis((0,200,-0.02,4))
+
+ax2 = ax1.twinx()  # instantiate a second axes that shares the same x-axis
+color = 'tab:blue'
+ax2.set_ylabel('DT between temperature profiles', color=color)
+ax2.plot(d['ZONE'], axial, color=color, lw=3, label = 'axial effects (semi-infinite - BHE model)')
+ax2.plot(d['ZONE'], lateral, '--', color=color, lw=3, label = 'lateral effects (BHE 1D - 3D)')
+ax2.tick_params(axis='y', labelcolor=color)
+ax2.axis((0,200,1,14))
+fig.tight_layout()  # otherwise the right y-label is slightly clipped
+
+
+#ax.set(xlabel="Distance along profile",
+#       ylabel="Temperature differences",
+#       title="Temperature differences along profile after 30 years production. \n  \n Solar effects is the difference in temperature along the vertical profile if constant temperature vs constant flux  boundary conditions are used. \n Axial effects represents the temperature difference along the 22000 m2 BHE if a rock column is available above/below and if not (BHE height = 2200m). \n Lateral effects represents the temperature difference between a profile situated at 26.5m from the BHE (3D model) and along the 2200m2 BHE (1D model).")
+
 plt.axvline(x=BHEt, ymin=0, ymax=1, linewidth=1, color='k', ls='--')
 plt.axvline(x=BHEb, ymin=0, ymax=1, linewidth=1, color='k', ls='--')
-plt.axvline(x=32.7, ymin=0, ymax=0.08, linewidth=1, color='k', ls='--')
-ax.set(xlabel="Distance along profile",
-       ylabel="Temperature differences",
-       title="Temperature differences along profile after 30 years production. \n  \n Solar effects is the difference in temperature along the vertical profile if constant temperature vs constant flux  boundary conditions are used. \n Axial effects represents the temperature difference along the 22000 m2 BHE if a rock column is available above/below and if not (BHE height = 2200m). \n Lateral effects represents the temperature difference between a profile situated at 26.5m from the BHE (3D model) and along the 2200m2 BHE (1D model).")
-plt.axis((0,200,-0.2,7))
+plt.axvline(x=80, ymin=0, ymax=0.06, linewidth=1, color='k', ls='--')
+plt.title("Temperature differences along profile after 30 years production (2200m).")
 plt.legend(loc='best')
-plt.savefig('Temp_diff.png')
+plt.savefig('Temp_diff2.png')
+
 
 BHEtx=BHEt * 10
 BHEbx=BHEb * 10

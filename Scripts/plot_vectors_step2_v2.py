@@ -6,7 +6,8 @@ Created on Sun May  3 00:41:21 2020
 """
 import matplotlib.pyplot as plt
 import os
-os.chdir(r'R:\Modeling\Heat_Extraction_Paper\Unsteady_State\Profile_3D_30yr_Unsteady\26.5m')
+os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\1_year\Sensitivity_analysis\lambda_1.2\PROD_3D')
+Kth=1.2
 
 xval=[]
 yval=[]
@@ -112,10 +113,11 @@ for ii in range(len(uxval)):
         Tasc.append(Tx)
         
         #define rock properties
-        if jj > 58:
-            Kth = 1.2
-        else:
-            Kth = 1.8
+        #if jj > 58:
+        #    Kth = 1.2
+        #else:
+        #   Kth = 1.8
+        
         #poro = 0.1
         #K = (Kth* poro)+(1-poro)*0.63                            
         qx = ((Txn - Txp)/(2 * xsize[ii])) * Kth
@@ -127,7 +129,7 @@ for ii in range(len(uxval)):
 
 #save results in text file
 tab = np.vstack((xasc, yasc, Tasc, xflux, yflux, Q)).T
-np.savetxt('Flux_Results_t' + str(t) +'.txt', tab, fmt='%f')
+np.savetxt('Flux_Results_t' + str(t) +'_v2.txt', tab, fmt='%f')
 
 # plot results 
 T2D = np.reshape(Tasc,(len(uyval),len(uxval)), order = 'F')        
@@ -162,7 +164,7 @@ plt.colorbar(z3, shrink=0.9)
 plt.xlabel('Distance X')
 plt.title('Vertical flux' )
 
-plt.savefig('Flux_2D_t' + str(t) + '.png')  
+plt.savefig('Flux_2D_t' + str(t) + '_v2.png')  
 
 
 
