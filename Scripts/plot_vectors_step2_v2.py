@@ -6,8 +6,8 @@ Created on Sun May  3 00:41:21 2020
 """
 import matplotlib.pyplot as plt
 import os
-os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\1_year\Sensitivity_analysis\lambda_1.2\PROD_3D')
-Kth=1.2
+os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\30_years\1_Sensitivity_Analysis\Time\5_PROD_3D')
+Kth=2.2
 
 xval=[]
 yval=[]
