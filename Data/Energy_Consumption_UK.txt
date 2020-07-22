@@ -1,0 +1,50 @@
+The following figures give an estimate of the average electricity usage and average gas usage per day in the UK.					
+Electricity: 8 - 10 kWh per day			
+Gas: 33 - 38 kWh per day
+
+annual gas usage 13213 kWh https://selectra.co.uk/energy/guides/consumption/average-consumption-uk
+medium households: https://www.ofgem.gov.uk/gas/retail-market/monitoring-data-and-statistics/typical-domestic-consumption-values
+annual average gas usage UK 12000 kWh https://www.ukpower.co.uk/home_energy/average-household-gas-and-electricity-usage
+annual average electricity usage UK  2900 kWh - 3200 kWh
+			
+Annual space heat demand  10 368 kWh	https://www.thegreenage.co.uk/how-much-energy-does-my-home-use/
+HW	4 kWh/day	https://www.bregroup.com/heatpumpefficiency/hot-water-consumption 
+			https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/48188/3147-measure-domestic-hot-water-consump.pdf
+
+
+Table 3 Summary of average consumption data for all households
+p32 https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/208097/10043_R66141HouseholdElectricitySurveyFinalReportissue4.pdf 
+
+Appliance type Average annual
+consumption (kWh)
+Refrigerator 162
+Fridge-freezer 427
+Upright freezer 327
+Chest freezer 362
+Washing machine 166
+Washer dryer 243
+Clothes dryer 394
+Dishwasher 294
+Oven 290
+Cooker 317
+Hob 226
+Microwave oven 56
+Kettle 167
+Lighting 537
+Audiovisual site1 465
+CRT television 118
+LCD television 199
+Plasma television 658
+Computer site2 240
+Space heating (with additional electric heating) 1,505
+Space heating (with primary electric heating) 5,249
+Water heating (with additional electric heating) 393
+Water heating (with primary electric heating) 945
+
+
+
+http://www.esru.strath.ac.uk/EandE/Web_sites/09-10/Hybrid_systems/solar-thermal.htm
+Scotland : average 4.1 sun hour per day
+Solar radiations in Scotland: 1000 kwh/year Scotland ->2.5 kwh/day
+Panel size: 3-4 m2 should be adequate for a 4 person home 
+Energy generation (kWh/day): 3-4 
