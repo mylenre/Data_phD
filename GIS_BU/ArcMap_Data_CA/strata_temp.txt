@@ -1,0 +1,130 @@
+Borehole name,Grid reference,Northing (Y),Easting (X),Depth,Temp,T grad,Type,Ref
+Spilmersford,NT 4570 6902,669020,345700,877,27.8,20.9,BHT,Burley&Gale_1981
+Midlothian,NT 363 647,664700,336300,747,37.8,39.1,LOG,Burley&Gale_1982
+Birnieknowes,NT 7580 7317,673170,375800,372,23.9,39.2,LOG,Burley&Gale_1983
+Marshall Meadow,NT 9797 5686,656860,397970,227,11.5,10.6,EQM,Burley&Gale_1984
+Cousland No.5,NT 3774 6773,667730,337740,585,17.8,15.0,BHT,Burley&Gale_1985
+Cousland No.6,NT 3835 6801,668010,338350,582,23.9,25.6,BHT,Burley&Gale_1986
+Pumpherston,NT 0733 6979,669790,307330,1175,36.7,23.3,BHT,Burley&Gale_1987
+Lochead,NT 3219 9659,696590,332190,1167,30.4,17.7,BHT,Burley&Gale_1988
+Boreland,NT 3040 9420,694200,330400,1007,29.8,20.1,EQM,Burley&Gale_1989
+Mackies Mill,NT 3050 9795,697950,330500,960,33.3,24.6,BHT,Burley&Gale_1990
+Thornton Bridge,NT 2889 9722,697220,328890,665,28,27.5,BHT,Burley&Gale_1991
+Thornton Farm,NT 2969 9761,697610,329690,1055,38,26.8,BHT,Burley&Gale_1992
+Eastfield,NT 3264 7297,672970,332640,1028,26,15.6,BHT,Burley&Gale_1993
+Bilston Glen Colliery,NT 2996 6320,663200,329960,670,15,8.7,MWT,Burley&Gale_1994
+Lady Victoria Colliery,NT 3294 6666,666660,332940,768,18,10.8,MWT,Burley&Gale_1995
+Auchendinny,NT 2496 6125,661250,324960,459,18,19.6,BHT,Burley&Gale_1996
+Wellsgreen,NT 3342 9833,698330,333420,1485,42.3,22.0,LOG,Burley&Gale_1997
+Livingston,NT 018 691,667936,301866,640,27,28.1,EQM,Burley&Gale_1998
+Stewart,NT 3633 6476,664760,336330,942,37.9,34.9,BHT,Burley&Gale_1999
+Frances,NT 3214 9050,690500,332140,841,29,23.8,VST,Burley&Gale_2000
+Monktonhall,NT 3242 7053,670530,332420,866,25.5,18.2,VST,Burley&Gale_2001
+Seafield,NT 3150 8923,689230,331500,789,29,25.3,VST,Burley&Gale_2002
+Staithes No1,NZ 76961852,518520,476960,1173,37.4,23.7,BHT,Burley&Gale_2003
+Woodland,NZ 0910 2780,527800,409100,197,16.1,39.6,EQM,Burley&Gale_2004
+Woodland,NZ 0910 2780,527800,409100,283,20.1,41.7,EQM,Burley&Gale_2005
+Woodland,NZ 0910 2780,527800,409100,368,24.8,44.8,EQM,Burley&Gale_2006
+Woodland,NZ 0910 2780,527800,409100,488,29.7,43.9,EQM,Burley&Gale_2007
+Throckley No 1,NZ 1456 6762,567620,414560,591,24.7,25.9,LOG,Burley&Gale_2008
+Newton Mulgrave,NZ 7739 1360,513600,477390,1357,59.4,37.4,DST,Burley&Gale_2009
+Newton Mulgrave,NZ 7739 1360,513600,477390,1465,64.4,38,DST,Burley&Gale_2010
+Newton Mulgrave,NZ 7739 1360,513600,477390,1476,71.1,42.3,DST,Burley&Gale_2011
+Ralph Cross,NZ 6759 0243,502430,467590,940,37.8,32.1,BHT,Burley&Gale_2012
+Ralph Cross,NZ 6759 0243,502430,467590,1632,50,26,BHT,Burley&Gale_2013
+Whitey Bay,NZ 3498 7485,574850,434980,1052,32.2,21.1,BHT,Burley&Gale_2014
+Seal sands,NZ 5382 38,523800,453800,4170,104,22.6,BHT,Burley&Gale_2015
+YP1,NZ 9226 0878,508780,492260,1351,41,23.3,BHT,Burley&Gale_2016
+YP2,NZ 9399 0637,506370,493990,1264,42.2,26.3,BHT,Burley&Gale_2017
+YP3,NZ 9181 0669,506690,491810,1360,45,26.3,BHT,Burley&Gale_2018
+YP4,NZ 9245 0801,508010,492450,1387,42.2,23.6,BHT,Burley&Gale_2019
+YP5,NZ 8957 0685,506850,489570,1311,39,22.8,BHT,Burley&Gale_2020
+YP6,NZ 8960 0894,508940,489600,1341,42.2,24.2,BHT,Burley&Gale_2021
+YP7,NZ 9437 0737,507370,494370,1317,44,26.4,BHT,Burley&Gale_2022
+YP8,NZ 9154 0792,507920,491540,1413,45,25.1,BHT,Burley&Gale_2023
+YP12,NZ 9663 0130,501300,496630,1372,4,23,BHT,Burley&Gale_2024
+Eskdale No 11,NZ 8544 0424,504240,485440,1481,71.1,42.4,BHT,Burley&Gale_2025
+Eskdale No 12,NZ 8570 82,508200,485700,1219,33.3,19.6,LOG,Burley&Gale_2026
+Eskdale No 12,NZ 8570 82,508200,485700,1219,43.3,27.8,LOG,Burley&Gale_2027
+Eskdale No 12,NZ 8570 82,508200,485700,1219,44.7,29,LOG,Burley&Gale_2028
+Eskdale No 12,NZ 8570 82,508200,485700,1695,43.3,20,LOG,Burley&Gale_2029
+Eskdale No 12,NZ 8570 82,508200,485700,1873,41.1,16.9,BHT,Burley&Gale_2030
+Hapton,NZ 3966 6562,565620,439660,1322,44.8,26.4,DST,Burley&Gale_2031
+Hapton,NZ 3966 6562,565620,439660,1768,68.9,33.4,LOG,Burley&Gale_2032
+Robin Hoods Bay,NZ 9478 0403,504030,494780,1638,46.7,22.6,BHT,Burley&Gale_2033
+Kirkleatham 1,NZ 5879 2127,521270,458790,191,16.1,32.5,EQM,Burley&Gale_2034
+Kirkleatham 1,NZ 5879 2127,521270,458790,286,18.4,29.7,EQM,Burley&Gale_2035
+Kirkleatham 1,NZ 5879 2127,521270,458790,381,20.6,28.1,EQM,Burley&Gale_2036
+Kirkleatham 1,NZ 5879 2127,521270,458790,477,22.2,25.8,EQM,Burley&Gale_2037
+Kirkleatham 1,NZ 5879 2127,521270,458790,572,24.3,25.2,EQM,Burley&Gale_2038
+Kirkleatham 1,NZ 5879 2127,521270,458790,668,27,25.6,EQM,Burley&Gale_2039
+Kirkleatham 1,NZ 5879 2127,521270,458790,858,29.4,22.7,EQM,Burley&Gale_2040
+Kirkleatham 1,NZ 5879 2127,521270,458790,935,30.4,21.9,EQM,Burley&Gale_2041
+Tocketts 1,NZ 6314 1810,518100,463140,191,15.9,32.5,EQM,Burley&Gale_2042
+Tocketts 1,NZ 6314 1810,518100,463140,281,18.9,32.7,EQM,Burley&Gale_2043
+Tocketts 1,NZ 6314 1810,518100,463140,429,24.4,34.3,EQM,Burley&Gale_2044
+Tocketts 1,NZ 6314 1810,518100,463140,572,27.9,31.8,EQM,Burley&Gale_2045
+Tocketts 1,NZ 6314 1810,518100,463140,715,30.6,29.2,EQM,Burley&Gale_2046
+Tocketts 1,NZ 6314 1810,518100,463140,810,32.8,28.5,EQM,Burley&Gale_2047
+Tocketts 1,NZ 6314 1810,518100,463140,9.6,35.7,28.7,EQM,Burley&Gale_2048
+Boulby,NZ 7611 84,518400,476100,1087,39.9,28,EQM,Burley&Gale_2049
+Egton Moor,NZ 7695 0278,502780,476950,1226,30,17.8,BHT,Burley&Gale_2050
+South Hetton,NZ 3824 53,545300,438200,1633,46.1,23.2,BHT,Burley&Gale_2051
+South Hetton,NZ 3824 53,545300,438200,355,18.9,27,EQM,Burley&Gale_2052
+South Hetton,NZ 3824 53,545300,438200,386,20.4,28.8,EQM,Burley&Gale_2053
+South Hetton,NZ 3824 53,545300,438200,416,21.1,28.4,EQM,Burley&Gale_2054
+South Hetton,NZ 3824 53,545300,438200,447,22.2,28.9,EQM,Burley&Gale_2055
+South Hetton,NZ 3824 53,545300,438200,477,23.6,30,EQM,Burley&Gale_2056
+South Hetton,NZ 3824 53,545300,438200,508,24.4,29.7,EQM,Burley&Gale_2057
+South Hetton,NZ 3824 53,545300,438200,521,24.2,28.6,EQM,Burley&Gale_2058
+South Hetton,NZ 3824 53,545300,438200,529,25,29.7,EQM,Burley&Gale_2059
+Sleights A1,NZ 8280 83,508300,482800,1369,50.6,30.7,LOG,Burley&Gale_2060
+Ugthorpe A19,NZ 8142 1171,511710,481420,1390,46.1,26.5,LOG,Burley&Gale_2061
+Bolden Colliery,NZ 3466 23,562300,434600,1365,23.9,10.3,CFM,Burley&Gale_2062
+Bolden Colliery,NZ 3466 23,562300,434600,1514,26.1,10.8,CFM,Burley&Gale_2063
+Hetton,,546900,436000,362,20.0,,strata,Prestwich 1886: Table 2 coal from 'On underground temperature wiobservations on the conductivit of rocks etc Proc R Soc London 1895
+Hetton,,546900,436000,445,21.7,,strata,Prestwich 1886: Table 2 coal from 'On underground temperature wiobservations on the conductivit of rocks etc Proc R Soc London 1899
+Hetton,,546900,436000,419,20.8,,strata,Prestwich 1886: Table 2 coal from 'On underground temperature wiobservations on the conductivit of rocks etc Proc R Soc London 1897
+Hetton,,546900,436000,447,21.4,,strata,Prestwich 1886: Table 2 coal from 'On underground temperature wiobservations on the conductivit of rocks etc Proc R Soc London 1900
+Hetton,,546900,436000,434,18.9,,strata,Prestwich 1886: Table 2 coal from 'On underground temperature wiobservations on the conductivit of rocks etc Proc R Soc London 1898
+Hetton,,546900,436000,405,17.2,,strata,Prestwich 1886: Table 2 coal from 'On underground temperature wiobservations on the conductivit of rocks etc Proc R Soc London 1896
+Hetton,,546900,436000,351,15.6,,strata,Prestwich 1886: Table 2 coal from 'On underground temperature wiobservations on the conductivit of rocks etc Proc R Soc London 1894
+Hetton Colliery,,546900,436000,346,20.6,,strata,1871. Report of the commissioners appointed to inquire into the several matters relating to coal in the UK. HMSO 1871 Vol 1 Pages 81-212 (page 123) 
+Hetton Colliery,,546900,436000,428,22.2,,strata,1871. Report of the commissioners appointed to inquire into the several matters relating to coal in the UK. HMSO 1871 Vol 1 Pages 81-212 (page 123) 
+Hetton Colliery,,546900,436000,401,20.8,,strata,1871. Report of the commissioners appointed to inquire into the several matters relating to coal in the UK. HMSO 1871 Vol 1 Pages 81-212 (page 123) 
+Hetton Colliery,,546900,436000,427,21.4,,strata,1871. Report of the commissioners appointed to inquire into the several matters relating to coal in the UK. HMSO 1871 Vol 1 Pages 81-212 (page 123) 
+Hetton Colliery,,546900,436000,413,20.0,,strata,1871. Report of the commissioners appointed to inquire into the several matters relating to coal in the UK. HMSO 1871 Vol 1 Pages 81-212 (page 123) 
+Hetton Colliery,,546900,436000,430,20.0,,strata,1871. Report of the commissioners appointed to inquire into the several matters relating to coal in the UK. HMSO 1871 Vol 1 Pages 81-212 (page 123) 
+Hetton Colliery,,546900,436000,442,20.0,,strata,1871. Report of the commissioners appointed to inquire into the several matters relating to coal in the UK. HMSO 1871 Vol 1 Pages 81-212 (page 123) 
+Hetton Colliery,,546900,436000,415,18.9,,strata,1871. Report of the commissioners appointed to inquire into the several matters relating to coal in the UK. HMSO 1871 Vol 1 Pages 81-212 (page 123) 
+Hetton Colliery,,546900,436000,423,18.9,,strata,1871. Report of the commissioners appointed to inquire into the several matters relating to coal in the UK. HMSO 1871 Vol 1 Pages 81-212 (page 123) 
+Hetton Colliery,,546900,436000,578,21.7,,strata,1871. Report of the commissioners appointed to inquire into the several matters relating to coal in the UK. HMSO 1871 Vol 1 Pages 81-212 (page 123) 
+Hetton Colliery,,546900,436000,387,17.2,,strata,1871. Report of the commissioners appointed to inquire into the several matters relating to coal in the UK. HMSO 1871 Vol 1 Pages 81-212 (page 123) 
+Hetton Colliery,,546900,436000,415,17.2,,strata,1871. Report of the commissioners appointed to inquire into the several matters relating to coal in the UK. HMSO 1871 Vol 1 Pages 81-212 (page 140) 
+Hetton Colliery,,546900,436000,402,16.7,,strata,1871. Report of the commissioners appointed to inquire into the several matters relating to coal in the UK. HMSO 1871 Vol 1 Pages 81-212 (page 140) 
+Hetton Colliery,,546900,436000,335,15.6,,strata,1871. Report of the commissioners appointed to inquire into the several matters relating to coal in the UK. HMSO 1871 Vol 1 Pages 81-212 (page 123) 
+Hetton Colliery,,546900,436000,329,14.7,,strata,1871. Report of the commissioners appointed to inquire into the several matters relating to coal in the UK. HMSO 1871 Vol 1 Pages 81-212 (page 140) 
+Hetton Colliery,,546900,436000,387,15.3,,strata,1871. Report of the commissioners appointed to inquire into the several matters relating to coal in the UK. HMSO 1871 Vol 1 Pages 81-212 (page 140) 
+South Hetton Colliery ,,545300,438300,551,25.0,,strata,Prestwich 1886: Table 2 coal from 'On underground temperature wiobservations on the conductivit of rocks etc Proc R Soc London 1903
+South Hetton Colliery ,,545300,438300,465,22.2,,strata,Prestwich 1886: Table 2 coal from 'On underground temperature wiobservations on the conductivit of rocks etc Proc R Soc London 1902
+South Hetton Colliery ,,545300,438300,369,18.9,,strata,Prestwich 1886: Table 2 coal from 'On underground temperature wiobservations on the conductivit of rocks etc Proc R Soc London 1901
+South Hetton Colliery ,,545300,438300,544,24.4,,strata,Everett 1882 underground Tempretures 15th report of committee
+South Hetton Colliery ,,545300,438300,530,23.6,,strata,Everett 1882 underground Tempretures 15th report of committee
+South Hetton Colliery ,,545300,438300,553,23.9,,strata,Everett 1882 underground Tempretures 15th report of committee
+South Hetton Colliery ,,545300,438300,498,22.2,,strata,Everett 1882 underground Tempretures 15th report of committee
+South Hetton Colliery ,,545300,438300,435,20.4,,strata,Everett 1882 underground Tempretures 15th report of committee
+South Hetton Colliery ,,545300,438300,467,21.1,,strata,Everett 1882 underground Tempretures 15th report of committee
+South Hetton Colliery ,,545300,438300,403,18.9,,strata,Everett 1882 underground Tempretures 15th report of committee
+Bowhill Colliery,,695670,321150,561,23.2,,strata,Graham 1921-22
+Bowhill Colliery,,695670,321150,442,19.3,,strata,Graham 1921-22
+Bowhill Colliery,,695670,321150,760,26.2,,strata,Graham 1921-22
+Bowhill Colliery,,695670,321150,896,27.8,,strata,Graham 1921-22
+Bowhill Colliery,,695670,321150,896,27.7,,strata,Graham 1921-22
+Boldon Colliery ,,562300,434700,485,26.1,,strata,Prestwich 1886: Table 2 coal from 'On underground temperature wiobservations on the conductivit of rocks etc Proc R Soc London 1891
+Boldon Colliery ,,562300,434700,438,23.9,,strata,Prestwich 1886: Table 2 coal from 'On underground temperature wiobservations on the conductivit of rocks etc Proc R Soc London 1890
+North Seaton,,585951,428903,197,16.1,,strata,Prestwich 1886: Table 2 coal from 'On underground temperature wiobservations on the conductivit of rocks etc Proc R Soc London 1892
+Boldon Colliery ,,562300,434700,482,26.1,,strata,Everett 1882 underground Tempretures 15th report of committee
+Boldon Colliery ,,562300,434700,434,23.9,,strata,Everett 1882 underground Tempretures 15th report of committee
+Killingworth,,570500,427200,382,23.3,,strata,Prestwich 1886: Table 2 coal from 'On underground temperature wiobservations on the conductivit of rocks etc Proc R Soc London 1889
+Annesley,,353233,451745,454,22.8,,strata,Prestwich 1886: Table 2 coal from 'On underground temperature wiobservations on the conductivit of rocks etc Proc R Soc London 1923
+Hucknall Torkard,,348079,452572,398,21.1,,strata,Prestwich 1886: Table 2 coal from 'On underground temperature wiobservations on the conductivit of rocks etc Proc R Soc London 1922

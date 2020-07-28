@@ -1,0 +1,1566 @@
+FID,OBJECTID,GLOBALID,HASINFERIS,FEATURE_RE,SITE_TITLE,WATER_GAS_,REGION,PRIMARY_PU,ACTIVE_MON
+0,428,{00000000-0000-0000-0000-000000000000},TRUE,689.2,Vogrie,Bilston Glen, ,Design Mine Water Treatment,1
+1,429,{00000000-0000-0000-0000-000000000000},TRUE,690.1,Glenesk,Bilston Glen, ,Monitoring,1
+2,430,{00000000-0000-0000-0000-000000000000},TRUE,691.1,Rumby Hill,West Of Wear, ,Monitoring,1
+3,431,{00000000-0000-0000-0000-000000000000},TRUE,692.1,Pegswood Main,Wansbeck, ,Monitoring,1
+4,432,{00000000-0000-0000-0000-000000000000},TRUE,693.1,New Moor,Wansbeck, ,Monitoring,1
+5,433,{00000000-0000-0000-0000-000000000000},TRUE,694.1,Linton,Wansbeck, ,Monitoring,1
+6,434,{00000000-0000-0000-0000-000000000000},TRUE,695.1,Linton Ashington Main,Wansbeck, ,Monitoring,1
+7,435,{00000000-0000-0000-0000-000000000000},TRUE,696.1,Summersales,Wigan, ,Design Mine Water Treatment,1
+8,436,{00000000-0000-0000-0000-000000000000},TRUE,696.2,Summersales,Wigan, ,Design Mine Water Treatment,1
+9,437,{00000000-0000-0000-0000-000000000000},TRUE,696.3,Summersales,Wigan, ,Design Mine Water Treatment,1
+10,438,{00000000-0000-0000-0000-000000000000},TRUE,696.4,Summersales,Wigan, ,Design Mine Water Treatment,1
+11,439,{00000000-0000-0000-0000-000000000000},TRUE,696.5,Summersales,Wigan, ,Design Mine Water Treatment,1
+12,440,{00000000-0000-0000-0000-000000000000},TRUE,696.6,Summersales,Wigan, ,Design Mine Water Treatment,1
+13,441,{00000000-0000-0000-0000-000000000000},TRUE,697.1,Urpeth Drain,Team Valley, ,Monitoring,1
+14,442,{00000000-0000-0000-0000-000000000000},TRUE,698.1,Hill Top Intake,Rossendale, ,Monitoring,1
+15,443,{00000000-0000-0000-0000-000000000000},TRUE,699.1,Wimblebury,South Staffs, ,Monitoring,1
+16,444,{00000000-0000-0000-0000-000000000000},TRUE,700.1,Bardon Mill,West Tyneside, ,Monitoring,1
+17,445,{00000000-0000-0000-0000-000000000000},TRUE,701.1,Nantyglo,Brynmawr, ,Public Safety,1
+18,446,{00000000-0000-0000-0000-000000000000},TRUE,702.1,Upper Cymmer,Main Lower Rhondda Valley, ,Monitoring,1
+19,447,{00000000-0000-0000-0000-000000000000},TRUE,703.1,Chell Heath,North Staffs, ,Design Mine Water Treatment,1
+20,448,{00000000-0000-0000-0000-000000000000},TRUE,704.1,Hagwood (Craghead),West Of Wear Mid Durham, ,Design Mine Water Treatment,1
+21,449,{00000000-0000-0000-0000-000000000000},TRUE,705.1,Whitworth Park,West Of Wear, ,Monitoring,1
+22,450,{00000000-0000-0000-0000-000000000000},TRUE,706.1,Martins Main,Yorkshire Zone 2, ,Monitoring,1
+23,451,{00000000-0000-0000-0000-000000000000},TRUE,706.2,Martins Main,Yorkshire Zone 2, ,Monitoring,1
+24,452,{00000000-0000-0000-0000-000000000000},TRUE,707.1,Ellington,Wansbeck, ,Monitoring,1
+25,453,{00000000-0000-0000-0000-000000000000},TRUE,708.1,Lynemouth,Wansbeck, ,Monitoring,1
+26,454,{00000000-0000-0000-0000-000000000000},TRUE,709.1,Jowkin Wood Ashworth,Rochdale, ,Design Mine Water Treatment,1
+27,455,{00000000-0000-0000-0000-000000000000},TRUE,710.1,New Horsley,Notts-Derbys Border, ,Monitoring,1
+28,456,{00000000-0000-0000-0000-000000000000},TRUE,711.1,Caultons Drift,Notts-Derbys Border, ,Design Mine Water Treatment,1
+29,457,{00000000-0000-0000-0000-000000000000},TRUE,712.1,Blenkinsopp Boreholes,South Tyne, ,Mine Water Treatment,1
+30,458,{00000000-0000-0000-0000-000000000000},TRUE,712.2,Blenkinsopp Boreholes,South Tyne, ,Mine Water Treatment,1
+31,459,{00000000-0000-0000-0000-000000000000},TRUE,712.3,Blenkinsopp Boreholes,South Tyne, ,Mine Water Treatment,1
+32,460,{00000000-0000-0000-0000-000000000000},TRUE,712.4,Blenkinsopp Boreholes,South Tyne, ,Mine Water Treatment,1
+33,461,{00000000-0000-0000-0000-000000000000},TRUE,712.5,Blenkinsopp Boreholes,South Tyne, ,Mine Water Treatment,1
+34,462,{00000000-0000-0000-0000-000000000000},TRUE,712.6,Blenkinsopp Boreholes,South Tyne, ,Mine Water Treatment,1
+35,463,{00000000-0000-0000-0000-000000000000},TRUE,713.1,Abercarn,Ebbw Vale, ,Monitoring,1
+36,464,{00000000-0000-0000-0000-000000000000},TRUE,713.2,Abercarn,Ebbw Vale, ,Monitoring,1
+37,465,{00000000-0000-0000-0000-000000000000},TRUE,127.4,Albert Ditch,Leigh Zone, ,Public Safety,1
+38,466,{00000000-0000-0000-0000-000000000000},TRUE,128.1,Dowhail,South West Ayrshire, ,Monitoring,1
+39,467,{00000000-0000-0000-0000-000000000000},TRUE,128.2,Dowhail,South West Ayrshire, ,Monitoring,1
+40,468,{00000000-0000-0000-0000-000000000000},TRUE,128.3,Dowhail,South West Ayrshire, ,Monitoring,1
+41,469,{00000000-0000-0000-0000-000000000000},TRUE,129.1,Tredegar Yard Level,Upper Sirhowy Valley, ,Public Safety,0
+42,470,{00000000-0000-0000-0000-000000000000},TRUE,129.2,Tredegar Yard Level,Upper Sirhowy Valley, ,Public Safety,0
+43,471,{00000000-0000-0000-0000-000000000000},TRUE,130.1,Hudsons Rough,Yorkshire Zone 5, ,Monitoring,1
+44,472,{00000000-0000-0000-0000-000000000000},TRUE,130.2,Hudsons Rough,Yorkshire Zone 5, ,Monitoring,1
+45,473,{00000000-0000-0000-0000-000000000000},TRUE,131.1,Speedwell,North Warwickshire, ,Monitoring,1
+46,474,{00000000-0000-0000-0000-000000000000},TRUE,132.1,Pegswood Ctw,Wansbeck, ,Public Safety,1
+47,475,{00000000-0000-0000-0000-000000000000},TRUE,132.2,Pegswood Ctw,Wansbeck, ,Public Safety,1
+48,476,{00000000-0000-0000-0000-000000000000},TRUE,132.3,Pegswood Ctw,Wansbeck, ,Public Safety,1
+49,477,{00000000-0000-0000-0000-000000000000},TRUE,132.4,Pegswood Ctw,Wansbeck, ,Public Safety,1
+50,478,{00000000-0000-0000-0000-000000000000},TRUE,132.5,Pegswood Ctw,Wansbeck, ,Public Safety,1
+51,479,{00000000-0000-0000-0000-000000000000},TRUE,132.6,Pegswood Ctw,Wansbeck, ,Public Safety,1
+52,480,{00000000-0000-0000-0000-000000000000},TRUE,133.1,Ormonde,Lower Erewash Valley, ,Monitoring,1
+53,481,{00000000-0000-0000-0000-000000000000},TRUE,134.1,Berthlwyd Drift,Gower, ,Public Safety,1
+54,482,{00000000-0000-0000-0000-000000000000},TRUE,134.2,Berthlwyd Drift,Gower, ,Public Safety,1
+55,483,{00000000-0000-0000-0000-000000000000},TRUE,135.1,Polkemmet,River Almond Valley, ,Mine Water Treatment,1
+56,484,{00000000-0000-0000-0000-000000000000},TRUE,135.2,Polkemmet,River Almond Valley, ,Mine Water Treatment,1
+57,485,{00000000-0000-0000-0000-000000000000},TRUE,135.3,Polkemmet,River Almond Valley, ,Mine Water Treatment,1
+58,486,{00000000-0000-0000-0000-000000000000},TRUE,135.4,Polkemmet,River Almond Valley, ,Mine Water Treatment,1
+59,487,{00000000-0000-0000-0000-000000000000},TRUE,136.1,"Church Street,Bolton On Dearne",Yorkshire Zone 6, ,Public Safety,1
+60,488,{00000000-0000-0000-0000-000000000000},TRUE,137.1,Cae Copyn Level (Broadoak),Loughor Valley, ,Public Safety,1
+61,489,{00000000-0000-0000-0000-000000000000},TRUE,138.1,Abernant (Sirhowy),Lower Sirhowy Valley, ,Monitoring,1
+62,490,{00000000-0000-0000-0000-000000000000},TRUE,139.1,Britannia,Rhymney Valley, ,Monitoring,1
+63,491,{00000000-0000-0000-0000-000000000000},TRUE,139.2,Britannia,Rhymney Valley, ,Monitoring,1
+64,492,{00000000-0000-0000-0000-000000000000},TRUE,141.1,Ringley,Tyldersley Irwell Zone, ,Monitoring,1
+65,493,{00000000-0000-0000-0000-000000000000},TRUE,142.1,Riddochhill,River Almond Valley, ,Monitoring,1
+66,494,{00000000-0000-0000-0000-000000000000},TRUE,143.1,Wheldale,Yorkshire Zone 9, ,Monitoring,1
+67,495,{00000000-0000-0000-0000-000000000000},TRUE,143.2,Wheldale,Yorkshire Zone 9, ,Monitoring,1
+68,496,{00000000-0000-0000-0000-000000000000},TRUE,144.1,Coalburn (Auchlochan No.8),South Lanarkshire, ,Public Safety,1
+69,497,{00000000-0000-0000-0000-000000000000},TRUE,144.2,Coalburn (Auchlochan No.8),South Lanarkshire, ,Public Safety,1
+70,498,{00000000-0000-0000-0000-000000000000},TRUE,145.1,Drummau Road Drift,Lower Neath Valley, ,Public Safety,1
+71,499,{00000000-0000-0000-0000-000000000000},TRUE,145.2,Drummau Road Drift,Lower Neath Valley, ,Public Safety,1
+72,500,{00000000-0000-0000-0000-000000000000},TRUE,146.1,Fryston,Yorkshire Zone 9, ,Public Safety,0
+73,501,{00000000-0000-0000-0000-000000000000},TRUE,146.2,Fryston,Yorkshire Zone 9, ,Public Safety,0
+74,502,{00000000-0000-0000-0000-000000000000},TRUE,147.1,Wood Pit,Bold-Haydock Zone, ,Monitoring,1
+75,503,{00000000-0000-0000-0000-000000000000},TRUE,147.2,Wood Pit,Bold-Haydock Zone, ,Monitoring,1
+76,504,{00000000-0000-0000-0000-000000000000},TRUE,147.3,Wood Pit,Bold-Haydock Zone, ,Monitoring,1
+77,505,{00000000-0000-0000-0000-000000000000},TRUE,148.1,Bold,Bold-Haydock Zone, ,Public Safety,0
+78,506,{00000000-0000-0000-0000-000000000000},TRUE,148.2,Bold,Bold-Haydock Zone, ,Public Safety,0
+79,507,{00000000-0000-0000-0000-000000000000},TRUE,148.3,Bold,Bold-Haydock Zone, ,Public Safety,0
+80,508,{00000000-0000-0000-0000-000000000000},TRUE,149.1,Sutton Manor,Bold-Haydock Zone, ,Monitoring,1
+81,509,{00000000-0000-0000-0000-000000000000},TRUE,149.2,Sutton Manor,Bold-Haydock Zone, ,Monitoring,1
+82,510,{00000000-0000-0000-0000-000000000000},TRUE,149.3,Sutton Manor,Bold-Haydock Zone, ,Monitoring,0
+83,511,{00000000-0000-0000-0000-000000000000},TRUE,150.1,Cronton,Cronton Zone, ,Monitoring,1
+84,512,{00000000-0000-0000-0000-000000000000},TRUE,150.2,Cronton,Cronton Zone, ,Monitoring,1
+85,513,{00000000-0000-0000-0000-000000000000},TRUE,150.3,Cronton,Cronton Zone, ,Monitoring,1
+86,514,{00000000-0000-0000-0000-000000000000},TRUE,151.1,Pendleton Old No.6,Tyldersley Irwell Zone, ,Monitoring,1
+87,515,{00000000-0000-0000-0000-000000000000},TRUE,152.1,Astley Green,Tyldersley Irwell Zone, ,Monitoring,1
+88,516,{00000000-0000-0000-0000-000000000000},TRUE,152.2,Astley Green,Tyldersley Irwell Zone, ,Monitoring,1
+89,517,{00000000-0000-0000-0000-000000000000},TRUE,153.1,Wet Earth,Tyldersley Irwell Zone, ,Monitoring,1
+90,518,{00000000-0000-0000-0000-000000000000},TRUE,153.2,Wet Earth,Tyldersley Irwell Zone, ,Monitoring,1
+91,519,{00000000-0000-0000-0000-000000000000},TRUE,154.1,Hapton Valley,Burnley-Lancashire Calder, ,Monitoring,1
+92,520,{00000000-0000-0000-0000-000000000000},TRUE,154.2,Hapton Valley,Burnley-Lancashire Calder, ,Monitoring,1
+93,521,{00000000-0000-0000-0000-000000000000},TRUE,155.1,Brereton,South Staffs, ,Monitoring,1
+94,522,{00000000-0000-0000-0000-000000000000},TRUE,156.1,Blaenant Old Level,Dulais/Neath Valleys, ,Monitoring,1
+95,523,{00000000-0000-0000-0000-000000000000},TRUE,156.2,Blaenant Old Level,Dulais/Neath Valleys, ,Monitoring,1
+96,524,{00000000-0000-0000-0000-000000000000},TRUE,157.1,Dare,Upper Rhondda Fawr Valley, ,Monitoring,1
+97,525,{00000000-0000-0000-0000-000000000000},TRUE,158.1,Rhos,Rhymney Valley, ,Monitoring,1
+98,526,{00000000-0000-0000-0000-000000000000},TRUE,159.1,Cynheidre,Gwendraeth Valley, ,Public Safety,1
+99,527,{00000000-0000-0000-0000-000000000000},TRUE,159.2,Cynheidre,Gwendraeth Valley, ,Public Safety,1
+100,528,{00000000-0000-0000-0000-000000000000},TRUE,160.1,Florence,North Staffs, ,Monitoring,1
+101,529,{00000000-0000-0000-0000-000000000000},TRUE,160.2,Florence,North Staffs, ,Monitoring,1
+102,530,{00000000-0000-0000-0000-000000000000},TRUE,160.3,Florence,North Staffs, ,Monitoring,1
+103,531,{00000000-0000-0000-0000-000000000000},TRUE,160.4,Florence,North Staffs, ,Monitoring,1
+104,532,{00000000-0000-0000-0000-000000000000},TRUE,161.1,Bickershaw,Leigh Zone, ,Monitoring,0
+105,533,{00000000-0000-0000-0000-000000000000},TRUE,161.2,Bickershaw,Leigh Zone, ,Monitoring,0
+106,534,{00000000-0000-0000-0000-000000000000},TRUE,161.3,Bickershaw,Leigh Zone, ,Monitoring,1
+107,535,{00000000-0000-0000-0000-000000000000},TRUE,161.4,Bickershaw,Leigh Zone, ,Monitoring,1
+108,536,{00000000-0000-0000-0000-000000000000},TRUE,161.5,Bickershaw,Leigh Zone, ,Monitoring,0
+109,537,{00000000-0000-0000-0000-000000000000},TRUE,162.1,Silverhill,Notts-Derbys Border, ,Monitoring,1
+110,538,{00000000-0000-0000-0000-000000000000},TRUE,162.2,Silverhill,Notts-Derbys Border, ,Monitoring,1
+111,539,{00000000-0000-0000-0000-000000000000},TRUE,162.3,Silverhill,Notts-Derbys Border, ,Monitoring,1
+112,540,{00000000-0000-0000-0000-000000000000},TRUE,163.1,Frances,East Fife, ,Mine Water Treatment,1
+113,541,{00000000-0000-0000-0000-000000000000},TRUE,163.2,Frances,East Fife, ,Mine Water Treatment,0
+114,542,{00000000-0000-0000-0000-000000000000},TRUE,163.3,Frances,East Fife, ,Mine Water Treatment,1
+115,543,{00000000-0000-0000-0000-000000000000},TRUE,163.4,Frances,East Fife, ,Mine Water Treatment,1
+116,544,{00000000-0000-0000-0000-000000000000},TRUE,163.5,Frances,East Fife, ,Mine Water Treatment,0
+117,545,{00000000-0000-0000-0000-000000000000},TRUE,163.6,Frances,East Fife, ,Mine Water Treatment,1
+118,546,{00000000-0000-0000-0000-000000000000},TRUE,714.1,Tan Y Garn,Upper Loughor Zone, ,Mine Water Treatment,1
+119,547,{00000000-0000-0000-0000-000000000000},TRUE,714.2,Tan Y Garn,Upper Loughor Zone, ,Mine Water Treatment,1
+120,548,{00000000-0000-0000-0000-000000000000},TRUE,714.3,Tan Y Garn,Upper Loughor Zone, ,Mine Water Treatment,1
+121,549,{00000000-0000-0000-0000-000000000000},TRUE,714.4,Tan Y Garn,Upper Loughor Zone, ,Mine Water Treatment,1
+122,550,{00000000-0000-0000-0000-000000000000},TRUE,714.5,Tan Y Garn,Upper Loughor Zone, ,Mine Water Treatment,1
+123,551,{00000000-0000-0000-0000-000000000000},TRUE,715.1,Sunningdale Old Rock,Sirhowy Valley, ,Design Mine Water Treatment,1
+124,552,{00000000-0000-0000-0000-000000000000},TRUE,716.1,Hawarden Prescott Level,Deeside, ,Design Mine Water Treatment,1
+125,553,{00000000-0000-0000-0000-000000000000},TRUE,717.1,Downbrook,Wigan, ,Design Mine Water Treatment,1
+126,554,{00000000-0000-0000-0000-000000000000},TRUE,717.2,Downbrook,Wigan, ,Design Mine Water Treatment,1
+127,555,{00000000-0000-0000-0000-000000000000},TRUE,717.3,Downbrook,Wigan, ,Design Mine Water Treatment,1
+128,556,{00000000-0000-0000-0000-000000000000},TRUE,717.4,Downbrook,Wigan, ,Design Mine Water Treatment,1
+129,557,{00000000-0000-0000-0000-000000000000},TRUE,718.1,Allerdean Mill,Berwick, ,Mine Water Treatment,1
+130,558,{00000000-0000-0000-0000-000000000000},TRUE,719.1,Measham Main Kilburn,South Derbyshire, ,Monitoring,1
+131,559,{00000000-0000-0000-0000-000000000000},TRUE,720.1,Glenburn,Prestwick, ,Design Mine Water Treatment,1
+132,560,{00000000-0000-0000-0000-000000000000},TRUE,721.1,"Campbell Woods Discharge, Chirm",Coquet, ,Design Mine Water Treatment,1
+133,561,{00000000-0000-0000-0000-000000000000},TRUE,721.2,"Campbell Woods Discharge, Chirm",Coquet, ,Design Mine Water Treatment,1
+134,562,{00000000-0000-0000-0000-000000000000},TRUE,721.3,"Campbell Woods Discharge, Chirm",Coquet, ,Design Mine Water Treatment,1
+135,563,{00000000-0000-0000-0000-000000000000},TRUE,721.4,"Campbell Woods Discharge, Chirm",Coquet, ,Design Mine Water Treatment,1
+136,564,{00000000-0000-0000-0000-000000000000},TRUE,721.5,"Campbell Woods Discharge, Chirm",Coquet, ,Design Mine Water Treatment,1
+137,565,{00000000-0000-0000-0000-000000000000},TRUE,721.6,"Campbell Woods Discharge, Chirm",Coquet, ,Design Mine Water Treatment,1
+138,566,{00000000-0000-0000-0000-000000000000},TRUE,721.7,"Campbell Woods Discharge, Chirm",Coquet, ,Design Mine Water Treatment,1
+139,567,{00000000-0000-0000-0000-000000000000},TRUE,722.1,Cathedral Pits,South Staffs, ,Monitoring,1
+140,568,{00000000-0000-0000-0000-000000000000},TRUE,723.1,School Lane,South Staffs, ,Monitoring,1
+141,569,{00000000-0000-0000-0000-000000000000},TRUE,724.1,TMD Friction,North West Yorkshire, ,Maintenance Culvert,1
+142,570,{00000000-0000-0000-0000-000000000000},TRUE,725.1,Corrwg Fechan,Afan Valley, ,Design Mine Water Treatment,1
+143,571,{00000000-0000-0000-0000-000000000000},TRUE,726.1,Cwmgors,Amman Valley, ,Design Mine Water Treatment,1
+144,572,{00000000-0000-0000-0000-000000000000},TRUE,727.1,Garwed Brook,Neath Valley, ,Design Mine Water Treatment,0
+145,573,{00000000-0000-0000-0000-000000000000},TRUE,728.1,"Newhill Shaft, Wath-upon-Dearne",Yorkshire Zone 3, ,Monitoring,1
+146,574,{00000000-0000-0000-0000-000000000000},TRUE,729.1,"Woodend Colliery, Burnley",Burnley, ,Monitoring,1
+147,575,{00000000-0000-0000-0000-000000000000},TRUE,729.2,"Woodend Colliery, Burnley",Burnley, ,Monitoring,1
+148,576,{00000000-0000-0000-0000-000000000000},TRUE,729.3,"Woodend Colliery, Burnley",Burnley, ,Monitoring,1
+149,577,{00000000-0000-0000-0000-000000000000},TRUE,729.4,"Woodend Colliery, Burnley",Burnley, ,Monitoring,1
+150,578,{00000000-0000-0000-0000-000000000000},TRUE,730.1,Newton Cap Borehole,West Of Wear, ,Monitoring,1
+151,579,{00000000-0000-0000-0000-000000000000},TRUE,731.1,Pewfall Shafts,Bold-Haydock Zone, ,Monitoring,1
+152,580,{00000000-0000-0000-0000-000000000000},TRUE,731.2,Pewfall Shafts,Bold-Haydock Zone, ,Monitoring,1
+153,581,{00000000-0000-0000-0000-000000000000},TRUE,732.1,Abersychan discharge,Lwyd Valley, ,Design Mine Water Treatment,1
+154,582,{00000000-0000-0000-0000-000000000000},TRUE,733.1,Radford Boreholes,Nottingham, ,Monitoring,1
+155,583,{00000000-0000-0000-0000-000000000000},TRUE,733.2,Radford Boreholes,Nottingham, ,Monitoring,1
+156,584,{00000000-0000-0000-0000-000000000000},TRUE,734.1,Whitehill,Bilston Glen, ,Monitoring,1
+157,585,{00000000-0000-0000-0000-000000000000},TRUE,735.1,High House Farm,Yorkshire Zone 1, ,Public Safety,1
+158,586,{00000000-0000-0000-0000-000000000000},TRUE,736.1,Glanravon,Rhymney Valley, ,Design Mine Water Treatment,1
+159,587,{00000000-0000-0000-0000-000000000000},TRUE,737.1,"Wentworth Adit, Barrow",Yorkshire Zone 5, ,Maintenance,1
+160,588,{00000000-0000-0000-0000-000000000000},TRUE,737.2,"Wentworth Adit, Barrow",Yorkshire Zone 5, ,Maintenance,1
+161,589,{00000000-0000-0000-0000-000000000000},TRUE,737.3,"Wentworth Adit, Barrow",Yorkshire Zone 5, ,Maintenance,1
+162,590,{00000000-0000-0000-0000-000000000000},TRUE,738.1,Arley Wood,Wigan, ,Maintenance,1
+163,591,{00000000-0000-0000-0000-000000000000},TRUE,739.1,Clifton Moss,Tyldersley Irwell Zone, ,Monitoring,1
+164,592,{00000000-0000-0000-0000-000000000000},TRUE,740.1,Niddrie,Monktonhall, ,Monitoring,1
+165,593,{00000000-0000-0000-0000-000000000000},TRUE,741.1,"Duke's Level, Burbage",Buxton, ,Design Mine Water Treatment,1
+166,594,{00000000-0000-0000-0000-000000000000},TRUE,741.2,"Duke's Level, Burbage",Buxton, ,Design Mine Water Treatment,1
+167,595,{00000000-0000-0000-0000-000000000000},TRUE,742.1,"Old Granville, Swadlincote Forest Woodlands Park",South Derbyshire, ,Monitoring,1
+168,596,{00000000-0000-0000-0000-000000000000},TRUE,743.1,Fennyfield,Ashton under Lyme, ,Mine Water Treatment,1
+169,597,{00000000-0000-0000-0000-000000000000},TRUE,743.2,Fennyfield,Ashton under Lyme, ,Mine Water Treatment,1
+170,598,{00000000-0000-0000-0000-000000000000},TRUE,743.3,Fennyfield,Ashton under Lyme, ,Mine Water Treatment,1
+171,599,{00000000-0000-0000-0000-000000000000},TRUE,743.4,Fennyfield,Ashton under Lyme, ,Mine Water Treatment,1
+172,600,{00000000-0000-0000-0000-000000000000},TRUE,743.5,Fennyfield,Ashton under Lyme, ,Mine Water Treatment,1
+173,601,{00000000-0000-0000-0000-000000000000},TRUE,744.1,Newton Cap Viaduct Piezometers,West Of Wear, ,Monitoring,1
+174,602,{00000000-0000-0000-0000-000000000000},TRUE,744.2,Newton Cap Viaduct Piezometers,West Of Wear, ,Monitoring,1
+175,603,{00000000-0000-0000-0000-000000000000},TRUE,744.3,Newton Cap Viaduct Piezometers,West Of Wear, ,Monitoring,1
+176,604,{00000000-0000-0000-0000-000000000000},TRUE,745.1,Coton Park,South Derbyshire, ,Monitoring,1
+177,605,{00000000-0000-0000-0000-000000000000},TRUE,746.1,Kinglassie,East Fife, ,Mine Water Treatment,1
+178,606,{00000000-0000-0000-0000-000000000000},TRUE,747.1,Eldon,South Durham, ,Monitoring,1
+179,607,{00000000-0000-0000-0000-000000000000},TRUE,748.1,New Rockwood,Taff Valley, ,Monitoring,1
+180,608,{00000000-0000-0000-0000-000000000000},TRUE,749.1,Auchengeich,North Lanarkshire, ,Monitoring,1
+181,609,{00000000-0000-0000-0000-000000000000},TRUE,750.1,Mountain Gate,Upper Loughor Zone, ,Mine Water Treatment,1
+182,610,{00000000-0000-0000-0000-000000000000},TRUE,750.2,Mountain Gate,Upper Loughor Zone, ,Mine Water Treatment,1
+183,611,{00000000-0000-0000-0000-000000000000},TRUE,750.3,Mountain Gate,Upper Loughor Zone, ,Mine Water Treatment,1
+184,612,{00000000-0000-0000-0000-000000000000},TRUE,750.4,Mountain Gate,Upper Loughor Zone, ,Mine Water Treatment,1
+185,613,{00000000-0000-0000-0000-000000000000},TRUE,751.1,Nant Llesg,Rhymney Valley, ,Monitoring,1
+186,614,{00000000-0000-0000-0000-000000000000},TRUE,752.1,Broad Oak,Bold-Haydock Zone, ,Monitoring,1
+187,615,{00000000-0000-0000-0000-000000000000},TRUE,753.1,Norwood Terrace,Shipley, ,Public Safety,1
+188,616,{00000000-0000-0000-0000-000000000000},TRUE,215.3,Horbury High St (Cameo),Yorkshire Zone 10, ,Monitoring,1
+189,617,{00000000-0000-0000-0000-000000000000},TRUE,215.4,Horbury High St (Cameo),Yorkshire Zone 10, ,Monitoring,1
+190,618,{00000000-0000-0000-0000-000000000000},TRUE,215.5,Horbury High St (Cameo),Yorkshire Zone 10, ,Monitoring,1
+191,619,{00000000-0000-0000-0000-000000000000},TRUE,215.6,Horbury High St (Cameo),Yorkshire Zone 10, ,Monitoring,1
+192,620,{00000000-0000-0000-0000-000000000000},TRUE,215.7,Horbury High St (Cameo),Yorkshire Zone 10, ,Monitoring,1
+193,621,{00000000-0000-0000-0000-000000000000},TRUE,215.8,Horbury High St (Cameo),Yorkshire Zone 10, ,Monitoring,1
+194,622,{00000000-0000-0000-0000-000000000000},TRUE,215.9,Horbury High St (Cameo),Yorkshire Zone 10, ,Monitoring,1
+195,623,{00000000-0000-0000-0000-000000000000},TRUE,216.1,Taylor And Tunnel Pits Canal,Wigan - River Douglas, ,Monitoring,1
+196,624,{00000000-0000-0000-0000-000000000000},TRUE,216.2,Taylor And Tunnel Pits Canal,Wigan - River Douglas, ,Monitoring,1
+197,625,{00000000-0000-0000-0000-000000000000},TRUE,216.3,Taylor And Tunnel Pits Canal,Wigan - River Douglas, ,Monitoring,1
+198,626,{00000000-0000-0000-0000-000000000000},TRUE,216.4,Taylor And Tunnel Pits Canal,Wigan - River Douglas, ,Monitoring,1
+199,627,{00000000-0000-0000-0000-000000000000},TRUE,216.5,John Pit,Wigan - River Douglas, ,Monitoring,1
+200,628,{00000000-0000-0000-0000-000000000000},TRUE,216.6,John Pit,Wigan - River Douglas, ,Monitoring,1
+201,629,{00000000-0000-0000-0000-000000000000},TRUE,217.1,Frostoms,Workington, ,Public Safety,1
+202,630,{00000000-0000-0000-0000-000000000000},TRUE,217.2,Frostoms,Workington, ,Public Safety,1
+203,631,{00000000-0000-0000-0000-000000000000},TRUE,217.3,Frostoms,Workington, ,Public Safety,1
+204,632,{00000000-0000-0000-0000-000000000000},TRUE,217.4,Frostoms,Workington, ,Public Safety,0
+205,633,{00000000-0000-0000-0000-000000000000},TRUE,218.1,Kimberworth Silkstone,Yorkshire Zone 5, ,Public Safety,1
+206,634,{00000000-0000-0000-0000-000000000000},TRUE,218.2,Kimberworth Silkstone,Yorkshire Zone 5, ,Public Safety,1
+207,635,{00000000-0000-0000-0000-000000000000},TRUE,219.1,Oatlands,Whitehaven, ,Mine Water Treatment,0
+208,636,{00000000-0000-0000-0000-000000000000},TRUE,219.2,Oatlands,Whitehaven, ,Mine Water Treatment,0
+209,637,{00000000-0000-0000-0000-000000000000},TRUE,219.3,Oatlands,Whitehaven, ,Mine Water Treatment,0
+210,638,{00000000-0000-0000-0000-000000000000},TRUE,219.4,Oatlands,Whitehaven, ,Mine Water Treatment,0
+211,639,{00000000-0000-0000-0000-000000000000},TRUE,220.1,Manton,North Nottinghamshire, ,Monitoring,1
+212,640,{00000000-0000-0000-0000-000000000000},TRUE,220.2,Manton,North Nottinghamshire, ,Monitoring,1
+213,641,{00000000-0000-0000-0000-000000000000},TRUE,220.3,Manton,North Nottinghamshire, ,Monitoring,1
+214,642,{00000000-0000-0000-0000-000000000000},TRUE,220.4,Manton,North Nottinghamshire, ,Monitoring,1
+215,643,{00000000-0000-0000-0000-000000000000},TRUE,220.5,Manton,North Nottinghamshire, ,Monitoring,1
+216,644,{00000000-0000-0000-0000-000000000000},TRUE,221.1,Gilmerton,Monktonhall, ,Monitoring,1
+217,645,{00000000-0000-0000-0000-000000000000},TRUE,222.1,Randolph,East Fife, ,Monitoring,1
+218,646,{00000000-0000-0000-0000-000000000000},TRUE,223.1,Bryn (Beaufort),Ebbw Vale, ,Monitoring,1
+219,647,{00000000-0000-0000-0000-000000000000},TRUE,224.1,Drillground (Victoria),Ebbw Vale, ,Monitoring,1
+220,648,{00000000-0000-0000-0000-000000000000},TRUE,224.2,Drillground (Victoria),Ebbw Vale, ,Monitoring,1
+221,649,{00000000-0000-0000-0000-000000000000},TRUE,172.1,Gwaun-Clawdd,Upper Tawe Valley, ,Monitoring,1
+222,650,{00000000-0000-0000-0000-000000000000},TRUE,173.1,Lumphinnans No.1,East Fife, ,Public Safety,0
+223,651,{00000000-0000-0000-0000-000000000000},TRUE,174.1,Sillyhole,Dalmellington, ,Public Safety,1
+224,652,{00000000-0000-0000-0000-000000000000},TRUE,175.1,Calder,Burnley-Lancashire Calder, ,Monitoring,1
+225,653,{00000000-0000-0000-0000-000000000000},TRUE,175.2,Calder,Burnley-Lancashire Calder, ,Monitoring,1
+226,654,{00000000-0000-0000-0000-000000000000},TRUE,176.1,Priestners,Leigh Zone, ,Monitoring,1
+227,655,{00000000-0000-0000-0000-000000000000},TRUE,177.1,Albert,Leigh Zone, ,Monitoring,1
+228,656,{00000000-0000-0000-0000-000000000000},TRUE,177.2,Albert,Leigh Zone, ,Monitoring,1
+229,657,{00000000-0000-0000-0000-000000000000},TRUE,178.1,Bickershaw,Leigh Zone, ,Monitoring,1
+230,658,{00000000-0000-0000-0000-000000000000},TRUE,178.2,Bickershaw,Leigh Zone, ,Monitoring,1
+231,659,{00000000-0000-0000-0000-000000000000},TRUE,179.1,Westleigh,Leigh Zone, ,Monitoring,1
+232,660,{00000000-0000-0000-0000-000000000000},TRUE,179.2,Westleigh,Leigh Zone, ,Monitoring,1
+233,661,{00000000-0000-0000-0000-000000000000},TRUE,180.1,Warren,Yorkshire Zone 5, ,Monitoring,1
+234,662,{00000000-0000-0000-0000-000000000000},TRUE,181.1,Harrington No.10,Whitehaven, ,Monitoring,1
+235,663,{00000000-0000-0000-0000-000000000000},TRUE,182.1,Hem Heath,North Staffs, ,Monitoring,1
+236,664,{00000000-0000-0000-0000-000000000000},TRUE,182.2,Hem Heath,North Staffs, ,Monitoring,1
+237,665,{00000000-0000-0000-0000-000000000000},TRUE,182.3,Hem Heath,North Staffs, ,Monitoring,1
+238,666,{00000000-0000-0000-0000-000000000000},TRUE,182.4,Hem Heath,North Staffs, ,Monitoring,1
+239,667,{00000000-0000-0000-0000-000000000000},TRUE,183.1,Woolley Moor,Yorkshire Zone 1, ,Monitoring,1
+240,668,{00000000-0000-0000-0000-000000000000},TRUE,183.2,Woolley Moor,Yorkshire Zone 1, ,Monitoring,1
+241,669,{00000000-0000-0000-0000-000000000000},TRUE,184.1,Mosborough Hall Estate,Yorkshire Zone 8, ,Public Safety,1
+242,670,{00000000-0000-0000-0000-000000000000},TRUE,184.2,Mosborough Hall Estate,Yorkshire Zone 8, ,Public Safety,1
+243,671,{00000000-0000-0000-0000-000000000000},TRUE,184.3,Mosborough Hall Estate,Yorkshire Zone 8, ,Public Safety,1
+244,672,{00000000-0000-0000-0000-000000000000},TRUE,184.4,Mosborough Hall Estate,Yorkshire Zone 8, ,Public Safety,1
+245,673,{00000000-0000-0000-0000-000000000000},TRUE,185.1,Holbrook,Yorkshire Zone 8, ,Monitoring,1
+246,674,{00000000-0000-0000-0000-000000000000},TRUE,185.2,Holbrook,Yorkshire Zone 8, ,Monitoring,1
+247,675,{00000000-0000-0000-0000-000000000000},TRUE,186.1,Meadow Barn,Bradshaw Zone, ,Public Safety,1
+248,676,{00000000-0000-0000-0000-000000000000},TRUE,186.2,Meadow Barn,Bradshaw Zone, ,Public Safety,1
+249,677,{00000000-0000-0000-0000-000000000000},TRUE,187.1,Victoria,Leigh Zone, ,Monitoring,1
+250,678,{00000000-0000-0000-0000-000000000000},TRUE,187.2,Victoria,Leigh Zone, ,Monitoring,1
+251,679,{00000000-0000-0000-0000-000000000000},TRUE,188.1,Benny Lane,Yorkshire Zone 1, ,Monitoring,1
+252,680,{00000000-0000-0000-0000-000000000000},TRUE,189.1,Coxley,Yorkshire Zone 1, ,Monitoring,1
+253,681,{00000000-0000-0000-0000-000000000000},TRUE,189.2,Coxley,Yorkshire Zone 1, ,Monitoring,1
+254,682,{00000000-0000-0000-0000-000000000000},TRUE,189.3,Coxley,Yorkshire Zone 1, ,Monitoring,1
+255,683,{00000000-0000-0000-0000-000000000000},TRUE,190.1,Grange Ash,Yorkshire Zone 1, ,Monitoring,1
+256,684,{00000000-0000-0000-0000-000000000000},TRUE,190.2,Grange Ash,Yorkshire Zone 1, ,Monitoring,1
+257,685,{00000000-0000-0000-0000-000000000000},TRUE,191.1,Garnet,West Bolton Landfill, ,Monitoring & Leachate Pumping Station,1
+258,686,{00000000-0000-0000-0000-000000000000},TRUE,191.2,Garnet,West Bolton Landfill, ,Monitoring & Leachate Pumping Station,1
+259,687,{00000000-0000-0000-0000-000000000000},TRUE,191.3,Garnet,West Bolton Landfill, ,Monitoring & Leachate Pumping Station,1
+260,688,{00000000-0000-0000-0000-000000000000},TRUE,191.4,Garnet,West Bolton Landfill, ,Monitoring & Leachate Pumping Station,1
+261,689,{00000000-0000-0000-0000-000000000000},TRUE,191.5,Garnet,West Bolton Landfill, ,Monitoring & Leachate Pumping Station,1
+262,690,{00000000-0000-0000-0000-000000000000},TRUE,192.1,Clay Cross No.9,Notts-Derbys Border, ,Monitoring,1
+263,691,{00000000-0000-0000-0000-000000000000},TRUE,192.2,Clay Cross No.9,Notts-Derbys Border, ,Monitoring,1
+264,692,{00000000-0000-0000-0000-000000000000},TRUE,193.1,Old Avenue No.11,Notts-Derbys Border, ,Monitoring,1
+265,693,{00000000-0000-0000-0000-000000000000},TRUE,193.2,Old Avenue No.11,Notts-Derbys Border, ,Monitoring,1
+266,694,{00000000-0000-0000-0000-000000000000},TRUE,194.1,Flockton Lane End,Yorkshire Zone 1, ,Monitoring,1
+267,695,{00000000-0000-0000-0000-000000000000},TRUE,194.2,Flockton Lane End,Yorkshire Zone 1, ,Monitoring,1
+268,696,{00000000-0000-0000-0000-000000000000},TRUE,194.3,Flockton Lane End,Yorkshire Zone 1, ,Monitoring,1
+269,697,{00000000-0000-0000-0000-000000000000},TRUE,194.4,Flockton Lane End,Yorkshire Zone 1, ,Monitoring,1
+270,698,{00000000-0000-0000-0000-000000000000},TRUE,195.1,Kimberworth (Gloucester),Yorkshire Zone 5, ,Public Safety,1
+271,699,{00000000-0000-0000-0000-000000000000},TRUE,195.2,Kimberworth (Gloucester),Yorkshire Zone 5, ,Public Safety,1
+272,700,{00000000-0000-0000-0000-000000000000},TRUE,195.3,Kimberworth (Gloucester),Yorkshire Zone 5, ,Public Safety,1
+273,701,{00000000-0000-0000-0000-000000000000},TRUE,195.4,Kimberworth (Gloucester),Yorkshire Zone 5, ,Public Safety,1
+274,702,{00000000-0000-0000-0000-000000000000},TRUE,196.1,Kimberworth (Simmonite),Yorkshire Zone 5, ,Public Safety,1
+275,1,{00000000-0000-0000-0000-000000000000},TRUE,367.2,Thorncliffe Water Drift East,Yorkshire Zone 6, ,Monitoring,1
+276,2,{00000000-0000-0000-0000-000000000000},TRUE,367.3,Thorncliffe Water Drift East,Yorkshire Zone 6, ,Monitoring,1
+277,3,{00000000-0000-0000-0000-000000000000},TRUE,367.4,Thorncliffe Water Drift East,Yorkshire Zone 6, ,Monitoring,1
+278,4,{00000000-0000-0000-0000-000000000000},TRUE,367.5,Thorncliffe Water Drift East,Yorkshire Zone 6, ,Monitoring,1
+279,5,{00000000-0000-0000-0000-000000000000},TRUE,367.6,Thorncliffe Water Drift East,Yorkshire Zone 6, ,Monitoring,1
+280,6,{00000000-0000-0000-0000-000000000000},TRUE,367.7,Thorncliffe Water Drift East,Yorkshire Zone 6, ,Monitoring,1
+281,7,{00000000-0000-0000-0000-000000000000},TRUE,368.1,Brakes Water Level,Whitehaven, ,Monitoring,1
+282,8,{00000000-0000-0000-0000-000000000000},TRUE,369.1,Kames,Mid-Ayrshire, ,Mine Water Treatment,1
+283,9,{00000000-0000-0000-0000-000000000000},TRUE,369.2,Kames,Mid-Ayrshire, ,Mine Water Treatment,1
+284,10,{00000000-0000-0000-0000-000000000000},TRUE,369.25,Kames,Mid-Ayrshire, ,Mine Water Treatment,1
+285,11,{00000000-0000-0000-0000-000000000000},TRUE,369.3,Kames,Mid-Ayrshire, ,Mine Water Treatment,1
+286,12,{00000000-0000-0000-0000-000000000000},TRUE,369.4,Kames,Mid-Ayrshire, ,Mine Water Treatment,1
+287,13,{00000000-0000-0000-0000-000000000000},TRUE,369.5,Kames,Mid-Ayrshire, ,Mine Water Treatment,1
+288,14,{00000000-0000-0000-0000-000000000000},TRUE,370.1,Hazelhead / Woods,Holme Valley, ,Monitoring,1
+289,15,{00000000-0000-0000-0000-000000000000},TRUE,370.2,Hazelhead / Woods,Holme Valley, ,Monitoring,1
+290,16,{00000000-0000-0000-0000-000000000000},TRUE,370.3,Hazelhead / Woods,Holme Valley, ,Monitoring,1
+291,17,{00000000-0000-0000-0000-000000000000},TRUE,371.1,East Edmondsley,West Of Wear Mid Durham, ,Mine Water Treatment,1
+292,18,{00000000-0000-0000-0000-000000000000},TRUE,371.2,East Edmondsley,West Of Wear Mid Durham, ,Mine Water Treatment,1
+293,19,{00000000-0000-0000-0000-000000000000},TRUE,371.3,East Edmondsley,West Of Wear Mid Durham, ,Mine Water Treatment,1
+294,20,{00000000-0000-0000-0000-000000000000},TRUE,371.4,East Edmondsley,West Of Wear Mid Durham, ,Mine Water Treatment,1
+295,21,{00000000-0000-0000-0000-000000000000},TRUE,371.5,East Edmondsley,West Of Wear Mid Durham, ,Mine Water Treatment,1
+296,22,{00000000-0000-0000-0000-000000000000},TRUE,372.1,Spy Law,Coquet, ,Monitoring,0
+297,23,{00000000-0000-0000-0000-000000000000},TRUE,373.1,Hazon,Coquet, ,Monitoring,1
+298,24,{00000000-0000-0000-0000-000000000000},TRUE,374.1,Shilbottle,Coquet, ,Monitoring,0
+299,25,{00000000-0000-0000-0000-000000000000},TRUE,375.1,Swarland Wood,Coquet, ,Monitoring,0
+300,26,{00000000-0000-0000-0000-000000000000},TRUE,376.1,Hart Law,Coquet, ,Monitoring,0
+301,27,{00000000-0000-0000-0000-000000000000},TRUE,377.1,Grange Pit,Coquet, ,Monitoring,0
+302,28,{00000000-0000-0000-0000-000000000000},TRUE,378.1,Acomb Drift,West Tyneside, ,Mine Water Treatment,1
+303,29,{00000000-0000-0000-0000-000000000000},TRUE,378.2,Acomb Drift,West Tyneside, ,Mine Water Treatment,1
+304,30,{00000000-0000-0000-0000-000000000000},TRUE,378.3,Acomb Drift,West Tyneside, ,Mine Water Treatment,1
+305,31,{00000000-0000-0000-0000-000000000000},TRUE,378.4,Acomb Drift,West Tyneside, ,Mine Water Treatment,1
+306,32,{00000000-0000-0000-0000-000000000000},TRUE,378.5,Acomb Drift,West Tyneside, ,Mine Water Treatment,1
+307,33,{00000000-0000-0000-0000-000000000000},TRUE,378.6,Acomb Drift,West Tyneside, ,Mine Water Treatment,1
+308,34,{00000000-0000-0000-0000-000000000000},TRUE,379.1,Burnopfield Main Coal Drift,Derwent Valley, ,Monitoring,1
+309,35,{00000000-0000-0000-0000-000000000000},TRUE,380.1,Milkwell Brockwell Drift,Derwent Valley, ,Monitoring,1
+310,36,{00000000-0000-0000-0000-000000000000},TRUE,381.1,Morrison Busty,West Of Wear Mid Durham, ,Monitoring,1
+311,37,{00000000-0000-0000-0000-000000000000},TRUE,382.1,Stony Heap,West Of Wear Mid Durham, ,Monitoring,1
+312,38,{00000000-0000-0000-0000-000000000000},TRUE,383.1,Bowden Close,West Of Wear Willington, ,Monitoring,1
+313,39,{00000000-0000-0000-0000-000000000000},TRUE,384.1,Pont Water Level,Derwent Valley, ,Monitoring,1
+314,40,{00000000-0000-0000-0000-000000000000},TRUE,385.1,St. Helens Auckland,Gaunless Valley, ,Monitoring,1
+315,41,{00000000-0000-0000-0000-000000000000},TRUE,385.2,St. Helens Auckland,Gaunless Valley, ,Monitoring,0
+316,42,{00000000-0000-0000-0000-000000000000},TRUE,385.3,St. Helens Auckland,Gaunless Valley, ,Monitoring,0
+317,43,{00000000-0000-0000-0000-000000000000},TRUE,385.4,St. Helens Auckland,Gaunless Valley, ,Monitoring,0
+318,44,{00000000-0000-0000-0000-000000000000},TRUE,386.1,West Kyo,West Of Wear Mid Durham, ,Monitoring,1
+319,45,{00000000-0000-0000-0000-000000000000},TRUE,387.1,Smithies,Yorkshire Zone 5, ,Monitoring,1
+320,46,{00000000-0000-0000-0000-000000000000},TRUE,388.1,Hauxley,Coquet, ,Pumping,1
+321,47,{00000000-0000-0000-0000-000000000000},TRUE,388.2,Hauxley,Coquet, ,Pumping,1
+322,48,{00000000-0000-0000-0000-000000000000},TRUE,388.3,Hauxley,Coquet, ,Pumping,1
+323,49,{00000000-0000-0000-0000-000000000000},TRUE,388.4,Hauxley,Coquet, ,Pumping,1
+324,50,{00000000-0000-0000-0000-000000000000},TRUE,388.5,Hauxley,Coquet, ,Pumping,1
+325,51,{00000000-0000-0000-0000-000000000000},TRUE,388.6,Hauxley,Coquet, ,Pumping,1
+326,52,{00000000-0000-0000-0000-000000000000},TRUE,389.1,Lady Pit,Goyt Valley, ,Monitoring,1
+327,53,{00000000-0000-0000-0000-000000000000},TRUE,389.2,Lady Pit,Goyt Valley, ,Monitoring,1
+328,54,{00000000-0000-0000-0000-000000000000},TRUE,390.1,Edmondsley Water Level,West Of Wear Mid Durham, ,Monitoring,1
+329,55,{00000000-0000-0000-0000-000000000000},TRUE,391.1,Shallcross Hall,Goyt Valley, ,Monitoring,1
+330,56,{00000000-0000-0000-0000-000000000000},TRUE,391.2,Shallcross Hall,Goyt Valley, ,Monitoring,1
+331,57,{00000000-0000-0000-0000-000000000000},TRUE,391.3,Shallcross Hall,Goyt Valley, ,Monitoring,1
+332,58,{00000000-0000-0000-0000-000000000000},TRUE,391.4,Shallcross Hall,Goyt Valley, ,Monitoring,1
+333,59,{00000000-0000-0000-0000-000000000000},TRUE,392.1,Hill House,Yorkshire Zone 2, ,Monitoring,1
+334,60,{00000000-0000-0000-0000-000000000000},TRUE,393.1,Norcroft Lane,Yorkshire Zone 2, ,Monitoring,1
+335,61,{00000000-0000-0000-0000-000000000000},TRUE,394.1,Whittle New Drift,Coquet, ,Mine Water Treatment,1
+336,62,{00000000-0000-0000-0000-000000000000},TRUE,394.2,Whittle New Drift,Coquet, ,Mine Water Treatment,1
+337,63,{00000000-0000-0000-0000-000000000000},TRUE,394.3,Whittle New Drift,Coquet, ,Mine Water Treatment,1
+338,64,{00000000-0000-0000-0000-000000000000},TRUE,394.4,Whittle New Drift,Coquet, ,Mine Water Treatment,1
+339,65,{00000000-0000-0000-0000-000000000000},TRUE,394.5,Whittle New Drift,Coquet, ,Mine Water Treatment,1
+340,66,{00000000-0000-0000-0000-000000000000},TRUE,395.1,Greasbrough,Yorkshire Zone 5, ,Monitoring,1
+341,67,{00000000-0000-0000-0000-000000000000},TRUE,396.1,Thorncliffe Water Drift Central,Yorkshire Zone 5, ,Monitoring,1
+342,68,{00000000-0000-0000-0000-000000000000},TRUE,396.2,Thorncliffe Water Drift Central,Yorkshire Zone 5, ,Monitoring,1
+343,69,{00000000-0000-0000-0000-000000000000},TRUE,396.3,Thorncliffe Water Drift Central,Yorkshire Zone 5, ,Monitoring,1
+344,70,{00000000-0000-0000-0000-000000000000},TRUE,397.1,Lyme,Bold-Haydock Zone, ,Monitoring,1
+345,71,{00000000-0000-0000-0000-000000000000},TRUE,397.2,Lyme,Bold-Haydock Zone, ,Monitoring,1
+346,72,{00000000-0000-0000-0000-000000000000},TRUE,397.3,Lyme,Bold-Haydock Zone, ,Monitoring,1
+347,73,{00000000-0000-0000-0000-000000000000},TRUE,398.1,White Lane Sough,Yorkshire Zone 5, ,Monitoring,1
+348,74,{00000000-0000-0000-0000-000000000000},TRUE,399.1,Mangham (Old Basset Level),Yorkshire Zone 5, ,Monitoring,1
+349,75,{00000000-0000-0000-0000-000000000000},TRUE,400.1,Bishop Wood,Yorkshire Zone 13, ,Monitoring,1
+350,76,{00000000-0000-0000-0000-000000000000},TRUE,401.1,Hand Bank,Porter Don, ,Monitoring,1
+351,77,{c8746b65-ac8c-4c2b-a5b4-1dd9aeb523dc},TRUE,401.2,Hand Bank Halifax Hards Outflall,Porter Don,Yorkshire,Monitoring,0
+352,78,{00000000-0000-0000-0000-000000000000},TRUE,401.3,Hand Bank,Porter Don, ,Monitoring,1
+353,79,{00000000-0000-0000-0000-000000000000},TRUE,401.4,Hand Bank,Porter Don, ,Monitoring,1
+354,80,{00000000-0000-0000-0000-000000000000},TRUE,401.5,Hand Bank,Porter Don, ,Monitoring,1
+355,81,{00000000-0000-0000-0000-000000000000},TRUE,402.1,Norton (Ball Green),North Staffs, ,Monitoring,1
+356,82,{00000000-0000-0000-0000-000000000000},TRUE,403.1,Engine Lock,North Staffs, ,Monitoring,1
+357,83,{00000000-0000-0000-0000-000000000000},TRUE,404.1,Engine Lock Discharge,North Staffs, ,Monitoring,1
+358,84,{00000000-0000-0000-0000-000000000000},TRUE,405.1,Taylors Lift,Yorkshire Zone 11, ,Monitoring,1
+359,85,{00000000-0000-0000-0000-000000000000},TRUE,406.1,Shooting Butts,South Staffs, ,Monitoring,1
+360,86,{00000000-0000-0000-0000-000000000000},TRUE,407.1,Cadley Hill,South Derbyshire, ,Monitoring,1
+361,87,{00000000-0000-0000-0000-000000000000},TRUE,407.2,Cadley Hill,South Derbyshire, ,Monitoring,1
+362,88,{00000000-0000-0000-0000-000000000000},TRUE,408.1,Berry Hill,North Staffs, ,Monitoring,1
+363,89,{00000000-0000-0000-0000-000000000000},TRUE,408.2,Berry Hill,North Staffs, ,Monitoring,1
+364,90,{00000000-0000-0000-0000-000000000000},TRUE,409.1,Pitfirrane Day Level,Central Fife, ,Monitoring,1
+365,91,{00000000-0000-0000-0000-000000000000},TRUE,409.2,Pitfirrane Day Level,Central Fife, ,Monitoring,1
+366,92,{00000000-0000-0000-0000-000000000000},TRUE,409.3,Pitfirrane Day Level,Central Fife, ,Monitoring,1
+367,93,{00000000-0000-0000-0000-000000000000},TRUE,409.4,Pitfirrane Day Level,Central Fife, ,Monitoring,1
+368,94,{00000000-0000-0000-0000-000000000000},TRUE,409.5,Pitfirrane Day Level,Central Fife, ,Monitoring,1
+369,95,{00000000-0000-0000-0000-000000000000},TRUE,409.6,Pitfirrane Day Level,Central Fife, ,Monitoring,1
+370,96,{00000000-0000-0000-0000-000000000000},TRUE,410.1,Norcroft Fan Drift,Yorkshire Zone 2, ,Monitoring,1
+371,97,{00000000-0000-0000-0000-000000000000},TRUE,411.1,Stanhope Bretby,South Derbyshire, ,Monitoring,1
+372,98,{00000000-0000-0000-0000-000000000000},TRUE,412.1,Deerplay,Rossendale, ,Mine Water Treatment,1
+373,99,{00000000-0000-0000-0000-000000000000},TRUE,412.2,Deerplay,Rossendale, ,Mine Water Treatment,1
+374,100,{00000000-0000-0000-0000-000000000000},TRUE,412.3,Deerplay,Rossendale, ,Mine Water Treatment,1
+375,101,{00000000-0000-0000-0000-000000000000},TRUE,412.4,Deerplay,Rossendale, ,Mine Water Treatment,1
+376,102,{00000000-0000-0000-0000-000000000000},TRUE,412.5,Deerplay,Rossendale, ,Mine Water Treatment,1
+377,103,{00000000-0000-0000-0000-000000000000},TRUE,413.1,Bankhead,Kirkconnel, ,Public Safety,1
+378,104,{00000000-0000-0000-0000-000000000000},TRUE,414.1,Kello,Kirkconnel, ,Public Safety,1
+379,105,{00000000-0000-0000-0000-000000000000},TRUE,415.1,Urquhart Day Level,Central Fife, ,Design Mine Water Treatment,1
+380,106,{00000000-0000-0000-0000-000000000000},TRUE,416.1,Wilsontown Main,North Lanarkshire, ,Mine Water Treatment,1
+381,107,{00000000-0000-0000-0000-000000000000},TRUE,416.2,Wilsontown Main,North Lanarkshire, ,Mine Water Treatment,1
+382,108,{00000000-0000-0000-0000-000000000000},TRUE,416.3,Wilsontown Main,North Lanarkshire, ,Mine Water Treatment,1
+383,109,{00000000-0000-0000-0000-000000000000},TRUE,416.4,Wilsontown Main,North Lanarkshire, ,Mine Water Treatment,1
+384,110,{00000000-0000-0000-0000-000000000000},TRUE,417.1,Kingshill No.1,North Lanarkshire, ,Monitoring,1
+385,111,{00000000-0000-0000-0000-000000000000},TRUE,417.2,Kingshill No.1,North Lanarkshire, ,Monitoring,1
+386,112,{00000000-0000-0000-0000-000000000000},TRUE,417.3,Kingshill No.1,North Lanarkshire, ,Monitoring,1
+387,113,{00000000-0000-0000-0000-000000000000},TRUE,417.4,Kingshill No.1,North Lanarkshire, ,Monitoring,1
+388,114,{00000000-0000-0000-0000-000000000000},TRUE,418.1,Fender (Dunston),Rother / Drone, ,Mine Water Treatment,1
+389,115,{00000000-0000-0000-0000-000000000000},TRUE,418.2,Fender (Dunston),Rother / Drone, ,Mine Water Treatment,1
+390,116,{00000000-0000-0000-0000-000000000000},TRUE,418.3,Fender (Dunston),Rother / Drone, ,Mine Water Treatment,1
+391,117,{00000000-0000-0000-0000-000000000000},TRUE,418.4,Fender (Dunston),Rother / Drone, ,Mine Water Treatment,1
+392,118,{00000000-0000-0000-0000-000000000000},TRUE,418.5,Fender (Dunston),Rother / Drone, ,Mine Water Treatment,1
+393,119,{00000000-0000-0000-0000-000000000000},TRUE,419.1,Parkmill,Yorkshire Zone 10, ,Monitoring,1
+394,120,{00000000-0000-0000-0000-000000000000},TRUE,420.1,Flockton Moor,Yorkshire Zone 10, ,Monitoring,1
+395,121,{00000000-0000-0000-0000-000000000000},TRUE,420.2,Flockton Moor,Yorkshire Zone 10, ,Monitoring,1
+396,122,{00000000-0000-0000-0000-000000000000},TRUE,421.1,Kimberworth Park East,Yorkshire Zone 5, ,Public Safety,1
+397,123,{00000000-0000-0000-0000-000000000000},TRUE,421.2,Kimberworth Park East,Yorkshire Zone 5, ,Public Safety,1
+398,124,{00000000-0000-0000-0000-000000000000},TRUE,421.3,Kimberworth Park East,Yorkshire Zone 5, ,Public Safety,1
+399,125,{00000000-0000-0000-0000-000000000000},TRUE,422.1,Kimberworth Park West,Yorkshire Zone 5, ,Public Safety,1
+400,126,{00000000-0000-0000-0000-000000000000},TRUE,422.2,Kimberworth Park West,Yorkshire Zone 5, ,Public Safety,1
+401,127,{00000000-0000-0000-0000-000000000000},TRUE,422.3,Kimberworth Park West,Yorkshire Zone 5, ,Public Safety,1
+402,128,{00000000-0000-0000-0000-000000000000},TRUE,423.1,Thorncliffe Water Drift West,Yorkshire Zone 5, ,Monitoring,1
+403,129,{00000000-0000-0000-0000-000000000000},TRUE,423.2,Thorncliffe Water Drift West,Yorkshire Zone 5, ,Monitoring,1
+404,130,{00000000-0000-0000-0000-000000000000},TRUE,423.3,Thorncliffe Water Drift West,Yorkshire Zone 5, ,Monitoring,1
+405,131,{00000000-0000-0000-0000-000000000000},TRUE,424.1,Hartington,North East Derbyshire, ,Mine Water Treatment,1
+406,132,{00000000-0000-0000-0000-000000000000},TRUE,425.1,Nailstone,Leicestershire, ,Monitoring,1
+407,133,{00000000-0000-0000-0000-000000000000},TRUE,426.1,Scar Hole,Holme Valley, ,Monitoring,1
+408,134,{00000000-0000-0000-0000-000000000000},TRUE,427.1,Wentworth Silkstone,Yorkshire Zone 5, ,Monitoring,1
+409,135,{00000000-0000-0000-0000-000000000000},TRUE,428.1,Whitwell,North East Derbyshire, ,Monitoring,1
+410,136,{00000000-0000-0000-0000-000000000000},TRUE,428.2,Whitwell,North East Derbyshire, ,Monitoring,1
+411,137,{00000000-0000-0000-0000-000000000000},TRUE,429.1,North Esk Drainage Level,Bilston Glen, ,Monitoring,1
+412,138,{00000000-0000-0000-0000-000000000000},TRUE,430.1,Morda,Shropshire, ,Monitoring,1
+413,139,{00000000-0000-0000-0000-000000000000},TRUE,431.1,Park Drift,West Of Wear, ,Monitoring,1
+414,140,{00000000-0000-0000-0000-000000000000},TRUE,431.2,Park Drift,West Of Wear, ,Monitoring,1
+415,141,{00000000-0000-0000-0000-000000000000},TRUE,432.1,Bilston Glen,Bilston Glen, ,Monitoring,1
+416,142,{00000000-0000-0000-0000-000000000000},TRUE,433.1,Warren House,Yorkshire Zone 5, ,Monitoring,1
+417,143,{00000000-0000-0000-0000-000000000000},TRUE,433.2,Warren House,Yorkshire Zone 5, ,Monitoring,1
+418,144,{00000000-0000-0000-0000-000000000000},TRUE,433.3,Lowstubbin,Yorkshire Zone 5, ,Monitoring,1
+419,145,{00000000-0000-0000-0000-000000000000},TRUE,434.1,"Bath St., Silverdale",West Staffs, ,Public Safety,1
+420,146,{00000000-0000-0000-0000-000000000000},TRUE,435.1,Pildacre,Yorkshire Zone 1, ,Monitoring,1
+421,147,{00000000-0000-0000-0000-000000000000},TRUE,435.2,Pildacre,Yorkshire Zone 1, ,Monitoring,1
+422,148,{00000000-0000-0000-0000-000000000000},TRUE,435.3,Pildacre,Yorkshire Zone 1, ,Monitoring,1
+423,149,{00000000-0000-0000-0000-000000000000},TRUE,436.1,Merrylees,Leicestershire, ,Monitoring,1
+424,150,{00000000-0000-0000-0000-000000000000},TRUE,437.1,Snibston,Leicestershire, ,Monitoring,1
+425,151,{00000000-0000-0000-0000-000000000000},TRUE,438.1,New Lount,Leicestershire, ,Monitoring,1
+426,152,{00000000-0000-0000-0000-000000000000},TRUE,439.1,Church Hill,Leicestershire, ,Monitoring,1
+427,153,{00000000-0000-0000-0000-000000000000},TRUE,439.2,Church Hill,Leicestershire, ,Monitoring,1
+428,154,{00000000-0000-0000-0000-000000000000},TRUE,439.3,Church Hill,Leicestershire, ,Monitoring,1
+429,155,{00000000-0000-0000-0000-000000000000},TRUE,440.1,Staunton Harold,Leicestershire, ,Design Mine Water Treatment,1
+430,156,{00000000-0000-0000-0000-000000000000},TRUE,441.1,Lount,Leicestershire, ,Monitoring,1
+431,157,{00000000-0000-0000-0000-000000000000},TRUE,442.1,Pegswood Busty,Wansbeck, ,Monitoring,1
+432,158,{00000000-0000-0000-0000-000000000000},TRUE,527.02,Taff Merthyr,Taff Zone, ,Mine Water Treatment,1
+433,159,{00000000-0000-0000-0000-000000000000},TRUE,527.03,Taff Merthyr,Taff Zone, ,Mine Water Treatment,1
+434,160,{00000000-0000-0000-0000-000000000000},TRUE,527.04,Taff Merthyr,Taff Zone, ,Mine Water Treatment,1
+435,161,{00000000-0000-0000-0000-000000000000},TRUE,527.05,Taff Merthyr,Taff Zone, ,Mine Water Treatment,1
+436,162,{00000000-0000-0000-0000-000000000000},TRUE,527.06,Taff Merthyr,Taff Zone, ,Mine Water Treatment,1
+437,163,{00000000-0000-0000-0000-000000000000},TRUE,527.07,Taff Merthyr,Taff Zone, ,Mine Water Treatment,1
+438,164,{00000000-0000-0000-0000-000000000000},TRUE,527.08,Taff Merthyr,Taff Zone, ,Mine Water Treatment,1
+439,165,{00000000-0000-0000-0000-000000000000},TRUE,527.09,Taff Merthyr,Taff Zone, ,Mine Water Treatment,1
+440,166,{00000000-0000-0000-0000-000000000000},TRUE,527.1,Taff Merthyr,Taff Zone, ,Mine Water Treatment,1
+441,167,{00000000-0000-0000-0000-000000000000},TRUE,528.1,Morlais,Lower Loughor Valley, ,Mine Water Treatment,1
+442,168,{00000000-0000-0000-0000-000000000000},TRUE,528.2,Morlais,Lower Loughor Valley, ,Mine Water Treatment,1
+443,169,{00000000-0000-0000-0000-000000000000},TRUE,528.3,Morlais,Lower Loughor Valley, ,Mine Water Treatment,1
+444,170,{00000000-0000-0000-0000-000000000000},TRUE,528.4,Morlais,Lower Loughor Valley, ,Mine Water Treatment,1
+445,171,{00000000-0000-0000-0000-000000000000},TRUE,528.5,Morlais,Lower Loughor Valley, ,Mine Water Treatment,1
+446,172,{00000000-0000-0000-0000-000000000000},TRUE,529.1,Bankton,Blindwells, ,Monitoring,1
+447,173,{00000000-0000-0000-0000-000000000000},TRUE,530.1,Woodside,Notts-Derbys Border, ,Mine Water Treatment,1
+448,174,{00000000-0000-0000-0000-000000000000},TRUE,530.2,Woodside,Notts-Derbys Border, ,Mine Water Treatment,1
+449,175,{00000000-0000-0000-0000-000000000000},TRUE,530.3,Woodside,Notts-Derbys Border, ,Mine Water Treatment,1
+450,176,{00000000-0000-0000-0000-000000000000},TRUE,530.4,Woodside,Notts-Derbys Border, ,Mine Water Treatment,1
+451,177,{00000000-0000-0000-0000-000000000000},TRUE,531.1,Crumlin Navigation,Ebbw Vale, ,Monitoring,1
+452,178,{00000000-0000-0000-0000-000000000000},TRUE,531.2,Crumlin Navigation,Ebbw Vale, ,Monitoring,1
+453,179,{00000000-0000-0000-0000-000000000000},TRUE,532.1,Blaengwrach,Neath Valley, ,Public Safety,1
+454,180,{00000000-0000-0000-0000-000000000000},TRUE,533.1,Dunvant,Gower, ,Monitoring,1
+455,181,{00000000-0000-0000-0000-000000000000},TRUE,533.2,Dunvant,Gower, ,Monitoring,1
+456,182,{00000000-0000-0000-0000-000000000000},TRUE,533.3,Dunvant,Gower, ,Monitoring,1
+457,183,{00000000-0000-0000-0000-000000000000},TRUE,534.1,Muirpark,Blindwells, ,Monitoring,1
+458,184,{00000000-0000-0000-0000-000000000000},TRUE,535.1,Riggonhead,Blindwells, ,Monitoring,1
+459,185,{00000000-0000-0000-0000-000000000000},TRUE,536.1,Prestonpans,Blindwells, ,Monitoring,1
+460,186,{00000000-0000-0000-0000-000000000000},TRUE,537.1,Blaenavon,Lwyd Valley, ,Mine Water Treatment,1
+461,187,{00000000-0000-0000-0000-000000000000},TRUE,537.2,Blaenavon,Lwyd Valley, ,Mine Water Treatment,1
+462,188,{00000000-0000-0000-0000-000000000000},TRUE,537.3,Blaenavon,Lwyd Valley, ,Mine Water Treatment,1
+463,189,{00000000-0000-0000-0000-000000000000},TRUE,538.1,Boghead,River Avon Valley, ,Monitoring,1
+464,190,{00000000-0000-0000-0000-000000000000},TRUE,539.1,Armadale No.19,River Avon Valley, ,Monitoring,1
+465,191,{00000000-0000-0000-0000-000000000000},TRUE,540.1,West Wemyss,East Fife, ,Monitoring,1
+466,192,{00000000-0000-0000-0000-000000000000},TRUE,541.1,Prebend,West Of Wear Durham, ,Monitoring,1
+467,193,{00000000-0000-0000-0000-000000000000},TRUE,542.1,Irwell Springs,Rossendale, ,Monitoring,1
+468,194,{00000000-0000-0000-0000-000000000000},TRUE,543.1,Easden Wood,Rossendale, ,Monitoring,1
+469,195,{00000000-0000-0000-0000-000000000000},TRUE,544.1,Blackclough Waterloose,Rossendale, ,Monitoring,1
+470,196,{00000000-0000-0000-0000-000000000000},TRUE,544.2,Blackclough Waterloose,Rossendale, ,Monitoring,1
+471,197,{00000000-0000-0000-0000-000000000000},TRUE,544.3,Blackclough Waterloose,Rossendale, ,Monitoring,1
+472,198,{00000000-0000-0000-0000-000000000000},TRUE,545.1,Deerplay Waterloose,Rossendale, ,Monitoring,1
+473,199,{00000000-0000-0000-0000-000000000000},TRUE,545.2,Deerplay Waterloose,Rossendale, ,Monitoring,1
+474,200,{00000000-0000-0000-0000-000000000000},TRUE,546.1,Wheatley Wood,Yorkshire Zone 1, ,Monitoring,1
+475,201,{00000000-0000-0000-0000-000000000000},TRUE,546.2,Wheatley Wood,Yorkshire Zone 1, ,Monitoring,1
+476,202,{00000000-0000-0000-0000-000000000000},TRUE,547.1,Broom Royd,Yorkshire Zone 5, ,Monitoring,1
+477,203,{00000000-0000-0000-0000-000000000000},TRUE,548.1,Lundhill,Yorkshire Zone 5, ,Monitoring,1
+478,204,{00000000-0000-0000-0000-000000000000},TRUE,549.1,Dayhouse Farm,Yorkshire Zone 5, ,Monitoring,1
+479,205,{00000000-0000-0000-0000-000000000000},TRUE,550.1,Cowpen Isabella,Blythe, ,Monitoring,1
+480,206,{00000000-0000-0000-0000-000000000000},TRUE,551.1,Haugh,Yorkshire Zone 5, ,Monitoring,1
+481,207,{00000000-0000-0000-0000-000000000000},TRUE,552.1,Hylton,South Tyneside, ,Monitoring,0
+482,208,{00000000-0000-0000-0000-000000000000},TRUE,552.2,Hylton,South Tyneside, ,Monitoring,0
+483,209,{00000000-0000-0000-0000-000000000000},TRUE,553.1,Scholes Shaft,Yorkshire Zone 5, ,Monitoring,1
+484,210,{00000000-0000-0000-0000-000000000000},TRUE,554.1,High Royd,Yorkshire Zone 5, ,Monitoring,1
+485,211,{00000000-0000-0000-0000-000000000000},TRUE,555.1,Scholes Parkgate,Yorkshire Zone 5, ,Monitoring,1
+486,212,{00000000-0000-0000-0000-000000000000},TRUE,556.1,Coach Road,Leicestershire, ,Monitoring,1
+487,213,{00000000-0000-0000-0000-000000000000},TRUE,557.1,Cat Nob,Yorkshire Zone 5, ,Monitoring,1
+488,214,{00000000-0000-0000-0000-000000000000},TRUE,558.1,Cardowan,North Lanarkshire, ,Monitoring,1
+489,215,{00000000-0000-0000-0000-000000000000},TRUE,558.2,Cardowan,North Lanarkshire, ,Monitoring,1
+490,216,{00000000-0000-0000-0000-000000000000},TRUE,558.3,Cardowan,North Lanarkshire, ,Monitoring,1
+491,217,{00000000-0000-0000-0000-000000000000},TRUE,559.1,Hartley Bank,Yorkshire Zone 10, ,Monitoring,1
+492,218,{00000000-0000-0000-0000-000000000000},TRUE,559.2,Hartley Bank,Yorkshire Zone 10, ,Monitoring,1
+493,219,{00000000-0000-0000-0000-000000000000},TRUE,560.1,Woodifield,West Of Wear, ,Monitoring,1
+494,220,{00000000-0000-0000-0000-000000000000},TRUE,561.1,Crook (Roodey Moor),West Of Wear, ,Monitoring,1
+495,221,{00000000-0000-0000-0000-000000000000},TRUE,562.1,North Beechburn,West Of Wear, ,Monitoring,1
+496,222,{00000000-0000-0000-0000-000000000000},TRUE,563.1,Jobs Hill,West Of Wear, ,Monitoring,1
+497,223,{00000000-0000-0000-0000-000000000000},TRUE,564.1,Abbots Close,West Of Wear, ,Monitoring,1
+498,224,{00000000-0000-0000-0000-000000000000},TRUE,565.1,Bracken Hill Drift Boreholes,West Of Wear, ,Monitoring,1
+499,225,{00000000-0000-0000-0000-000000000000},TRUE,565.2,Bracken Hill Drift Boreholes,West Of Wear, ,Monitoring,1
+500,226,{00000000-0000-0000-0000-000000000000},TRUE,566.1,Chryston,North Lanarkshire, ,Public Safety,1
+501,227,{00000000-0000-0000-0000-000000000000},TRUE,566.2,Chryston,North Lanarkshire, ,Public Safety,1
+502,228,{00000000-0000-0000-0000-000000000000},TRUE,566.3,Chryston,North Lanarkshire, ,Public Safety,1
+503,229,{00000000-0000-0000-0000-000000000000},TRUE,567.1,Big Pit (Gelli),Lwyd Valley, ,Monitoring,1
+504,230,{00000000-0000-0000-0000-000000000000},TRUE,567.2,Big Pit (Gelli),Lwyd Valley, ,Monitoring,1
+505,231,{00000000-0000-0000-0000-000000000000},TRUE,568.1,Ecklands Lane,Porter Don, ,Monitoring,1
+506,232,{00000000-0000-0000-0000-000000000000},TRUE,569.1,Salford College,Tyldersley Irwell Zone, ,Monitoring,1
+507,233,{00000000-0000-0000-0000-000000000000},TRUE,570.1,Mosley Common,Tyldersley Irwell Zone, ,Monitoring,1
+508,234,{00000000-0000-0000-0000-000000000000},TRUE,571.1,Douglas,South Lanarkshire, ,Design Mine Water Treatment,1
+509,235,{00000000-0000-0000-0000-000000000000},TRUE,572.1,Browney,West Of Wear, ,Monitoring,1
+510,236,{00000000-0000-0000-0000-000000000000},TRUE,573.1,Middlefield,East Fife, ,Public Safety,1
+511,237,{00000000-0000-0000-0000-000000000000},TRUE,574.1,Atkinson's Drift,West Tyneside, ,Monitoring,1
+512,238,{00000000-0000-0000-0000-000000000000},TRUE,574.2,Atkinson's Drift,West Tyneside, ,Monitoring,1
+513,239,{00000000-0000-0000-0000-000000000000},TRUE,575.1,Blairingone,Clackmannan, ,Mine Water Treatment,1
+514,240,{00000000-0000-0000-0000-000000000000},TRUE,575.2,Blairingone,Clackmannan, ,Mine Water Treatment,1
+515,241,{00000000-0000-0000-0000-000000000000},TRUE,575.3,Blairingone,Clackmannan, ,Mine Water Treatment,1
+516,242,{00000000-0000-0000-0000-000000000000},TRUE,575.4,Blairingone,Clackmannan, ,Mine Water Treatment,1
+517,243,{00000000-0000-0000-0000-000000000000},TRUE,576.1,Tees-Side,Teeside, ,Public Safety,1
+518,244,{00000000-0000-0000-0000-000000000000},TRUE,577.1,Wallyford,Monktonhall, ,Monitoring,1
+519,245,{00000000-0000-0000-0000-000000000000},TRUE,578.1,Isabella,East Fife, ,Monitoring,1
+520,246,{00000000-0000-0000-0000-000000000000},TRUE,579.1,Treforgan,Dulais/Neath Valleys, ,Monitoring,1
+521,247,{00000000-0000-0000-0000-000000000000},TRUE,580.1,Fordell No.2,East Fife, ,Monitoring,1
+522,248,{00000000-0000-0000-0000-000000000000},TRUE,581.1,Fordell No.3 Vantage,East Fife, ,Monitoring,1
+523,249,{00000000-0000-0000-0000-000000000000},TRUE,582.1,Fordell No.5,East Fife, ,Monitoring,1
+524,250,{00000000-0000-0000-0000-000000000000},TRUE,583.1,Fordell No.12,East Fife, ,Monitoring,1
+525,251,{00000000-0000-0000-0000-000000000000},TRUE,584.1,Fordell Hopewell,East Fife, ,Monitoring,1
+526,252,{00000000-0000-0000-0000-000000000000},TRUE,585.1,Fordell Vengeance,East Fife, ,Monitoring,1
+527,253,{00000000-0000-0000-0000-000000000000},TRUE,586.1,Solsgirth,Clackmannan, ,Monitoring,1
+528,254,{00000000-0000-0000-0000-000000000000},TRUE,586.2,Solsgirth,Clackmannan, ,Monitoring,1
+529,255,{00000000-0000-0000-0000-000000000000},TRUE,587.1,Fordell Day Level,East Fife, ,Design Mine Water Treatment,1
+530,256,{00000000-0000-0000-0000-000000000000},TRUE,588.1,Fordell Upper,East Fife, ,Design Mine Water Treatment,1
+531,257,{00000000-0000-0000-0000-000000000000},TRUE,589.1,Pool Farm,North Lanarkshire, ,Mine Water Treatment,1
+532,258,{00000000-0000-0000-0000-000000000000},TRUE,589.2,Pool Farm,North Lanarkshire, ,Mine Water Treatment,1
+533,259,{00000000-0000-0000-0000-000000000000},TRUE,589.3,Pool Farm,North Lanarkshire, ,Mine Water Treatment,1
+534,260,{00000000-0000-0000-0000-000000000000},TRUE,590.1,Raw-Don Connection,South Derbyshire, ,Monitoring,1
+535,261,{00000000-0000-0000-0000-000000000000},TRUE,591.1,Cuthill Breich Water,Breich Water, ,Mine Water Treatment,1
+536,262,{00000000-0000-0000-0000-000000000000},TRUE,591.2,Cuthill Breich Water,Breich Water, ,Mine Water Treatment,1
+537,263,{00000000-0000-0000-0000-000000000000},TRUE,591.3,Cuthill Breich Water,Breich Water, ,Mine Water Treatment,1
+538,264,{00000000-0000-0000-0000-000000000000},TRUE,591.4,Cuthill Breich Water,Breich Water, ,Mine Water Treatment,1
+539,265,{00000000-0000-0000-0000-000000000000},TRUE,591.5,Cuthill Breich Water,Breich Water, ,Mine Water Treatment,1
+540,266,{00000000-0000-0000-0000-000000000000},TRUE,592.1,Moira,South Derbyshire, ,Monitoring,1
+541,267,{00000000-0000-0000-0000-000000000000},TRUE,593.1,Celynen South,Ebbw Vale, ,Monitoring,1
+542,268,{00000000-0000-0000-0000-000000000000},TRUE,594.1,"Black Vein, Cross Keys",Lower Ebbw Valley, ,Monitoring,1
+543,269,{00000000-0000-0000-0000-000000000000},TRUE,651.2,Joppa South B/H'S,Monktonhall, ,Public Safety,1
+544,270,{00000000-0000-0000-0000-000000000000},TRUE,651.3,Joppa South B/H'S,Monktonhall, ,Public Safety,1
+545,271,{00000000-0000-0000-0000-000000000000},TRUE,651.4,Joppa South B/H'S,Monktonhall, ,Public Safety,1
+546,272,{00000000-0000-0000-0000-000000000000},TRUE,652.1,Barnburgh,Yorkshire Zone 6, ,Monitoring,1
+547,273,{00000000-0000-0000-0000-000000000000},TRUE,653.1,Great Clifton,Workington, ,Design Mine Water Treatment,1
+548,274,{00000000-0000-0000-0000-000000000000},TRUE,653.2,Great Clifton,Workington, ,Design Mine Water Treatment,1
+549,275,{00000000-0000-0000-0000-000000000000},TRUE,654.1,Ryhill Main,Yorkshire Zone 3, ,Monitoring,1
+550,276,{00000000-0000-0000-0000-000000000000},TRUE,655.1,Dearne Valley Top Sharlston,Yorkshire Zone 6, ,Monitoring,1
+551,277,{00000000-0000-0000-0000-000000000000},TRUE,656.1,Glencairn Diamond,Blindwells, ,Pumping,1
+552,278,{00000000-0000-0000-0000-000000000000},TRUE,656.2,Glencairn Diamond,Blindwells, ,Pumping,1
+553,279,{00000000-0000-0000-0000-000000000000},TRUE,656.3,Glencairn Diamond,Blindwells, ,Pumping,1
+554,280,{00000000-0000-0000-0000-000000000000},TRUE,656.4,Glencairn Diamond,Blindwells, ,Pumping,1
+555,281,{00000000-0000-0000-0000-000000000000},TRUE,656.6,Glencairn Diamond,Blindwells, ,Pumping,1
+556,282,{00000000-0000-0000-0000-000000000000},TRUE,657.1,Goshen Farm,Blindwells, ,Monitoring,0
+557,283,{00000000-0000-0000-0000-000000000000},TRUE,657.2,Goshen Farm,Blindwells, ,Monitoring,1
+558,284,{00000000-0000-0000-0000-000000000000},TRUE,658.1,Freehold Pit,West Tyneside, ,Monitoring,1
+559,285,{00000000-0000-0000-0000-000000000000},TRUE,659.1,Deepcar,Porter Don, ,Monitoring,1
+560,286,{00000000-0000-0000-0000-000000000000},TRUE,660.1,Clough Foot,Upper Yorkshire Calder, ,Design Mine Water Treatment,1
+561,287,{00000000-0000-0000-0000-000000000000},TRUE,661.1,Unstone,Rother / Drone, ,Design Mine Water Treatment,1
+562,288,{00000000-0000-0000-0000-000000000000},TRUE,661.2,Unstone,Rother / Drone, ,Design Mine Water Treatment,1
+563,289,{00000000-0000-0000-0000-000000000000},TRUE,661.3,Unstone,Rother / Drone, ,Design Mine Water Treatment,1
+564,290,{00000000-0000-0000-0000-000000000000},TRUE,661.4,Unstone,Rother / Drone, ,Maintenance,1
+565,291,{00000000-0000-0000-0000-000000000000},TRUE,662.1,Old Westerton,West Of Wear Mid Durham, ,Monitoring,1
+566,292,{00000000-0000-0000-0000-000000000000},TRUE,663.1,Clarke's,North East Derbyshire, ,Monitoring,1
+567,293,{00000000-0000-0000-0000-000000000000},TRUE,664.1,Arkwright Top Hard,North East Derbyshire, ,Monitoring,1
+568,294,{00000000-0000-0000-0000-000000000000},TRUE,664.2,Arkwright Top Hard,North East Derbyshire, ,Monitoring,1
+569,295,{00000000-0000-0000-0000-000000000000},TRUE,664.3,Arkwright Top Hard,North East Derbyshire, ,Monitoring,1
+570,296,{00000000-0000-0000-0000-000000000000},TRUE,664.4,Arkwright Top Hard,North East Derbyshire, ,Monitoring,1
+571,297,{00000000-0000-0000-0000-000000000000},TRUE,665.1,Round Green,Yorkshire Zone 5, ,Monitoring,1
+572,298,{00000000-0000-0000-0000-000000000000},TRUE,666.1,Hollin Busk,Porter Don, ,Monitoring,1
+573,299,{00000000-0000-0000-0000-000000000000},TRUE,667.1,Babbington,Lower Erewash Valley, ,Monitoring,1
+574,300,{00000000-0000-0000-0000-000000000000},TRUE,668.1,Carr & Craggs Moor,Upper Yorkshire Calder, ,Design Mine Water Treatment,1
+575,301,{00000000-0000-0000-0000-000000000000},TRUE,668.2,Carr & Craggs Moor,Upper Yorkshire Calder, ,Design Mine Water Treatment,1
+576,302,{00000000-0000-0000-0000-000000000000},TRUE,668.3,Carr & Craggs Moor,Upper Yorkshire Calder, ,Design Mine Water Treatment,1
+577,303,{00000000-0000-0000-0000-000000000000},TRUE,668.4,Carr & Craggs Moor,Upper Yorkshire Calder, ,Design Mine Water Treatment,1
+578,304,{00000000-0000-0000-0000-000000000000},TRUE,669.1,Shuttle-Eye Beeston,Yorkshire Zone 1, ,Monitoring,1
+579,305,{00000000-0000-0000-0000-000000000000},TRUE,670.1,Grange Ash Blocking,Yorkshire Zone 1, ,Monitoring,1
+580,306,{00000000-0000-0000-0000-000000000000},TRUE,671.1,Emley Moor,Yorkshire Zone 1, ,Monitoring,1
+581,307,{00000000-0000-0000-0000-000000000000},TRUE,672.1,New Hall,Yorkshire Zone 1, ,Monitoring,1
+582,308,{00000000-0000-0000-0000-000000000000},TRUE,673.1,Glyncorrwg,Corrwg Valley, ,Mine Water Treatment,1
+583,309,{00000000-0000-0000-0000-000000000000},TRUE,673.2,Glyncorrwg,Corrwg Valley, ,Mine Water Treatment,1
+584,310,{00000000-0000-0000-0000-000000000000},TRUE,81.1,Wharncliffe Silkstone,Yorkshire Zone 5, ,Monitoring,1
+585,311,{00000000-0000-0000-0000-000000000000},TRUE,82.1,Wheatsheaf,Tyldersley Irwell Zone, ,Monitoring,1
+586,312,{00000000-0000-0000-0000-000000000000},TRUE,83.1,Woolley,Yorkshire Zone 1, ,Mine Water Treatment,1
+587,313,{00000000-0000-0000-0000-000000000000},TRUE,83.2,Woolley,Yorkshire Zone 1, ,Mine Water Treatment,1
+588,314,{00000000-0000-0000-0000-000000000000},TRUE,83.3,Woolley,Yorkshire Zone 1, ,Mine Water Treatment,1
+589,315,{00000000-0000-0000-0000-000000000000},TRUE,83.4,Woolley,Yorkshire Zone 1, ,Mine Water Treatment,1
+590,316,{00000000-0000-0000-0000-000000000000},TRUE,83.5,Woolley,Yorkshire Zone 1, ,Mine Water Treatment,1
+591,317,{00000000-0000-0000-0000-000000000000},TRUE,85.1,Easington,Durham Coastal, ,Monitoring,1
+592,318,{00000000-0000-0000-0000-000000000000},TRUE,85.2,Easington,Durham Coastal, ,Monitoring,1
+593,319,{00000000-0000-0000-0000-000000000000},TRUE,86.1,Hawthorn,Durham Coastal, ,Monitoring,1
+594,320,{00000000-0000-0000-0000-000000000000},TRUE,87.1,Redbrook,Yorkshire Zone 2, ,Monitoring,1
+595,321,{00000000-0000-0000-0000-000000000000},TRUE,88.1,Rothwell,Yorkshire Zone 10, ,Monitoring,1
+596,322,{00000000-0000-0000-0000-000000000000},TRUE,89.1,Roughwood,Yorkshire Zone 5, ,Monitoring,1
+597,323,{00000000-0000-0000-0000-000000000000},TRUE,90.1,Seaham,Durham Coastal, ,Monitoring,1
+598,324,{00000000-0000-0000-0000-000000000000},TRUE,91.1,Skiers Spring,Yorkshire Zone 5, ,Monitoring,1
+599,325,{00000000-0000-0000-0000-000000000000},TRUE,91.2,Skiers Spring,Yorkshire Zone 5, ,Monitoring,1
+600,326,{00000000-0000-0000-0000-000000000000},TRUE,92.1,Tankersley,Yorkshire Zone 5, ,Monitoring,1
+601,327,{00000000-0000-0000-0000-000000000000},TRUE,92.2,Tankersley,Yorkshire Zone 5, ,Monitoring,1
+602,328,{00000000-0000-0000-0000-000000000000},TRUE,93.1,Vane Tempest,Durham Coastal, ,Monitoring,1
+603,329,{00000000-0000-0000-0000-000000000000},TRUE,94.1,Wearmouth,South Tyneside, ,Monitoring,1
+604,330,{00000000-0000-0000-0000-000000000000},TRUE,94.2,Wearmouth,South Tyneside, ,Monitoring,1
+605,331,{00000000-0000-0000-0000-000000000000},TRUE,94.3,Wearmouth,South Tyneside, ,Monitoring,1
+606,332,{00000000-0000-0000-0000-000000000000},TRUE,95.1,Westoe,South Tyneside, ,Monitoring,1
+607,333,{00000000-0000-0000-0000-000000000000},TRUE,97.1,Hazlegreave,Yorkshire Zone 1, ,Monitoring,1
+608,334,{00000000-0000-0000-0000-000000000000},TRUE,97.2,Hazlegreave,Yorkshire Zone 1, ,Monitoring,1
+609,335,{00000000-0000-0000-0000-000000000000},TRUE,98.1,Birkacre,Yarrow Valley, ,Public Safety,1
+610,336,{00000000-0000-0000-0000-000000000000},TRUE,98.2,Birkacre,Yarrow Valley, ,Public Safety,1
+611,337,{00000000-0000-0000-0000-000000000000},TRUE,98.3,Birkacre,Yarrow Valley, ,Public Safety,1
+612,338,{00000000-0000-0000-0000-000000000000},TRUE,99.1,Bolsover,North East Derbyshire, ,Monitoring,1
+613,339,{00000000-0000-0000-0000-000000000000},TRUE,100.1,Llanover,Lower Sirhowy Valley, ,Monitoring,1
+614,340,{00000000-0000-0000-0000-000000000000},TRUE,100.2,Llanover,Lower Sirhowy Valley, ,Monitoring,1
+615,341,{00000000-0000-0000-0000-000000000000},TRUE,101.1,Maindy,Upper Rhondda Fawr Valley, ,Public Safety,1
+616,342,{00000000-0000-0000-0000-000000000000},TRUE,101.2,Maindy,Upper Rhondda Fawr Valley, ,Public Safety,1
+617,343,{00000000-0000-0000-0000-000000000000},TRUE,101.3,Maindy,Upper Rhondda Fawr Valley, ,Public Safety,1
+618,344,{00000000-0000-0000-0000-000000000000},TRUE,101.4,Maindy,Upper Rhondda Fawr Valley, ,Public Safety,1
+619,345,{00000000-0000-0000-0000-000000000000},TRUE,101.5,Maindy,Upper Rhondda Fawr Valley, ,Public Safety,1
+620,346,{00000000-0000-0000-0000-000000000000},TRUE,101.6,Maindy,Upper Rhondda Fawr Valley, ,Public Safety,1
+621,347,{00000000-0000-0000-0000-000000000000},TRUE,102.1,Markham,North East Derbyshire, ,Monitoring,1
+622,348,{00000000-0000-0000-0000-000000000000},TRUE,102.2,Markham,North East Derbyshire, ,Monitoring,1
+623,349,{00000000-0000-0000-0000-000000000000},TRUE,102.3,Markham,North East Derbyshire, ,Monitoring,1
+624,350,{00000000-0000-0000-0000-000000000000},TRUE,102.4,Markham,North East Derbyshire, ,Monitoring,1
+625,351,{00000000-0000-0000-0000-000000000000},TRUE,102.5,Markham,North East Derbyshire, ,Monitoring,1
+626,352,{00000000-0000-0000-0000-000000000000},TRUE,103.1,Parkside,Parkside Zone, ,Monitoring,1
+627,353,{00000000-0000-0000-0000-000000000000},TRUE,103.2,Parkside,Parkside Zone, ,Monitoring,1
+628,354,{00000000-0000-0000-0000-000000000000},TRUE,104.1,Walsall Wood,South Staffs, ,Monitoring,0
+629,355,{00000000-0000-0000-0000-000000000000},TRUE,105.1,Renishaw Park,North East Derbyshire, ,Monitoring,1
+630,356,{00000000-0000-0000-0000-000000000000},TRUE,106.1,Eckington Hornthorpe,North East Derbyshire, ,Monitoring,1
+631,357,{00000000-0000-0000-0000-000000000000},TRUE,107.1,Eckington Barratt,North East Derbyshire, ,Monitoring,1
+632,358,{00000000-0000-0000-0000-000000000000},TRUE,107.2,Eckington Barratt,North East Derbyshire, ,Monitoring,1
+633,359,{00000000-0000-0000-0000-000000000000},TRUE,108.1,Flatts Fan,North East Derbyshire, ,Monitoring,1
+634,360,{00000000-0000-0000-0000-000000000000},TRUE,109.2,Furnace Hill,North East Derbyshire, ,Monitoring,1
+635,361,{00000000-0000-0000-0000-000000000000},TRUE,110.1,Campbell,North East Derbyshire, ,Monitoring,1
+636,362,{00000000-0000-0000-0000-000000000000},TRUE,111.1,Hollingwood,North East Derbyshire, ,Monitoring,1
+637,363,{00000000-0000-0000-0000-000000000000},TRUE,111.2,Hollingwood,North East Derbyshire, ,Monitoring,1
+638,364,{00000000-0000-0000-0000-000000000000},TRUE,112.1,Loscoe Grange,Lower Erewash Valley, ,Public Safety,1
+639,365,{00000000-0000-0000-0000-000000000000},TRUE,112.2,Loscoe Grange,Lower Erewash Valley, ,Public Safety,1
+640,366,{00000000-0000-0000-0000-000000000000},TRUE,112.3,Loscoe Grange,Lower Erewash Valley, ,Public Safety,1
+641,367,{00000000-0000-0000-0000-000000000000},TRUE,113.1,Kirkby,Upper Erewash Valley - Notts, ,Monitoring,1
+642,368,{00000000-0000-0000-0000-000000000000},TRUE,113.2,Kirkby,Upper Erewash Valley - Notts, ,Monitoring,1
+643,369,{00000000-0000-0000-0000-000000000000},TRUE,114.1,Northwood,Lyne Valley, ,Public Safety,1
+644,370,{00000000-0000-0000-0000-000000000000},TRUE,114.2,Northwood,Lyne Valley, ,Public Safety,1
+645,371,{00000000-0000-0000-0000-000000000000},TRUE,115.1,Ramsey House (Ferney Beds),Lyne Valley, ,Public Safety,1
+646,372,{00000000-0000-0000-0000-000000000000},TRUE,115.2,Ramsey House (Ferney Beds),Lyne Valley, ,Public Safety,1
+647,373,{00000000-0000-0000-0000-000000000000},TRUE,115.3,Ramsey House (Ferney Beds),Lyne Valley, ,Public Safety,1
+648,374,{00000000-0000-0000-0000-000000000000},TRUE,116.1,Maesyffynon (Blaengwawr),Upper Cynon Valley, ,Monitoring,1
+649,375,{00000000-0000-0000-0000-000000000000},TRUE,118.1,Nostell,Yorkshire Zone 3, ,Monitoring,1
+650,376,{00000000-0000-0000-0000-000000000000},TRUE,119.1,Highmoor,North Nottinghamshire, ,Monitoring,1
+651,377,{00000000-0000-0000-0000-000000000000},TRUE,120.1,Derry Grove,Yorkshire Zone 6, ,Monitoring,1
+652,378,{00000000-0000-0000-0000-000000000000},TRUE,120.2,Derry Grove,Yorkshire Zone 6, ,Monitoring,1
+653,379,{00000000-0000-0000-0000-000000000000},TRUE,121.1,Goldthorpe,Yorkshire Zone 6, ,Monitoring,1
+654,380,{00000000-0000-0000-0000-000000000000},TRUE,122.1,Kiveton Park,Yorkshire Zone 8, ,Monitoring,1
+655,381,{00000000-0000-0000-0000-000000000000},TRUE,122.2,Kiveton Park,Yorkshire Zone 8, ,Monitoring,1
+656,382,{00000000-0000-0000-0000-000000000000},TRUE,123.1,Hodroyd,Yorkshire Zone 3, ,Monitoring,1
+657,383,{00000000-0000-0000-0000-000000000000},TRUE,123.2,Hodroyd,Yorkshire Zone 3, ,Monitoring,1
+658,384,{00000000-0000-0000-0000-000000000000},TRUE,124.1,Newtown,Tyldersley Irwell Zone, ,Monitoring,1
+659,385,{00000000-0000-0000-0000-000000000000},TRUE,125.1,Wingate Grange,Durham Coastal, ,Monitoring,1
+660,386,{00000000-0000-0000-0000-000000000000},TRUE,125.2,Wingate Grange,Durham Coastal, ,Monitoring,1
+661,387,{00000000-0000-0000-0000-000000000000},TRUE,127.1,Albert Ditch,Leigh Zone, ,Public Safety,1
+662,388,{00000000-0000-0000-0000-000000000000},TRUE,127.2,Albert Ditch,Leigh Zone, ,Public Safety,1
+663,389,{00000000-0000-0000-0000-000000000000},TRUE,127.3,Albert Ditch,Leigh Zone, ,Public Safety,1
+664,390,{00000000-0000-0000-0000-000000000000},TRUE,673.3,Glyncorrwg,Corrwg Valley, ,Mine Water Treatment,1
+665,391,{00000000-0000-0000-0000-000000000000},TRUE,673.4,Glyncorrwg,Corrwg Valley, ,Mine Water Treatment,1
+666,392,{00000000-0000-0000-0000-000000000000},TRUE,673.5,Glyncorrwg,Corrwg Valley, ,Mine Water Treatment,1
+667,393,{00000000-0000-0000-0000-000000000000},TRUE,673.6,Glyncorrwg,Corrwg Valley, ,Mine Water Treatment,1
+668,394,{00000000-0000-0000-0000-000000000000},TRUE,673.7,Glyncorrwg,Corrwg Valley, ,Mine Water Treatment,1
+669,395,{00000000-0000-0000-0000-000000000000},TRUE,673.8,Glyncorrwg,Corrwg Valley, ,Mine Water Treatment,1
+670,396,{00000000-0000-0000-0000-000000000000},TRUE,674.1,Pemberton,Wigan, ,Mine Water Treatment,1
+671,397,{00000000-0000-0000-0000-000000000000},TRUE,675.1,Clifton Hall,Tyldersley Irwell Zone, ,Monitoring,1
+672,398,{00000000-0000-0000-0000-000000000000},TRUE,675.2,Clifton Moss,Tyldersley Irwell Zone, ,Monitoring,0
+673,399,{00000000-0000-0000-0000-000000000000},TRUE,676.1,Limb Brook,Yorkshire Zone 8, ,Design Mine Water Treatment,1
+674,400,{00000000-0000-0000-0000-000000000000},TRUE,676.2,Limb Brook,Yorkshire Zone 8, ,Design Mine Water Treatment,1
+675,401,{00000000-0000-0000-0000-000000000000},TRUE,676.3,Limb Brook,Yorkshire Zone 8, ,Design Mine Water Treatment,1
+676,402,{00000000-0000-0000-0000-000000000000},TRUE,677.1,Claywheels Lane,Yorkshire Zone 8, ,Design Mine Water Treatment,1
+677,403,{00000000-0000-0000-0000-000000000000},TRUE,678.1,Loxley Bottom,Yorkshire Zone 8, ,Design Mine Water Treatment,1
+678,404,{00000000-0000-0000-0000-000000000000},TRUE,679.1,Summerley,Rother / Drone, ,Design Mine Water Treatment,1
+679,405,{00000000-0000-0000-0000-000000000000},TRUE,680.1,Carters,Yorkshire Zone 9, ,Monitoring,1
+680,406,{00000000-0000-0000-0000-000000000000},TRUE,680.2,Carters,Yorkshire Zone 9, ,Monitoring,1
+681,407,{00000000-0000-0000-0000-000000000000},TRUE,681.1,Glyncastle,Neath Valley, ,Mine Water Treatment,1
+682,408,{00000000-0000-0000-0000-000000000000},TRUE,681.2,Glyncastle,Neath Valley, ,Mine Water Treatment,1
+683,409,{00000000-0000-0000-0000-000000000000},TRUE,681.3,Glyncastle,Neath Valley, ,Mine Water Treatment,1
+684,410,{00000000-0000-0000-0000-000000000000},TRUE,681.4,Glyncastle,Neath Valley, ,Mine Water Treatment,1
+685,411,{00000000-0000-0000-0000-000000000000},TRUE,681.5,Glyncastle,Neath Valley, ,Mine Water Treatment,1
+686,412,{00000000-0000-0000-0000-000000000000},TRUE,681.6,Glyncastle,Neath Valley, ,Mine Water Treatment,1
+687,413,{00000000-0000-0000-0000-000000000000},TRUE,681.7,Glyncastle,Neath Valley, ,Mine Water Treatment,1
+688,414,{00000000-0000-0000-0000-000000000000},TRUE,682.1,Cannock Wood,South Staffs, ,Monitoring,1
+689,415,{00000000-0000-0000-0000-000000000000},TRUE,683.1,Craig Y Aber,Craig Y Aber Valley, ,Design Mine Water Treatment,1
+690,416,{00000000-0000-0000-0000-000000000000},TRUE,683.2,Craig Y Aber,Craig Y Aber Valley, ,Design Mine Water Treatment,1
+691,417,{00000000-0000-0000-0000-000000000000},TRUE,684.1,Pontlottyn,Rhymney Valley, ,Design Mine Water Treatment,1
+692,418,{00000000-0000-0000-0000-000000000000},TRUE,684.2,Pontlottyn,Rhymney Valley, ,Design Mine Water Treatment,1
+693,419,{00000000-0000-0000-0000-000000000000},TRUE,685.1,Firbank,Maryport-Broughton Moor, ,Monitoring,1
+694,420,{00000000-0000-0000-0000-000000000000},TRUE,686.1,Hilton,Tyldersley Irwell Zone, ,Monitoring,1
+695,421,{00000000-0000-0000-0000-000000000000},TRUE,687.1,Silksworth,Silksworth, ,Monitoring,1
+696,422,{00000000-0000-0000-0000-000000000000},TRUE,688.1,Lamesley,Team Valley, ,Mine Water Treatment,1
+697,423,{00000000-0000-0000-0000-000000000000},TRUE,688.2,Lamesley,Team Valley, ,Mine Water Treatment,1
+698,424,{00000000-0000-0000-0000-000000000000},TRUE,688.3,Lamesley,Team Valley, ,Mine Water Treatment,1
+699,425,{00000000-0000-0000-0000-000000000000},TRUE,688.4,Lamesley,Team Valley, ,Mine Water Treatment,1
+700,426,{00000000-0000-0000-0000-000000000000},TRUE,688.5,Lamesley,Team Valley, ,Mine Water Treatment,1
+701,427,{00000000-0000-0000-0000-000000000000},TRUE,689.1,Vogrie,Bilston Glen, ,Design Mine Water Treatment,1
+702,847,{00000000-0000-0000-0000-000000000000},TRUE,256.1,Pontyberem Old Level,Gwendraeth Valley, ,Public Safety,1
+703,848,{00000000-0000-0000-0000-000000000000},TRUE,256.2,Pontyberem Old Level,Gwendraeth Valley, ,Public Safety,1
+704,849,{00000000-0000-0000-0000-000000000000},TRUE,257.1,Pontyberem Bridge,Gwendraeth Valley, ,Monitoring,1
+705,850,{00000000-0000-0000-0000-000000000000},TRUE,258.1,Whitrigg,River Almond Valley, ,Monitoring,1
+706,851,{00000000-0000-0000-0000-000000000000},TRUE,259.1,Mosside,River Almond Valley, ,Monitoring,1
+707,852,{00000000-0000-0000-0000-000000000000},TRUE,260.1,Blaenant,Dulais/Neath Valleys, ,Monitoring,0
+708,853,{00000000-0000-0000-0000-000000000000},TRUE,261.1,Clifton Country Park East,Tyldersley Irwell Zone, ,Public Safety,1
+709,854,{00000000-0000-0000-0000-000000000000},TRUE,261.2,Clifton Country Park East,Tyldersley Irwell Zone, ,Public Safety,1
+710,855,{00000000-0000-0000-0000-000000000000},TRUE,261.3,Clifton Country Park East,Tyldersley Irwell Zone, ,Public Safety,1
+711,856,{00000000-0000-0000-0000-000000000000},TRUE,261.4,Clifton Country Park East,Tyldersley Irwell Zone, ,Public Safety,1
+712,857,{00000000-0000-0000-0000-000000000000},TRUE,261.5,Clifton Country Park East,Tyldersley Irwell Zone, ,Public Safety,1
+713,858,{00000000-0000-0000-0000-000000000000},TRUE,261.6,Clifton Country Park East,Tyldersley Irwell Zone, ,Public Safety,1
+714,859,{00000000-0000-0000-0000-000000000000},TRUE,262.1,Clifton Country Park West,Tyldersley Irwell Zone, ,Public Safety,1
+715,860,{00000000-0000-0000-0000-000000000000},TRUE,262.2,Clifton Country Park West,Tyldersley Irwell Zone, ,Public Safety,1
+716,861,{00000000-0000-0000-0000-000000000000},TRUE,262.3,Clifton Country Park West,Tyldersley Irwell Zone, ,Public Safety,1
+717,862,{00000000-0000-0000-0000-000000000000},TRUE,262.4,Clifton Country Park West,Tyldersley Irwell Zone, ,Public Safety,1
+718,863,{00000000-0000-0000-0000-000000000000},TRUE,263.1,Oakthorpe,South Derbyshire, ,Monitoring,1
+719,864,{00000000-0000-0000-0000-000000000000},TRUE,263.2,Oakthorpe,South Derbyshire, ,Monitoring,1
+720,865,{00000000-0000-0000-0000-000000000000},TRUE,263.3,Oakthorpe,South Derbyshire, ,Monitoring,1
+721,866,{00000000-0000-0000-0000-000000000000},TRUE,264.1,Donisthorpe,South Derbyshire, ,Public Safety,1
+722,867,{00000000-0000-0000-0000-000000000000},TRUE,264.2,Donisthorpe,South Derbyshire, ,Public Safety,1
+723,868,{00000000-0000-0000-0000-000000000000},TRUE,265.1,Markham (Sirhowy),Lower Sirhowy Valley, ,Monitoring,1
+724,869,{00000000-0000-0000-0000-000000000000},TRUE,265.2,Markham (Sirhowy),Lower Sirhowy Valley, ,Monitoring,1
+725,870,{00000000-0000-0000-0000-000000000000},TRUE,266.1,Wales Bar,Yorkshire Zone 8, ,Monitoring,1
+726,871,{00000000-0000-0000-0000-000000000000},TRUE,267.1,Old Meadows,Rossendale, ,Mine Water Treatment,1
+727,872,{00000000-0000-0000-0000-000000000000},TRUE,267.2,Old Meadows,Rossendale, ,Mine Water Treatment,1
+728,873,{00000000-0000-0000-0000-000000000000},TRUE,267.3,Old Meadows,Rossendale, ,Mine Water Treatment,1
+729,874,{00000000-0000-0000-0000-000000000000},TRUE,267.4,Old Meadows,Rossendale, ,Mine Water Treatment,1
+730,875,{00000000-0000-0000-0000-000000000000},TRUE,267.5,Old Meadows,Rossendale, ,Mine Water Treatment,1
+731,876,{00000000-0000-0000-0000-000000000000},TRUE,267.6,Old Meadows,Rossendale, ,Mine Water Treatment,1
+732,877,{00000000-0000-0000-0000-000000000000},TRUE,268.1,Coegnant,Avon-Maesteg, ,Monitoring,1
+733,878,{00000000-0000-0000-0000-000000000000},TRUE,268.2,Coegnant,Avon-Maesteg, ,Monitoring,1
+734,879,{00000000-0000-0000-0000-000000000000},TRUE,268.31,Coegnant,Avon-Maesteg, ,Monitoring,1
+735,880,{00000000-0000-0000-0000-000000000000},TRUE,268.32,Coegnant,Avon-Maesteg, ,Monitoring,1
+736,881,{00000000-0000-0000-0000-000000000000},TRUE,268.33,Coegnant,Avon-Maesteg, ,Monitoring,1
+737,882,{00000000-0000-0000-0000-000000000000},TRUE,268.34,Coegnant,Avon-Maesteg, ,Monitoring,1
+738,883,{00000000-0000-0000-0000-000000000000},TRUE,268.35,Coegnant,Avon-Maesteg, ,Monitoring,1
+739,884,{00000000-0000-0000-0000-000000000000},TRUE,268.36,Coegnant,Avon-Maesteg, ,Monitoring,1
+740,885,{00000000-0000-0000-0000-000000000000},TRUE,269.1,Abercwmboi,Upper Cynon Valley, ,Monitoring,1
+741,886,{00000000-0000-0000-0000-000000000000},TRUE,269.2,Abercwmboi,Upper Cynon Valley, ,Monitoring,1
+742,887,{00000000-0000-0000-0000-000000000000},TRUE,270.1,Wyrley Grove,South Staffs, ,Monitoring,1
+743,888,{00000000-0000-0000-0000-000000000000},TRUE,270.2,Wyrley Grove,South Staffs, ,Monitoring,0
+744,889,{00000000-0000-0000-0000-000000000000},TRUE,271.1,Caerau,Avon-Maesteg, ,Monitoring,0
+745,890,{00000000-0000-0000-0000-000000000000},TRUE,271.2,Caerau,Avon-Maesteg, ,Monitoring,0
+746,891,{00000000-0000-0000-0000-000000000000},TRUE,10.1,Barnsley Main,Yorkshire Zone 5, ,Monitoring,1
+747,892,{00000000-0000-0000-0000-000000000000},TRUE,10.2,Barnsley Main,Yorkshire Zone 5, ,Monitoring,1
+748,893,{00000000-0000-0000-0000-000000000000},TRUE,11.1,Bates,Blythe, ,Mine Water Treatment,1
+749,894,{00000000-0000-0000-0000-000000000000},TRUE,11.2,Bates,Blythe, ,Mine Water Treatment,1
+750,895,{00000000-0000-0000-0000-000000000000},TRUE,11.3,Bates,Blythe, ,Mine Water Treatment,1
+751,896,{00000000-0000-0000-0000-000000000000},TRUE,11.4,Bates,Blythe, ,Mine Water Treatment,1
+752,897,{00000000-0000-0000-0000-000000000000},TRUE,11.5,Bates,Blythe, ,Mine Water Treatment,1
+753,898,{00000000-0000-0000-0000-000000000000},TRUE,12.1,Bearmouth Adit,Whitehaven, ,Public Safety,1
+754,899,{00000000-0000-0000-0000-000000000000},TRUE,13.1,Cefn Coed (Blaenant Drift),Dulais/Neath Valleys, ,Monitoring,0
+755,900,{00000000-0000-0000-0000-000000000000},TRUE,13.2,Cefn Coed (Blaenant Drift),Dulais/Neath Valleys, ,Monitoring,0
+756,901,{00000000-0000-0000-0000-000000000000},TRUE,14.1,Bedlington 'A' / 'B',Blythe, ,Monitoring,1
+757,902,{00000000-0000-0000-0000-000000000000},TRUE,14.2,Bedlington 'A' / 'B',Blythe, ,Monitoring,1
+758,903,{00000000-0000-0000-0000-000000000000},TRUE,14.3,Bedlington 'A' / 'B',Blythe, ,Monitoring,1
+759,904,{00000000-0000-0000-0000-000000000000},TRUE,15.1,Bradgate,Yorkshire Zone 5, ,Monitoring,1
+760,905,{00000000-0000-0000-0000-000000000000},TRUE,16.1,Brandon 'A',West Of Wear, ,Monitoring,1
+761,906,{00000000-0000-0000-0000-000000000000},TRUE,17.1,Boldon,South Tyneside, ,Monitoring,1
+762,907,{00000000-0000-0000-0000-000000000000},TRUE,17.2,Boldon,South Tyneside, ,Monitoring,1
+763,908,{00000000-0000-0000-0000-000000000000},TRUE,18.1,Bullcliffe Wood,Yorkshire Zone 1, ,Monitoring,1
+764,909,{00000000-0000-0000-0000-000000000000},TRUE,19.1,Chatershaugh,East Of Wear, ,Monitoring,1
+765,910,{00000000-0000-0000-0000-000000000000},TRUE,19.2,Chatershaugh,East Of Wear, ,Monitoring,1
+766,911,{00000000-0000-0000-0000-000000000000},TRUE,19.3,Chatershaugh,East Of Wear, ,Monitoring,1
+767,912,{00000000-0000-0000-0000-000000000000},TRUE,20.1,Chatterley Whitfield,North Staffs, ,Monitoring,1
+768,913,{00000000-0000-0000-0000-000000000000},TRUE,20.2,Chatterley Whitfield,North Staffs, ,Monitoring,1
+769,914,{00000000-0000-0000-0000-000000000000},TRUE,21.1,Chester South Moor,West Of Wear, ,Pumping,1
+770,915,{00000000-0000-0000-0000-000000000000},TRUE,21.2,Chester South Moor,West Of Wear, ,Pumping,1
+771,916,{00000000-0000-0000-0000-000000000000},TRUE,22.1,Choppington 'A',Blythe, ,Monitoring,1
+772,917,{00000000-0000-0000-0000-000000000000},TRUE,23.1,Collins Green,Bold-Haydock Zone, ,Monitoring,1
+773,918,{00000000-0000-0000-0000-000000000000},TRUE,23.2,Collins Green,Bold-Haydock Zone, ,Monitoring,1
+774,919,{00000000-0000-0000-0000-000000000000},TRUE,23.3,Collins Green,Bold-Haydock Zone, ,Monitoring,1
+775,920,{00000000-0000-0000-0000-000000000000},TRUE,23.4,Collins Green,Bold-Haydock Zone, ,Monitoring,1
+776,921,{00000000-0000-0000-0000-000000000000},TRUE,24.1,Dawdon,Durham Coastal, ,Monitoring,1
+777,922,{00000000-0000-0000-0000-000000000000},TRUE,24.2,Dawdon,Durham Coastal, ,Monitoring,1
+778,923,{00000000-0000-0000-0000-000000000000},TRUE,24.3,Dawdon,Durham Coastal, ,Monitoring,1
+779,924,{00000000-0000-0000-0000-000000000000},TRUE,25.1,Dalquharran,South West Ayrshire, ,Mine Water Treatment,1
+780,925,{00000000-0000-0000-0000-000000000000},TRUE,25.2,Dalquharran,South West Ayrshire, ,Mine Water Treatment,1
+781,926,{00000000-0000-0000-0000-000000000000},TRUE,25.3,Dalquharran,South West Ayrshire, ,Mine Water Treatment,1
+782,927,{00000000-0000-0000-0000-000000000000},TRUE,26.1,Deep Duffryn,Lower Cynon Valley, ,Monitoring,1
+783,928,{00000000-0000-0000-0000-000000000000},TRUE,27.1,Denby Grange,Yorkshire Zone 1, ,Monitoring,1
+784,929,{00000000-0000-0000-0000-000000000000},TRUE,27.2,Denby Grange,Yorkshire Zone 1, ,Monitoring,1
+785,930,{00000000-0000-0000-0000-000000000000},TRUE,27.3,Denby Grange,Yorkshire Zone 1, ,Monitoring,1
+786,931,{00000000-0000-0000-0000-000000000000},TRUE,28.1,Dodworth,Yorkshire Zone 2, ,Public Safety,1
+787,932,{00000000-0000-0000-0000-000000000000},TRUE,29.1,Duke Of Bridgewaters Canals,Tyldersley Irwell Zone, ,Mine Water Treatment,1
+788,933,{00000000-0000-0000-0000-000000000000},TRUE,29.2,Duke Of Bridgewaters Canals,Tyldersley Irwell Zone, ,Mine Water Treatment,1
+789,934,{00000000-0000-0000-0000-000000000000},TRUE,29.3,Duke Of Bridgewaters Canals,Tyldersley Irwell Zone, ,Mine Water Treatment,1
+790,935,{00000000-0000-0000-0000-000000000000},TRUE,29.4,Duke Of Bridgewaters Canals,Tyldersley Irwell Zone, ,Mine Water Treatment,1
+791,936,{00000000-0000-0000-0000-000000000000},TRUE,29.5,Duke Of Bridgewaters Canals,Tyldersley Irwell Zone, ,Mine Water Treatment,1
+792,937,{00000000-0000-0000-0000-000000000000},TRUE,29.6,Duke Of Bridgewaters Canals,Tyldersley Irwell Zone, ,Mine Water Treatment,1
+793,938,{00000000-0000-0000-0000-000000000000},TRUE,30.1,North Junction No.1,North East Derbyshire, ,Monitoring,1
+794,939,{00000000-0000-0000-0000-000000000000},TRUE,31.1,Ellesmere,Tyldersley Irwell Zone, ,Monitoring,1
+795,940,{00000000-0000-0000-0000-000000000000},TRUE,31.2,Ellesmere,Tyldersley Irwell Zone, ,Monitoring,1
+796,941,{00000000-0000-0000-0000-000000000000},TRUE,32.1,Engine,Whitehaven, ,Monitoring,1
+797,942,{00000000-0000-0000-0000-000000000000},TRUE,33.1,Eton Garage,Tyldersley Irwell Zone, ,Monitoring,1
+798,943,{00000000-0000-0000-0000-000000000000},TRUE,34.1,Golborne,Leigh Zone, ,Monitoring,1
+799,944,{00000000-0000-0000-0000-000000000000},TRUE,35.1,Gregory Springs,Yorkshire Zone 1, ,Monitoring,1
+800,945,{00000000-0000-0000-0000-000000000000},TRUE,36.1,Grimethorpe,Yorkshire Zone 3, ,Monitoring,1
+801,946,{00000000-0000-0000-0000-000000000000},TRUE,37.1,Hickleton Main,Yorkshire Zone 6, ,Monitoring,1
+802,947,{00000000-0000-0000-0000-000000000000},TRUE,38.1,Higham,Yorkshire Zone 2, ,Monitoring,1
+803,948,{00000000-0000-0000-0000-000000000000},TRUE,39.1,Hope,Yorkshire Zone 1, ,Mine Water Treatment,1
+804,949,{00000000-0000-0000-0000-000000000000},TRUE,39.2,Hope,Yorkshire Zone 1, ,Mine Water Treatment,1
+805,950,{00000000-0000-0000-0000-000000000000},TRUE,39.3,Hope,Yorkshire Zone 1, ,Mine Water Treatment,1
+806,951,{00000000-0000-0000-0000-000000000000},TRUE,39.4,Hope,Yorkshire Zone 1, ,Mine Water Treatment,1
+807,952,{00000000-0000-0000-0000-000000000000},TRUE,39.5,Hope,Yorkshire Zone 1, ,Mine Water Treatment,1
+808,953,{00000000-0000-0000-0000-000000000000},TRUE,40.1,Horden,Durham Coastal, ,Mine Water Treatment,1
+809,954,{00000000-0000-0000-0000-000000000000},TRUE,40.2,Horden,Durham Coastal, ,Mine Water Treatment,1
+810,955,{00000000-0000-0000-0000-000000000000},TRUE,291.1,Pindar Oaks,Yorkshire Zone 5, ,Monitoring,1
+811,956,{00000000-0000-0000-0000-000000000000},TRUE,292.1,Car House,Yorkshire Zone 5, ,Pumping,1
+812,957,{00000000-0000-0000-0000-000000000000},TRUE,293.1,Sherdley,Bold-Haydock Zone, ,Monitoring,1
+813,958,{00000000-0000-0000-0000-000000000000},TRUE,293.2,Sherdley,Bold-Haydock Zone, ,Monitoring,1
+814,959,{00000000-0000-0000-0000-000000000000},TRUE,294.1,Hemingfield,Yorkshire Zone 6, ,Monitoring,1
+815,960,{00000000-0000-0000-0000-000000000000},TRUE,294.2,Hemingfield,Yorkshire Zone 6, ,Monitoring,1
+816,961,{00000000-0000-0000-0000-000000000000},TRUE,295.1,Little Sheriff,West Staffs, ,Monitoring,1
+817,962,{00000000-0000-0000-0000-000000000000},TRUE,296.1,Cwmgwili,Upper Loughor Zone, ,Monitoring,0
+818,963,{00000000-0000-0000-0000-000000000000},TRUE,296.2,Cwmgwili,Upper Loughor Zone, ,Monitoring,1
+819,964,{00000000-0000-0000-0000-000000000000},TRUE,296.3,Cwmgwili,Upper Loughor Zone, ,Monitoring,0
+820,965,{00000000-0000-0000-0000-000000000000},TRUE,296.4,Emlyn,Upper Loughor Zone, ,Monitoring,0
+821,966,{00000000-0000-0000-0000-000000000000},TRUE,296.5,Emlyn,Upper Loughor Zone, ,Monitoring,0
+822,967,{00000000-0000-0000-0000-000000000000},TRUE,296.6,Emlyn,Upper Loughor Zone, ,Monitoring,0
+823,968,{00000000-0000-0000-0000-000000000000},TRUE,297.1,Lindsay,Upper Loughor Zone, ,Monitoring,1
+824,969,{00000000-0000-0000-0000-000000000000},TRUE,297.2,Lindsay,Upper Loughor Zone, ,Monitoring,1
+825,970,{00000000-0000-0000-0000-000000000000},TRUE,298.01,Gwenffrwd/Whitworth,Pelenna Valley, ,Mine Water Treatment,1
+826,971,{00000000-0000-0000-0000-000000000000},TRUE,298.02,Gwenffrwd/Whitworth,Pelenna Valley, ,Mine Water Treatment,1
+827,972,{00000000-0000-0000-0000-000000000000},TRUE,298.03,Gwenffrwd/Whitworth,Pelenna Valley, ,Mine Water Treatment,1
+828,973,{00000000-0000-0000-0000-000000000000},TRUE,298.04,Gwenffrwd/Whitworth,Pelenna Valley, ,Mine Water Treatment,1
+829,974,{00000000-0000-0000-0000-000000000000},TRUE,298.05,Gwenffrwd/Whitworth,Pelenna Valley, ,Mine Water Treatment,1
+830,975,{00000000-0000-0000-0000-000000000000},TRUE,298.06,Gwenffrwd/Whitworth,Pelenna Valley, ,Mine Water Treatment,1
+831,976,{00000000-0000-0000-0000-000000000000},TRUE,298.07,Gwenffrwd/Whitworth,Pelenna Valley, ,Mine Water Treatment,1
+832,977,{00000000-0000-0000-0000-000000000000},TRUE,298.08,Gwenffrwd/Whitworth,Pelenna Valley, ,Mine Water Treatment,1
+833,978,{00000000-0000-0000-0000-000000000000},TRUE,298.09,Gwenffrwd/Whitworth,Pelenna Valley, ,Mine Water Treatment,1
+834,979,{00000000-0000-0000-0000-000000000000},TRUE,298.1,Gwenffrwd/Whitworth,Pelenna Valley, ,Mine Water Treatment,1
+835,980,{00000000-0000-0000-0000-000000000000},TRUE,298.11,Gwenffrwd/Whitworth,Pelenna Valley, ,Mine Water Treatment,1
+836,981,{00000000-0000-0000-0000-000000000000},TRUE,298.12,Gwenffrwd/Whitworth,Pelenna Valley, ,Mine Water Treatment,1
+837,982,{00000000-0000-0000-0000-000000000000},TRUE,299.1,Garth Tonmawr,Pelenna Valley, ,Mine Water Treatment,1
+838,983,{00000000-0000-0000-0000-000000000000},TRUE,299.2,Garth Tonmawr,Pelenna Valley, ,Mine Water Treatment,1
+839,984,{00000000-0000-0000-0000-000000000000},TRUE,299.3,Garth Tonmawr,Pelenna Valley, ,Mine Water Treatment,1
+840,985,{00000000-0000-0000-0000-000000000000},TRUE,299.4,Garth Tonmawr,Pelenna Valley, ,Mine Water Treatment,1
+841,986,{00000000-0000-0000-0000-000000000000},TRUE,300.1,South Dyffryn,Taff Valley, ,Public Safety,1
+842,987,{00000000-0000-0000-0000-000000000000},TRUE,301.1,Moor Top,North East Derbyshire, ,Monitoring,1
+843,988,{00000000-0000-0000-0000-000000000000},TRUE,302.1,Rob Royd,Yorkshire Zone 2, ,Monitoring,1
+844,989,{00000000-0000-0000-0000-000000000000},TRUE,303.1,Alkrington,Lower Roch Valley, ,Public Safety,1
+845,990,{00000000-0000-0000-0000-000000000000},TRUE,303.2,Alkrington,Lower Roch Valley, ,Public Safety,1
+846,991,{00000000-0000-0000-0000-000000000000},TRUE,304.1,Gethin,Taff Valley, ,Public Safety,1
+847,992,{00000000-0000-0000-0000-000000000000},TRUE,305.1,Kilnhurst,Yorkshire Zone 6, ,Monitoring,1
+848,993,{00000000-0000-0000-0000-000000000000},TRUE,306.1,Silverwood,Yorkshire Zone 6, ,Monitoring,1
+849,994,{00000000-0000-0000-0000-000000000000},TRUE,307.1,Wardley Hollins Field,Tyldersley Irwell Zone, ,Public Safety,1
+850,995,{00000000-0000-0000-0000-000000000000},TRUE,308.1,Manvers Main,Yorkshire Zone 6, ,Monitoring,0
+851,996,{00000000-0000-0000-0000-000000000000},TRUE,308.2,Manvers Main,Yorkshire Zone 6, ,Monitoring,0
+852,997,{00000000-0000-0000-0000-000000000000},TRUE,308.3,Manvers Main,Yorkshire Zone 6, ,Monitoring,0
+853,998,{00000000-0000-0000-0000-000000000000},TRUE,308.4,Manvers Main,Yorkshire Zone 6, ,Monitoring,0
+854,999,{00000000-0000-0000-0000-000000000000},TRUE,309.1,Lundwood,Yorkshire Zone 5, ,Monitoring,1
+855,1000,{00000000-0000-0000-0000-000000000000},TRUE,310.1,Wombwell Main,Yorkshire Zone 5, ,Monitoring,1
+856,1001,{00000000-0000-0000-0000-000000000000},TRUE,310.2,Wombwell Main,Yorkshire Zone 5, ,Monitoring,1
+857,1002,{00000000-0000-0000-0000-000000000000},TRUE,310.3,Wombwell Main,Yorkshire Zone 5, ,Monitoring,1
+858,1003,{00000000-0000-0000-0000-000000000000},TRUE,310.4,Wombwell Main,Yorkshire Zone 5, ,Monitoring,1
+859,1004,{00000000-0000-0000-0000-000000000000},TRUE,311.1,Nant Aman Fach,Upper Cynon Valley, ,Public Safety,0
+860,1005,{00000000-0000-0000-0000-000000000000},TRUE,312.1,Silkstone Village,Yorkshire Zone 2, ,Mine Water Treatment,1
+861,1006,{00000000-0000-0000-0000-000000000000},TRUE,312.2,Silkstone Village,Yorkshire Zone 2, ,Mine Water Treatment,1
+862,1007,{00000000-0000-0000-0000-000000000000},TRUE,312.3,Silkstone Village,Yorkshire Zone 2, ,Mine Water Treatment,1
+863,1008,{00000000-0000-0000-0000-000000000000},TRUE,312.4,Silkstone Village,Yorkshire Zone 2, ,Mine Water Treatment,1
+864,1009,{00000000-0000-0000-0000-000000000000},TRUE,312.5,Silkstone Village,Yorkshire Zone 2, ,Mine Water Treatment,1
+865,1010,{00000000-0000-0000-0000-000000000000},TRUE,271.3,Caerau,Avon-Maesteg, ,Monitoring,0
+866,1011,{00000000-0000-0000-0000-000000000000},TRUE,272.1,Rhondda Merthyr,Upper Rhondda Fawr Valley, ,Monitoring,1
+867,1012,{00000000-0000-0000-0000-000000000000},TRUE,272.2,Rhondda Merthyr,Upper Rhondda Fawr Valley, ,Monitoring,1
+868,1013,{00000000-0000-0000-0000-000000000000},TRUE,273.4,Newhill Road,Yorkshire Zone 5, ,Monitoring,1
+869,1014,{00000000-0000-0000-0000-000000000000},TRUE,273.5,Newhill Road,Yorkshire Zone 5, ,Monitoring,1
+870,1015,{00000000-0000-0000-0000-000000000000},TRUE,274.1,Priestners Keats,Leigh Zone, ,Monitoring,1
+871,1016,{00000000-0000-0000-0000-000000000000},TRUE,274.2,Priestners Keats,Leigh Zone, ,Monitoring,1
+872,1017,{00000000-0000-0000-0000-000000000000},TRUE,275.2,Kimberworth Parkgate,Yorkshire Zone 5, ,Monitoring,1
+873,1018,{00000000-0000-0000-0000-000000000000},TRUE,275.3,Kimberworth Parkgate,Yorkshire Zone 5, ,Monitoring,1
+874,1019,{00000000-0000-0000-0000-000000000000},TRUE,276.1,Great Western,Main Lower Rhondda Valley, ,Monitoring,1
+875,1020,{00000000-0000-0000-0000-000000000000},TRUE,276.2,Great Western,Main Lower Rhondda Valley, ,Monitoring,1
+876,1021,{00000000-0000-0000-0000-000000000000},TRUE,276.3,Great Western,Main Lower Rhondda Valley, ,Monitoring,1
+877,1022,{00000000-0000-0000-0000-000000000000},TRUE,277.1,Gwynfi MWTS (Corrwg Rhondda),Avon-Maesteg, ,Mine Water Treatment,1
+878,1023,{00000000-0000-0000-0000-000000000000},TRUE,277.2,Gwynfi MWTS (Corrwg Rhondda),Avon-Maesteg, ,Mine Water Treatment,1
+879,1024,{00000000-0000-0000-0000-000000000000},TRUE,277.3,Gwynfi MWTS (Corrwg Rhondda),Avon-Maesteg, ,Mine Water Treatment,1
+880,1025,{00000000-0000-0000-0000-000000000000},TRUE,277.4,Gwynfi MWTS (Corrwg Rhondda),Avon-Maesteg, ,Mine Water Treatment,1
+881,1026,{00000000-0000-0000-0000-000000000000},TRUE,278.3,St. Anselm,North Tyneside, ,Public Safety,1
+882,1027,{00000000-0000-0000-0000-000000000000},TRUE,278.4,St. Anselm,North Tyneside, ,Public Safety,1
+883,1028,{00000000-0000-0000-0000-000000000000},TRUE,278.5,St. Anselm,North Tyneside, ,Public Safety,1
+884,1029,{00000000-0000-0000-0000-000000000000},TRUE,278.6,St. Anselm,North Tyneside, ,Public Safety,1
+885,1030,{00000000-0000-0000-0000-000000000000},TRUE,278.7,St. Anselm,North Tyneside, ,Public Safety,1
+886,1031,{00000000-0000-0000-0000-000000000000},TRUE,279.1,Algernon,North Tyneside, ,Monitoring,1
+887,1032,{00000000-0000-0000-0000-000000000000},TRUE,280.1,Astley Arms,Blythe, ,Monitoring,1
+888,1033,{00000000-0000-0000-0000-000000000000},TRUE,281.1,Bullhouse,Upper Don Valley, ,Mine Water Treatment,1
+889,1034,{00000000-0000-0000-0000-000000000000},TRUE,281.2,Bullhouse,Upper Don Valley, ,Mine Water Treatment,1
+890,1035,{00000000-0000-0000-0000-000000000000},TRUE,281.3,Bullhouse,Upper Don Valley, ,Mine Water Treatment,1
+891,1036,{00000000-0000-0000-0000-000000000000},TRUE,281.4,Bullhouse,Upper Don Valley, ,Mine Water Treatment,1
+892,1037,{00000000-0000-0000-0000-000000000000},TRUE,281.5,Bullhouse,Upper Don Valley, ,Mine Water Treatment,1
+893,1038,{00000000-0000-0000-0000-000000000000},TRUE,282.01,Silkstone Common Tunnel,Yorkshire Zone 2, ,Monitoring,1
+894,1039,{00000000-0000-0000-0000-000000000000},TRUE,282.02,Silkstone Common Tunnel,Yorkshire Zone 2, ,Monitoring,1
+895,1040,{00000000-0000-0000-0000-000000000000},TRUE,282.03,Silkstone Common Tunnel,Yorkshire Zone 2, ,Monitoring,1
+896,1041,{00000000-0000-0000-0000-000000000000},TRUE,282.04,Silkstone Common Tunnel,Yorkshire Zone 2, ,Monitoring,1
+897,1042,{00000000-0000-0000-0000-000000000000},TRUE,282.05,Silkstone Common Tunnel,Yorkshire Zone 2, ,Monitoring,1
+898,1043,{00000000-0000-0000-0000-000000000000},TRUE,282.06,Silkstone Common Tunnel,Yorkshire Zone 2, ,Monitoring,1
+899,1044,{00000000-0000-0000-0000-000000000000},TRUE,282.07,Silkstone Common Tunnel,Yorkshire Zone 2, ,Monitoring,1
+900,1045,{00000000-0000-0000-0000-000000000000},TRUE,282.08,Silkstone Common Tunnel,Yorkshire Zone 2, ,Monitoring,1
+901,1046,{00000000-0000-0000-0000-000000000000},TRUE,282.09,Silkstone Common Tunnel,Yorkshire Zone 2, ,Monitoring,1
+902,1047,{00000000-0000-0000-0000-000000000000},TRUE,282.1,Silkstone Common Tunnel,Yorkshire Zone 2, ,Monitoring,1
+903,1048,{00000000-0000-0000-0000-000000000000},TRUE,282.11,Silkstone Common Tunnel,Yorkshire Zone 2, ,Monitoring,1
+904,1049,{00000000-0000-0000-0000-000000000000},TRUE,282.12,Silkstone Common Tunnel,Yorkshire Zone 2, ,Monitoring,1
+905,1050,{00000000-0000-0000-0000-000000000000},TRUE,282.13,Silkstone Common Tunnel,Yorkshire Zone 2, ,Monitoring,1
+906,1051,{00000000-0000-0000-0000-000000000000},TRUE,282.14,Silkstone Common Tunnel,Yorkshire Zone 2, ,Monitoring,1
+907,1052,{00000000-0000-0000-0000-000000000000},TRUE,282.15,Silkstone Common Tunnel,Yorkshire Zone 2, ,Monitoring,1
+908,1053,{00000000-0000-0000-0000-000000000000},TRUE,282.16,Silkstone Common Tunnel,Yorkshire Zone 2, ,Monitoring,1
+909,1054,{00000000-0000-0000-0000-000000000000},TRUE,282.17,Silkstone Common Tunnel,Yorkshire Zone 2, ,Monitoring,1
+910,1055,{00000000-0000-0000-0000-000000000000},TRUE,282.18,Silkstone Common Tunnel,Yorkshire Zone 2, ,Monitoring,1
+911,1056,{00000000-0000-0000-0000-000000000000},TRUE,282.19,Silkstone Common Tunnel,Yorkshire Zone 2, ,Monitoring,1
+912,1057,{00000000-0000-0000-0000-000000000000},TRUE,282.2,Silkstone Common Tunnel,Yorkshire Zone 2, ,Monitoring,1
+913,1058,{00000000-0000-0000-0000-000000000000},TRUE,282.21,Silkstone Common Tunnel,Yorkshire Zone 2, ,Monitoring,1
+914,1059,{00000000-0000-0000-0000-000000000000},TRUE,282.22,Silkstone Common Tunnel,Yorkshire Zone 2, ,Monitoring,1
+915,1060,{00000000-0000-0000-0000-000000000000},TRUE,282.23,Silkstone Common Tunnel,Yorkshire Zone 2, ,Monitoring,1
+916,1061,{00000000-0000-0000-0000-000000000000},TRUE,282.24,Silkstone Common Tunnel,Yorkshire Zone 2, ,Monitoring,1
+917,1062,{00000000-0000-0000-0000-000000000000},TRUE,282.25,Silkstone Common Tunnel,Yorkshire Zone 2, ,Monitoring,1
+918,1063,{00000000-0000-0000-0000-000000000000},TRUE,282.26,Silkstone Common Tunnel,Yorkshire Zone 2, ,Monitoring,1
+919,1064,{00000000-0000-0000-0000-000000000000},TRUE,282.27,Silkstone Common Tunnel,Yorkshire Zone 2, ,Monitoring,1
+920,1065,{00000000-0000-0000-0000-000000000000},TRUE,282.28,Silkstone Common Tunnel,Yorkshire Zone 2, ,Monitoring,1
+921,1066,{00000000-0000-0000-0000-000000000000},TRUE,282.29,Silkstone Common Tunnel,Yorkshire Zone 2, ,Monitoring,1
+922,1067,{00000000-0000-0000-0000-000000000000},TRUE,282.3,Silkstone Common Tunnel,Yorkshire Zone 2, ,Monitoring,1
+923,1068,{00000000-0000-0000-0000-000000000000},TRUE,283.1,Brynamman Adit,Upper Aman Valley, ,Public Safety,1
+924,1069,{00000000-0000-0000-0000-000000000000},TRUE,283.2,Brynamman Adit,Upper Aman Valley, ,Public Safety,1
+925,1070,{00000000-0000-0000-0000-000000000000},TRUE,284.1,Minto,East Fife, ,Mine Water Treatment,1
+926,1071,{00000000-0000-0000-0000-000000000000},TRUE,284.2,Minto,East Fife, ,Mine Water Treatment,1
+927,1072,{00000000-0000-0000-0000-000000000000},TRUE,284.3,Minto,East Fife, ,Mine Water Treatment,1
+928,1073,{00000000-0000-0000-0000-000000000000},TRUE,285.1,Pwll-Yr-Afon Level,Upper Cynon Valley, ,Public Safety,1
+929,1074,{00000000-0000-0000-0000-000000000000},TRUE,286.1,Manor,Yorkshire Zone 10, ,Public Safety,1
+930,1075,{00000000-0000-0000-0000-000000000000},TRUE,286.2,Manor,Yorkshire Zone 10, ,Public Safety,1
+931,1076,{00000000-0000-0000-0000-000000000000},TRUE,287.1,Castle,Taff Valley, ,Public Safety,1
+932,1077,{00000000-0000-0000-0000-000000000000},TRUE,287.2,Castle,Taff Valley, ,Public Safety,1
+933,1078,{00000000-0000-0000-0000-000000000000},TRUE,288.1,Pont-Y-Rhyn,Taff Valley, ,Public Safety,1
+934,1079,{00000000-0000-0000-0000-000000000000},TRUE,288.2,Pont-Y-Rhyn,Taff Valley, ,Public Safety,1
+935,1080,{00000000-0000-0000-0000-000000000000},TRUE,289.1,Wharncliffe Carlton,Yorkshire Zone 2, ,Monitoring,1
+936,1081,{00000000-0000-0000-0000-000000000000},TRUE,290.1,Willow Bank,Yorkshire Zone 2, ,Monitoring,1
+937,1082,{00000000-0000-0000-0000-000000000000},TRUE,290.2,Willow Bank,Yorkshire Zone 2, ,Monitoring,1
+938,1083,{00000000-0000-0000-0000-000000000000},TRUE,290.3,Willow Bank,Yorkshire Zone 2, ,Monitoring,1
+939,1084,{00000000-0000-0000-0000-000000000000},TRUE,443.1,Rothes,East Fife, ,Monitoring,1
+940,1085,{00000000-0000-0000-0000-000000000000},TRUE,443.2,Rothes,East Fife, ,Monitoring,1
+941,1086,{00000000-0000-0000-0000-000000000000},TRUE,444.1,Vivian,Ebbw Vale, ,Mine Water Treatment,1
+942,1087,{00000000-0000-0000-0000-000000000000},TRUE,444.2,Vivian,Ebbw Vale, ,Mine Water Treatment,1
+943,1088,{00000000-0000-0000-0000-000000000000},TRUE,444.3,Vivian,Ebbw Vale, ,Mine Water Treatment,1
+944,1089,{00000000-0000-0000-0000-000000000000},TRUE,444.4,Vivian,Ebbw Vale, ,Mine Water Treatment,1
+945,1090,{00000000-0000-0000-0000-000000000000},TRUE,444.5,Vivian,Ebbw Vale, ,Mine Water Treatment,1
+946,1091,{00000000-0000-0000-0000-000000000000},TRUE,444.6,Vivian,Ebbw Vale, ,Mine Water Treatment,1
+947,1092,{00000000-0000-0000-0000-000000000000},TRUE,444.7,Vivian,Ebbw Vale, ,Mine Water Treatment,1
+948,1093,{00000000-0000-0000-0000-000000000000},TRUE,445.1,Gin House,Yorkshire Zone 5, ,Monitoring,1
+949,1094,{00000000-0000-0000-0000-000000000000},TRUE,446.1,Shireoaks,North Nottinghamshire, ,Monitoring,0
+950,1095,{00000000-0000-0000-0000-000000000000},TRUE,447.1,Granville No. 1,South Derbyshire, ,Monitoring,1
+951,1096,{00000000-0000-0000-0000-000000000000},TRUE,448.1,Cartwrights,South Derbyshire, ,Monitoring,1
+952,1097,{00000000-0000-0000-0000-000000000000},TRUE,448.2,Cartwrights,South Derbyshire, ,Monitoring,1
+953,1098,{00000000-0000-0000-0000-000000000000},TRUE,448.3,Cartwrights,South Derbyshire, ,Monitoring,1
+954,1099,{00000000-0000-0000-0000-000000000000},TRUE,449.1,Swadlincote Old,South Derbyshire, ,Monitoring,1
+955,1100,{00000000-0000-0000-0000-000000000000},TRUE,449.2,Swadlincote Old,South Derbyshire, ,Monitoring,1
+956,1101,{00000000-0000-0000-0000-000000000000},TRUE,450.1,Church Gresley,South Derbyshire, ,Monitoring,1
+957,1102,{00000000-0000-0000-0000-000000000000},TRUE,450.2,Church Gresley,South Derbyshire, ,Monitoring,1
+958,1103,{00000000-0000-0000-0000-000000000000},TRUE,451.1,Langton,Upper Erewash Valley - Notts, ,Monitoring,1
+959,1104,{00000000-0000-0000-0000-000000000000},TRUE,451.2,Langton,Upper Erewash Valley - Notts, ,Monitoring,1
+960,1105,{00000000-0000-0000-0000-000000000000},TRUE,452.1,Butterknowle,Gaunless Valley, ,Monitoring,1
+961,1106,{00000000-0000-0000-0000-000000000000},TRUE,453.1,"Low Butterknowle, Lowlands",Gaunless Valley, ,Design Mine Water Treatment,1
+962,1107,{00000000-0000-0000-0000-000000000000},TRUE,453.2,"Low Butterknowle, Lowlands",Gaunless Valley, ,Design Mine Water Treatment,1
+963,1108,{00000000-0000-0000-0000-000000000000},TRUE,453.3,"Low Butterknowle, Lowlands",Gaunless Valley, ,Design Mine Water Treatment,1
+964,1109,{00000000-0000-0000-0000-000000000000},TRUE,454.1,Bothal,Wansbeck, ,Monitoring,1
+965,1110,{00000000-0000-0000-0000-000000000000},TRUE,455.1,Swallows,Yorkshire Zone 8, ,Monitoring,1
+966,1111,{00000000-0000-0000-0000-000000000000},TRUE,455.2,Swallows,Yorkshire Zone 8, ,Monitoring,1
+967,1112,{00000000-0000-0000-0000-000000000000},TRUE,455.3,Swallows,Yorkshire Zone 8, ,Monitoring,1
+968,1113,{00000000-0000-0000-0000-000000000000},TRUE,455.4,Swallows,Yorkshire Zone 8, ,Monitoring,1
+969,1114,{00000000-0000-0000-0000-000000000000},TRUE,456.1,South Shields,South Tyneside, ,Monitoring,1
+970,1115,{00000000-0000-0000-0000-000000000000},TRUE,456.2,South Shields,South Tyneside, ,Monitoring,1
+971,1116,{00000000-0000-0000-0000-000000000000},TRUE,456.3,South Shields,South Tyneside, ,Monitoring,1
+972,1117,{00000000-0000-0000-0000-000000000000},TRUE,457.1,Silverdale,North Staffs, ,Mine Water Treatment,1
+973,1118,{00000000-0000-0000-0000-000000000000},TRUE,457.2,Silverdale,North Staffs, ,Mine Water Treatment,1
+974,1119,{00000000-0000-0000-0000-000000000000},TRUE,457.3,Silverdale,North Staffs, ,Mine Water Treatment,1
+975,1120,{00000000-0000-0000-0000-000000000000},TRUE,457.4,Silverdale,North Staffs, ,Mine Water Treatment,1
+976,1121,{00000000-0000-0000-0000-000000000000},TRUE,457.5,Silverdale,North Staffs, , ,1
+977,1122,{00000000-0000-0000-0000-000000000000},TRUE,457.6,Silverdale,North Staffs, , ,1
+978,1123,{00000000-0000-0000-0000-000000000000},TRUE,457.7,Silverdale,North Staffs, , ,1
+979,1124,{00000000-0000-0000-0000-000000000000},TRUE,458.1,Bagworth,Leicestershire, ,Monitoring,1
+980,1125,{00000000-0000-0000-0000-000000000000},TRUE,458.2,Bagworth,Leicestershire, ,Monitoring,1
+981,1126,{00000000-0000-0000-0000-000000000000},TRUE,458.3,Bagworth,Leicestershire, ,Monitoring,1
+982,1127,{00000000-0000-0000-0000-000000000000},TRUE,313.1,Haunchwood,North Warwickshire, ,Monitoring,1
+983,1128,{00000000-0000-0000-0000-000000000000},TRUE,314.1,Dalkeith,Monktonhall, ,Monitoring,1
+984,1129,{00000000-0000-0000-0000-000000000000},TRUE,315.1,Joppa Gillespie Day Level,Monktonhall, ,Monitoring,1
+985,1130,{00000000-0000-0000-0000-000000000000},TRUE,315.2,Joppa Gillespie Day Level,Monktonhall, ,Monitoring,1
+986,1131,{00000000-0000-0000-0000-000000000000},TRUE,316.1,Monktonhall,Monktonhall, ,Mine Water Treatment,1
+987,1132,{00000000-0000-0000-0000-000000000000},TRUE,316.2,Monktonhall,Monktonhall, ,Mine Water Treatment,1
+988,1133,{00000000-0000-0000-0000-000000000000},TRUE,316.3,Monktonhall,Monktonhall, ,Mine Water Treatment,1
+989,1134,{00000000-0000-0000-0000-000000000000},TRUE,316.4,Monktonhall,Monktonhall, ,Mine Water Treatment,1
+990,1135,{00000000-0000-0000-0000-000000000000},TRUE,316.5,Monktonhall,Monktonhall, ,Mine Water Treatment,1
+991,1136,{00000000-0000-0000-0000-000000000000},TRUE,316.6,Monktonhall,Monktonhall, ,Mine Water Treatment,1
+992,1137,{00000000-0000-0000-0000-000000000000},TRUE,316.7,Monktonhall,Monktonhall, ,Mine Water Treatment,1
+993,1138,{00000000-0000-0000-0000-000000000000},TRUE,317.1,Tynesbank,Tyldersley Irwell Zone, ,Monitoring,1
+994,1139,{00000000-0000-0000-0000-000000000000},TRUE,318.1,Linnyshaw,Tyldersley Irwell Zone, ,Monitoring,1
+995,1140,{00000000-0000-0000-0000-000000000000},TRUE,318.2,Linnyshaw,Tyldersley Irwell Zone, ,Monitoring,1
+996,1141,{00000000-0000-0000-0000-000000000000},TRUE,319.1,Rithan / Blaencuffin,Ebbw Valley, ,Monitoring,1
+997,1142,{00000000-0000-0000-0000-000000000000},TRUE,319.2,Rithan / Blaencuffin,Ebbw Valley, ,Monitoring,1
+998,1143,{00000000-0000-0000-0000-000000000000},TRUE,319.3,Rithan / Blaencuffin,Ebbw Valley, ,Monitoring,1
+999,1144,{00000000-0000-0000-0000-000000000000},TRUE,320.1,Hanley Deep,North Staffs, ,Monitoring,1
+1000,1145,{00000000-0000-0000-0000-000000000000},TRUE,320.2,Hanley Deep,North Staffs, ,Monitoring,1
+1001,1146,{00000000-0000-0000-0000-000000000000},TRUE,321.1,Adam Lane,Yorkshire Zone 2, ,Monitoring,1
+1002,1147,{00000000-0000-0000-0000-000000000000},TRUE,321.2,Adam Lane,Yorkshire Zone 2, ,Monitoring,1
+1003,1148,{00000000-0000-0000-0000-000000000000},TRUE,321.3,Adam Lane,Yorkshire Zone 2, ,Monitoring,1
+1004,1149,{00000000-0000-0000-0000-000000000000},TRUE,322.1,Plasdraw Old Level,Upper Cynon Valley, ,Public Safety,1
+1005,1150,{00000000-0000-0000-0000-000000000000},TRUE,323.1,Bedlington 'E',Wansbeck, ,Monitoring,1
+1006,1151,{00000000-0000-0000-0000-000000000000},TRUE,323.2,Bedlington 'E',Wansbeck, ,Monitoring,1
+1007,1152,{00000000-0000-0000-0000-000000000000},TRUE,324.1,Clara Vale,West Tyneside, ,Monitoring,0
+1008,1153,{00000000-0000-0000-0000-000000000000},TRUE,204.2,Oakthorpe Measham,South Derbyshire, ,Monitoring,0
+1009,1154,{00000000-0000-0000-0000-000000000000},TRUE,205.1,Marquis,South Derbyshire, ,Monitoring,1
+1010,1155,{00000000-0000-0000-0000-000000000000},TRUE,205.2,Marquis,South Derbyshire, ,Monitoring,1
+1011,1156,{00000000-0000-0000-0000-000000000000},TRUE,206.1,Hickleton Main Shafton,Yorkshire Zone 6, ,Monitoring,1
+1012,1157,{00000000-0000-0000-0000-000000000000},TRUE,207.1,Durkar,Yorkshire Zone 3, ,Monitoring,1
+1013,1158,{00000000-0000-0000-0000-000000000000},TRUE,207.2,Durkar,Yorkshire Zone 3, ,Monitoring,1
+1014,1159,{00000000-0000-0000-0000-000000000000},TRUE,208.1,Haw Park,Yorkshire Zone 3, ,Monitoring,1
+1015,1160,{00000000-0000-0000-0000-000000000000},TRUE,209.1,Bryn Navigation,Avon-Maesteg, ,Monitoring,1
+1016,1161,{00000000-0000-0000-0000-000000000000},TRUE,210.1,Ynysarwed Adit,Dulais/Neath Valleys, ,Mine Water Treatment,1
+1017,1162,{00000000-0000-0000-0000-000000000000},TRUE,210.2,Ynysarwed Adit,Dulais/Neath Valleys, ,Mine Water Treatment,1
+1018,1163,{00000000-0000-0000-0000-000000000000},TRUE,210.3,Ynysarwed Adit,Dulais/Neath Valleys, ,Mine Water Treatment,1
+1019,1164,{00000000-0000-0000-0000-000000000000},TRUE,210.4,Ynysarwed Adit,Dulais/Neath Valleys, ,Mine Water Treatment,1
+1020,1165,{00000000-0000-0000-0000-000000000000},TRUE,210.5,Ynysarwed Adit,Dulais/Neath Valleys, ,Mine Water Treatment,1
+1021,1166,{00000000-0000-0000-0000-000000000000},TRUE,211.1,Bentilee,North Staffs, ,Public Safety,1
+1022,1167,{00000000-0000-0000-0000-000000000000},TRUE,212.1,Coventry,North Warwickshire, ,Monitoring,0
+1023,1168,{00000000-0000-0000-0000-000000000000},TRUE,212.2,Coventry,North Warwickshire, ,Monitoring,0
+1024,1169,{00000000-0000-0000-0000-000000000000},TRUE,213.1,Duckmanton,North East Derbyshire, ,Monitoring,1
+1025,1170,{00000000-0000-0000-0000-000000000000},TRUE,214.1,Oxcroft No.2,North East Derbyshire, ,Monitoring,1
+1026,1171,{00000000-0000-0000-0000-000000000000},TRUE,214.2,Oxcroft No.2,North East Derbyshire, ,Monitoring,1
+1027,1172,{00000000-0000-0000-0000-000000000000},TRUE,215.1,Horbury High St (Cameo),Yorkshire Zone 10, ,Monitoring,1
+1028,1173,{00000000-0000-0000-0000-000000000000},TRUE,215.2,Horbury High St (Cameo),Yorkshire Zone 10, ,Monitoring,1
+1029,1174,{00000000-0000-0000-0000-000000000000},TRUE,458.4,Bagworth,Leicestershire, ,Monitoring,1
+1030,1175,{00000000-0000-0000-0000-000000000000},TRUE,459.1,Six Bells,Ebbw Vale, ,Monitoring,1
+1031,1176,{00000000-0000-0000-0000-000000000000},TRUE,459.2,Six Bells,Ebbw Vale, ,Monitoring,1
+1032,1177,{00000000-0000-0000-0000-000000000000},TRUE,459.3,Six Bells,Ebbw Vale, ,Monitoring,1
+1033,1178,{00000000-0000-0000-0000-000000000000},TRUE,460.1,Stourton Water Drift,Yorkshire Zone 8, ,Monitoring,1
+1034,1179,{00000000-0000-0000-0000-000000000000},TRUE,461.1,Stourton North,Yorkshire Zone 8, ,Monitoring,1
+1035,1180,{00000000-0000-0000-0000-000000000000},TRUE,461.2,Stourton North,Yorkshire Zone 8, ,Monitoring,1
+1036,1181,{00000000-0000-0000-0000-000000000000},TRUE,461.3,Stourton North,Yorkshire Zone 8, ,Monitoring,1
+1037,1182,{00000000-0000-0000-0000-000000000000},TRUE,461.4,Stourton North,Yorkshire Zone 8, ,Monitoring,1
+1038,1183,{00000000-0000-0000-0000-000000000000},TRUE,462.1,Low Shops,Yorkshire Zone 8, ,Monitoring,1
+1039,1184,{00000000-0000-0000-0000-000000000000},TRUE,462.2,Low Shops,Yorkshire Zone 8, ,Monitoring,1
+1040,1185,{00000000-0000-0000-0000-000000000000},TRUE,463.1,Desford,Leicestershire, ,Monitoring,1
+1041,1186,{00000000-0000-0000-0000-000000000000},TRUE,463.2,Desford,Leicestershire, ,Monitoring,1
+1042,1187,{00000000-0000-0000-0000-000000000000},TRUE,464.1,Measham Main,South Derbyshire, ,Monitoring,1
+1043,1188,{00000000-0000-0000-0000-000000000000},TRUE,464.2,Measham Main,South Derbyshire, ,Monitoring,1
+1044,1189,{00000000-0000-0000-0000-000000000000},TRUE,465.1,Granville No.2,South Derbyshire, ,Monitoring,1
+1045,1190,{00000000-0000-0000-0000-000000000000},TRUE,466.1,Dark Lane,Yorkshire Zone 1, ,Monitoring,1
+1046,1191,{00000000-0000-0000-0000-000000000000},TRUE,466.2,Dark Lane,Yorkshire Zone 1, ,Monitoring,1
+1047,1192,{00000000-0000-0000-0000-000000000000},TRUE,466.3,Dark Lane,Yorkshire Zone 1, ,Monitoring,1
+1048,1193,{00000000-0000-0000-0000-000000000000},TRUE,466.4,Dark Lane,Yorkshire Zone 1, ,Monitoring,1
+1049,1194,{00000000-0000-0000-0000-000000000000},TRUE,467.1,Lemington,West Tyneside, ,Monitoring,1
+1050,1195,{00000000-0000-0000-0000-000000000000},TRUE,468.1,Blaydon Main,West Tyneside, ,Monitoring,1
+1051,1196,{00000000-0000-0000-0000-000000000000},TRUE,468.2,Blaydon Main,West Tyneside, ,Monitoring,1
+1052,1197,{00000000-0000-0000-0000-000000000000},TRUE,469.1,Hebburn 'A'/'B' Drain,South Tyneside, ,Monitoring,1
+1053,1198,{00000000-0000-0000-0000-000000000000},TRUE,469.2,Hebburn 'A'/'B' Drain,South Tyneside, ,Monitoring,1
+1054,1199,{00000000-0000-0000-0000-000000000000},TRUE,470.1,Wallsend Drain,North Tyneside, ,Monitoring,1
+1055,1200,{00000000-0000-0000-0000-000000000000},TRUE,470.2,Wallsend Drain,North Tyneside, ,Monitoring,1
+1056,1201,{00000000-0000-0000-0000-000000000000},TRUE,471.1,Wallsend 'G'/'H',North Tyneside, ,Monitoring,1
+1057,1202,{00000000-0000-0000-0000-000000000000},TRUE,471.2,Wallsend 'G'/'H',North Tyneside, ,Monitoring,1
+1058,1203,{00000000-0000-0000-0000-000000000000},TRUE,472.1,Page Bank Monitoring,West Of Wear, ,Monitoring,0
+1059,1204,{00000000-0000-0000-0000-000000000000},TRUE,472.2,Page Bank Monitoring,West Of Wear, ,Monitoring,0
+1060,1205,{00000000-0000-0000-0000-000000000000},TRUE,472.3,Page Bank Monitoring,West Of Wear, ,Monitoring,0
+1061,1206,{00000000-0000-0000-0000-000000000000},TRUE,472.4,Page Bank Monitoring,West Of Wear, ,Monitoring,0
+1062,1207,{00000000-0000-0000-0000-000000000000},TRUE,472.5,Page Bank Monitoring,West Of Wear, ,Monitoring,0
+1063,1208,{00000000-0000-0000-0000-000000000000},TRUE,473.1,Elswick,West Tyneside, ,Monitoring,1
+1064,1209,{00000000-0000-0000-0000-000000000000},TRUE,474.1,Delaval,West Tyneside, ,Monitoring,1
+1065,1210,{00000000-0000-0000-0000-000000000000},TRUE,475.1,Lodge Mill,Yorkshire Zone 1, ,Monitoring,1
+1066,1211,{00000000-0000-0000-0000-000000000000},TRUE,475.2,Lodge Mill,Yorkshire Zone 1, ,Monitoring,1
+1067,1212,{00000000-0000-0000-0000-000000000000},TRUE,324.2,Clara Vale,West Tyneside, ,Monitoring,0
+1068,1213,{00000000-0000-0000-0000-000000000000},TRUE,325.1,Batts Water Level,Lower Weardale, ,Monitoring,1
+1069,1214,{00000000-0000-0000-0000-000000000000},TRUE,325.2,Batts Water Level,Lower Weardale, ,Monitoring,1
+1070,1215,{00000000-0000-0000-0000-000000000000},TRUE,326.1,Caldon Canal,North Staffs, ,Monitoring,1
+1071,1216,{00000000-0000-0000-0000-000000000000},TRUE,327.1,Penllwynhelyg,Upper Loughor Zone, ,Monitoring,1
+1072,1217,{00000000-0000-0000-0000-000000000000},TRUE,328.1,Aspull Sough,Wigan - River Douglas, ,Mine Water Treatment,0
+1073,1218,{00000000-0000-0000-0000-000000000000},TRUE,328.2,Aspull Sough,Wigan - River Douglas, ,Mine Water Treatment,1
+1074,1219,{00000000-0000-0000-0000-000000000000},TRUE,328.3,Aspull Sough,Wigan - River Douglas, ,Mine Water Treatment,1
+1075,1220,{00000000-0000-0000-0000-000000000000},TRUE,328.4,Aspull Sough,Wigan - River Douglas, ,Mine Water Treatment,1
+1076,1221,{00000000-0000-0000-0000-000000000000},TRUE,328.5,Aspull Sough,Wigan - River Douglas, ,Mine Water Treatment,1
+1077,1222,{00000000-0000-0000-0000-000000000000},TRUE,329.1,Aberbeeg North,Ebbw Vale, ,Monitoring,1
+1078,1223,{00000000-0000-0000-0000-000000000000},TRUE,329.2,Aberbeeg North,Ebbw Vale, ,Monitoring,1
+1079,1224,{00000000-0000-0000-0000-000000000000},TRUE,330.1,Ellis Pit,Taff Valley, ,Public Safety,1
+1080,1225,{00000000-0000-0000-0000-000000000000},TRUE,331.1,Glen Mine,Twrch Valley, ,Public Safety,1
+1081,1226,{00000000-0000-0000-0000-000000000000},TRUE,331.2,Glen Mine,Twrch Valley, ,Public Safety,1
+1082,1227,{00000000-0000-0000-0000-000000000000},TRUE,332.1,Cefn Hengoed,Rhymney Valley, ,Design Mine Water Treatment,1
+1083,1228,{00000000-0000-0000-0000-000000000000},TRUE,332.2,Cefn Hengoed,Rhymney Valley, ,Design Mine Water Treatment,1
+1084,1229,{00000000-0000-0000-0000-000000000000},TRUE,332.3,Cefn Hengoed,Rhymney Valley, ,Design Mine Water Treatment,1
+1085,1230,{00000000-0000-0000-0000-000000000000},TRUE,332.4,Cefn Hengoed,Rhymney Valley, ,Design Mine Water Treatment,1
+1086,1231,{00000000-0000-0000-0000-000000000000},TRUE,332.5,Cefn Hengoed,Rhymney Valley, ,Design Mine Water Treatment,1
+1087,1232,{00000000-0000-0000-0000-000000000000},TRUE,333.1,Crofton Mill Pit,Blythe, ,Monitoring,1
+1088,1233,{00000000-0000-0000-0000-000000000000},TRUE,334.1,Ravenhead,Bold-Haydock Zone, ,Monitoring,1
+1089,1234,{00000000-0000-0000-0000-000000000000},TRUE,334.2,Ravenhead,Bold-Haydock Zone, ,Monitoring,1
+1090,1235,{00000000-0000-0000-0000-000000000000},TRUE,335.1,Old Carrs,Cronton Zone, ,Monitoring,1
+1091,1236,{00000000-0000-0000-0000-000000000000},TRUE,336.1,Calow Drifts,North East Derbyshire, ,Monitoring,1
+1092,1237,{00000000-0000-0000-0000-000000000000},TRUE,336.2,Calow Drifts,North East Derbyshire, ,Monitoring,1
+1093,1238,{00000000-0000-0000-0000-000000000000},TRUE,337.1,Sutton Springwood,North East Derbyshire, ,Monitoring,1
+1094,1239,{00000000-0000-0000-0000-000000000000},TRUE,338.1,Elsecar Distillery Pit,Yorkshire Zone 6, ,Monitoring,1
+1095,1240,{00000000-0000-0000-0000-000000000000},TRUE,338.2,Elsecar Distillery Pit,Yorkshire Zone 6, ,Monitoring,1
+1096,1241,{00000000-0000-0000-0000-000000000000},TRUE,339.1,"Willow Farm, Twyford",Bold-Haydock Zone, ,Public Safety,1
+1097,1242,{00000000-0000-0000-0000-000000000000},TRUE,340.1,Haydock Sough,Bold-Haydock Zone, ,Monitoring,1
+1098,1243,{00000000-0000-0000-0000-000000000000},TRUE,341.3,Knoll Drifts,Yorkshire Zone 5, ,Public Safety,1
+1099,1244,{00000000-0000-0000-0000-000000000000},TRUE,341.4,Knoll Drifts,Yorkshire Zone 5, ,Public Safety,1
+1100,1245,{00000000-0000-0000-0000-000000000000},TRUE,342.1,Ladies Lane (Hindley),Wigan, ,Public Safety,1
+1101,1246,{00000000-0000-0000-0000-000000000000},TRUE,342.2,Ladies Lane (Hindley),Wigan, ,Public Safety,1
+1102,1247,{00000000-0000-0000-0000-000000000000},TRUE,342.3,Ladies Lane (Hindley),Wigan, ,Public Safety,1
+1103,1248,{00000000-0000-0000-0000-000000000000},TRUE,342.4,Ladies Lane (Hindley),Wigan, ,Public Safety,1
+1104,1249,{00000000-0000-0000-0000-000000000000},TRUE,343.1,Rose Bridge,Wigan, ,Public Safety,1
+1105,1250,{00000000-0000-0000-0000-000000000000},TRUE,344.1,Elginhaugh,Bilston Glen, ,Monitoring,1
+1106,1251,{00000000-0000-0000-0000-000000000000},TRUE,345.1,Old Fordell,Bilston Glen, ,Monitoring,1
+1107,1252,{00000000-0000-0000-0000-000000000000},TRUE,346.1,"Wharncliffe Woodmoor 1,2,3",Yorkshire Zone 5, ,Monitoring,1
+1108,1253,{00000000-0000-0000-0000-000000000000},TRUE,347.1,Pentre (Rhondda),Upper Rhondda Fawr Valley, ,Public Safety,1
+1109,1254,{00000000-0000-0000-0000-000000000000},TRUE,348.1,Glamorgan,Mid Rhondda Fawr Valley, ,Monitoring,0
+1110,1255,{00000000-0000-0000-0000-000000000000},TRUE,349.1,Hafod,Main Lower Rhondda Valley, ,Monitoring,1
+1111,1256,{00000000-0000-0000-0000-000000000000},TRUE,349.2,Hafod,Main Lower Rhondda Valley, ,Monitoring,1
+1112,1257,{00000000-0000-0000-0000-000000000000},TRUE,349.3,Hafod,Main Lower Rhondda Valley, ,Monitoring,1
+1113,1258,{00000000-0000-0000-0000-000000000000},TRUE,349.4,Hafod,Main Lower Rhondda Valley, ,Monitoring,1
+1114,1259,{00000000-0000-0000-0000-000000000000},TRUE,350.1,Cymmer,Main Lower Rhondda Valley, ,Public Safety,1
+1115,1260,{00000000-0000-0000-0000-000000000000},TRUE,351.1,North Junction No.2,North East Derbyshire, ,Monitoring,1
+1116,1261,{00000000-0000-0000-0000-000000000000},TRUE,352.1,Embankment,North East Derbyshire, ,Monitoring,1
+1117,1262,{00000000-0000-0000-0000-000000000000},TRUE,353.1,Rock Lane,North East Derbyshire, ,Monitoring,1
+1118,703,{00000000-0000-0000-0000-000000000000},TRUE,196.2,Kimberworth (Simmonite),Yorkshire Zone 5, ,Public Safety,1
+1119,704,{00000000-0000-0000-0000-000000000000},TRUE,196.3,Kimberworth (Simmonite),Yorkshire Zone 5, ,Public Safety,1
+1120,705,{00000000-0000-0000-0000-000000000000},TRUE,196.4,Kimberworth (Simmonite),Yorkshire Zone 5, ,Public Safety,1
+1121,706,{00000000-0000-0000-0000-000000000000},TRUE,196.5,Kimberworth (Simmonite),Yorkshire Zone 5, ,Public Safety,1
+1122,707,{00000000-0000-0000-0000-000000000000},TRUE,197.1,Barbot Hall,Yorkshire Zone 5, ,Monitoring,1
+1123,708,{00000000-0000-0000-0000-000000000000},TRUE,198.1,Thorpe Hesley,Yorkshire Zone 5, ,Monitoring,1
+1124,709,{00000000-0000-0000-0000-000000000000},TRUE,199.1,East Barugh,Yorkshire Zone 2, ,Monitoring,1
+1125,710,{00000000-0000-0000-0000-000000000000},TRUE,199.2,East Barugh,Yorkshire Zone 2, ,Monitoring,1
+1126,711,{00000000-0000-0000-0000-000000000000},TRUE,200.1,Woodhouses,Gaunless Valley, ,Monitoring,1
+1127,712,{00000000-0000-0000-0000-000000000000},TRUE,200.2,Woodhouses,Gaunless Valley, ,Monitoring,1
+1128,713,{00000000-0000-0000-0000-000000000000},TRUE,201.1,James,West Tyneside, ,Monitoring,1
+1129,714,{00000000-0000-0000-0000-000000000000},TRUE,201.2,James,West Tyneside, ,Monitoring,1
+1130,715,{00000000-0000-0000-0000-000000000000},TRUE,202.1,Thrislington,South Durham, ,Monitoring,1
+1131,716,{00000000-0000-0000-0000-000000000000},TRUE,203.1,Mainsforth,South Durham, ,Monitoring,1
+1132,717,{00000000-0000-0000-0000-000000000000},TRUE,204.1,Oakthorpe Measham,South Derbyshire, ,Monitoring,1
+1133,718,{00000000-0000-0000-0000-000000000000},TRUE,628.1,Low Beechburn,West Of Wear, ,Public Safety,1
+1134,719,{00000000-0000-0000-0000-000000000000},TRUE,629.1,Ghyllhead,Maryport, ,Public Safety,1
+1135,720,{00000000-0000-0000-0000-000000000000},TRUE,630.1,Kingsbury,North Warwickshire, ,Monitoring,1
+1136,721,{00000000-0000-0000-0000-000000000000},TRUE,631.1,Roscoe Wood,Cronton Zone, ,Monitoring,1
+1137,722,{00000000-0000-0000-0000-000000000000},TRUE,632.1,Hockery Brook,Wigan, ,Mine Water Treatment,1
+1138,723,{00000000-0000-0000-0000-000000000000},TRUE,632.2,Hockery Brook,Wigan, ,Mine Water Treatment,1
+1139,724,{00000000-0000-0000-0000-000000000000},TRUE,632.3,Hockery Brook,Wigan, ,Mine Water Treatment,1
+1140,725,{00000000-0000-0000-0000-000000000000},TRUE,632.4,Hockery Brook,Wigan, ,Mine Water Treatment,1
+1141,726,{00000000-0000-0000-0000-000000000000},TRUE,632.5,Hockery Brook,Wigan, ,Monitoring,1
+1142,727,{00000000-0000-0000-0000-000000000000},TRUE,633.1,Leven 4,East Fife, ,Monitoring,1
+1143,728,{00000000-0000-0000-0000-000000000000},TRUE,634.1,Rigside,South Lanarkshire, ,Monitoring,1
+1144,729,{00000000-0000-0000-0000-000000000000},TRUE,635.1,Barony,Mid-Ayrshire, ,Monitoring,1
+1145,730,{00000000-0000-0000-0000-000000000000},TRUE,636.1,Blidworth,Central Notts, ,Monitoring,1
+1146,731,{00000000-0000-0000-0000-000000000000},TRUE,637.1,Beacon House Farm,North Staffs, ,Public Safety,1
+1147,732,{00000000-0000-0000-0000-000000000000},TRUE,638.1,Blackdyke,Renfrewshire, ,Public Safety,1
+1148,733,{00000000-0000-0000-0000-000000000000},TRUE,639.1,Broad Clough,Rossendale, ,Monitoring,1
+1149,734,{00000000-0000-0000-0000-000000000000},TRUE,640.1,Leacroft Colliery,South Staffs, ,Monitoring,1
+1150,735,{00000000-0000-0000-0000-000000000000},TRUE,641.1,Schools Wells,Porter Don, ,Monitoring,1
+1151,736,{00000000-0000-0000-0000-000000000000},TRUE,642.1,Flash House,Porter Don, ,Monitoring,1
+1152,737,{00000000-0000-0000-0000-000000000000},TRUE,643.1,Dinas,Main Lower Rhondda Valley, ,Monitoring,1
+1153,738,{00000000-0000-0000-0000-000000000000},TRUE,644.1,Shuttle Eye,Yorkshire Zone 1, ,Monitoring,1
+1154,739,{00000000-0000-0000-0000-000000000000},TRUE,644.2,Shuttle Eye,Yorkshire Zone 1, ,Monitoring,1
+1155,740,{00000000-0000-0000-0000-000000000000},TRUE,645.1,Barley Hill,West Of Wear Mid Durham, ,Monitoring,1
+1156,741,{00000000-0000-0000-0000-000000000000},TRUE,646.1,Prestongrange Great,Blindwells, ,Monitoring,1
+1157,742,{00000000-0000-0000-0000-000000000000},TRUE,647.1,Wallyford Great,Blindwells, ,Monitoring,1
+1158,743,{00000000-0000-0000-0000-000000000000},TRUE,648.1,Wood,Holme Valley, ,Monitoring,1
+1159,744,{00000000-0000-0000-0000-000000000000},TRUE,649.1,Hazelhead,Holme Valley, ,Monitoring,1
+1160,745,{00000000-0000-0000-0000-000000000000},TRUE,650.1,Joppa North B/H'S,Monktonhall, ,Public Safety,1
+1161,746,{00000000-0000-0000-0000-000000000000},TRUE,650.2,Joppa North B/H'S,Monktonhall, ,Public Safety,1
+1162,747,{00000000-0000-0000-0000-000000000000},TRUE,650.3,Joppa North B/H'S,Monktonhall, ,Public Safety,1
+1163,748,{00000000-0000-0000-0000-000000000000},TRUE,650.4,Joppa North B/H'S,Monktonhall, ,Public Safety,1
+1164,749,{00000000-0000-0000-0000-000000000000},TRUE,650.5,Joppa North B/H'S,Monktonhall, ,Public Safety,1
+1165,750,{00000000-0000-0000-0000-000000000000},TRUE,651.1,Joppa South B/H'S,Monktonhall, ,Public Safety,1
+1166,751,{00000000-0000-0000-0000-000000000000},TRUE,754.1,Frickley,Yorkshire Zone 2, ,Monitoring,1
+1167,752,{00000000-0000-0000-0000-000000000000},TRUE,755.1,Creswell,North Nottinghamshire, ,Monitoring,1
+1168,753,{00000000-0000-0000-0000-000000000000},TRUE,757.1,Newstead,South Notts, ,Monitoring,1
+1169,754,{00000000-0000-0000-0000-000000000000},TRUE,758.1,Moorgreen,South Notts, ,Monitoring,1
+1170,755,{00000000-0000-0000-0000-000000000000},TRUE,759.1,Babbington-Bulwell,South Notts, ,Monitoring,1
+1171,756,{00000000-0000-0000-0000-000000000000},TRUE,2.1,Glan Road,Upper Cynon Valley, ,Public Safety,1
+1172,757,{00000000-0000-0000-0000-000000000000},TRUE,2.2,Glan Road,Upper Cynon Valley, ,Public Safety,1
+1173,758,{00000000-0000-0000-0000-000000000000},TRUE,3.1,Alexandra,Yorkshire Zone 1, ,Monitoring,1
+1174,759,{00000000-0000-0000-0000-000000000000},TRUE,3.2,Alexandra,Yorkshire Zone 1, ,Monitoring,1
+1175,760,{00000000-0000-0000-0000-000000000000},TRUE,3.3,Alexandra,Yorkshire Zone 1, ,Monitoring,1
+1176,761,{00000000-0000-0000-0000-000000000000},TRUE,4.1,Allerton Bywater,Yorkshire Zone 9, ,Monitoring,1
+1177,762,{00000000-0000-0000-0000-000000000000},TRUE,4.2,Allerton Bywater,Yorkshire Zone 9, ,Monitoring,1
+1178,763,{00000000-0000-0000-0000-000000000000},TRUE,4.4,Allerton Bywater,Yorkshire Zone 9, ,Monitoring,1
+1179,764,{00000000-0000-0000-0000-000000000000},TRUE,4.5,Allerton Bywater,Yorkshire Zone 9, ,Monitoring,1
+1180,765,{00000000-0000-0000-0000-000000000000},TRUE,5.1,Arkwright,North East Derbyshire, ,Public Safety,1
+1181,766,{00000000-0000-0000-0000-000000000000},TRUE,5.2,Arkwright,North East Derbyshire, ,Public Safety,1
+1182,767,{00000000-0000-0000-0000-000000000000},TRUE,6.1,Ashington,Wansbeck, ,Monitoring,1
+1183,768,{00000000-0000-0000-0000-000000000000},TRUE,6.2,Ashington,Wansbeck, ,Monitoring,1
+1184,769,{00000000-0000-0000-0000-000000000000},TRUE,7.1,Ashtons Field,Tyldersley Irwell Zone, ,Monitoring,1
+1185,770,{00000000-0000-0000-0000-000000000000},TRUE,8.1,Askern,Yorkshire Zone 12, ,Monitoring,1
+1186,771,{00000000-0000-0000-0000-000000000000},TRUE,8.2,Askern,Yorkshire Zone 12, ,Monitoring,1
+1187,772,{00000000-0000-0000-0000-000000000000},TRUE,9.1,Boiley Lane,North East Derbyshire, ,Public Safety,1
+1188,773,{00000000-0000-0000-0000-000000000000},TRUE,225.1,Glynhebog,Gwendraeth Valley, ,Monitoring,1
+1189,774,{00000000-0000-0000-0000-000000000000},TRUE,226.1,Mountain Pit,Upper Rhondda Fawr Valley, ,Monitoring,0
+1190,775,{00000000-0000-0000-0000-000000000000},TRUE,227.1,Bankwell,Upper Yorkshire Calder, ,Monitoring,1
+1191,776,{00000000-0000-0000-0000-000000000000},TRUE,227.2,Bankwell,Upper Yorkshire Calder, ,Monitoring,1
+1192,777,{00000000-0000-0000-0000-000000000000},TRUE,227.3,Bankwell,Upper Yorkshire Calder, ,Monitoring,1
+1193,778,{00000000-0000-0000-0000-000000000000},TRUE,228.1,Gawthorpe Green Farm,Yorkshire Zone 1, ,Monitoring,1
+1194,779,{00000000-0000-0000-0000-000000000000},TRUE,228.2,Gawthorpe Green Farm,Yorkshire Zone 1, ,Monitoring,1
+1195,780,{00000000-0000-0000-0000-000000000000},TRUE,229.1,Sirhowy,Upper Sirhowy Valley, ,Monitoring,1
+1196,781,{00000000-0000-0000-0000-000000000000},TRUE,230.1,Rhymney No.1 Level,Rhymney Valley, ,Public Safety,1
+1197,782,{00000000-0000-0000-0000-000000000000},TRUE,230.2,Rhymney No.1 Level,Rhymney Valley, ,Public Safety,1
+1198,783,{00000000-0000-0000-0000-000000000000},TRUE,230.3,Rhymney No.1 Level,Rhymney Valley, ,Public Safety,1
+1199,784,{00000000-0000-0000-0000-000000000000},TRUE,230.4,Rhymney No.1 Level,Rhymney Valley, ,Public Safety,1
+1200,785,{00000000-0000-0000-0000-000000000000},TRUE,231.1,Oakdale / Waterloo,Lower Sirhowy Valley, ,Monitoring,1
+1201,786,{00000000-0000-0000-0000-000000000000},TRUE,231.2,Oakdale / Waterloo,Lower Sirhowy Valley, ,Monitoring,1
+1202,787,{00000000-0000-0000-0000-000000000000},TRUE,231.3,Oakdale / Waterloo,Lower Sirhowy Valley, ,Monitoring,1
+1203,788,{00000000-0000-0000-0000-000000000000},TRUE,232.1,Abergwawr,Upper Cynon Valley, ,Public Safety,1
+1204,789,{00000000-0000-0000-0000-000000000000},TRUE,232.2,Abergwawr,Upper Cynon Valley, ,Public Safety,1
+1205,790,{00000000-0000-0000-0000-000000000000},TRUE,232.3,Abergwawr,Upper Cynon Valley, ,Public Safety,1
+1206,791,{00000000-0000-0000-0000-000000000000},TRUE,233.1,Pentre Mine,Morlais Valley, ,Monitoring,0
+1207,792,{00000000-0000-0000-0000-000000000000},TRUE,233.2,Pentre Mine,Morlais Valley, ,Monitoring,0
+1208,793,{00000000-0000-0000-0000-000000000000},TRUE,233.3,Pentre Mine,Morlais Valley, ,Monitoring,1
+1209,794,{00000000-0000-0000-0000-000000000000},TRUE,234.1,Rowlands Gill,West Tyneside, ,Public Safety,1
+1210,795,{00000000-0000-0000-0000-000000000000},TRUE,234.2,Rowlands Gill,West Tyneside, ,Public Safety,1
+1211,796,{00000000-0000-0000-0000-000000000000},TRUE,234.3,Rowlands Gill,West Tyneside, ,Public Safety,1
+1212,797,{00000000-0000-0000-0000-000000000000},TRUE,234.4,Rowlands Gill,West Tyneside, ,Public Safety,1
+1213,798,{00000000-0000-0000-0000-000000000000},TRUE,234.5,Rowlands Gill,West Tyneside, ,Public Safety,1
+1214,799,{00000000-0000-0000-0000-000000000000},TRUE,235.1,Ewanrigg,Maryport-Broughton Moor, ,Mine Water Treatment,1
+1215,800,{00000000-0000-0000-0000-000000000000},TRUE,235.2,Ewanrigg,Maryport-Broughton Moor, ,Mine Water Treatment,1
+1216,801,{00000000-0000-0000-0000-000000000000},TRUE,235.3,Ewanrigg,Maryport-Broughton Moor, ,Mine Water Treatment,1
+1217,802,{00000000-0000-0000-0000-000000000000},TRUE,235.4,Ewanrigg,Maryport-Broughton Moor, ,Mine Water Treatment,1
+1218,803,{00000000-0000-0000-0000-000000000000},TRUE,235.5,Ewanrigg,Maryport-Broughton Moor, ,Mine Water Treatment,1
+1219,804,{00000000-0000-0000-0000-000000000000},TRUE,235.6,Ewanrigg,Maryport-Broughton Moor, ,Mine Water Treatment,1
+1220,805,{00000000-0000-0000-0000-000000000000},TRUE,235.7,Ewanrigg,Maryport-Broughton Moor, ,Mine Water Treatment,1
+1221,806,{00000000-0000-0000-0000-000000000000},TRUE,236.1,Bwllfa Dare,Upper Cynon Valley, ,Monitoring,1
+1222,807,{00000000-0000-0000-0000-000000000000},TRUE,236.2,Bwllfa Dare,Upper Cynon Valley, ,Monitoring,0
+1223,808,{00000000-0000-0000-0000-000000000000},TRUE,237.1,Nant Melyn (Bwllfa No.2),Upper Cynon Valley, ,Monitoring,1
+1224,809,{00000000-0000-0000-0000-000000000000},TRUE,238.1,Landgate,Wigan - River Douglas, ,Monitoring,1
+1225,810,{00000000-0000-0000-0000-000000000000},TRUE,238.2,Landgate,Wigan - River Douglas, ,Monitoring,1
+1226,811,{00000000-0000-0000-0000-000000000000},TRUE,238.3,Landgate,Wigan - River Douglas, ,Monitoring,1
+1227,812,{00000000-0000-0000-0000-000000000000},TRUE,238.4,Landgate,Wigan - River Douglas, ,Monitoring,1
+1228,813,{00000000-0000-0000-0000-000000000000},TRUE,238.5,Landgate,Wigan - River Douglas, ,Monitoring,1
+1229,814,{00000000-0000-0000-0000-000000000000},TRUE,238.6,Landgate,Wigan - River Douglas, ,Monitoring,1
+1230,815,{00000000-0000-0000-0000-000000000000},TRUE,239.1,Pengam,Rhymney Valley, ,Monitoring,1
+1231,816,{00000000-0000-0000-0000-000000000000},TRUE,239.2,Pengam,Rhymney Valley, ,Monitoring,1
+1232,817,{00000000-0000-0000-0000-000000000000},TRUE,240.1,Wentworth Mill,Yorkshire Zone 5, ,Monitoring,1
+1233,818,{00000000-0000-0000-0000-000000000000},TRUE,241.1,Minnie Pit,West Staffs, ,Monitoring,1
+1234,819,{00000000-0000-0000-0000-000000000000},TRUE,241.2,Minnie Pit,West Staffs, ,Monitoring,1
+1235,820,{00000000-0000-0000-0000-000000000000},TRUE,242.1,Balgreggie,East Fife, ,Monitoring,1
+1236,821,{00000000-0000-0000-0000-000000000000},TRUE,243.1,Monkbretton Church,Yorkshire Zone 5, ,Monitoring,1
+1237,822,{00000000-0000-0000-0000-000000000000},TRUE,243.2,Monkbretton Church,Yorkshire Zone 5, ,Monitoring,1
+1238,823,{00000000-0000-0000-0000-000000000000},TRUE,244.1,Westfield,Yorkshire Zone 6, ,Monitoring,1
+1239,824,{00000000-0000-0000-0000-000000000000},TRUE,244.2,Westfield,Yorkshire Zone 6, ,Monitoring,1
+1240,825,{00000000-0000-0000-0000-000000000000},TRUE,245.1,Silkstone Fall,Yorkshire Zone 6, ,Monitoring,1
+1241,826,{00000000-0000-0000-0000-000000000000},TRUE,245.2,Silkstone Fall,Yorkshire Zone 6, ,Monitoring,1
+1242,827,{00000000-0000-0000-0000-000000000000},TRUE,246.1,Blacks,North East Derbyshire, ,Monitoring,1
+1243,828,{00000000-0000-0000-0000-000000000000},TRUE,247.1,Bute,Upper Rhondda Fawr Valley, ,Public Safety,1
+1244,829,{00000000-0000-0000-0000-000000000000},TRUE,247.2,Bute,Upper Rhondda Fawr Valley, ,Public Safety,1
+1245,830,{00000000-0000-0000-0000-000000000000},TRUE,247.3,Bute,Upper Rhondda Fawr Valley, ,Public Safety,1
+1246,831,{00000000-0000-0000-0000-000000000000},TRUE,247.4,Bute,Upper Rhondda Fawr Valley, ,Public Safety,1
+1247,832,{00000000-0000-0000-0000-000000000000},TRUE,248.1,Treorchy,Upper Rhondda Fawr Valley, ,Monitoring,1
+1248,833,{00000000-0000-0000-0000-000000000000},TRUE,249.1,Rookery,Yorkshire Zone 1, ,Monitoring,1
+1249,834,{00000000-0000-0000-0000-000000000000},TRUE,250.1,Littleburn,West Of Wear Durham, ,Monitoring,1
+1250,835,{00000000-0000-0000-0000-000000000000},TRUE,250.2,Littleburn,West Of Wear Durham, ,Monitoring,1
+1251,836,{00000000-0000-0000-0000-000000000000},TRUE,251.1,Muiredge Chemyss,East Fife, ,Monitoring,1
+1252,837,{00000000-0000-0000-0000-000000000000},TRUE,252.1,Troedrhiwgweir,Upper Sirhowy Valley, ,Monitoring,1
+1253,838,{00000000-0000-0000-0000-000000000000},TRUE,252.2,Troedrhiwgweir,Upper Sirhowy Valley, ,Monitoring,1
+1254,839,{00000000-0000-0000-0000-000000000000},TRUE,253.1,Wandon,South Staffs, ,Monitoring,1
+1255,840,{00000000-0000-0000-0000-000000000000},TRUE,254.1,Combs,Yorkshire Zone 1, ,Monitoring,1
+1256,841,{00000000-0000-0000-0000-000000000000},TRUE,254.2,Combs,Yorkshire Zone 1, ,Monitoring,1
+1257,842,{00000000-0000-0000-0000-000000000000},TRUE,255.1,Horbury High St. (Btz),Yorkshire Zone 10, ,Public Safety,1
+1258,843,{00000000-0000-0000-0000-000000000000},TRUE,255.2,Horbury High St. (Btz),Yorkshire Zone 10, ,Public Safety,1
+1259,844,{00000000-0000-0000-0000-000000000000},TRUE,255.3,Horbury High St. (Btz),Yorkshire Zone 10, ,Public Safety,1
+1260,845,{00000000-0000-0000-0000-000000000000},TRUE,255.4,Horbury High St. (Btz),Yorkshire Zone 10, ,Public Safety,1
+1261,846,{00000000-0000-0000-0000-000000000000},TRUE,255.5,Horbury High St. (Btz),Yorkshire Zone 10, ,Public Safety,1
+1262,1406,{00000000-0000-0000-0000-000000000000},TRUE,516.1,Stanley,Lower Erewash Valley, ,Monitoring,1
+1263,1407,{00000000-0000-0000-0000-000000000000},TRUE,517.1,Ormonde (Mill Farm),Lower Erewash Valley, ,Monitoring,1
+1264,1408,{00000000-0000-0000-0000-000000000000},TRUE,518.1,Denby Hall,Notts-Derbys Border, ,Monitoring,1
+1265,1409,{00000000-0000-0000-0000-000000000000},TRUE,519.1,Marehay,Notts-Derbys Border, ,Monitoring,1
+1266,1410,{00000000-0000-0000-0000-000000000000},TRUE,520.1,Calverton,Central Notts, ,Monitoring,1
+1267,1411,{00000000-0000-0000-0000-000000000000},TRUE,520.2,Calverton,Central Notts, ,Monitoring,1
+1268,1412,{00000000-0000-0000-0000-000000000000},TRUE,521.1,Sutton,Notts-Derbys Border, ,Monitoring,1
+1269,1413,{00000000-0000-0000-0000-000000000000},TRUE,521.2,Sutton,Notts-Derbys Border, ,Monitoring,1
+1270,1414,{00000000-0000-0000-0000-000000000000},TRUE,522.1,Brancepeth 'A',West Of Wear, ,Monitoring,1
+1271,1415,{00000000-0000-0000-0000-000000000000},TRUE,523.1,Stonechester,West Of Wear, ,Monitoring,1
+1272,1416,{00000000-0000-0000-0000-000000000000},TRUE,524.1,Rough Lea Drift,West Of Wear, ,Public Safety,1
+1273,1417,{00000000-0000-0000-0000-000000000000},TRUE,524.2,Rough Lea Drift,West Of Wear, ,Public Safety,1
+1274,1418,{00000000-0000-0000-0000-000000000000},TRUE,525.1,West Hunwick,West Of Wear, ,Public Safety,1
+1275,1419,{00000000-0000-0000-0000-000000000000},TRUE,525.2,West Hunwick,West Of Wear, ,Public Safety,1
+1276,1420,{00000000-0000-0000-0000-000000000000},TRUE,526.1,Lady Blanche,East Fife, ,Public Safety,1
+1277,1421,{00000000-0000-0000-0000-000000000000},TRUE,527.01,Taff Merthyr,Taff Zone, ,Mine Water Treatment,1
+1278,1422,{00000000-0000-0000-0000-000000000000},TRUE,40.3,Horden,Durham Coastal, ,Mine Water Treatment,1
+1279,1423,{00000000-0000-0000-0000-000000000000},TRUE,40.4,Horden,Durham Coastal, ,Mine Water Treatment,1
+1280,1424,{00000000-0000-0000-0000-000000000000},TRUE,41.1,Howgill,Whitehaven, ,Monitoring,1
+1281,1425,{00000000-0000-0000-0000-000000000000},TRUE,42.1,Hamsterley John,Derwent Valley, ,Monitoring,1
+1282,1426,{00000000-0000-0000-0000-000000000000},TRUE,42.2,Hamsterley John,Derwent Valley, ,Monitoring,1
+1283,1427,{00000000-0000-0000-0000-000000000000},TRUE,42.3,Hamsterley John,Derwent Valley, ,Monitoring,1
+1284,1428,{00000000-0000-0000-0000-000000000000},TRUE,43.1,Kibblesworth,Team Valley, ,Pumping,1
+1285,1429,{00000000-0000-0000-0000-000000000000},TRUE,43.2,Kibblesworth,Team Valley, ,Pumping,1
+1286,1430,{00000000-0000-0000-0000-000000000000},TRUE,44.1,Kimblesworth,West Of Wear, ,Pumping,1
+1287,1431,{00000000-0000-0000-0000-000000000000},TRUE,44.2,Kimblesworth,West Of Wear, ,Pumping,1
+1288,1432,{00000000-0000-0000-0000-000000000000},TRUE,44.3,Kimblesworth,West Of Wear, ,Pumping,1
+1289,1433,{00000000-0000-0000-0000-000000000000},TRUE,45.1,Ladysmith,Gaunless Valley, ,Monitoring,1
+1290,1434,{00000000-0000-0000-0000-000000000000},TRUE,46.1,Lepton Edge,Yorkshire Zone 1, ,Monitoring,1
+1291,1435,{00000000-0000-0000-0000-000000000000},TRUE,47.1,Lea Hall,South Staffs, ,Monitoring,1
+1292,1436,{00000000-0000-0000-0000-000000000000},TRUE,47.2,Lea Hall,South Staffs, ,Monitoring,1
+1293,1437,{00000000-0000-0000-0000-000000000000},TRUE,47.3,Lea Hall,South Staffs, ,Monitoring,1
+1294,1438,{00000000-0000-0000-0000-000000000000},TRUE,48.1,Hall Farm Drift,Blythe, ,Monitoring,1
+1295,1439,{00000000-0000-0000-0000-000000000000},TRUE,49.1,Lumley 6th,East Of Wear, ,Pumping,1
+1296,1440,{00000000-0000-0000-0000-000000000000},TRUE,49.2,Lumley 6th,East Of Wear, ,Pumping,1
+1297,1441,{00000000-0000-0000-0000-000000000000},TRUE,50.1,Mid Cannock,South Staffs, ,Mine Water Treatment,1
+1298,1442,{00000000-0000-0000-0000-000000000000},TRUE,50.2,Mid Cannock,South Staffs, ,Mine Water Treatment,1
+1299,1443,{00000000-0000-0000-0000-000000000000},TRUE,51.1,Monk Bretton,Yorkshire Zone 5, ,Monitoring,1
+1300,1444,{00000000-0000-0000-0000-000000000000},TRUE,51.2,Monk Bretton,Yorkshire Zone 5, ,Monitoring,1
+1301,1445,{00000000-0000-0000-0000-000000000000},TRUE,51.3,Monk Bretton,Yorkshire Zone 5, ,Monitoring,0
+1302,1446,{00000000-0000-0000-0000-000000000000},TRUE,51.4,Monk Bretton,Yorkshire Zone 5, ,Monitoring,0
+1303,1447,{00000000-0000-0000-0000-000000000000},TRUE,52.1,Dearne Valley,Yorkshire Zone 4, ,Monitoring,1
+1304,1448,{00000000-0000-0000-0000-000000000000},TRUE,53.1,Mosborough,Yorkshire Zone 8, ,Public Safety,1
+1305,1449,{00000000-0000-0000-0000-000000000000},TRUE,53.2,Mosborough,Yorkshire Zone 8, ,Public Safety,1
+1306,1450,{00000000-0000-0000-0000-000000000000},TRUE,53.3,Mosborough,Yorkshire Zone 8, ,Public Safety,1
+1307,1451,{00000000-0000-0000-0000-000000000000},TRUE,54.1,Newcraighall,Monktonhall, ,Monitoring,1
+1308,1452,{00000000-0000-0000-0000-000000000000},TRUE,55.1,New Delaval,Blythe, ,Monitoring,1
+1309,1453,{00000000-0000-0000-0000-000000000000},TRUE,56.1,Nicholsons,East Of Wear, ,Pumping,1
+1310,1454,{00000000-0000-0000-0000-000000000000},TRUE,56.2,Nicholsons,East Of Wear, ,Pumping,1
+1311,1455,{f3c0db11-3f2d-4648-80ef-ef743db6adb0},TRUE,57.1,North Seaton,Wansbeck, ,Monitoring,0
+1312,1456,{00000000-0000-0000-0000-000000000000},TRUE,58.1,Oakthorpe Bungalow,South Derbyshire, ,Monitoring,1
+1313,1457,{00000000-0000-0000-0000-000000000000},TRUE,59.1,South Brancepeth,West Of Wear, ,Monitoring,1
+1314,1458,{00000000-0000-0000-0000-000000000000},TRUE,59.2,South Brancepeth,West Of Wear, ,Monitoring,1
+1315,1459,{00000000-0000-0000-0000-000000000000},TRUE,59.3,South Brancepeth,West Of Wear, ,Monitoring,1
+1316,1460,{00000000-0000-0000-0000-000000000000},TRUE,60.1,Park,Upper Rhondda Fawr Valley, ,Monitoring,1
+1317,1461,{00000000-0000-0000-0000-000000000000},TRUE,60.2,Park,Upper Rhondda Fawr Valley, ,Monitoring,1
+1318,1462,{00000000-0000-0000-0000-000000000000},TRUE,60.3,Park,Upper Rhondda Fawr Valley, ,Monitoring,1
+1319,1463,{00000000-0000-0000-0000-000000000000},TRUE,60.4,Park,Upper Rhondda Fawr Valley, ,Monitoring,1
+1320,1464,{00000000-0000-0000-0000-000000000000},TRUE,61.1,Park Hill,Yorkshire Zone 10, ,Monitoring,1
+1321,1465,{00000000-0000-0000-0000-000000000000},TRUE,62.1,Parsonage,Leigh Zone, ,Monitoring,1
+1322,1466,{00000000-0000-0000-0000-000000000000},TRUE,62.2,Parsonage,Leigh Zone, ,Monitoring,1
+1323,1467,{00000000-0000-0000-0000-000000000000},TRUE,63.1,Pegswood,Wansbeck, ,Monitoring,1
+1324,1468,{00000000-0000-0000-0000-000000000000},TRUE,64.1,Pentremawr No.4,Gwendraeth Valley, ,Monitoring,1
+1325,1469,{00000000-0000-0000-0000-000000000000},TRUE,64.2,Pentremawr No.4,Gwendraeth Valley, ,Monitoring,1
+1326,1470,{00000000-0000-0000-0000-000000000000},TRUE,65.1,Rawdon,South Derbyshire, ,Monitoring,1
+1327,1471,{00000000-0000-0000-0000-000000000000},TRUE,66.1,Ridley Drift,Blythe, ,Public Safety,1
+1328,1472,{00000000-0000-0000-0000-000000000000},TRUE,67.1,Sandhole,Tyldersley Irwell Zone, ,Monitoring,1
+1329,1473,{00000000-0000-0000-0000-000000000000},TRUE,67.2,Sandhole,Tyldersley Irwell Zone, ,Monitoring,1
+1330,1474,{00000000-0000-0000-0000-000000000000},TRUE,67.3,Sandhole,Tyldersley Irwell Zone, ,Monitoring,1
+1331,1475,{00000000-0000-0000-0000-000000000000},TRUE,67.4,Sandhole,Tyldersley Irwell Zone, ,Monitoring,1
+1332,1476,{00000000-0000-0000-0000-000000000000},TRUE,68.1,Seaton Delaval,Blythe, ,Monitoring,1
+1333,1477,{00000000-0000-0000-0000-000000000000},TRUE,68.2,Seaton Delaval,Blythe, ,Monitoring,1
+1334,1478,{00000000-0000-0000-0000-000000000000},TRUE,69.1,Shanklea,Blythe, ,Public Safety,1
+1335,1479,{00000000-0000-0000-0000-000000000000},TRUE,70.1,Sherburn Hill,East Of Wear, ,Pumping,1
+1336,1480,{00000000-0000-0000-0000-000000000000},TRUE,70.2,Sherburn Hill,East Of Wear, ,Pumping,1
+1337,1481,{00000000-0000-0000-0000-000000000000},TRUE,70.3,Sherburn Hill,East Of Wear, ,Pumping,1
+1338,1482,{00000000-0000-0000-0000-000000000000},TRUE,71.1,Shirebrook,North East Derbyshire, ,Monitoring (Gas Utilisation By CgUK),1
+1339,1483,{00000000-0000-0000-0000-000000000000},TRUE,72.1,Springwood,Yorkshire Zone 1, ,Monitoring,1
+1340,1484,{00000000-0000-0000-0000-000000000000},TRUE,73.1,Steetley,North Nottinghamshire, ,Monitoring,1
+1341,1485,{00000000-0000-0000-0000-000000000000},TRUE,74.1,Strafford,Yorkshire Zone 5, ,Monitoring,1
+1342,1486,{00000000-0000-0000-0000-000000000000},TRUE,74.2,Strafford,Yorkshire Zone 5, ,Monitoring,1
+1343,1487,{00000000-0000-0000-0000-000000000000},TRUE,74.3,Strafford,Yorkshire Zone 5, ,Monitoring,1
+1344,1488,{00000000-0000-0000-0000-000000000000},TRUE,74.4,Strafford,Yorkshire Zone 5, ,Monitoring,1
+1345,1489,{00000000-0000-0000-0000-000000000000},TRUE,74.5,Strafford,Yorkshire Zone 5, ,Monitoring,1
+1346,1490,{00000000-0000-0000-0000-000000000000},TRUE,74.6,Strafford,Yorkshire Zone 5, ,Monitoring,1
+1347,1491,{00000000-0000-0000-0000-000000000000},TRUE,74.7,Strafford,Yorkshire Zone 5, ,Monitoring,1
+1348,1492,{00000000-0000-0000-0000-000000000000},TRUE,74.8,Strafford,Yorkshire Zone 5, ,Monitoring,1
+1349,1493,{00000000-0000-0000-0000-000000000000},TRUE,74.9,Strafford,Yorkshire Zone 5, ,Monitoring,1
+1350,1494,{00000000-0000-0000-0000-000000000000},TRUE,75.1,Treeton,Yorkshire Zone 8, ,Monitoring,1
+1351,1495,{00000000-0000-0000-0000-000000000000},TRUE,76.1,Ushaw Moor,West Of Wear, ,Pumping,1
+1352,1496,{00000000-0000-0000-0000-000000000000},TRUE,76.2,Ushaw Moor,West Of Wear, ,Pumping,1
+1353,1497,{00000000-0000-0000-0000-000000000000},TRUE,77.1,Valleyfield,West Fife, ,Monitoring,1
+1354,1498,{00000000-0000-0000-0000-000000000000},TRUE,78.1,Vinovium,West Of Wear, ,Pumping,1
+1355,1499,{00000000-0000-0000-0000-000000000000},TRUE,78.2,Vinovium,West Of Wear, ,Pumping,1
+1356,1500,{00000000-0000-0000-0000-000000000000},TRUE,79.1,Wellington,Whitehaven, ,Monitoring,1
+1357,1501,{00000000-0000-0000-0000-000000000000},TRUE,79.2,Wellington,Whitehaven, ,Monitoring,1
+1358,1502,{00000000-0000-0000-0000-000000000000},TRUE,80.1,Western,Wyndham, ,Monitoring,1
+1359,1503,{00000000-0000-0000-0000-000000000000},TRUE,80.2,Western,Wyndham, ,Monitoring,1
+1360,1504,{00000000-0000-0000-0000-000000000000},TRUE,760.1,Netherseal,South Derbyshire, ,Monitoring,1
+1361,1505,{00000000-0000-0000-0000-000000000000},TRUE,760.2,Netherseal,South Derbyshire, ,Monitoring,1
+1362,1506,{00000000-0000-0000-0000-000000000000},TRUE,761.1,Langwith,North Nottinghamshire, ,Monitoring,1
+1363,1507,{00000000-0000-0000-0000-000000000000},TRUE,762.1,Wearmouth (Glassworks),Wearmouth, ,Monitoring,1
+1364,1508,{00000000-0000-0000-0000-000000000000},TRUE,763.1,Saltersford Brook,South Derbyshire, ,Monitoring,1
+1365,1509,{00000000-0000-0000-0000-000000000000},TRUE,763.2,Saltersford Brook,South Derbyshire, ,Monitoring,1
+1366,1510,{00000000-0000-0000-0000-000000000000},TRUE,763.3,Saltersford Brook,South Derbyshire, ,Monitoring,1
+1367,1511,{00000000-0000-0000-0000-000000000000},TRUE,763.4,Saltersford Brook,South Derbyshire, ,Monitoring,1
+1368,1512,{00000000-0000-0000-0000-000000000000},TRUE,763.5,Saltersford Brook,South Derbyshire, ,Monitoring,1
+1369,1513,{00000000-0000-0000-0000-000000000000},TRUE,764.1,Whitburn,Wearmouth, ,Monitoring,1
+1370,1514,{00000000-0000-0000-0000-000000000000},TRUE,765.1,Pitfirrane Day Level (North),Central Fife, ,Monitoring,1
+1371,1515,{00000000-0000-0000-0000-000000000000},TRUE,765.2,Pitfirrane Day Level (North),Central Fife, ,Monitoring,1
+1372,1516,{00000000-0000-0000-0000-000000000000},TRUE,766.1,Brettas Park,Yorkshire Zone 5, ,Monitoring,1
+1373,1517,{00000000-0000-0000-0000-000000000000},TRUE,767.1,St Anthonts Park,North Tyneside, ,Monitoring,1
+1374,1518,{00000000-0000-0000-0000-000000000000},TRUE,768.1,Freeman Road,North Tyneside, ,Monitoring,1
+1375,1519,{00000000-0000-0000-0000-000000000000},TRUE,769.1,Millwood Farm,South Durham, ,Monitoring,1
+1376,1520,{00000000-0000-0000-0000-000000000000},TRUE,769.2,Millwood Farm,South Durham, ,Monitoring,1
+1377,1521,{00000000-0000-0000-0000-000000000000},TRUE,770.1,Pinxton,South Notts, ,Monitoring,1
+1378,1522,{00000000-0000-0000-0000-000000000000},TRUE,771.1,Seaton Sluice,Blythe, ,Monitoring,1
+1379,1523,{00000000-0000-0000-0000-000000000000},TRUE,772.1,Fishburn,South Durham, ,Monitoring,1
+1380,1524,{00000000-0000-0000-0000-000000000000},TRUE,772.2,Fishburn,South Durham, ,Monitoring,1
+1381,1525,{00000000-0000-0000-0000-000000000000},TRUE,772.3,Fishburn,South Durham, ,Monitoring,1
+1382,1526,{c4b16f07-8927-44d9-abda-887ae4bc8824},TRUE,773.1,Moor Lane,South Durham, ,Monitoring,0
+1383,1527,{00000000-0000-0000-0000-000000000000},TRUE,773.2,Moor Lane,South Durham, ,Monitoring,1
+1384,1528,{00000000-0000-0000-0000-000000000000},TRUE,774.1,Baldridge Pit,Central Fife, ,Monitoring,1
+1385,1529,{00000000-0000-0000-0000-000000000000},TRUE,775.1,Blaen Llwyd (Ynysarwed),Neath Valley, ,Monitoring,1
+1386,1530,{00000000-0000-0000-0000-000000000000},TRUE,776.1,Lodge (Erewash),South Notts, ,Monitoring,1
+1387,1531,{00000000-0000-0000-0000-000000000000},TRUE,777.1,Wyndham (Ogmore Vale),Wyndham, ,Monitoring,1
+1388,1532,{00000000-0000-0000-0000-000000000000},TRUE,778.1,Cadley Hill,South Derbyshire, ,Monitoring,1
+1389,1533,{00000000-0000-0000-0000-000000000000},TRUE,779.1,Saltersford,South Derbyshire, ,Monitoring,1
+1390,1534,{00000000-0000-0000-0000-000000000000},TRUE,780.1,Linby,South Notts, ,Monitoring,1
+1391,1535,{8667c07a-2760-41b2-8fc8-f33ee48388e6},TRUE,781.1,Lower Birchwood,South Notts, ,Monitoring,0
+1392,1536,{00000000-0000-0000-0000-000000000000},TRUE,164.1,Michael,East Fife, ,Monitoring,1
+1393,1537,{00000000-0000-0000-0000-000000000000},TRUE,164.2,Michael,East Fife, ,Monitoring,1
+1394,1538,{00000000-0000-0000-0000-000000000000},TRUE,165.1,Agecroft,Tyldersley Irwell Zone, ,Monitoring,1
+1395,1539,{00000000-0000-0000-0000-000000000000},TRUE,165.2,Agecroft,Tyldersley Irwell Zone, ,Monitoring,1
+1396,1540,{00000000-0000-0000-0000-000000000000},TRUE,165.3,Agecroft,Tyldersley Irwell Zone, ,Monitoring,1
+1397,1541,{00000000-0000-0000-0000-000000000000},TRUE,166.1,Newbiggin,Wansbeck, ,Monitoring,0
+1398,1542,{00000000-0000-0000-0000-000000000000},TRUE,166.2,Newbiggin,Wansbeck, ,Monitoring,1
+1399,1543,{00000000-0000-0000-0000-000000000000},TRUE,167.1,Woodhorn,Wansbeck, ,Monitoring,1
+1400,1544,{00000000-0000-0000-0000-000000000000},TRUE,167.2,Woodhorn,Wansbeck, ,Monitoring,0
+1401,1545,{00000000-0000-0000-0000-000000000000},TRUE,168.1,Hill Top,Rossendale, ,Monitoring,1
+1402,1546,{00000000-0000-0000-0000-000000000000},TRUE,169.1,Hastings,Blythe, ,Monitoring,1
+1403,1547,{00000000-0000-0000-0000-000000000000},TRUE,170.1,Cameron,East Fife, ,Monitoring,1
+1404,1548,{00000000-0000-0000-0000-000000000000},TRUE,171.1,Lochhead,East Fife, ,Monitoring,1
+1405,2257,{338d1f86-3021-4a50-bef3-c9afa4df1ca3},TRUE,FTR-0178484,Lightowlers Downstream at Gale,Rochdale,North West,Design Mine Water Treatment,0
+1406,2258,{83803ae2-01c9-46ff-8915-c3bc4787f6da},TRUE,FTR-0178485,Lightowlers Downstream at Greenvale Business Park,Rochdale,North West,Design Mine Water Treatment,0
+1407,2259,{8e745c94-8086-402e-bb03-f848d4ff8564},TRUE,FTR-0178501,Lightowlers Downstream at Vale Cottages,Rochdale,North West,Design Mine Water Treatment,0
+1408,2260,{c0711bba-f035-44ba-b0f8-abf509c56916},TRUE,FTR-0178483,Lightowlers Upstream Lydgate Brook,Rochdale,North West,Design Mine Water Treatment,0
+1409,2261,{b17d5fd7-0896-4ddf-a218-65c34a15d872},TRUE,FTR-0178502,Garswood Brook Downstream of Mine Water Discharge,Wigan,North West,Design Mine Water Treatment,0
+1410,2561,{116e3c27-c3c0-4c71-9301-378d967cee66},TRUE,FTR-0178486,Garswood Golf Course Discharge,Wigan,North West,Design Mine Water Treatment,0
+1411,2562,{6b29a29f-fa62-45b7-af43-feec1f8c4bc6},TRUE,FTR-0178522,Garswood Upstream at Park Industrial Estate,Wigan,North West,Design Mine Water Treatment,0
+1412,2563,{9769229a-ba6c-480d-b911-2eae2e995a0b},TRUE,FTR-0178487,Garswood Downstream at Woodegde Road,Wigan,North West,Design Mine Water Treatment,0
+1413,2564,{58d84e8c-7990-42ce-b2fb-d9f172b36732},TRUE,FTR-0178488,Garswood Downstream at Bryn Street,Wigan,North West,Design Mine Water Treatment,0
+1414,2565,{f74df610-fe4c-4ded-bbf6-018da2938dd5},TRUE,FTR-0178523,Garswood Downstream at Lincoln Drive,Wigan,North West,Design Mine Water Treatment,0
+1415,2881,{3697a7b8-5e89-4c65-8ac0-3ed9b734ebff},TRUE,FTR-0178489,Pinkie Hill Five Foot Seam Borehole,Mid Lothian, ,Monitoring,0
+1416,2566,{ea81362d-07b7-4a51-83aa-d0338686885f},TRUE,FTR-0178490,Fordell Venerable Shaft,East Fife,Scotland,Monitoring,0
+1417,2241,{88f334bd-1d6b-4358-b7c4-bf193e0b330b},TRUE,FTR-0178481,Littleton Bottom Robins BH,South Staffs,West Midlands,Monitoring,0
+1418,2242,{243940fb-ad1d-48ea-a5fa-ac4f0e5ce5fd},TRUE,FTR-0178482,Lightowlers Mine Water Discharge,Rochdale,North West,Design Mine Water Treatment,0
+1419,2567,{f168cf1b-094a-49fb-97b0-b74cc1b70305},TRUE,FTR-0178491,Easthouses Great Seam Borehole,Bilston Glen,Scotland,Monitoring,0
+1420,3201,{f9bbc0f7-7162-48bf-bf52-5510047ed851},TRUE,FTR-0179201,Cowdenbeath Little Splint Borehole,Central Fife,Scotland,Monitoring,0
+1421,1263,{00000000-0000-0000-0000-000000000000},TRUE,354.1,Hall Farm,North East Derbyshire, ,Monitoring,1
+1422,1264,{00000000-0000-0000-0000-000000000000},TRUE,355.1,Small Pit,Yorkshire Zone 5, ,Monitoring,1
+1423,1265,{00000000-0000-0000-0000-000000000000},TRUE,356.1,Hermit Hill,Yorkshire Zone 5, ,Public Safety,1
+1424,1266,{00000000-0000-0000-0000-000000000000},TRUE,357.1,Duffryn Rhondda,Avon-Maesteg Zone, ,Monitoring,1
+1425,1267,{00000000-0000-0000-0000-000000000000},TRUE,357.2,Duffryn Rhondda,Avon-Maesteg Zone, ,Monitoring,1
+1426,1268,{00000000-0000-0000-0000-000000000000},TRUE,358.1,Manor Westgate,Yorkshire Zone 10, ,Monitoring,1
+1427,1269,{00000000-0000-0000-0000-000000000000},TRUE,358.2,Manor Westgate,Yorkshire Zone 10, ,Monitoring,1
+1428,1270,{00000000-0000-0000-0000-000000000000},TRUE,358.3,Manor Westgate,Yorkshire Zone 10, ,Monitoring,1
+1429,1271,{00000000-0000-0000-0000-000000000000},TRUE,359.1,Bwllfa,Upper Cynon Valley, ,Monitoring,1
+1430,1272,{00000000-0000-0000-0000-000000000000},TRUE,360.1,Kells,Whitehaven, ,Monitoring,1
+1431,1273,{00000000-0000-0000-0000-000000000000},TRUE,361.1,Countess Parton Drift,Whitehaven, ,Monitoring,1
+1432,1274,{00000000-0000-0000-0000-000000000000},TRUE,361.2,Countess Parton Drift,Whitehaven, ,Monitoring,1
+1433,1275,{00000000-0000-0000-0000-000000000000},TRUE,361.3,Countess Parton Drift,Whitehaven, ,Monitoring,1
+1434,1276,{00000000-0000-0000-0000-000000000000},TRUE,361.4,Countess Parton Drift,Whitehaven, ,Monitoring,1
+1435,1277,{00000000-0000-0000-0000-000000000000},TRUE,362.1,Seven Sisters,Dulais/Neath Valleys, ,Public Safety,1
+1436,1278,{00000000-0000-0000-0000-000000000000},TRUE,363.1,Rhondda Main,Ogwr Valley, ,Monitoring,1
+1437,1279,{00000000-0000-0000-0000-000000000000},TRUE,363.2,Rhondda Main,Ogwr Valley, ,Monitoring,1
+1438,1280,{00000000-0000-0000-0000-000000000000},TRUE,364.1,Addison,West Tyneside, ,Monitoring,1
+1439,1281,{00000000-0000-0000-0000-000000000000},TRUE,364.2,Addison,West Tyneside, ,Monitoring,1
+1440,1282,{00000000-0000-0000-0000-000000000000},TRUE,365.1,Throckley Isabella,West Tyneside, ,Monitoring,1
+1441,1283,{00000000-0000-0000-0000-000000000000},TRUE,365.2,Throckley Isabella,West Tyneside, ,Monitoring,1
+1442,1284,{00000000-0000-0000-0000-000000000000},TRUE,365.3,Throckley Isabella,West Tyneside, ,Monitoring,1
+1443,1285,{00000000-0000-0000-0000-000000000000},TRUE,365.4,Throckley Isabella,West Tyneside, ,Monitoring,1
+1444,1286,{00000000-0000-0000-0000-000000000000},TRUE,365.5,Throckley Isabella,West Tyneside, ,Monitoring,1
+1445,1287,{00000000-0000-0000-0000-000000000000},TRUE,366.1,Thurcroft,Yorkshire Zone 6, ,Monitoring,1
+1446,1288,{00000000-0000-0000-0000-000000000000},TRUE,366.2,Thurcroft,Yorkshire Zone 6, ,Monitoring,1
+1447,1289,{00000000-0000-0000-0000-000000000000},TRUE,366.3,Thurcroft,Yorkshire Zone 6, ,Monitoring,1
+1448,1290,{00000000-0000-0000-0000-000000000000},TRUE,367.1,Thorncliffe Water Drift East,Yorkshire Zone 6, ,Monitoring,1
+1449,1291,{00000000-0000-0000-0000-000000000000},TRUE,595.1,Nantgarw,Taff Valley, ,Monitoring,0
+1450,1292,{00000000-0000-0000-0000-000000000000},TRUE,596.1,Ty Mawr,Main Lower Rhondda Valley, ,Monitoring,1
+1451,1293,{00000000-0000-0000-0000-000000000000},TRUE,597.1,Cameron Bridge,East Fife, ,Monitoring,1
+1452,1294,{00000000-0000-0000-0000-000000000000},TRUE,598.1,Buckhaven,East Fife, ,Monitoring,1
+1453,1295,{00000000-0000-0000-0000-000000000000},TRUE,599.1,Thornton Station,East Fife, ,Monitoring,1
+1454,1296,{00000000-0000-0000-0000-000000000000},TRUE,600.1,Thornton Village,East Fife, ,Monitoring,1
+1455,1297,{00000000-0000-0000-0000-000000000000},TRUE,601.1,Longannet,Kincardine, ,Monitoring,1
+1456,1298,{00000000-0000-0000-0000-000000000000},TRUE,602.1,Piper Pool,Clackmannan, ,Monitoring,1
+1457,1299,{00000000-0000-0000-0000-000000000000},TRUE,603.1,Broompark,West Of Wear, ,Monitoring,1
+1458,1300,{00000000-0000-0000-0000-000000000000},TRUE,604.1,Rawdon Upper Seam,South Derbyshire, ,Monitoring,1
+1459,1301,{00000000-0000-0000-0000-000000000000},TRUE,605.1,Whitworth Park,West Of Wear, ,Monitoring,1
+1460,1302,{00000000-0000-0000-0000-000000000000},TRUE,606.1,Byrons Drift,South Tyne, ,Mine Water Treatment,1
+1461,1303,{00000000-0000-0000-0000-000000000000},TRUE,607.1,Blenkinsopp,South Tyne, ,Mine Water Treatment,1
+1462,1304,{00000000-0000-0000-0000-000000000000},TRUE,607.2,Blenkinsopp,South Tyne, ,Mine Water Treatment,1
+1463,1305,{00000000-0000-0000-0000-000000000000},TRUE,607.3,Blenkinsopp,South Tyne, ,Mine Water Treatment,1
+1464,1306,{00000000-0000-0000-0000-000000000000},TRUE,607.4,Blenkinsopp,South Tyne, ,Mine Water Treatment,1
+1465,1307,{00000000-0000-0000-0000-000000000000},TRUE,607.5,Blenkinsopp,South Tyne, ,Mine Water Treatment,1
+1466,1308,{00000000-0000-0000-0000-000000000000},TRUE,607.6,Blenkinsopp,South Tyne, ,Mine Water Treatment,1
+1467,1309,{00000000-0000-0000-0000-000000000000},TRUE,608.1,Lambley Drifts,South Tyne, ,Mine Water Treatment,1
+1468,1310,{00000000-0000-0000-0000-000000000000},TRUE,608.2,Lambley Drifts,South Tyne, ,Mine Water Treatment,1
+1469,1311,{00000000-0000-0000-0000-000000000000},TRUE,608.3,Lambley Drifts,South Tyne, ,Mine Water Treatment,1
+1470,1312,{00000000-0000-0000-0000-000000000000},TRUE,608.4,Lambley Drifts,South Tyne, ,Mine Water Treatment,1
+1471,1313,{00000000-0000-0000-0000-000000000000},TRUE,608.5,Lambley Drifts,South Tyne, ,Monitoring,1
+1472,1314,{00000000-0000-0000-0000-000000000000},TRUE,608.6,Lambley Drifts,South Tyne, ,Monitoring,1
+1473,1315,{00000000-0000-0000-0000-000000000000},TRUE,609.1,Aykleyheads,West Of Wear, ,Monitoring,1
+1474,1316,{00000000-0000-0000-0000-000000000000},TRUE,610.1,Lathallan Mill,East Fife, ,Mine Water Treatment,1
+1475,1317,{00000000-0000-0000-0000-000000000000},TRUE,610.2,Lathallan Mill,East Fife, ,Mine Water Treatment,1
+1476,1318,{00000000-0000-0000-0000-000000000000},TRUE,610.3,Lathallan Mill,East Fife, ,Mine Water Treatment,1
+1477,1319,{00000000-0000-0000-0000-000000000000},TRUE,611.1,Swinhill Kiltongue,North Lanarkshire, ,Monitoring,1
+1478,1320,{00000000-0000-0000-0000-000000000000},TRUE,612.1,Muiredge Barncraig,East Fife, ,Monitoring,1
+1479,1321,{00000000-0000-0000-0000-000000000000},TRUE,613.1,Swinhill Virtuewell,North Lanarkshire, ,Monitoring,0
+1480,1322,{00000000-0000-0000-0000-000000000000},TRUE,614.1,Canderside,North Lanarkshire, ,Monitoring,1
+1481,1323,{00000000-0000-0000-0000-000000000000},TRUE,615.1,Boreland,East Fife, ,Monitoring,1
+1482,1324,{00000000-0000-0000-0000-000000000000},TRUE,616.1,Coaltown Of Balgonie,East Fife, ,Monitoring,1
+1483,1325,{00000000-0000-0000-0000-000000000000},TRUE,617.1,Littlemoor,Broughton, ,Public Safety,1
+1484,1326,{00000000-0000-0000-0000-000000000000},TRUE,618.1,Belle Ings,Yorkshire Zone 2, ,Monitoring,1
+1485,1327,{00000000-0000-0000-0000-000000000000},TRUE,618.2,Belle Ings,Yorkshire Zone 2, ,Monitoring,1
+1486,1328,{00000000-0000-0000-0000-000000000000},TRUE,619.1,Glasshoughton,Yorkshire Zone 9, ,Monitoring,1
+1487,1329,{00000000-0000-0000-0000-000000000000},TRUE,619.2,Glasshoughton,Yorkshire Zone 9, ,Monitoring,1
+1488,1330,{00000000-0000-0000-0000-000000000000},TRUE,619.3,Glasshoughton,Yorkshire Zone 9, ,Monitoring,1
+1489,1331,{00000000-0000-0000-0000-000000000000},TRUE,620.1,Castlehill,Kincardine, ,Monitoring,1
+1490,1332,{00000000-0000-0000-0000-000000000000},TRUE,621.1,Shepley Dyke,Yorkshire Zone 1, ,Monitoring,1
+1491,1333,{00000000-0000-0000-0000-000000000000},TRUE,621.2,Shepley Dyke,Yorkshire Zone 1, ,Design Mine Water Treatment,1
+1492,1334,{00000000-0000-0000-0000-000000000000},TRUE,622.1,Pegswood Moor,Wansbeck, ,Public Safety,1
+1493,1335,{00000000-0000-0000-0000-000000000000},TRUE,623.1,Springwell,South Tyneside, ,Monitoring,1
+1494,1336,{00000000-0000-0000-0000-000000000000},TRUE,624.1,Redheugh,South Tyneside, ,Monitoring,1
+1495,1337,{00000000-0000-0000-0000-000000000000},TRUE,625.1,Crofton Yard Seam,Blythe, ,Monitoring,1
+1496,1338,{00000000-0000-0000-0000-000000000000},TRUE,626.1,Whitley Bay,North Tyneside, ,Monitoring,1
+1497,1339,{00000000-0000-0000-0000-000000000000},TRUE,627.1,Leven 1/2,East Fife, ,Monitoring,1
+1498,1340,{00000000-0000-0000-0000-000000000000},TRUE,476.1,Thorncliff,Yorkshire Zone 1, ,Monitoring,1
+1499,1341,{00000000-0000-0000-0000-000000000000},TRUE,476.2,Thorncliff,Yorkshire Zone 1, ,Monitoring,1
+1500,1342,{00000000-0000-0000-0000-000000000000},TRUE,477.1,Kinneil,Falkirk, ,Monitoring,1
+1501,1343,{00000000-0000-0000-0000-000000000000},TRUE,478.1,Kiveton Park Jubilee,Yorkshire Zone 8, ,Monitoring,1
+1502,1344,{00000000-0000-0000-0000-000000000000},TRUE,479.1,Rockley Engine Pit,Yorkshire Zone 5, ,Monitoring,1
+1503,1345,{00000000-0000-0000-0000-000000000000},TRUE,479.2,Rockley Engine Pit,Yorkshire Zone 5, ,Monitoring,1
+1504,1346,{00000000-0000-0000-0000-000000000000},TRUE,480.1,Claremont,North Tyneside, ,Monitoring,0
+1505,1347,{00000000-0000-0000-0000-000000000000},TRUE,481.1,Tanfield Lea,West Of Wear, ,Monitoring,1
+1506,1348,{00000000-0000-0000-0000-000000000000},TRUE,482.1,Collierley,West Of Wear, ,Monitoring,1
+1507,1349,{00000000-0000-0000-0000-000000000000},TRUE,482.2,Collierley,West Of Wear, ,Monitoring,1
+1508,1350,{00000000-0000-0000-0000-000000000000},TRUE,483.1,Four Stones Junction,West Tyneside, ,Monitoring,1
+1509,1351,{00000000-0000-0000-0000-000000000000},TRUE,483.2,Four Stones Junction,West Tyneside, ,Monitoring,1
+1510,1352,{00000000-0000-0000-0000-000000000000},TRUE,484.1,Williamthorpe,Notts-Derbys Border, ,Mine Water Treatment,1
+1511,1353,{00000000-0000-0000-0000-000000000000},TRUE,484.2,Williamthorpe,Notts-Derbys Border, ,Mine Water Treatment,1
+1512,1354,{00000000-0000-0000-0000-000000000000},TRUE,485,Shire Moor,North Tyneside, ,Public Safety,1
+1513,1355,{00000000-0000-0000-0000-000000000000},TRUE,485.1,Shire Moor,North Tyneside, ,Public Safety,1
+1514,1356,{00000000-0000-0000-0000-000000000000},TRUE,485.2,Shire Moor,North Tyneside, ,Public Safety,1
+1515,1357,{00000000-0000-0000-0000-000000000000},TRUE,485.3,Shire Moor,North Tyneside, ,Public Safety,1
+1516,1358,{00000000-0000-0000-0000-000000000000},TRUE,485.4,Shire Moor,North Tyneside, ,Public Safety,1
+1517,1359,{00000000-0000-0000-0000-000000000000},TRUE,485.5,Shire Moor,North Tyneside, ,Public Safety,1
+1518,1360,{00000000-0000-0000-0000-000000000000},TRUE,486.1,Pegswood Maudlin,Wansbeck, ,Monitoring,1
+1519,1361,{00000000-0000-0000-0000-000000000000},TRUE,487.1,Hartley,Blythe, ,Public Safety,1
+1520,1362,{00000000-0000-0000-0000-000000000000},TRUE,487.2,Hartley,Blythe, ,Public Safety,1
+1521,1363,{00000000-0000-0000-0000-000000000000},TRUE,488.1,Morton,Notts-Derbys Border, ,Mine Water Treatment,1
+1522,1364,{00000000-0000-0000-0000-000000000000},TRUE,488.2,Morton,Notts-Derbys Border, ,Mine Water Treatment,1
+1523,1365,{00000000-0000-0000-0000-000000000000},TRUE,489.1,Ladder Pit,Tyldersley Irwell Zone, ,Monitoring,1
+1524,1366,{00000000-0000-0000-0000-000000000000},TRUE,490.1,West Yard,Tyldersley Irwell Zone, ,Monitoring,1
+1525,1367,{00000000-0000-0000-0000-000000000000},TRUE,491.1,West Cannock No.5,South Staffs, ,Monitoring,1
+1526,1368,{00000000-0000-0000-0000-000000000000},TRUE,491.2,West Cannock No.5,South Staffs, ,Monitoring,1
+1527,1369,{00000000-0000-0000-0000-000000000000},TRUE,492.1,Balgonie (Muirespot),East Fife, ,Monitoring,1
+1528,1370,{00000000-0000-0000-0000-000000000000},TRUE,493.1,Balgonie (Dalginch),East Fife, ,Monitoring,1
+1529,1371,{00000000-0000-0000-0000-000000000000},TRUE,494.1,Cotgrave,South Notts, ,Monitoring,1
+1530,1372,{00000000-0000-0000-0000-000000000000},TRUE,495.1,New Stubbin,Yorkshire Zone 5, ,Monitoring,1
+1531,1373,{00000000-0000-0000-0000-000000000000},TRUE,496.1,Warren House Barnsley,Yorkshire Zone 5, ,Monitoring,1
+1532,1374,{00000000-0000-0000-0000-000000000000},TRUE,497.1,Dolphingstone Great Seam,Blindwells, ,Monitoring,1
+1533,1375,{00000000-0000-0000-0000-000000000000},TRUE,497.2,Dolphingstone Great Seam,Blindwells, ,Monitoring,1
+1534,1376,{00000000-0000-0000-0000-000000000000},TRUE,497.3,Dolphingstone Great Seam,Blindwells, ,Monitoring,1
+1535,1377,{00000000-0000-0000-0000-000000000000},TRUE,498.1,Preston Grange,Blindwells, ,Monitoring,1
+1536,1378,{00000000-0000-0000-0000-000000000000},TRUE,498.2,Preston Grange,Blindwells, ,Monitoring,1
+1537,1379,{00000000-0000-0000-0000-000000000000},TRUE,499.1,South Normanton,Notts-Derbys Border, ,Monitoring,1
+1538,1380,{979b692f-9214-4042-8104-caae34b14f32},TRUE,500.1,A Winning,Notts-Derbys Border, ,Mine Water Treatment,0
+1539,1381,{42eb4ba4-cff3-4a30-988b-c563304d0eaa},TRUE,500.2,A Winning,Notts-Derbys Border, ,Mine Water Treatment,0
+1540,1382,{00000000-0000-0000-0000-000000000000},TRUE,501.1,Kilmux,East Fife, ,Monitoring,1
+1541,1383,{00000000-0000-0000-0000-000000000000},TRUE,502.1,Crossgates West Level,East Fife, ,Monitoring,1
+1542,1384,{00000000-0000-0000-0000-000000000000},TRUE,503.1,"Tram Road, Pontllanfraith",Lower Sirhowy Valley, ,Design Mine Water Treatment,1
+1543,1385,{00000000-0000-0000-0000-000000000000},TRUE,503.2,"Tram Road, Pontllanfraith",Lower Sirhowy Valley, ,Design Mine Water Treatment,1
+1544,1386,{00000000-0000-0000-0000-000000000000},TRUE,503.3,"Tram Road, Pontllanfraith",Lower Sirhowy Valley, ,Design Mine Water Treatment,1
+1545,1387,{00000000-0000-0000-0000-000000000000},TRUE,503.4,"Tram Road, Pontllanfraith",Lower Sirhowy Valley, ,Design Mine Water Treatment,1
+1546,1388,{00000000-0000-0000-0000-000000000000},TRUE,503.5,"Tram Road, Pontllanfraith",Lower Sirhowy Valley, ,Design Mine Water Treatment,1
+1547,1389,{00000000-0000-0000-0000-000000000000},TRUE,504.1,Lindsay,Upper Loughor Zone, ,Mine Water Treatment,1
+1548,1390,{00000000-0000-0000-0000-000000000000},TRUE,504.2,Lindsay,Upper Loughor Zone, ,Mine Water Treatment,1
+1549,1391,{00000000-0000-0000-0000-000000000000},TRUE,504.3,Lindsay,Upper Loughor Zone, ,Mine Water Treatment,1
+1550,1392,{00000000-0000-0000-0000-000000000000},TRUE,504.4,Lindsay,Upper Loughor Zone, ,Mine Water Treatment,1
+1551,1393,{00000000-0000-0000-0000-000000000000},TRUE,505.1,Seton,Blindwells, ,Monitoring,1
+1552,1394,{00000000-0000-0000-0000-000000000000},TRUE,505.2,Seton,Blindwells, ,Monitoring,1
+1553,1395,{00000000-0000-0000-0000-000000000000},TRUE,506.1,Roegreen,Tyldersley Irwell Zone, ,Public Safety,1
+1554,1396,{00000000-0000-0000-0000-000000000000},TRUE,507.1,Trelewis,Taff Zone, ,Monitoring,1
+1555,1397,{00000000-0000-0000-0000-000000000000},TRUE,508.1,Llanhilleth,Ebbw Vale, ,Monitoring,1
+1556,1398,{00000000-0000-0000-0000-000000000000},TRUE,509.1,St. Illtyd,Ebbw Vale, ,Monitoring,1
+1557,1399,{00000000-0000-0000-0000-000000000000},TRUE,510.1,Cross Hands,Upper Loughor Zone, ,Monitoring,1
+1558,1400,{00000000-0000-0000-0000-000000000000},TRUE,511.1,Morfa,Upper Loughor Zone, ,Monitoring,1
+1559,1401,{00000000-0000-0000-0000-000000000000},TRUE,512.1,Graig Fawr (Celynen North),Lower Ebbw Valley, ,Design Mine Water Treatment,1
+1560,1402,{00000000-0000-0000-0000-000000000000},TRUE,513.1,Greens Level,Lower Ebbw Valley, ,Monitoring,1
+1561,1403,{00000000-0000-0000-0000-000000000000},TRUE,513.2,Greens Level,Lower Ebbw Valley, ,Monitoring,1
+1562,1404,{00000000-0000-0000-0000-000000000000},TRUE,514.1,Dunston,South Tyneside, ,Monitoring,0
+1563,1405,{00000000-0000-0000-0000-000000000000},TRUE,515.1,Oakwood Grange,Lower Erewash Valley, ,Monitoring,1
+1564,3521,{41bf7503-a04e-44ae-a956-e22dae505dcd},TRUE,FTR-0184744,Morpeth Moor BH,Ellington-Lynemouth,North East,Monitoring,0
