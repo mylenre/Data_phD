@@ -6,8 +6,8 @@ Created on Tue Oct 22 19:58:32 2019
 """
 import os
 import numpy as np
-os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling\2D_Mine_Models\Benchmark\TH\Layers')
-filename = "Complex.geo"
+os.chdir(r'C:\Users\mylen\Downloads\OneDrive_1_14-08-2020')
+filename = "Mine_2D_Dawdon2bis"
 
 # Initialising a dictionary to store the variables, a dictionary is a container where you access a value with a key: ex to add an entry mydict["Boris"] = 27; access the entry: print(mydict["Boris"] ) -> and it will display 27
 variables = {}
@@ -15,7 +15,7 @@ variables = {}
 Point = []
 Point_name = []
 
-with open(filename, 'r') as glifile: 
+with open(filename+'.geo', 'r') as glifile: 
   for line in glifile:
     # print(line)
     # I am jsut reading the variables so far, break will break the loop when the condition is reached
@@ -38,7 +38,7 @@ for key,val in variables.items():
   print("key:", key,"val",val)
 
 # Alright We now have loaded our values, let's read the rest
-with open(filename, 'r') as glifile: 
+with open(filename+'.geo', 'r') as glifile: 
   for line in glifile:
     if "Point(" in line:
       # weeeeeeeeeeeeeeeeeeeee

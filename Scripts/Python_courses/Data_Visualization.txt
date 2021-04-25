@@ -1,0 +1,108 @@
+# Compute the maximum enrollment of women in Computer Science: cs_max
+cs_max = computer_science.max()
+
+# Calculate the year in which there was maximum enrollment of women in Computer Science: yr_max
+yr_max = year[computer_science.argmax()]
+
+# add arrow
+plt.annotate('Maximum', xy=(yr_max, cs_max), xytext=(yr_max+5, cs_max+5), arrowprops=dict(facecolor='black'))
+
+#use other style:
+plt.style.use('ggplot')
+
+#2D array
+import matplotlib.pyplot as plt
+import numpy as np
+# Generate two 1-D arrays: u, v
+u = np.linspace(-2,2,41)
+v = np.linspace(-1,1,21)
+# Generate 2-D arrays from u and v: X, Y
+X,Y = np.meshgrid(u,v)
+# Compute Z based on X and Y
+Z = np.sin(3*np.sqrt(X**2 + Y**2)) 
+# Display the resulting image with pcolor() (or plt.imshow() )
+plt.pcolor(Z)
+plt.show()
+# Save the figure to 'sine_mesh.png'
+plt.savefig('sine_mesh.png')
+
+# other function: plt.contour, plt.contourf(X,Y,Z,n), 
+plt.subplot(2,2,4)
+plt.contourf(X,Y,Z,20, cmap='winter')
+plt.colorbar()
+plt.title('Winter')
+
+# Generate a 2-D histogram
+plt.hist2d(hp, mpg, bins=(20,20), range=((40,235),(8,48))) = rect bins
+OR plt.hexbin(hp, mpg, gridsize=(15,12), extent=(40,235,8,48)) = hex bins
+plt.colorbar()
+plt.xlabel('Horse power [hp]')
+plt.ylabel('Miles per gallon [mpg]')
+plt.title('hist2d() plot')
+plt.show()
+
+# Display image
+img = plt.imread('480px-Astronaut-EVA.jpg')
+print(img.shape)
+plt.imshow(img)
+plt.axis('off')
+plt.show()
+
+# Process this image 
+#Compute the sum of the red, green and blue channels: intensity
+intensity = img.sum(axis=2)
+print(intensity.shape)
+plt.imshow(intensity, cmap='gray')
+plt.colorbar()
+plt.axis('off')
+plt.show()
+
+# Specify the extent and aspect ratio of the bottom right subplot
+plt.subplot(2,2,4)
+plt.title('extent=(-2,2,-1,1),\naspect=2')
+plt.xticks([-2,-1,0,1,2])
+plt.yticks([-1,0,1])
+plt.imshow(img, extent=(-2,2,-1,1), aspect=2)
+
+# Load the image into an array: image
+image = plt.imread('640px-Unequalized_Hawkes_Bay_NZ.jpg')
+pmin, pmax = image.min(), image.max()
+print("The smallest & largest pixel intensities are %d & %d." % (pmin, pmax))
+# Rescale the pixels: rescaled_image
+rescaled_image = 256*(image-pmin)/(pmax-pmin)
+print("The rescaled smallest & largest pixel intensities are %.1f & %.1f." % 
+      (rescaled_image.min(), rescaled_image.max()))
+# Display the rescaled image
+plt.title('rescaled image')
+plt.axis('off')
+plt.imshow(rescaled_image)
+plt.show()
+
+# Regression:
+import matplotlib.pyplot as plt
+import seaborn as sns
+plt.scatter(auto['weight'], auto['mpg'], label='data', color='red', marker='o')
+# Plot a linear regression between 'weight' and 'hp'
+sns.lmplot(x='weight', y='hp', data=auto)
+# group by keyword 'origin' on same plot:
+sns.lmplot(x='weight',y='hp', data=auto, hue='origin', palette='Set1')
+# group by keyword 'origin' in rows or columns:
+sns.lmplot(x='weight',y='hp', data=auto, row='origin', palette='Set1')
+# Plot in blue a linear regression of order 1 between 'weight' and 'mpg'
+sns.regplot(x='weight', y='mpg', data=auto, scatter=None, color='blue', label='First Order')
+# Plot in green a linear regression of order 2 between 'weight' and 'mpg'
+sns.regplot(x='weight', y='mpg', data=auto, scatter=None, color='green', label='Second Order', order=2)
+# residual plot
+sns.residplot(x='hp', y='mpg', data=auto,color='green')
+plt.legend(loc='upper right')
+plt.show()
+
+# Strip/Swarm/violin/joint plot:
+sns.stripplot(x='cyl', y='hp', data=auto, jitter=True, size=3)
+sns.swarmplot(x='hp', y='cyl', data=auto, hue='origin', orient='h')
+sns.violinplot(x='cyl', y='hp', data=auto, inner=None, color='lightgray')
+sns.jointplot(x='hp',y='mpg',data=auto)
+sns.jointplot(x='hp',y='mpg',data=auto, kind='hex')
+sns.pairplot(auto)
+sns.pairplot(auto, hue='origin',kind='reg')
+sns.heatmap(cov_matrix)

@@ -1,0 +1,1908 @@
+https://mapapps2.bgs.ac.uk/coalauthority/home.html?_ga=2.267014536.741369538.1606819397-1348539277.1593497567
+
+Mine Water Body name: Scotland - Lothian
+Coalfield: Scotland
+Equilibrium Temperature (°C): 100m
+100m Equilibrium Mean (°C): 11.4
+100m Equilibrium Maximum (°C): 13
+100m Equilibrium Minimum (°C): 9.9
+200m Equilibrium Mean (°C): 12.4
+200m Equilibrium Maximum (°C): 12.6
+200m Equilibrium Minimum (°C): 12.3
+300m Equilibrium Mean (°C): 14.6
+400m Equilibrium Mean (°C): 16.6
+500m Equilibrium Mean (°C): 18.6
+600m Equilibrium Mean (°C): 20.6
+700m Equilibrium Mean (°C): 22.6
+800m Equilibrium Mean (°C): 24.6
+900m Equilibrium Mean (°C): 26.5
+1000m Equilibrium Mean (°C): 28.5
+100m Pumped Mean °C: 15.7
+200m Pumped Mean °C: 17.3
+200m Pumped Maximum °C: 17.4
+200m Pumped Minimum°C: 17.4
+300m Pumped Mean °C: 17.4
+300m Pumped Maximum °C: 17.5
+300m Pumped Minimum°C: 17.5
+400m Pumped Mean °C: 17.5
+400m Pumped Maximum °C: 17.6
+400m Pumped Minimum°C: 17.6
+500m Pumped Mean °C: 17.6
+500m Pumped Maximum °C: 17.6
+500m Pumped Minimum°C: 17.6
+600m Pumped Mean °C: 17.6
+600m Pumped Maximum °C: 17.7
+600m Pumped Minimum°C: 17.7
+
+Mine Water Body name: Scotland - East Fife
+Coalfield: Scotland
+100m Equilibrium Mean (°C): 9.9
+100m Equilibrium Maximum (°C): 10.1
+100m Equilibrium Minimum (°C): 9.8
+200m Equilibrium Mean (°C): 11.7
+200m Equilibrium Maximum (°C): 11.9
+200m Equilibrium Minimum (°C): 11.5
+300m Equilibrium Mean (°C): 13.9
+300m Equilibrium Maximum (°C): 15
+300m Equilibrium Minimum (°C): 12.9
+400m Equilibrium Mean (°C): 14.3
+500m Equilibrium Mean (°C): 15.7
+600m Equilibrium Mean (°C): 17
+700m Equilibrium Mean (°C): 18.4
+800m Equilibrium Mean (°C): 19.8
+900m Equilibrium Mean (°C): 21.2
+1000m Equilibrium Mean (°C): 22.6
+100m Pumped Mean °C: 13.8
+100m Pumped Maximum °C: 15.3
+100m Pumped Minimum°C: 15.3
+200m Pumped Mean °C: 14.6
+200m Pumped Maximum °C: 15.6
+200m Pumped Minimum°C: 15.6
+300m Pumped Mean °C: 14.7
+300m Pumped Maximum °C: 15.5
+300m Pumped Minimum°C: 15.5
+400m Pumped Mean °C: 14.1
+500m Pumped Mean °C: 14.2
+
+Mine Water Body name: Scotland - Central Fife
+Coalfield: Scotland
+100m Equilibrium Mean (°C): 9.7
+200m Equilibrium Mean (°C): 11.1
+300m Equilibrium Mean (°C): 12.5
+400m Equilibrium Mean (°C): 13.9
+500m Equilibrium Mean (°C): 15.3
+600m Equilibrium Mean (°C): 16.7
+700m Equilibrium Mean (°C): 18.1
+800m Equilibrium Mean (°C): 19.5
+900m Equilibrium Mean (°C): 20.8
+
+Mine Water Body name: Scotland - Clackmannan & West Fife
+Coalfield: Scotland
+100m Equilibrium Mean (°C): 11.1
+200m Equilibrium Mean (°C): 13.9
+300m Equilibrium Mean (°C): 16.6
+400m Equilibrium Mean (°C): 19.4
+500m Equilibrium Mean (°C): 22.1
+600m Equilibrium Mean (°C): 24.8
+700m Equilibrium Mean (°C): 27.6
+800m Equilibrium Mean (°C): 30.3
+900m Equilibrium Mean (°C): 33.1
+1000m Equilibrium Mean (°C): 35.8
+
+Mine Water Body name: Scotland - North East Stirlinghire
+Coalfield: Scotland
+100m Equilibrium Mean (°C): 10.7
+200m Equilibrium Mean (°C): 12.5
+300m Equilibrium Mean (°C): 14.3
+400m Equilibrium Mean (°C): 16.2
+500m Equilibrium Mean (°C): 18
+600m Equilibrium Mean (°C): 19.9
+700m Equilibrium Mean (°C): 24
+800m Equilibrium Mean (°C): 26.2
+900m Equilibrium Mean (°C): 28.5
+1000m Equilibrium Mean (°C): 32.1
+
+Mine Water Body name: Scotland - Central Coalfield
+Coalfield: Scotland
+100m Equilibrium Mean (°C): 11.8
+100m Equilibrium Maximum (°C): 12.3
+100m Equilibrium Minimum (°C): 11.5
+200m Equilibrium Mean (°C): 15
+200m Equilibrium Maximum (°C): 16.4
+200m Equilibrium Minimum (°C): 13.6
+300m Equilibrium Mean (°C): 18
+300m Equilibrium Maximum (°C): 19.8
+300m Equilibrium Minimum (°C): 15.7
+400m Equilibrium Mean (°C): 21.9
+500m Equilibrium Mean (°C): 25.3
+600m Equilibrium Mean (°C): 28.8
+700m Equilibrium Mean (°C): 32.2
+
+Mine Water Body name: Scotland - Douglas
+Coalfield: Scotland
+100m Equilibrium Mean (°C): 9.7
+200m Equilibrium Mean (°C): 11.9
+300m Equilibrium Mean (°C): 14.1
+400m Equilibrium Mean (°C): 16.3
+500m Equilibrium Mean (°C): 18.4
+600m Equilibrium Mean (°C): 20.6
+700m Equilibrium Mean (°C): 22.8
+800m Equilibrium Mean (°C): 25
+900m Equilibrium Mean (°C): 27.1
+1000m Equilibrium Mean (°C): 29.3
+
+Mine Water Body name: Scotland - North Ayrshire
+Coalfield: Scotland
+100m Equilibrium Mean (°C): 10.7
+200m Equilibrium Mean (°C): 12.7
+300m Equilibrium Mean (°C): 15
+400m Equilibrium Mean (°C): 17.1
+500m Equilibrium Mean (°C): 19.3
+600m Equilibrium Mean (°C): 21.5
+700m Equilibrium Mean (°C): 24
+800m Equilibrium Mean (°C): 26.2
+900m Equilibrium Mean (°C): 28.5
+1000m Equilibrium Mean (°C): 32.1
+
+Mine Water Body name: Scotland - Central Ayrshire
+Coalfield: Scotland
+100m Equilibrium Mean (°C): 10.8
+200m Equilibrium Mean (°C): 13.4
+
+Mine Water Body name: Scotland - South Ayrshire
+Coalfield: Scotland
+100m Equilibrium Mean (°C): 10.7
+200m Equilibrium Mean (°C): 12.7
+300m Equilibrium Mean (°C): 15
+400m Equilibrium Mean (°C): 17.1
+500m Equilibrium Mean (°C): 19.3
+600m Equilibrium Mean (°C): 21.5
+700m Equilibrium Mean (°C): 24
+800m Equilibrium Mean (°C): 26.2
+900m Equilibrium Mean (°C): 28.5
+1000m Equilibrium Mean (°C): 32.1
+
+Mine Water Body name: Scotland - Sanquhar
+Coalfield: Scotland
+100m Equilibrium Mean (°C): 10.7
+200m Equilibrium Mean (°C): 12.7
+300m Equilibrium Mean (°C): 15
+400m Equilibrium Mean (°C): 17.1
+500m Equilibrium Mean (°C): 19.3
+600m Equilibrium Mean (°C): 21.5
+700m Equilibrium Mean (°C): 24
+800m Equilibrium Mean (°C): 26.2
+900m Equilibrium Mean (°C): 28.5
+1000m Equilibrium Mean (°C): 32.1
+
+Mine Water Body name: Scotland - Thornhill
+Coalfield: Scotland
+100m Equilibrium Mean (°C): 10.7
+200m Equilibrium Mean (°C): 12.7
+300m Equilibrium Mean (°C): 15
+400m Equilibrium Mean (°C): 17.1
+500m Equilibrium Mean (°C): 19.3
+600m Equilibrium Mean (°C): 21.5
+700m Equilibrium Mean (°C): 24
+800m Equilibrium Mean (°C): 26.2
+900m Equilibrium Mean (°C): 28.5
+1000m Equilibrium Mean (°C): 32.1
+
+---------------------------------------------------------------------------
+
+Mine Water Body name: Whittle-Shilbottle
+Coalfield: North_East
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.5
+300m Equilibrium Mean (°C): 19.7
+400m Equilibrium Mean (°C): 23.3
+500m Equilibrium Mean (°C): 27
+
+Mine Water Body name: Hauxley
+Coalfield: North_East
+100m Equilibrium Mean (°C): 11.2
+200m Equilibrium Mean (°C): 12.1
+
+Mine Water Body name: Ellington-Lynemouth
+Coalfield: North_East
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.5
+300m Equilibrium Mean (°C): 19.7
+400m Equilibrium Mean (°C): 23.3
+100m Pumped Mean °C: 13.2
+100m Pumped Maximum °C: 14.1
+100m Pumped Minimum°C: 14.1
+200m Pumped Mean °C: 16.1
+
+Mine Water Body name: Bates
+Coalfield: North_East
+100m Equilibrium Mean (°C): 12.6
+200m Equilibrium Mean (°C): 16.2
+300m Equilibrium Mean (°C): 19.9
+400m Equilibrium Mean (°C): 23.5
+100m Pumped Mean °C: 13.4
+100m Pumped Maximum °C: 13.7
+100m Pumped Minimum°C: 13.7
+200m Pumped Mean °C: 13.4
+200m Pumped Maximum °C: 13.7
+200m Pumped Minimum°C: 13.7
+300m Pumped Mean °C: 15
+400m Pumped Mean °C: 15
+
+Mine Water Body name: Throckley
+Coalfield: North_East
+100m Equilibrium Mean (°C): 12.9
+200m Equilibrium Mean (°C): 17.2
+
+Mine Water Body name: Wylam
+Coalfield: North_East
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.5
+
+Mine Water Body name: Blaydon
+Coalfield: North_East
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.5
+300m Equilibrium Mean (°C): 19.7
+
+Mine Water Body name: East Consett
+Coalfield: North_East
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.5
+300m Equilibrium Mean (°C): 19.7
+
+Mine Water Body name: Burnhopefield
+Coalfield: North_East
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.5
+300m Equilibrium Mean (°C): 19.7
+
+Mine Water Body name: Algernon-Hebburn
+Coalfield: North_East
+100m Equilibrium Mean (°C): 12.8
+200m Equilibrium Mean (°C): 16.7
+300m Equilibrium Mean (°C): 20.5
+400m Equilibrium Mean (°C): 24.4
+500m Equilibrium Mean (°C): 28.2
+
+Mine Water Body name: Walker
+Coalfield: North_East
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.5
+300m Equilibrium Mean (°C): 19.7
+400m Equilibrium Mean (°C): 23.3
+Further Information
+
+Mine Water Body name: Burnhopefield
+Coalfield: North_East
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.5
+300m Equilibrium Mean (°C): 19.7
+
+Mine Water Body name: Stanley
+Coalfield: North_East
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.5
+
+Mine Water Body name: Central Durham North
+Coalfield: North_East
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.5
+300m Equilibrium Mean (°C): 19.7
+400m Equilibrium Mean (°C): 23.3
+500m Equilibrium Mean (°C): 27
+100m Pumped Mean °C: 14.2
+100m Equilibrium Mean (°C): 12.1
+200m Equilibrium Mean (°C): 15.1
+
+Mine Water Body name: Central Durham South
+Coalfield: North_East
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.5
+300m Equilibrium Mean (°C): 19.7
+100m Pumped Mean °C: 12.2
+100m Pumped Maximum °C: 12.8
+100m Pumped Minimum°C: 12.8
+
+Mine Water Body name: Westoe-Wearmouth
+Coalfield: North_East
+100m Equilibrium Mean (°C): 12.1
+100m Equilibrium Maximum (°C): 12.6
+100m Equilibrium Minimum (°C): 11.7
+200m Equilibrium Mean (°C): 15.6
+200m Equilibrium Maximum (°C): 16.1
+200m Equilibrium Minimum (°C): 15
+300m Equilibrium Mean (°C): 19.3
+300m Equilibrium Maximum (°C): 20.7
+300m Equilibrium Minimum (°C): 17.9
+400m Equilibrium Mean (°C): 23.3
+400m Equilibrium Maximum (°C): 25
+400m Equilibrium Minimum (°C): 21.5
+500m Equilibrium Mean (°C): 28.4
+100m Pumped Mean °C: 14.1
+100m Pumped Maximum °C: 15.2
+100m Pumped Minimum°C: 15.2
+200m Pumped Mean °C: 16.5
+200m Pumped Maximum °C: 17.5
+200m Pumped Minimum°C: 17.5
+300m Pumped Mean °C: 16.7
+300m Pumped Maximum °C: 17.3
+300m Pumped Minimum°C: 17.3
+400m Pumped Mean °C: 16.8
+400m Pumped Maximum °C: 17.2
+400m Pumped Minimum°C: 17.2
+500m Pumped Mean °C: 20.6
+500m Pumped Maximum °C: 22.4
+500m Pumped Minimum°C: 22.4
+
+Mine Water Body name: Silksworth
+Coalfield: North_East
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.5
+300m Equilibrium Mean (°C): 19.7
+400m Equilibrium Mean (°C): 23.3
+500m Equilibrium Mean (°C): 27
+600m Equilibrium Mean (°C): 29.6
+
+Mine Water Body name: Lumley
+Coalfield: North_East
+100m Equilibrium Mean (°C): 14
+100m Equilibrium Maximum (°C): 15.6
+100m Equilibrium Minimum (°C): 12.3
+200m Equilibrium Mean (°C): 15.4
+200m Equilibrium Maximum (°C): 17.3
+200m Equilibrium Minimum (°C): 13.4
+100m Pumped Mean °C: 13.9
+100m Pumped Maximum °C: 14.5
+100m Pumped Minimum°C: 14.5
+200m Pumped Mean °C: 14.9
+200m Pumped Maximum °C: 15
+200m Pumped Minimum°C: 15
+
+Mine Water Body name: Dawdon-Horden
+Coalfield: North_East
+100m Equilibrium Mean (°C): 12
+100m Equilibrium Maximum (°C): 12.2
+100m Equilibrium Minimum (°C): 11.9
+200m Equilibrium Mean (°C): 15.6
+200m Equilibrium Maximum (°C): 15.8
+200m Equilibrium Minimum (°C): 15.4
+300m Equilibrium Mean (°C): 17.9
+300m Equilibrium Maximum (°C): 18.9
+300m Equilibrium Minimum (°C): 16.8
+400m Equilibrium Mean (°C): 22
+400m Equilibrium Maximum (°C): 22.4
+400m Equilibrium Minimum (°C): 21.5
+500m Equilibrium Mean (°C): 24.5
+500m Equilibrium Maximum (°C): 25.9
+500m Equilibrium Minimum (°C): 23
+100m Pumped Mean °C: 14
+100m Pumped Maximum °C: 19.8
+100m Pumped Minimum°C: 19.8
+200m Pumped Mean °C: 15.5
+200m Pumped Maximum °C: 19.9
+200m Pumped Minimum°C: 19.9
+300m Pumped Mean °C: 17.8
+300m Pumped Maximum °C: 20.2
+300m Pumped Minimum°C: 20.2
+400m Pumped Mean °C: 19.3
+400m Pumped Maximum °C: 21.8
+400m Pumped Minimum°C: 21.8
+500m Pumped Mean °C: 21.9
+500m Pumped Maximum °C: 23.3
+500m Pumped Minimum°C: 23.3
+
+Mine Water Body name: Sherburn-Houghall
+Coalfield: North_East
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.5
+300m Equilibrium Mean (°C): 19.7
+
+Mine Water Body name: Bowburn
+Coalfield: North_East
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.5
+300m Equilibrium Mean (°C): 19.7
+
+Mine Water Body name: Trimdon Grange
+Coalfield: North_East
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.5
+300m Equilibrium Mean (°C): 19.7
+400m Equilibrium Mean (°C): 23.3
+
+Mine Water Body name: West of Wear
+Coalfield: North_East
+100m Equilibrium Mean (°C): 11.5
+200m Equilibrium Mean (°C): 16.2
+100m Pumped Mean °C: 13.2
+
+Mine Water Body name: South of Butterknowle
+Coalfield: North_East
+100m Equilibrium Mean (°C): 10.6
+100m Equilibrium Maximum (°C): 11.4
+100m Equilibrium Minimum (°C): 9.5
+200m Equilibrium Mean (°C): 13.7
+200m Equilibrium Maximum (°C): 13.7
+200m Equilibrium Minimum (°C): 13.6
+100m Pumped Mean °C: 12
+100m Pumped Maximum °C: 12.7
+100m Pumped Minimum°C: 12.7
+200m Pumped Mean °C: 13.4
+200m Pumped Maximum °C: 14.9
+200m Pumped Minimum°C: 14.9
+
+Mine Water Body name: Batts
+Coalfield: North_East
+100m Equilibrium Mean (°C): 12.3
+
+----------------------------------------------------------------------
+Mine Water Body name: Acomb
+Coalfield: North East
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.5
+
+Mine Water Body name: Fourstones
+Coalfield: North East
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.5
+
+Mine Water Body name: Bardon Mill
+Coalfield: North East
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.5
+300m Equilibrium Mean (°C): 19.7
+400m Equilibrium Mean (°C): 23.3
+
+Mine Water Body name: Haltwhistle
+Coalfield: Nottinghamshire
+100m Equilibrium Mean (°C): 12.1
+200m Equilibrium Mean (°C): 15.1
+300m Equilibrium Mean (°C): 18.2
+
+Mine Water Body name: Blenkinsopp
+Coalfield: North East
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.5
+300m Equilibrium Mean (°C): 19.7
+100m Pumped Mean °C: 14.9
+
+Mine Water Body name: Lambley
+Coalfield: North East
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.5
+300m Equilibrium Mean (°C): 19.7
+400m Equilibrium Mean (°C): 23.3
+
+
+----------------------------------------------------------------------
+
+Mine Water Body name: Cumbria Block 9 Inglewood
+Coalfield: Cumbria
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.5
+300m Equilibrium Mean (°C): 18.7
+400m Equilibrium Mean (°C): 21.9
+500m Equilibrium Mean (°C): 25.2
+
+Mine Water Body name: Cumbria Block 8 Welton
+Coalfield: Cumbria
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.5
+300m Equilibrium Mean (°C): 18.7
+400m Equilibrium Mean (°C): 21.9
+500m Equilibrium Mean (°C): 25.2
+
+Mine Water Body name: Cumbria Block 7 Aspartia
+Coalfield: Cumbria
+100m Equilibrium Mean (°C): 11.6
+200m Equilibrium Mean (°C): 14.3
+300m Equilibrium Mean (°C): 16.9
+400m Equilibrium Mean (°C): 19.5
+500m Equilibrium Mean (°C): 22.1
+
+Mine Water Body name: Cumbria Block 6 Mary Port
+Coalfield: Cumbria
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.5
+300m Equilibrium Mean (°C): 18.7
+400m Equilibrium Mean (°C): 21.9
+500m Equilibrium Mean (°C): 25.2
+
+Mine Water Body name: Cumbria Block 5 Great Clifton
+Coalfield: Cumbria
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.5
+300m Equilibrium Mean (°C): 18.7
+400m Equilibrium Mean (°C): 21.9
+500m Equilibrium Mean (°C): 25.2
+
+Mine Water Body name: Cumbria Block 4 Workington
+Coalfield: Cumbria
+100m Equilibrium Mean (°C): 13.2
+200m Equilibrium Mean (°C): 17.1
+300m Equilibrium Mean (°C): 21.1
+400m Equilibrium Mean (°C): 25
+500m Equilibrium Mean (°C): 29
+
+Mine Water Body name: Cumbria Block 3 Oatlands
+Coalfield: Cumbria
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.5
+300m Equilibrium Mean (°C): 18.7
+400m Equilibrium Mean (°C): 21.9
+500m Equilibrium Mean (°C): 25.2
+
+Mine Water Body name: Cumbria Block 2 Whitehaven
+Coalfield: Cumbria
+100m Equilibrium Mean (°C): 12
+200m Equilibrium Mean (°C): 15.1
+300m Equilibrium Mean (°C): 18.2
+400m Equilibrium Mean (°C): 21.3
+500m Equilibrium Mean (°C): 24.4
+
+Mine Water Body name: Cumbria Block 1 Cleator Moor
+Coalfield: Cumbria
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.5
+300m Equilibrium Mean (°C): 18.7
+400m Equilibrium Mean (°C): 21.9
+500m Equilibrium Mean (°C): 25.2
+
+-------------------------------------------------------------
+
+Mine Water Body name: Yorkshire Area 8
+Coalfield: Yorkshire
+100m Equilibrium Mean (°C): 12.8
+200m Equilibrium Mean (°C): 16.4
+300m Equilibrium Mean (°C): 20
+400m Equilibrium Mean (°C): 23.6
+500m Equilibrium Mean (°C): 27.3
+600m Equilibrium Mean (°C): 30.9
+700m Equilibrium Mean (°C): 34.5
+800m Equilibrium Mean (°C): 38.1
+900m Equilibrium Mean (°C): 41.7
+1000m Equilibrium Mean (°C): 45.4
+
+
+Mine Water Body name: Yorkshire Area 7
+Coalfield: Yorkshire
+100m Equilibrium Mean (°C): 11.9
+200m Equilibrium Mean (°C): 14.8
+300m Equilibrium Mean (°C): 17.7
+400m Equilibrium Mean (°C): 20.6
+500m Equilibrium Mean (°C): 23.5
+600m Equilibrium Mean (°C): 26.4
+700m Equilibrium Mean (°C): 31.7
+
+Mine Water Body name: Yorkshire Area 6
+Coalfield: Yorkshire
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.4
+300m Equilibrium Mean (°C): 18.4
+400m Equilibrium Mean (°C): 21.2
+500m Equilibrium Mean (°C): 24.8
+600m Equilibrium Mean (°C): 28
+700m Equilibrium Mean (°C): 31.7
+
+Mine Water Body name: Yorkshire Area 5
+Coalfield: Yorkshire
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.4
+300m Equilibrium Mean (°C): 18.4
+400m Equilibrium Mean (°C): 21.2
+500m Equilibrium Mean (°C): 24.8
+600m Equilibrium Mean (°C): 28
+700m Equilibrium Mean (°C): 31.7
+
+Mine Water Body name: Yorkshire Area 4
+Coalfield: Yorkshire
+100m Equilibrium Mean (°C): 12.2
+100m Equilibrium Maximum (°C): 13.6
+100m Equilibrium Minimum (°C): 10.8
+200m Equilibrium Mean (°C): 15.1
+200m Equilibrium Maximum (°C): 15.9
+200m Equilibrium Minimum (°C): 14.2
+300m Equilibrium Mean (°C): 17.6
+300m Equilibrium Maximum (°C): 17.7
+300m Equilibrium Minimum (°C): 17.6
+400m Equilibrium Mean (°C): 21.2
+500m Equilibrium Mean (°C): 24.8
+600m Equilibrium Mean (°C): 28
+700m Equilibrium Mean (°C): 31.7
+800m Equilibrium Mean (°C): 34.9
+900m Equilibrium Mean (°C): 38.1
+1000m Equilibrium Mean (°C): 40.5
+100m Pumped Mean °C: 12.8
+100m Pumped Maximum °C: 13.2
+100m Pumped Minimum°C: 13.2
+200m Pumped Mean °C: 13.3
+200m Pumped Maximum °C: 13.9
+200m Pumped Minimum°C: 13.9
+300m Pumped Mean °C: 13.4
+400m Pumped Mean °C: 13.7
+500m Pumped Mean °C: 14.1
+
+Mine Water Body name: Yorkshire Area 3
+Coalfield: Yorkshire
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.4
+300m Equilibrium Mean (°C): 18.4
+400m Equilibrium Mean (°C): 21.2
+500m Equilibrium Mean (°C): 24.8
+600m Equilibrium Mean (°C): 28
+700m Equilibrium Mean (°C): 31.7
+
+Mine Water Body name: Yorkshire Area 2
+Coalfield: Yorkshire
+100m Equilibrium Mean (°C): 12.7
+200m Equilibrium Mean (°C): 16.1
+300m Equilibrium Mean (°C): 19.4
+400m Equilibrium Mean (°C): 22.8
+500m Equilibrium Mean (°C): 26.1
+600m Equilibrium Mean (°C): 29.5
+700m Equilibrium Mean (°C): 32.8
+800m Equilibrium Mean (°C): 36.1
+900m Equilibrium Mean (°C): 39.5
+1000m Equilibrium Mean (°C): 42.8
+
+Mine Water Body name: Yorskhire 1 Shallow B
+Coalfield: Yorkshire
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.4
+300m Equilibrium Mean (°C): 18.4
+
+Mine Water Body name: Yorkshire 1 Shallow A
+Coalfield: Yorkshire
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.4
+300m Equilibrium Mean (°C): 18.4
+
+Mine Water Body name: Yorkshire 1 Deep
+Coalfield: Yorkshire
+100m Equilibrium Mean (°C): 11.9
+200m Equilibrium Mean (°C): 14.5
+300m Equilibrium Mean (°C): 17.2
+400m Equilibrium Mean (°C): 17.9
+400m Equilibrium Maximum (°C): 20
+400m Equilibrium Minimum (°C): 16
+500m Equilibrium Mean (°C): 22.5
+600m Equilibrium Mean (°C): 25.1
+700m Equilibrium Mean (°C): 27.8
+800m Equilibrium Mean (°C): 30.4
+900m Equilibrium Mean (°C): 33.1
+1000m Equilibrium Mean (°C): 35.8
+
+Mine Water Body name: Chesterfield-Dronfield
+Coalfield: Nottinghamshire
+100m Equilibrium Mean (°C): 12.1
+200m Equilibrium Mean (°C): 15.1
+
+
+Mine Water Body name: Hartington-Creswell-Langwith
+Coalfield: Nottinghamshire
+100m Equilibrium Mean (°C): 11.9
+200m Equilibrium Mean (°C): 15.3
+300m Equilibrium Mean (°C): 18.6
+400m Equilibrium Mean (°C): 22
+500m Equilibrium Mean (°C): 25.3
+600m Equilibrium Mean (°C): 28.6
+700m Equilibrium Mean (°C): 32
+100m Pumped Mean °C: 13.8
+100m Pumped Maximum °C: 14.2
+100m Pumped Minimum°C: 14.2
+200m Pumped Mean °C: 16.2
+200m Pumped Maximum °C: 21.5
+200m Pumped Minimum°C: 21.5
+300m Pumped Mean °C: 22.9
+300m Pumped Maximum °C: 23
+300m Pumped Minimum°C: 23
+
+Mine Water Body name: North Notts Deep
+Coalfield: Nottinghamshire
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.5
+300m Equilibrium Mean (°C): 18.6
+400m Equilibrium Mean (°C): 21.7
+500m Equilibrium Mean (°C): 24.8
+
+Mine Water Body name: Williamthorpe
+Coalfield: Nottinghamshire
+100m Equilibrium Mean (°C): 12.1
+200m Equilibrium Mean (°C): 15.1
+300m Equilibrium Mean (°C): 18.2
+400m Equilibrium Mean (°C): 21.2
+500m Equilibrium Mean (°C): 24.2
+
+Mine Water Body name: Clay Cross-Morton
+Coalfield: Nottinghamshire
+100m Equilibrium Mean (°C): 12.1
+200m Equilibrium Mean (°C): 15.1
+300m Equilibrium Mean (°C): 18.2
+
+
+Mine Water Body name: Blackwell
+Coalfield: Nottinghamshire
+100m Equilibrium Mean (°C): 11.9
+200m Equilibrium Mean (°C): 14.8
+300m Equilibrium Mean (°C): 17.8
+400m Equilibrium Mean (°C): 20.7
+500m Equilibrium Mean (°C): 23.6
+100m Pumped Mean °C: 16.8
+100m Pumped Maximum °C: 16.8
+100m Pumped Minimum°C: 16.8
+200m Pumped Mean °C: 16.9
+200m Pumped Maximum °C: 16.8
+200m Pumped Minimum°C: 16.8
+
+Mine Water Body name: Annesley
+Coalfield: Nottinghamshire
+100m Equilibrium Mean (°C): 11.9
+200m Equilibrium Mean (°C): 14.9
+300m Equilibrium Mean (°C): 17.9
+400m Equilibrium Mean (°C): 20.9
+500m Equilibrium Mean (°C): 24
+600m Equilibrium Mean (°C): 27
+700m Equilibrium Mean (°C): 30
+800m Equilibrium Mean (°C): 33
+100m Pumped Mean °C: 13.3
+200m Pumped Mean °C: 18.2
+200m Pumped Maximum °C: 19.7
+200m Pumped Minimum°C: 19.7
+300m Pumped Mean °C: 18.9
+400m Pumped Mean °C: 20.9
+
+Mine Water Body name: Blidworth
+Coalfield: Nottinghamshire
+100m Equilibrium Mean (°C): 12
+200m Equilibrium Mean (°C): 15
+300m Equilibrium Mean (°C): 18
+400m Equilibrium Mean (°C): 21
+500m Equilibrium Mean (°C): 23.9
+600m Equilibrium Mean (°C): 26.9
+700m Equilibrium Mean (°C): 29.9
+800m Equilibrium Mean (°C): 32.9
+
+Mine Water Body name: Calverton
+Coalfield: Nottinghamshire
+100m Equilibrium Mean (°C): 12
+200m Equilibrium Mean (°C): 14.9
+300m Equilibrium Mean (°C): 17.8
+400m Equilibrium Mean (°C): 20.6
+500m Equilibrium Mean (°C): 23.5
+600m Equilibrium Mean (°C): 26.4
+700m Equilibrium Mean (°C): 29.3
+
+Mine Water Body name: Babbington
+Coalfield: Nottinghamshire
+100m Equilibrium Mean (°C): 11.6
+200m Equilibrium Mean (°C): 14.6
+300m Equilibrium Mean (°C): 17.7
+400m Equilibrium Mean (°C): 20.7
+500m Equilibrium Mean (°C): 23.7
+600m Equilibrium Mean (°C): 26.8
+100m Pumped Mean °C: 11.8
+100m Pumped Maximum °C: 11.9
+100m Pumped Minimum°C: 11.9
+200m Pumped Mean °C: 15.8
+200m Pumped Maximum °C: 15.9
+200m Pumped Minimum°C: 15.9
+300m Pumped Mean °C: 18.9
+300m Pumped Maximum °C: 19.1
+300m Pumped Minimum°C: 19.1
+
+Mine Water Body name: Moorgreen
+Coalfield: Nottinghamshire
+100m Equilibrium Mean (°C): 12.1
+200m Equilibrium Mean (°C): 15.1
+300m Equilibrium Mean (°C): 18.2
+400m Equilibrium Mean (°C): 21.2
+500m Equilibrium Mean (°C): 24.2
+
+Mine Water Body name: Woodside
+Coalfield: Nottinghamshire
+100m Equilibrium Mean (°C): 11.9
+100m Equilibrium Maximum (°C): 12.3
+100m Equilibrium Minimum (°C): 11.6
+200m Equilibrium Mean (°C): 15.3
+300m Equilibrium Mean (°C): 18.4
+400m Equilibrium Mean (°C): 21.4
+500m Equilibrium Mean (°C): 24.4
+
+Mine Water Body name: Radford
+Coalfield: Nottinghamshire
+100m Equilibrium Mean (°C): 12.5
+200m Equilibrium Mean (°C): 15.5
+300m Equilibrium Mean (°C): 18.5
+400m Equilibrium Mean (°C): 21.6
+
+Mine Water Body name: Gedling
+Coalfield: Nottinghamshire
+100m Equilibrium Mean (°C): 12.1
+200m Equilibrium Mean (°C): 15.1
+300m Equilibrium Mean (°C): 18.2
+400m Equilibrium Mean (°C): 21.2
+500m Equilibrium Mean (°C): 24.2
+
+Mine Water Body name: Clifton
+Coalfield: Nottinghamshire
+100m Equilibrium Mean (°C): 12.1
+200m Equilibrium Mean (°C): 15.1
+300m Equilibrium Mean (°C): 18.2
+400m Equilibrium Mean (°C): 21.2
+
+Mine Water Body name: Cotgrave
+Coalfield: Nottinghamshire
+100m Equilibrium Mean (°C): 12.7
+200m Equilibrium Mean (°C): 15.5
+300m Equilibrium Mean (°C): 18.4
+400m Equilibrium Mean (°C): 21.2
+500m Equilibrium Mean (°C): 24.1
+600m Equilibrium Mean (°C): 26.9
+700m Equilibrium Mean (°C): 29.7
+
+----------------------------------------------------------------
+Mine Water Body name: Lancashire Block 17 Burnley
+Coalfield: Lancashire
+100m Equilibrium Mean (°C): 11.5
+200m Equilibrium Mean (°C): 14.3
+300m Equilibrium Mean (°C): 17.2
+400m Equilibrium Mean (°C): 20.1
+500m Equilibrium Mean (°C): 23
+1000m Equilibrium Mean (°C): 37.5
+
+
+Mine Water Body name: Lancashire Block 18 Accrington
+Coalfield: Lancashire
+100m Equilibrium Mean (°C): 12
+200m Equilibrium Mean (°C): 14.3
+300m Equilibrium Mean (°C): 17.2
+400m Equilibrium Mean (°C): 19
+
+Mine Water Body name: Lancashire Block 16 Bacup
+Coalfield: Lancashire
+100m Equilibrium Mean (°C): 12
+200m Equilibrium Mean (°C): 14.3
+
+Mine Water Body name: Lancashire Block 15 Rochdale
+Coalfield: Lancashire
+100m Equilibrium Mean (°C): 12
+200m Equilibrium Mean (°C): 14.3
+300m Equilibrium Mean (°C): 17.2
+
+Mine Water Body name: Lancashire Block 14 Poynton
+Coalfield: Lancashire
+100m Equilibrium Mean (°C): 12
+200m Equilibrium Mean (°C): 14.3
+300m Equilibrium Mean (°C): 17.2
+400m Equilibrium Mean (°C): 19
+
+Mine Water Body name: Lancashire Block 13 Bradford/Oldham
+Coalfield: Lancashire
+100m Equilibrium Mean (°C): 11.7
+200m Equilibrium Mean (°C): 13.6
+300m Equilibrium Mean (°C): 15.4
+400m Equilibrium Mean (°C): 17.3
+500m Equilibrium Mean (°C): 19.1
+600m Equilibrium Mean (°C): 21
+700m Equilibrium Mean (°C): 22.9
+800m Equilibrium Mean (°C): 24.7
+900m Equilibrium Mean (°C): 26.6
+1000m Equilibrium Mean (°C): 28.5
+
+Mine Water Body name: Lancashire Block 12 Bedford/Agecroft/Outwood
+Coalfield: Lancashire
+100m Equilibrium Mean (°C): 12.6
+200m Equilibrium Mean (°C): 15.2
+300m Equilibrium Mean (°C): 17.7
+400m Equilibrium Mean (°C): 20.3
+500m Equilibrium Mean (°C): 22.9
+600m Equilibrium Mean (°C): 25.5
+700m Equilibrium Mean (°C): 28
+800m Equilibrium Mean (°C): 30.6
+900m Equilibrium Mean (°C): 33.2
+1000m Equilibrium Mean (°C): 35.8
+
+Mine Water Body name: Lancashire Block 11 Wigan/Aspull
+Coalfield: Lancashire
+100m Equilibrium Mean (°C): 12.6
+200m Equilibrium Mean (°C): 15.6
+300m Equilibrium Mean (°C): 18.7
+400m Equilibrium Mean (°C): 21.7
+500m Equilibrium Mean (°C): 24.7
+600m Equilibrium Mean (°C): 27.8
+700m Equilibrium Mean (°C): 30.8
+800m Equilibrium Mean (°C): 33.8
+
+Mine Water Body name: Lancashire Block 10 Golborne/Bickersham/Parsonage
+Coalfield: Lancashire
+100m Equilibrium Mean (°C): 11.7
+200m Equilibrium Mean (°C): 13.7
+300m Equilibrium Mean (°C): 15.6
+400m Equilibrium Mean (°C): 17.5
+500m Equilibrium Mean (°C): 19.4
+600m Equilibrium Mean (°C): 21.3
+700m Equilibrium Mean (°C): 23.2
+800m Equilibrium Mean (°C): 25.2
+900m Equilibrium Mean (°C): 27.1
+1000m Equilibrium Mean (°C): 29
+
+Mine Water Body name: Lancashire Block 9 Parkside
+Coalfield: Lancashire
+100m Equilibrium Mean (°C): 11.9
+200m Equilibrium Mean (°C): 13.8
+300m Equilibrium Mean (°C): 15.8
+400m Equilibrium Mean (°C): 17.8
+500m Equilibrium Mean (°C): 19.8
+600m Equilibrium Mean (°C): 21.7
+700m Equilibrium Mean (°C): 23.7
+800m Equilibrium Mean (°C): 25.7
+900m Equilibrium Mean (°C): 27.7
+1000m Equilibrium Mean (°C): 29.6
+
+Mine Water Body name: Lancashire Block 8 Skelmersdale/Rainford
+Coalfield: Lancashire
+100m Equilibrium Mean (°C): 12
+200m Equilibrium Mean (°C): 14.3
+300m Equilibrium Mean (°C): 17.2
+400m Equilibrium Mean (°C): 19
+500m Equilibrium Mean (°C): 21.3
+600m Equilibrium Mean (°C): 32.7
+700m Equilibrium Mean (°C): 26
+800m Equilibrium Mean (°C): 28.3
+
+Mine Water Body name: Lancashire Block 7 Upholland
+Coalfield: Lancashire
+100m Equilibrium Mean (°C): 12
+200m Equilibrium Mean (°C): 14.3
+
+Mine Water Body name: Lancashire Block 6 Billinge
+Coalfield: Lancashire
+100m Equilibrium Mean (°C): 12
+200m Equilibrium Mean (°C): 14.3
+300m Equilibrium Mean (°C): 17.2
+400m Equilibrium Mean (°C): 19
+500m Equilibrium Mean (°C): 21.3
+
+Mine Water Body name: Lancashire Block 5 Sutton Manor Clockface Bold
+Coalfield: Lancashire
+100m Equilibrium Mean (°C): 12.1
+200m Equilibrium Mean (°C): 14.2
+300m Equilibrium Mean (°C): 16.2
+400m Equilibrium Mean (°C): 18.3
+500m Equilibrium Mean (°C): 20.4
+600m Equilibrium Mean (°C): 22.5
+700m Equilibrium Mean (°C): 24.6
+800m Equilibrium Mean (°C): 26.7
+900m Equilibrium Mean (°C): 28.7
+1000m Equilibrium Mean (°C): 30.8
+100m Pumped Mean °C: 10.4
+200m Pumped Mean °C: 10.6
+300m Pumped Mean °C: 10.6
+
+Mine Water Body name: Lancashire Block 4 Parr
+Coalfield: Lancashire
+100m Equilibrium Mean (°C): 12
+200m Equilibrium Mean (°C): 14.3
+300m Equilibrium Mean (°C): 17.2
+400m Equilibrium Mean (°C): 19
+500m Equilibrium Mean (°C): 21.3
+600m Equilibrium Mean (°C): 32.7
+700m Equilibrium Mean (°C): 26
+800m Equilibrium Mean (°C): 28.3
+
+Mine Water Body name: Lancashire Block 3 Ravenhead
+Coalfield: Lancashire
+100m Equilibrium Mean (°C): 12
+200m Equilibrium Mean (°C): 14.3
+300m Equilibrium Mean (°C): 17.2
+400m Equilibrium Mean (°C): 19
+500m Equilibrium Mean (°C): 21.3
+600m Equilibrium Mean (°C): 32.7
+700m Equilibrium Mean (°C): 26
+800m Equilibrium Mean (°C): 28.3
+
+Mine Water Body name: Lancashire Block 2 Whiston
+Coalfield: Lancashire
+100m Equilibrium Mean (°C): 12
+200m Equilibrium Mean (°C): 14.3
+300m Equilibrium Mean (°C): 17.2
+400m Equilibrium Mean (°C): 19
+500m Equilibrium Mean (°C): 21.3
+
+Mine Water Body name: Lancashire Block 1 Cronton
+Coalfield: Lancashire
+100m Equilibrium Mean (°C): 12
+200m Equilibrium Mean (°C): 14.3
+300m Equilibrium Mean (°C): 17.2
+400m Equilibrium Mean (°C): 19
+500m Equilibrium Mean (°C): 21.3
+600m Equilibrium Mean (°C): 32.7
+700m Equilibrium Mean (°C): 26
+
+----------------------------------------------------------------------
+
+
+Mine Water Body name: North Wales Denbighshire and North Shropshire
+Coalfield: North_Wales
+100m Equilibrium Mean (°C): 12.5
+200m Equilibrium Mean (°C): 14.9
+300m Equilibrium Mean (°C): 17.5
+400m Equilibrium Mean (°C): 19.8
+500m Equilibrium Mean (°C): 22.3
+600m Equilibrium Mean (°C): 24.7
+700m Equilibrium Mean (°C): 27.1
+800m Equilibrium Mean (°C): 29.6
+
+Mine Water Body name: Staffordshire (North) Shaffalong Coalfield
+Coalfield: Staffordshire
+100m Equilibrium Mean (°C): 11.3
+200m Equilibrium Mean (°C): 13.5
+300m Equilibrium Mean (°C): 15.6
+400m Equilibrium Mean (°C): 18.2
+500m Equilibrium Mean (°C): 21
+600m Equilibrium Mean (°C): 23.4
+700m Equilibrium Mean (°C): 25.8
+800m Equilibrium Mean (°C): 28.1
+900m Equilibrium Mean (°C): 30.5
+1000m Equilibrium Mean (°C): 32.9
+
+
+Mine Water Body name: Staffordshire (North) Block 1 Wolstanton
+Coalfield: Staffordshire
+100m Equilibrium Mean (°C): 12
+200m Equilibrium Mean (°C): 15.1
+300m Equilibrium Mean (°C): 18.2
+400m Equilibrium Mean (°C): 21.3
+500m Equilibrium Mean (°C): 24.4
+600m Equilibrium Mean (°C): 27.6
+700m Equilibrium Mean (°C): 30.7
+800m Equilibrium Mean (°C): 33.8
+900m Equilibrium Mean (°C): 36.9
+1000m Equilibrium Mean (°C): 40
+
+Mine Water Body name: Staffordshire (North) Block 6 High Carr
+Coalfield: Staffordshire
+100m Equilibrium Mean (°C): 11.3
+200m Equilibrium Mean (°C): 13.5
+300m Equilibrium Mean (°C): 15.6
+400m Equilibrium Mean (°C): 18.2
+500m Equilibrium Mean (°C): 21
+600m Equilibrium Mean (°C): 23.4
+700m Equilibrium Mean (°C): 25.8
+800m Equilibrium Mean (°C): 28.1
+
+Mine Water Body name: Staffordshire (North) Block 4 Silverdale
+Coalfield: Staffordshire
+100m Equilibrium Mean (°C): 11.1
+200m Equilibrium Mean (°C): 13
+300m Equilibrium Mean (°C): 14.9
+400m Equilibrium Mean (°C): 16.8
+500m Equilibrium Mean (°C): 18.7
+600m Equilibrium Mean (°C): 20.7
+700m Equilibrium Mean (°C): 22.6
+800m Equilibrium Mean (°C): 24.5
+900m Equilibrium Mean (°C): 26.4
+1000m Equilibrium Mean (°C): 28.3
+100m Equilibrium Mean (°C): 12.1
+200m Equilibrium Mean (°C): 14.9
+300m Equilibrium Mean (°C): 17.7
+400m Equilibrium Mean (°C): 20.4
+500m Equilibrium Mean (°C): 23.2
+600m Equilibrium Mean (°C): 25.9
+700m Equilibrium Mean (°C): 28.7
+800m Equilibrium Mean (°C): 31.4
+900m Equilibrium Mean (°C): 34.2
+1000m Equilibrium Mean (°C): 37
+
+Mine Water Body name: Staffordshire (North) Block 5 Holditch
+Coalfield: Staffordshire
+100m Equilibrium Mean (°C): 12.1
+200m Equilibrium Mean (°C): 14.9
+300m Equilibrium Mean (°C): 17.7
+400m Equilibrium Mean (°C): 20.4
+500m Equilibrium Mean (°C): 23.2
+600m Equilibrium Mean (°C): 25.9
+700m Equilibrium Mean (°C): 28.7
+800m Equilibrium Mean (°C): 31.4
+900m Equilibrium Mean (°C): 34.2
+1000m Equilibrium Mean (°C): 37
+
+Mine Water Body name: Staffordshire (North) Block 2 Berry Hill
+Coalfield: Staffordshire
+100m Equilibrium Mean (°C): 11.6
+200m Equilibrium Mean (°C): 14.4
+300m Equilibrium Mean (°C): 17.1
+400m Equilibrium Mean (°C): 19.9
+500m Equilibrium Mean (°C): 22.6
+600m Equilibrium Mean (°C): 25.4
+700m Equilibrium Mean (°C): 28.1
+800m Equilibrium Mean (°C): 30.9
+900m Equilibrium Mean (°C): 33.6
+1000m Equilibrium Mean (°C): 36.4
+
+
+Mine Water Body name: Staffordshire (North) Block 3 Hem Heath
+Coalfield: Staffordshire
+100m Equilibrium Mean (°C): 11.9
+200m Equilibrium Mean (°C): 15
+300m Equilibrium Mean (°C): 18.5
+400m Equilibrium Mean (°C): 21.7
+500m Equilibrium Mean (°C): 24.9
+600m Equilibrium Mean (°C): 28.1
+700m Equilibrium Mean (°C): 31.2
+800m Equilibrium Mean (°C): 34.4
+900m Equilibrium Mean (°C): 37.6
+1000m Equilibrium Mean (°C): 40.8
+
+Mine Water Body name: Staffordshire (South) Block 1 Cannock Chase
+Coalfield: Staffordshire
+100m Equilibrium Mean (°C): 11.3
+200m Equilibrium Mean (°C): 13.5
+300m Equilibrium Mean (°C): 15.6
+400m Equilibrium Mean (°C): 18.2
+500m Equilibrium Mean (°C): 21
+600m Equilibrium Mean (°C): 23.4
+700m Equilibrium Mean (°C): 25.8
+800m Equilibrium Mean (°C): 28.1
+900m Equilibrium Mean (°C): 30.5
+1000m Equilibrium Mean (°C): 32.9
+100m Pumped Mean °C: 9.2
+200m Pumped Mean °C: 12.4
+200m Pumped Maximum °C: 12.9
+200m Pumped Minimum°C: 12.9
+
+Mine Water Body name: Staffordshire (South) Block 2 Lea Hall
+Coalfield: Staffordshire
+100m Equilibrium Mean (°C): 11
+200m Equilibrium Mean (°C): 12.6
+300m Equilibrium Mean (°C): 14.2
+400m Equilibrium Mean (°C): 15.8
+500m Equilibrium Mean (°C): 21
+600m Equilibrium Mean (°C): 23.4
+
+Mine Water Body name: Staffordshire (South) Block 3 Mid Cannock
+Coalfield: Staffordshire
+100m Equilibrium Mean (°C): 10.5
+200m Equilibrium Mean (°C): 11.9
+300m Equilibrium Mean (°C): 13.2
+400m Equilibrium Mean (°C): 18.2
+500m Equilibrium Mean (°C): 21
+100m Pumped Mean °C: 12.3
+200m Pumped Mean °C: 16.6
+
+Mine Water Body name: Staffordshire (South) Block 4 Walsall Wood
+Coalfield: Staffordshire
+100m Equilibrium Mean (°C): 10.3
+200m Equilibrium Mean (°C): 10.8
+300m Equilibrium Mean (°C): 11.3
+400m Equilibrium Mean (°C): 11.8
+500m Equilibrium Mean (°C): 12.3
+600m Equilibrium Mean (°C): 12.8
+700m Equilibrium Mean (°C): 13.3
+
+Mine Water Body name: South Derbyshire - Concealed Coalfield
+Coalfield: South_Derbyshire
+100m Equilibrium Mean (°C): 11.5
+100m Equilibrium Maximum (°C): 11.6
+100m Equilibrium Minimum (°C): 11.3
+200m Equilibrium Mean (°C): 13.7
+
+Mine Water Body name: South Derbyshire - Exposed Coalfield
+Coalfield: South_Derbyshire
+100m Equilibrium Mean (°C): 12.3
+200m Equilibrium Mean (°C): 15.2
+
+Mine Water Body name: Leicestershire Northern Basin
+Coalfield: Leicestershire
+100m Equilibrium Mean (°C): 11.6
+200m Equilibrium Mean (°C): 12.5
+300m Equilibrium Mean (°C): 13.4
+400m Equilibrium Mean (°C): 14.5
+
+Mine Water Body name: Leicestershire Southern Basin
+Coalfield: Leicestershire
+100m Equilibrium Mean (°C): 11.6
+200m Equilibrium Mean (°C): 12.5
+300m Equilibrium Mean (°C): 13.4
+400m Equilibrium Mean (°C): 14.5
+
+------------------------------------------------------
+Mine Water Body name: Warwickshire B1
+Coalfield: Warwickshire
+100m Equilibrium Mean (°C): 11.3
+200m Equilibrium Mean (°C): 13
+300m Equilibrium Mean (°C): 14.8
+
+Mine Water Body name: Warwickshire B2
+Coalfield: Warwickshire
+100m Equilibrium Mean (°C): 11.3
+200m Equilibrium Mean (°C): 13
+300m Equilibrium Mean (°C): 14.8
+
+Mine Water Body name: Warwickshire B3
+Coalfield: Warwickshire
+100m Equilibrium Mean (°C): 11.3
+200m Equilibrium Mean (°C): 13
+300m Equilibrium Mean (°C): 14.8
+
+
+Mine Water Body name: Warwickshire B4
+Coalfield: Warwickshire
+100m Equilibrium Mean (°C): 11.3
+200m Equilibrium Mean (°C): 13
+300m Equilibrium Mean (°C): 14.8
+
+Mine Water Body name: Warwickshire B5/1
+Coalfield: Warwickshire
+100m Equilibrium Mean (°C): 11.3
+200m Equilibrium Mean (°C): 13
+300m Equilibrium Mean (°C): 14.8
+400m Equilibrium Mean (°C): 16.6
+
+Mine Water Body name: Warwickshire B5/2
+Coalfield: Warwickshire
+100m Equilibrium Mean (°C): 11.3
+200m Equilibrium Mean (°C): 13
+300m Equilibrium Mean (°C): 14.8
+400m Equilibrium Mean (°C): 16.6
+
+Mine Water Body name: Warwickshire B5/3
+Coalfield: Warwickshire
+100m Equilibrium Mean (°C): 11.3
+200m Equilibrium Mean (°C): 13
+300m Equilibrium Mean (°C): 14.8
+400m Equilibrium Mean (°C): 16.6
+500m Equilibrium Mean (°C): 18.4
+
+Mine Water Body name: Warwickshire B5/4
+Coalfield: Warwickshire
+100m Equilibrium Mean (°C): 11.3
+200m Equilibrium Mean (°C): 13
+300m Equilibrium Mean (°C): 14.8
+400m Equilibrium Mean (°C): 16.6
+
+Mine Water Body name: Warwickshire B5/5
+Coalfield: Warwickshire
+100m Equilibrium Mean (°C): 11.3
+200m Equilibrium Mean (°C): 13
+300m Equilibrium Mean (°C): 14.8
+400m Equilibrium Mean (°C): 16.6
+500m Equilibrium Mean (°C): 18.4
+
+Mine Water Body name: Warwickshire B5/6
+Coalfield: Warwickshire
+100m Equilibrium Mean (°C): 11.1
+200m Equilibrium Mean (°C): 12.9
+300m Equilibrium Mean (°C): 14.7
+400m Equilibrium Mean (°C): 16.5
+500m Equilibrium Mean (°C): 18.3
+600m Equilibrium Mean (°C): 20.1
+700m Equilibrium Mean (°C): 21.9
+
+Mine Water Body name: Warwickshire B6
+Coalfield: Warwickshire
+100m Equilibrium Mean (°C): 11.4
+200m Equilibrium Mean (°C): 13.1
+300m Equilibrium Mean (°C): 14.9
+400m Equilibrium Mean (°C): 16.6
+500m Equilibrium Mean (°C): 18.4
+600m Equilibrium Mean (°C): 20.1
+700m Equilibrium Mean (°C): 21.8
+800m Equilibrium Mean (°C): 23.6
+
+Mine Water Body name: Warwickshire B7
+Coalfield: Warwickshire
+100m Equilibrium Mean (°C): 11.3
+200m Equilibrium Mean (°C): 13
+300m Equilibrium Mean (°C): 14.8
+400m Equilibrium Mean (°C): 16.6
+
+Mine Water Body name: Warwickshire B8
+Coalfield: Warwickshire
+100m Equilibrium Mean (°C): 11.3
+200m Equilibrium Mean (°C): 13
+300m Equilibrium Mean (°C): 14.8
+400m Equilibrium Mean (°C): 16.6
+500m Equilibrium Mean (°C): 18.4
+
+Mine Water Body name: Warwickshire B9
+Coalfield: Warwickshire
+100m Equilibrium Mean (°C): 11.3
+200m Equilibrium Mean (°C): 13
+300m Equilibrium Mean (°C): 14.8
+400m Equilibrium Mean (°C): 16.6
+500m Equilibrium Mean (°C): 18.4
+
+
+Mine Water Body name: Warwickshire B10
+Coalfield: Warwickshire
+100m Equilibrium Mean (°C): 11.3
+200m Equilibrium Mean (°C): 13
+300m Equilibrium Mean (°C): 14.8
+400m Equilibrium Mean (°C): 16.6
+
+-----------------------------------------------------------
+Mine Water Body name: Kent Chislet
+Coalfield: Kent
+400m Equilibrium Mean (°C): 20.2
+500m Equilibrium Mean (°C): 22.7
+600m Equilibrium Mean (°C): 23.2
+
+Mine Water Body name: Kent Betteshnanger
+Coalfield: Kent
+400m Equilibrium Mean (°C): 17.9
+500m Equilibrium Mean (°C): 20.6
+600m Equilibrium Mean (°C): 23.2
+700m Equilibrium Mean (°C): 25.9
+
+Mine Water Body name: Kent Timanstone
+Coalfield: Kent
+300m Equilibrium Mean (°C): 17.9
+400m Equilibrium Mean (°C): 20.6
+500m Equilibrium Mean (°C): 23.3
+600m Equilibrium Mean (°C): 25.9
+700m Equilibrium Mean (°C): 28.6
+800m Equilibrium Mean (°C): 31.2
+900m Equilibrium Mean (°C): 33.9
+1000m Equilibrium Mean (°C): 36.5
+
+Mine Water Body name: Kent Snowdown
+Coalfield: Kent
+400m Equilibrium Mean (°C): 20.9
+400m Equilibrium Maximum (°C): 21.6
+400m Equilibrium Minimum (°C): 20.6
+500m Equilibrium Mean (°C): 23.7
+500m Equilibrium Maximum (°C): 24.5
+500m Equilibrium Minimum (°C): 23.3
+600m Equilibrium Mean (°C): 26.4
+600m Equilibrium Maximum (°C): 27.4
+600m Equilibrium Minimum (°C): 25.9
+700m Equilibrium Mean (°C): 29.2
+700m Equilibrium Maximum (°C): 30.3
+700m Equilibrium Minimum (°C): 28.6
+800m Equilibrium Mean (°C): 31.9
+800m Equilibrium Maximum (°C): 33.2
+800m Equilibrium Minimum (°C): 31.2
+900m Equilibrium Mean (°C): 34.6
+900m Equilibrium Maximum (°C): 36.1
+900m Equilibrium Minimum (°C): 33.9
+1000m Equilibrium Mean (°C): 37.4
+1000m Equilibrium Maximum (°C): 39
+1000m Equilibrium Minimum (°C): 36.5
+
+---------------------------------------------------------------------
+Mine Water Body name: Bristol and Somerset - Bristol Coalfield
+Coalfield: Bristol_Somerset
+100m Equilibrium Mean (°C): 11.6
+200m Equilibrium Mean (°C): 14.1
+300m Equilibrium Mean (°C): 16.7
+400m Equilibrium Mean (°C): 19.3
+500m Equilibrium Mean (°C): 21.8
+600m Equilibrium Mean (°C): 24.4
+700m Equilibrium Mean (°C): 27
+800m Equilibrium Mean (°C): 29.5
+900m Equilibrium Mean (°C): 32.1
+
+Mine Water Body name: Bristol and Somerset - Pensford Syncline
+Coalfield: Bristol_Somerset
+100m Equilibrium Mean (°C): 11.6
+100m Equilibrium Maximum (°C): 12.1
+100m Equilibrium Minimum (°C): 10.9
+200m Equilibrium Mean (°C): 13.8
+200m Equilibrium Maximum (°C): 14.5
+200m Equilibrium Minimum (°C): 12.8
+300m Equilibrium Mean (°C): 16
+300m Equilibrium Maximum (°C): 17
+300m Equilibrium Minimum (°C): 14.6
+400m Equilibrium Mean (°C): 18.2
+400m Equilibrium Maximum (°C): 19.6
+400m Equilibrium Minimum (°C): 16.5
+500m Equilibrium Mean (°C): 20.3
+500m Equilibrium Maximum (°C): 22.1
+500m Equilibrium Minimum (°C): 18.4
+600m Equilibrium Mean (°C): 22.5
+600m Equilibrium Maximum (°C): 24.7
+600m Equilibrium Minimum (°C): 20.3
+700m Equilibrium Mean (°C): 24.7
+700m Equilibrium Maximum (°C): 27.2
+700m Equilibrium Minimum (°C): 22.2
+800m Equilibrium Mean (°C): 26.9
+800m Equilibrium Maximum (°C): 29.8
+800m Equilibrium Minimum (°C): 24
+900m Equilibrium Mean (°C): 29
+900m Equilibrium Maximum (°C): 32.3
+900m Equilibrium Minimum (°C): 25.9
+
+Mine Water Body name: Bristol and Somerset - Somerset Coalfield (northeast)
+Coalfield: Bristol_Somerset
+100m Equilibrium Mean (°C): 12
+200m Equilibrium Mean (°C): 14.6
+
+Mine Water Body name: Bristol and Somerset - Somerset Coalfield (main)
+Coalfield: Bristol_Somerset
+100m Equilibrium Mean (°C): 12
+200m Equilibrium Mean (°C): 14.6
+300m Equilibrium Mean (°C): 17.2
+400m Equilibrium Mean (°C): 19.9
+500m Equilibrium Mean (°C): 22.5
+
+Mine Water Body name: Bristol and Somerset - Radstock Syncline
+Coalfield: Bristol_Somerset
+100m Equilibrium Mean (°C): 12.7
+200m Equilibrium Mean (°C): 15.9
+300m Equilibrium Mean (°C): 19
+400m Equilibrium Mean (°C): 22.2
+500m Equilibrium Mean (°C): 25.4
+600m Equilibrium Mean (°C): 28.6
+700m Equilibrium Mean (°C): 31.8
+
+Mine Water Body name: Bristol and Somerset - Severn Coalfield
+Coalfield: Bristol_Somerset
+100m Equilibrium Mean (°C): 12
+200m Equilibrium Mean (°C): 14.6
+300m Equilibrium Mean (°C): 17.2
+400m Equilibrium Mean (°C): 19.9
+500m Equilibrium Mean (°C): 22.5
+
+Mine Water Body name: Bristol and Somerset - Clapton-in-Gordano Inlier
+Coalfield: Bristol_Somerset
+100m Equilibrium Mean (°C): 12
+200m Equilibrium Mean (°C): 14.6
+300m Equilibrium Mean (°C): 17.2
+400m Equilibrium Mean (°C): 19.9
+500m Equilibrium Mean (°C): 22.5
+
+Mine Water Body name: Bristol and Somerset - Nailsea Syncline
+Coalfield: Bristol_Somerset
+100m Equilibrium Mean (°C): 12
+200m Equilibrium Mean (°C): 14.6
+
+----------------------------------------------------------------------
+Mine Water Body name: South Wales Area 12
+Coalfield: South_Wales
+100m Equilibrium Mean (°C): 11.7
+100m Equilibrium Maximum (°C): 12.9
+100m Equilibrium Minimum (°C): 11
+200m Equilibrium Mean (°C): 14.3
+200m Equilibrium Maximum (°C): 16.2
+200m Equilibrium Minimum (°C): 12.9
+300m Equilibrium Mean (°C): 17
+300m Equilibrium Maximum (°C): 19.6
+300m Equilibrium Minimum (°C): 14.9
+400m Equilibrium Mean (°C): 18.9
+400m Equilibrium Maximum (°C): 22.5
+400m Equilibrium Minimum (°C): 16.4
+500m Equilibrium Mean (°C): 22.3
+500m Equilibrium Maximum (°C): 26.3
+500m Equilibrium Minimum (°C): 18.9
+600m Equilibrium Mean (°C): 24.7
+600m Equilibrium Maximum (°C): 29.6
+600m Equilibrium Minimum (°C): 20.8
+700m Equilibrium Mean (°C): 27.4
+700m Equilibrium Maximum (°C): 33.2
+700m Equilibrium Minimum (°C): 22.8
+800m Equilibrium Mean (°C): 30
+800m Equilibrium Maximum (°C): 36.8
+800m Equilibrium Minimum (°C): 24.8
+
+Mine Water Body name: South Wales Area 12a
+Coalfield: South_Wales
+100m Equilibrium Mean (°C): 11
+100m Equilibrium Maximum (°C): 11.1
+100m Equilibrium Minimum (°C): 10.9
+200m Equilibrium Mean (°C): 13
+200m Equilibrium Maximum (°C): 13.2
+200m Equilibrium Minimum (°C): 12.9
+300m Equilibrium Mean (°C): 15.1
+300m Equilibrium Maximum (°C): 15.3
+300m Equilibrium Minimum (°C): 15
+400m Equilibrium Mean (°C): 17.2
+400m Equilibrium Maximum (°C): 17.4
+400m Equilibrium Minimum (°C): 17
+500m Equilibrium Mean (°C): 19.3
+500m Equilibrium Maximum (°C): 19.4
+500m Equilibrium Minimum (°C): 19.1
+600m Equilibrium Mean (°C): 21.3
+600m Equilibrium Maximum (°C): 21.5
+600m Equilibrium Minimum (°C): 21.1
+700m Equilibrium Mean (°C): 23.4
+700m Equilibrium Maximum (°C): 23.6
+700m Equilibrium Minimum (°C): 23.2
+800m Equilibrium Mean (°C): 25.5
+800m Equilibrium Maximum (°C): 25.7
+800m Equilibrium Minimum (°C): 25.2
+900m Equilibrium Mean (°C): 27.5
+900m Equilibrium Maximum (°C): 27.8
+900m Equilibrium Minimum (°C): 27.3
+
+Mine Water Body name: South Wales Area 11
+Coalfield: South_Wales
+100m Equilibrium Mean (°C): 11.3
+100m Equilibrium Maximum (°C): 12.9
+100m Equilibrium Minimum (°C): 10.3
+200m Equilibrium Mean (°C): 13.6
+200m Equilibrium Maximum (°C): 16.9
+200m Equilibrium Minimum (°C): 11.6
+300m Equilibrium Mean (°C): 15.9
+300m Equilibrium Maximum (°C): 21
+300m Equilibrium Minimum (°C): 12.9
+400m Equilibrium Mean (°C): 18.3
+400m Equilibrium Maximum (°C): 25.1
+400m Equilibrium Minimum (°C): 14.2
+500m Equilibrium Mean (°C): 20.6
+500m Equilibrium Maximum (°C): 29.1
+500m Equilibrium Minimum (°C): 15.6
+600m Equilibrium Mean (°C): 23
+600m Equilibrium Maximum (°C): 33.1
+600m Equilibrium Minimum (°C): 16.9
+700m Equilibrium Mean (°C): 25.3
+700m Equilibrium Maximum (°C): 37
+700m Equilibrium Minimum (°C): 18.2
+800m Equilibrium Mean (°C): 27.6
+800m Equilibrium Maximum (°C): 41
+800m Equilibrium Minimum (°C): 19.5
+
+Mine Water Body name: South Wales Area 10
+Coalfield: South_Wales
+100m Equilibrium Mean (°C): 11.3
+100m Equilibrium Maximum (°C): 14.2
+100m Equilibrium Minimum (°C): 9.8
+200m Equilibrium Mean (°C): 13.7
+200m Equilibrium Maximum (°C): 17.8
+200m Equilibrium Minimum (°C): 11.8
+300m Equilibrium Mean (°C): 16.5
+300m Equilibrium Maximum (°C): 23.7
+300m Equilibrium Minimum (°C): 13.2
+400m Equilibrium Mean (°C): 18.9
+400m Equilibrium Maximum (°C): 25.6
+400m Equilibrium Minimum (°C): 14.6
+500m Equilibrium Mean (°C): 21.6
+500m Equilibrium Maximum (°C): 29.6
+500m Equilibrium Minimum (°C): 16
+600m Equilibrium Mean (°C): 24.4
+600m Equilibrium Maximum (°C): 33.6
+600m Equilibrium Minimum (°C): 17.4
+700m Equilibrium Mean (°C): 27
+700m Equilibrium Maximum (°C): 37.6
+700m Equilibrium Minimum (°C): 18.8
+800m Equilibrium Mean (°C): 29.6
+800m Equilibrium Maximum (°C): 41.6
+800m Equilibrium Minimum (°C): 20.2
+900m Equilibrium Mean (°C): 32.2
+900m Equilibrium Maximum (°C): 45.6
+900m Equilibrium Minimum (°C): 21.6
+1000m Equilibrium Mean (°C): 34.8
+1000m Equilibrium Maximum (°C): 49.6
+1000m Equilibrium Minimum (°C): 23
+
+Mine Water Body name: South Wales Area 10a
+Coalfield: South_Wales
+100m Equilibrium Mean (°C): 10.9
+100m Equilibrium Maximum (°C): 10.9
+100m Equilibrium Minimum (°C): 10.9
+200m Equilibrium Mean (°C): 12.8
+200m Equilibrium Maximum (°C): 12.9
+200m Equilibrium Minimum (°C): 12.7
+300m Equilibrium Mean (°C): 14.7
+300m Equilibrium Maximum (°C): 14.8
+300m Equilibrium Minimum (°C): 14.6
+400m Equilibrium Mean (°C): 16.6
+400m Equilibrium Maximum (°C): 16.8
+400m Equilibrium Minimum (°C): 16.5
+500m Equilibrium Mean (°C): 18.5
+500m Equilibrium Maximum (°C): 18.7
+500m Equilibrium Minimum (°C): 18.4
+600m Equilibrium Mean (°C): 20.4
+600m Equilibrium Maximum (°C): 20.6
+600m Equilibrium Minimum (°C): 20.2
+700m Equilibrium Mean (°C): 22.3
+700m Equilibrium Maximum (°C): 22.6
+700m Equilibrium Minimum (°C): 22.1
+800m Equilibrium Mean (°C): 24.2
+800m Equilibrium Maximum (°C): 24.5
+800m Equilibrium Minimum (°C): 24
+
+Mine Water Body name: South Wales Area 9
+Coalfield: South_Wales
+100m Equilibrium Mean (°C): 11
+100m Equilibrium Maximum (°C): 11.3
+100m Equilibrium Minimum (°C): 10.7
+200m Equilibrium Mean (°C): 13.1
+200m Equilibrium Maximum (°C): 13.7
+200m Equilibrium Minimum (°C): 12.5
+300m Equilibrium Mean (°C): 15.1
+300m Equilibrium Maximum (°C): 16
+300m Equilibrium Minimum (°C): 14.2
+400m Equilibrium Mean (°C): 17.1
+400m Equilibrium Maximum (°C): 18.3
+400m Equilibrium Minimum (°C): 16
+500m Equilibrium Mean (°C): 19.1
+500m Equilibrium Maximum (°C): 20.6
+500m Equilibrium Minimum (°C): 17.7
+600m Equilibrium Mean (°C): 21.2
+600m Equilibrium Maximum (°C): 23
+600m Equilibrium Minimum (°C): 19.4
+700m Equilibrium Mean (°C): 23.2
+700m Equilibrium Maximum (°C): 25.3
+700m Equilibrium Minimum (°C): 21.2
+800m Equilibrium Mean (°C): 25.2
+800m Equilibrium Maximum (°C): 27.6
+800m Equilibrium Minimum (°C): 22.9
+
+Mine Water Body name: South Wales Area 9a
+Coalfield: South_Wales
+100m Equilibrium Mean (°C): 11
+100m Equilibrium Maximum (°C): 10.2
+100m Equilibrium Minimum (°C): 9.9
+200m Equilibrium Mean (°C): 13.1
+200m Equilibrium Maximum (°C): 11.3
+200m Equilibrium Minimum (°C): 10.7
+300m Equilibrium Mean (°C): 15.1
+300m Equilibrium Maximum (°C): 16
+300m Equilibrium Minimum (°C): 14.2
+400m Equilibrium Mean (°C): 17.1
+400m Equilibrium Maximum (°C): 18.3
+400m Equilibrium Minimum (°C): 16
+500m Equilibrium Mean (°C): 19.1
+500m Equilibrium Maximum (°C): 20.6
+500m Equilibrium Minimum (°C): 17.7
+
+
+Mine Water Body name: South Wales Area 8
+Coalfield: South_Wales
+100m Equilibrium Mean (°C): 12.3
+100m Equilibrium Maximum (°C): 12.8
+100m Equilibrium Minimum (°C): 11.8
+200m Equilibrium Mean (°C): 15
+200m Equilibrium Maximum (°C): 15.7
+200m Equilibrium Minimum (°C): 14.4
+300m Equilibrium Mean (°C): 17.7
+300m Equilibrium Maximum (°C): 18.9
+300m Equilibrium Minimum (°C): 16.5
+400m Equilibrium Mean (°C): 18.4
+400m Equilibrium Maximum (°C): 22.5
+400m Equilibrium Minimum (°C): 15.1
+500m Equilibrium Mean (°C): 23.1
+500m Equilibrium Maximum (°C): 26.1
+500m Equilibrium Minimum (°C): 20.9
+600m Equilibrium Mean (°C): 25.1
+600m Equilibrium Maximum (°C): 29.6
+600m Equilibrium Minimum (°C): 22.1
+700m Equilibrium Mean (°C): 27.8
+700m Equilibrium Maximum (°C): 33.2
+700m Equilibrium Minimum (°C): 24.3
+800m Equilibrium Mean (°C): 30.5
+800m Equilibrium Maximum (°C): 36.8
+800m Equilibrium Minimum (°C): 26.5
+
+Mine Water Body name: South Wales Area 8c
+Coalfield: South_Wales
+100m Equilibrium Mean (°C): 11.3
+200m Equilibrium Mean (°C): 13.6
+300m Equilibrium Mean (°C): 15.8
+
+Mine Water Body name: South Wales Area 8b
+Coalfield: South_Wales
+100m Equilibrium Mean (°C): 11.3
+200m Equilibrium Mean (°C): 13.6
+300m Equilibrium Mean (°C): 15.8
+400m Equilibrium Mean (°C): 17.9
+500m Equilibrium Mean (°C): 20.4
+
+Mine Water Body name: South Wales Area 8a
+Coalfield: South_Wales
+100m Equilibrium Mean (°C): 10.7
+100m Equilibrium Maximum (°C): 11.5
+100m Equilibrium Minimum (°C): 10.3
+200m Equilibrium Mean (°C): 12.4
+200m Equilibrium Maximum (°C): 14
+200m Equilibrium Minimum (°C): 11.6
+300m Equilibrium Mean (°C): 14.2
+300m Equilibrium Maximum (°C): 16.5
+300m Equilibrium Minimum (°C): 12.9
+400m Equilibrium Mean (°C): 15.9
+400m Equilibrium Maximum (°C): 19
+400m Equilibrium Minimum (°C): 14.2
+500m Equilibrium Mean (°C): 17.6
+500m Equilibrium Maximum (°C): 21.5
+500m Equilibrium Minimum (°C): 15.5
+600m Equilibrium Mean (°C): 19.3
+600m Equilibrium Maximum (°C): 24
+600m Equilibrium Minimum (°C): 16.8
+
+Mine Water Body name: South Wales Area 7
+Coalfield: South_Wales
+100m Equilibrium Mean (°C): 11.3
+200m Equilibrium Mean (°C): 13.6
+300m Equilibrium Mean (°C): 15.8
+
+Mine Water Body name: South Wales Area 6
+Coalfield: South_Wales
+100m Equilibrium Mean (°C): 11.5
+100m Equilibrium Maximum (°C): 12.3
+100m Equilibrium Minimum (°C): 10.8
+200m Equilibrium Mean (°C): 13.8
+200m Equilibrium Maximum (°C): 15.5
+200m Equilibrium Minimum (°C): 12.8
+300m Equilibrium Mean (°C): 16.1
+300m Equilibrium Maximum (°C): 18.8
+300m Equilibrium Minimum (°C): 14.7
+400m Equilibrium Mean (°C): 18.4
+400m Equilibrium Maximum (°C): 22.1
+400m Equilibrium Minimum (°C): 16.5
+500m Equilibrium Mean (°C): 20.7
+500m Equilibrium Maximum (°C): 25.4
+500m Equilibrium Minimum (°C): 18.1
+600m Equilibrium Mean (°C): 23
+600m Equilibrium Maximum (°C): 28.6
+600m Equilibrium Minimum (°C): 19.7
+700m Equilibrium Mean (°C): 25.3
+700m Equilibrium Maximum (°C): 31.9
+700m Equilibrium Minimum (°C): 21.3
+800m Equilibrium Mean (°C): 27.6
+800m Equilibrium Maximum (°C): 35.2
+800m Equilibrium Minimum (°C): 22.9
+
+Mine Water Body name: South Wales Area 5
+Coalfield: South_Wales
+100m Equilibrium Mean (°C): 10.5
+200m Equilibrium Mean (°C): 12
+300m Equilibrium Mean (°C): 13.6
+400m Equilibrium Mean (°C): 15.1
+500m Equilibrium Mean (°C): 16.6
+
+
+Mine Water Body name: South Wales Area 4
+Coalfield: South_Wales
+100m Equilibrium Mean (°C): 11
+100m Equilibrium Maximum (°C): 11.5
+100m Equilibrium Minimum (°C): 10.3
+200m Equilibrium Mean (°C): 13.7
+200m Equilibrium Maximum (°C): 14.6
+200m Equilibrium Minimum (°C): 12.9
+300m Equilibrium Mean (°C): 16.4
+300m Equilibrium Maximum (°C): 17.7
+300m Equilibrium Minimum (°C): 15.4
+400m Equilibrium Mean (°C): 19
+400m Equilibrium Maximum (°C): 20.8
+400m Equilibrium Minimum (°C): 18
+500m Equilibrium Mean (°C): 21.7
+500m Equilibrium Maximum (°C): 23.9
+500m Equilibrium Minimum (°C): 20.6
+600m Equilibrium Mean (°C): 23.3
+600m Equilibrium Maximum (°C): 23.9
+600m Equilibrium Minimum (°C): 23
+700m Equilibrium Mean (°C): 25
+700m Equilibrium Maximum (°C): 25.7
+700m Equilibrium Minimum (°C): 23.9
+800m Equilibrium Mean (°C): 26.6
+800m Equilibrium Maximum (°C): 28.3
+800m Equilibrium Minimum (°C): 23.9
+
+Mine Water Body name: South Wales Area 4a
+Coalfield: South_Wales
+100m Equilibrium Mean (°C): 10.8
+200m Equilibrium Mean (°C): 12.7
+300m Equilibrium Mean (°C): 14.6
+400m Equilibrium Mean (°C): 16.4
+500m Equilibrium Mean (°C): 18.3
+600m Equilibrium Mean (°C): 20.1
+700m Equilibrium Mean (°C): 21.9
+800m Equilibrium Mean (°C): 23.8
+
+Mine Water Body name: South Wales Area 3c
+Coalfield: South_Wales
+100m Equilibrium Mean (°C): 11.3
+200m Equilibrium Mean (°C): 13.6
+300m Equilibrium Mean (°C): 15.8
+400m Equilibrium Mean (°C): 17.9
+500m Equilibrium Mean (°C): 20.4
+600m Equilibrium Mean (°C): 22.5
+700m Equilibrium Mean (°C): 24.5
+800m Equilibrium Mean (°C): 26.8
+
+Mine Water Body name: South Wales Area 3b
+Coalfield: South_Wales
+100m Equilibrium Mean (°C): 11.5
+100m Equilibrium Maximum (°C): 12.1
+100m Equilibrium Minimum (°C): 10.8
+200m Equilibrium Mean (°C): 13.4
+200m Equilibrium Maximum (°C): 14.1
+200m Equilibrium Minimum (°C): 12.7
+300m Equilibrium Mean (°C): 15.1
+300m Equilibrium Maximum (°C): 15.7
+300m Equilibrium Minimum (°C): 14.6
+400m Equilibrium Mean (°C): 17.4
+400m Equilibrium Maximum (°C): 18.4
+400m Equilibrium Minimum (°C): 16.4
+500m Equilibrium Mean (°C): 19.6
+500m Equilibrium Maximum (°C): 21
+500m Equilibrium Minimum (°C): 18.3
+600m Equilibrium Mean (°C): 25.1
+600m Equilibrium Maximum (°C): 28.2
+600m Equilibrium Minimum (°C): 21.9
+700m Equilibrium Mean (°C): 27.4
+700m Equilibrium Maximum (°C): 31
+700m Equilibrium Minimum (°C): 23.8
+800m Equilibrium Mean (°C): 28.1
+800m Equilibrium Maximum (°C): 30.6
+800m Equilibrium Minimum (°C): 25.6
+900m Equilibrium Mean (°C): 30.3
+900m Equilibrium Maximum (°C): 33.2
+900m Equilibrium Minimum (°C): 27.5
+1000m Equilibrium Mean (°C): 17.9
+1000m Equilibrium Maximum (°C): 35.8
+1000m Equilibrium Minimum (°C): 35.8
+
+Mine Water Body name: South Wales Area 3a
+Coalfield: South_Wales
+100m Equilibrium Mean (°C): 11.3
+200m Equilibrium Mean (°C): 13.6
+300m Equilibrium Mean (°C): 15.8
+400m Equilibrium Mean (°C): 17.9
+500m Equilibrium Mean (°C): 20.4
+600m Equilibrium Mean (°C): 22.5
+
+Mine Water Body name: South Wales Area 3
+Coalfield: South_Wales
+100m Equilibrium Mean (°C): 10.4
+200m Equilibrium Mean (°C): 11.8
+300m Equilibrium Mean (°C): 13.2
+400m Equilibrium Mean (°C): 14.6
+500m Equilibrium Mean (°C): 16
+
+Mine Water Body name: South Wales Area 2
+Coalfield: South_Wales
+100m Equilibrium Mean (°C): 11.6
+100m Equilibrium Maximum (°C): 11.7
+100m Equilibrium Minimum (°C): 11.5
+200m Equilibrium Mean (°C): 14.3
+200m Equilibrium Maximum (°C): 14.3
+200m Equilibrium Minimum (°C): 14.2
+300m Equilibrium Mean (°C): 16.9
+300m Equilibrium Maximum (°C): 17
+300m Equilibrium Minimum (°C): 16.9
+400m Equilibrium Mean (°C): 19.6
+400m Equilibrium Maximum (°C): 19.7
+400m Equilibrium Minimum (°C): 19.6
+500m Equilibrium Mean (°C): 22.3
+500m Equilibrium Maximum (°C): 22.4
+500m Equilibrium Minimum (°C): 22.3
+
+Mine Water Body name: South Wales Area 1
+Coalfield: South_Wales
+100m Equilibrium Mean (°C): 12.8
+100m Equilibrium Maximum (°C): 13.5
+100m Equilibrium Minimum (°C): 12.2
+200m Equilibrium Mean (°C): 15.4
+200m Equilibrium Maximum (°C): 16.4
+200m Equilibrium Minimum (°C): 14.5
+300m Equilibrium Mean (°C): 18.1
+300m Equilibrium Maximum (°C): 19.7
+300m Equilibrium Minimum (°C): 16.8
+400m Equilibrium Mean (°C): 20.4
+400m Equilibrium Maximum (°C): 22.9
+400m Equilibrium Minimum (°C): 17.2
+500m Equilibrium Mean (°C): 23.4
+500m Equilibrium Maximum (°C): 26.1
+500m Equilibrium Minimum (°C): 21.3
+600m Equilibrium Mean (°C): 22.9
+600m Equilibrium Maximum (°C): 29.3
+600m Equilibrium Minimum (°C): 23.4
+700m Equilibrium Mean (°C): 25.2
+700m Equilibrium Maximum (°C): 32.5
+700m Equilibrium Minimum (°C): 25.6
+800m Equilibrium Mean (°C): 27.5
+800m Equilibrium Maximum (°C): 35.8
+800m Equilibrium Minimum (°C): 27.8
+900m Equilibrium Mean (°C): 29.8
+900m Equilibrium Maximum (°C): 39
+900m Equilibrium Minimum (°C): 30
+
+
+
+
+
+
+
