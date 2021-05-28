@@ -13,7 +13,7 @@ import statsmodels.api as sm
 from scipy import stats
 import itertools
 
-os.chdir(r'R:\GitHub\Data_phD\Data')
+os.chdir(r'R:\Data\Data_GIS\Temperature\Burley')
 
 data = pd.read_csv('T_Burley.csv', delimiter=',', header=0)
 print(type(data))
@@ -57,7 +57,7 @@ plt.tick_params(labelcolor='none', top=False, bottom =False, left=False, right=F
 plt.xlabel('Temperature (°C) ')
 plt.ylabel('Depth (m)')
 
-plt.savefig('T_Burley_1984_v2.png', dpi=400)
+#plt.savefig('T_Burley_1984_v2.png', dpi=400)
 
 
 #x0=400

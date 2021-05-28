@@ -8,7 +8,7 @@ Created on Fri May 22 13:44:57 2020
 import matplotlib.pyplot as plt
 import numpy as np
 import os
-os.chdir(r'R:\Modeling\Heat_Extraction_Paper\Steady_state\1D\Step_2_Flux_steady_state\CST_FLUX\PROD_74m2_1yr\PROD')
+os.chdir(r'R:\Modeling\1D_Models\2_Heat_extraction_model_water\2_1Y\0_1D-SI')
 time = []
 node = {}
 N= 10001  #need update
@@ -17,9 +17,9 @@ xflux = []
 flux = {}
 
 #define rock properties
-kth = 2.7
+kth = 2.2
 poro = 0.1
-K = (kth* poro)+(1-poro)*0.63 #Need to create a list of kth & porosity 
+K = (0.6* poro)+(1-poro)*kth #Need to create a list of kth & porosity 
                            #for each cell in put in loop
                            
 ####### profile #######
@@ -90,12 +90,14 @@ plt.title('Temperature along the line' )
 #thermal conductivity
 k=[]
 for i in range(len(T)):
-    if val_time[0][i]<50:
-        k.append(1.2)
-    if (val_time[0][i]>=50) and (val_time[0][i]<250):
-        k.append(1.8)
-    if val_time[0][i]>=250:
-        k.append(2.3)
+        k.append(K)
+#for i in range(len(T)):
+#    if val_time[0][i]<50:
+#        k.append(1.2)
+#    if (val_time[0][i]>=50) and (val_time[0][i]<250):
+#        k.append(1.8)
+#    if val_time[0][i]>=250:
+#        k.append(2.3)
                        
 
 #define size of each element --> to verify
@@ -160,7 +162,7 @@ plt.title('Vertical flux' )
 #plt.suptitle('Change in the temperature profile and flux due to surface warming for 1000 years')
 #plt.suptitle('Steady state profile with constant flux (Production in 2200 m2) - shallow well ')
 #plt.suptitle('Steady state profile - CUT well ')
-plt.suptitle('Steady state profile with solar flux - 1000 W extraction ')
+plt.suptitle('Steady state profile with solar flux - 1200 W extraction ')
 
 plt.savefig('Flux_prod.png')  
 

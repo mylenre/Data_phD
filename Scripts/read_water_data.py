@@ -11,7 +11,7 @@ import datetime
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
-os.chdir(r'R:\Data\Data_GIS\ArcMap_Data_CA\Water_Data\Water_Data\Water_Level')
+os.chdir(r'R:\Data\Data_GIS\CoalAuthority_Data\Water_Data\Water_Data\Water_Level')
 filelist=glob.glob('*_WL.txt')
 l = np.size(filelist)
 
@@ -37,9 +37,9 @@ ax.set(xlabel="Date",
        ylabel="Water level",
        title="Water level in shafts")
 plt.legend(loc='best')
-plt.savefig('Water_Level.png')  
+#plt.savefig('Water_Level.png')  
 
-os.chdir(r'R:\Data\Data_GIS\ArcMap_Data_CA\Water_Data\Water_Data\Flow_Rate')
+os.chdir(r'R:\Data\Data_GIS\CoalAuthority_Data\Water_Data\Water_Data\Flow_Rate')
 filelist=glob.glob('*.txt')
 l = np.size(filelist)
 fig, ax = plt.subplots(figsize=(8,8))
@@ -56,4 +56,4 @@ ax.set(xlabel="Date",
        ylabel="Flow rate (L/s)",
        title="Discharge or abstraction rate from shafts")
 plt.legend(loc='best')
-plt.savefig('Flow_Rate.png') 
+#plt.savefig('Flow_Rate.png') 

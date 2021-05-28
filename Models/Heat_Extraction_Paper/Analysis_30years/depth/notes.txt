@@ -1,5 +1,0 @@
-Axial recharge = 40 % (much decreased at the surface,
-where temperature difference between semi infinite and BHE model is reduced)
-But decrease in temperature at the surface much higher (2.6 instead of 0.4)
-Decrease rate at mid-BHE increased (see plot)
-

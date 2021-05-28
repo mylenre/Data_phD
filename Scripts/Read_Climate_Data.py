@@ -4,12 +4,15 @@ Created on Mon Dec  9 09:57:16 2019
 
 @author: mylen
 """
-######################### import packages ############################
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import os
+import glob
 import numpy, scipy.optimize
+
+# a = os.listdir(path='.')
+# filelist=glob.glob('*\*.csv')
 
 def fit_sin(tt, yy):
     '''Fit sin to the input time sequence, and return fitting parameters "amp", "omega", "phase", "offset", "freq", "period" and "fitfunc"'''
@@ -30,521 +33,346 @@ def fit_sin(tt, yy):
     return {"amp": A, "omega": w, "phase": p, "offset": c, "freq": f, "period": 1./f, "fitfunc": fitfunc, "maxcov": numpy.max(pcov), "rawres": (guess,popt,pcov)}
 
 
-#########################define parameters############################
+# Define parameters
 datelist=np.arange(2000,2011,1) # years to consider for average
-time=np.arange(0,86400*366,86400) # time steps in one year
+time=np.arange(0,366,1) # time steps in one year
 t=30 #total simulation time (years)
 tt=np.arange(0,t*366*24*3600,86400) #10980 steps
 
-#w=2*np.pi/365 # frequency of annual cyle
-#L= (2*a/w) #damping depth
+#%% Import data
 
-########################### AIR TEMPERATURE##########################
-os.chdir(r'R:\GitHub\Data_phD\Data\Climate_Data\Paisley\AirTemperature')
-AT={}
-alldate=[]
-alltemp=[]
+albedo_sw=0.31
+albedo_lw=0.1
+
+#% AIR TEMPERATURE
+os.chdir(r'S:\GitHub\Data_phD\Data\Climate_Data\Paisley\AirTemperature')
+air_temp={}
 
 with open('listfile.txt', 'r') as filehandle:
     for line in filehandle:
+        print(line)
+        date = line.split('.')[0]
         line = line[:-1]
         data = pd.read_csv(line, delimiter=',', header=6)
-        year=data['DATES']
-        temperature=data['Near-Surface Air Temperature (K)']
-        date=np.array(year)
-        temp=np.array(temperature)
-        alldate.append(date)
-        alltemp.append(temp)
-alldate=[x for xs in alldate for x in xs]
-alltemp=[x for xs in alltemp for x in xs]  
+        data.DATES = pd.to_datetime(pd.Series(data.DATES))
+        data.DATES = data.DATES.dt.strftime('%m/%d')
+        data = data.sort_values(by=['DATES'])
+        air_temp[date] = data
+df = pd.DataFrame()
+for i in air_temp:
+    df[i] = air_temp[i]['Near-Surface Air Temperature (K)'][0:366]
+mean_val = df.mean(axis = 1)-273
+table=np.stack((time, mean_val), axis=-1)
 
-for i in datelist:
-    i=str(i)
-    for line in alldate:
-        if(i in line):
-            id=alldate.index(line)
-            if i not in AT:
-                AT[i] = []
-            AT[i].append(alltemp[id])   
-list_AT=[]       
-for year in AT:
-     if(np.size(AT[year])<366):
-        continue
-     else:
-        temp= AT[year]
-        temp=np.array(temp[0:366])
-        list_AT.append(temp)
-        
-averageAT= np.mean(list_AT, axis=0)-273
-table=np.stack((time, averageAT), axis=-1)
-
-plt.figure(figsize=(16,20))
-plt.subplot(4,1,1)
-plt.scatter(table[:,0],table[:,1], s=1, label='Air temperature data')
-
+plt.figure(figsize=(20,20))
+plt.subplot(4,2,1)
+plt.scatter(table[:,0],table[:,1], c = 'royalblue', s=1, label='Air temperature data')
 res = fit_sin(table[:,0],table[:,1])
-#ATfit_lt=res["fitfunc"](tt)
 ATfit=res["fitfunc"](table[:,0])
 print( "Amplitude=%(amp)s, Angular freq.=%(omega)s, phase=%(phase)s, offset=%(offset)s, Max. Cov.=%(maxcov)s" % res )
-plt.plot(table[:,0], ATfit , label="Fit Air Temperature", linewidth=2)
+plt.plot(table[:,0], ATfit , c = 'royalblue', label="Fit Air Temperature", linewidth=2)
+#plt.grid(True, which='both')
+#plt.legend(loc="best")
+#plt.ylabel('Air temperature (°C)')
 
 
-########################### SOIL TEMPERATURE##########################
+#% SOIL TEMPERATURE
+os.chdir(r'S:\GitHub\Data_phD\Data\Climate_Data\Paisley\Soil_Temp_CEDA')
+soil_temp={}
 
-os.chdir(r'R:\GitHub\Data_phD\Data\Climate_Data\Paisley\Soil_Temp_CEDA')
-ST= {}
-ST2= {}
 with open('listfile.txt', 'r') as filehandle:
     for line in filehandle:
+        print(line)
+        date = line.split('.')[0]
         line = line[:-1]
         data = pd.read_csv(line, delimiter=',', header=85)
-        year=data['ob_time']
-        temperature=data['q30cm_soil_temp'] 
-        temperature2=data['q100cm_soil_temp']
-        ST[year[0]]=temperature[0:366]
-        ST2[year[0]]=temperature2[0:366]
+        soil_temp[date] = data
 
-list_ST=[]
-list_ST2=[]
-for i in datelist:
-    i=str(i)
-    for year in ST:
-        if i in year:
-            temp= ST[year]
-            temp=np.array(temp)
-            list_ST.append(temp)
-            temp2= ST2[year]
-            temp2=np.array(temp2)
-            list_ST2.append(temp2)
-            
-#soil temperature at 100 cm
-averageST2= np.nanmean(list_ST2, axis=0)
-table=np.stack((time, averageST2), axis=-1)
-plt.scatter(table[:,0],table[:,1], c="r", s=1, label="Soil temperature data 100 cm")
+df1 = pd.DataFrame()
+df2 = pd.DataFrame()
+for i in soil_temp:
+    df1[i] = soil_temp[i]['q30cm_soil_temp'][0:366]
+    df2[i] = soil_temp[i]['q100cm_soil_temp'][0:366]
+mean_val1 = df1.mean(axis = 1)
+mean_val2 = df2.mean(axis = 1)
+table=np.stack((time, mean_val1, mean_val2), axis=-1)
+
+#plt.subplot(4,2,2)
+plt.scatter(table[:,0],table[:,1], c='chocolate', s=1, label="Soil temperature data 30 cm")
+plt.scatter(table[:,0],table[:,2], c = 'slategray', s=1, label="Soil temperature data 100 cm")
 
 res = fit_sin(table[:,0],table[:,1])
-#STfit_lt=res["fitfunc"](tt)
-STfit=res["fitfunc"](table[:,0])
+ST1fit=res["fitfunc"](table[:,0])
 print( "Amplitude=%(amp)s, Angular freq.=%(omega)s, phase=%(phase)s, offset=%(offset)s, Max. Cov.=%(maxcov)s" % res )
-plt.plot(table[:,0], STfit , "r-", label="Fit Soil Temperature 100 cm", linewidth=2) 
+plt.plot(table[:,0], ST1fit , 'chocolate', label="Fit Soil Temperature 30 cm", linewidth=2) 
 
-#soil temperature at 30 cm
-averageST= np.nanmean(list_ST, axis=0)
-table=np.stack((time, averageST), axis=-1)
-plt.scatter(table[:,0],table[:,1], c="k", s=1, label="Soil temperature data 30 cm")
-
-res = fit_sin(table[:,0],table[:,1])
-#STfit_lt=res["fitfunc"](tt)
-STfit=res["fitfunc"](table[:,0])
+res = fit_sin(table[:,0],table[:,2])
+ST2fit=res["fitfunc"](table[:,0])
 print( "Amplitude=%(amp)s, Angular freq.=%(omega)s, phase=%(phase)s, offset=%(offset)s, Max. Cov.=%(maxcov)s" % res )
-plt.plot(table[:,0], STfit , "k-", label="Fit Soil Temperature 30 cm", linewidth=2) 
+plt.plot(table[:,0], ST2fit , 'slategray', label="Fit Soil Temperature 100 cm", linewidth=2) 
 
-plt.title('Paisley station')
-plt.ylabel('°C')
+plt.ylabel('Temperature (°C)')
 plt.legend(loc="best")
+plt.grid(True, which='both')
 
-########################### WINDSPEED ##########################
+#% WINDSPEED
+os.chdir(r'S:\GitHub\Data_phD\Data\Climate_Data\Paisley\Windspeed')
+wind_speed={}
 
-
-os.chdir(r'R:\GitHub\Data_phD\Data\Climate_Data\Paisley\Windspeed')
-WS= {}
-alldate=[]
-allwind=[]
 with open('listfile.txt', 'r') as filehandle:
     for line in filehandle:
+        print(line)
+        date = line.split('.')[0]
         line = line[:-1]
         data = pd.read_csv(line, delimiter=',', header=6)
-        year=data['DATES']
-        wind=data['Near-Surface Wind Speed (m s-1)']
-        date=np.array(year)
-        windspeed=np.array(wind)
-        alldate.append(date)
-        allwind.append(windspeed)
-alldate=[x for xs in alldate for x in xs]
-allwind=[x for xs in allwind for x in xs]  
+        data.DATES = pd.to_datetime(pd.Series(data.DATES))
+        data.DATES = data.DATES.dt.strftime('%m/%d')
+        data = data.sort_values(by=['DATES'])
+        wind_speed[date] = data
+df = pd.DataFrame()
+for i in wind_speed:
+    df[i] = wind_speed[i]['Near-Surface Wind Speed (m s-1)'][0:366]
+mean_val = df.mean(axis = 1)
+table=np.stack((time, mean_val), axis=-1)
 
-for i in datelist:
-    i=str(i)
-    for line in alldate:
-        if(i in line):
-            id=alldate.index(line)
-            if i not in WS:
-                WS[i] = []
-            WS[i].append(allwind[id])   
-list_WS=[]       
-for year in WS:
-     if(np.size(WS[year])<366):
-        continue
-     else:
-        windspeed= WS[year]
-        windspeed=np.array(windspeed[0:366])
-        list_WS.append(windspeed)        
-        
-averageWS= np.mean(list_WS, axis=0)
-table=np.stack((time, averageWS), axis=-1)
-
-plt.subplot(4,1,2)
-plt.scatter(table[:,0],table[:,1], c="r", s=1, label='Wind speed data')       
-        
+plt.subplot(4,2,2)
+plt.scatter(table[:,0],table[:,1], s=1, c = 'teal', label='Wind speed data')
 res = fit_sin(table[:,0],table[:,1])
+WSfit=res["fitfunc"](table[:,0])
 print( "Amplitude=%(amp)s, Angular freq.=%(omega)s, phase=%(phase)s, offset=%(offset)s, Max. Cov.=%(maxcov)s" % res )
-WSfit_lt= res["fitfunc"](tt)
-WSfit= res["fitfunc"](table[:,0])
-plt.plot(table[:,0],WSfit, "r-", label="Fit Wind Speed", linewidth=2)
-plt.ylabel('m/s')
+plt.plot(table[:,0], WSfit, '-', c = 'teal', label="Fit Wind Speed", linewidth=2)
+plt.ylabel('Wind speed (m/s)')
 plt.legend(loc="best")
+plt.grid(True, which='both')
 
-########################### SHORTWAVE (solar radiations) ##########################
- 
-albedo=0
-
-os.chdir(r'R:\GitHub\Data_phD\Data\Climate_Data\Paisley\Shortwave')
-SW= {}
-alldate=[]
-allSW=[]
-with open('listfile.txt', 'r') as filehandle:
-    for line in filehandle:
-        line = line[:-1]
-        data = pd.read_csv(line, delimiter=',', header=6)
-        year=data['DATES']
-        shWave=data['Surface Downwelling Shortwave Radiation (W m-2)']
-        date=np.array(year)
-        shortwave=np.array(shWave)
-        alldate.append(date)
-        allSW.append(shortwave)
-alldate=[x for xs in alldate for x in xs]
-allSW=[x for xs in allSW for x in xs]  
-
-for i in datelist:
-    i=str(i)
-    for line in alldate:
-        if(i in line):
-            id=alldate.index(line)
-            if i not in SW:
-                SW[i] = []
-            SW[i].append(allSW[id])   
-list_SW=[]       
-for year in SW:
-     if(np.size(SW[year])<366):
-        continue
-     else:
-        shortwave= SW[year]
-        shortwave=np.array(shortwave[0:366])
-        list_SW.append(shortwave)  
-        
-#absorbed radiations:        
-averageSW= (1-albedo)*np.mean(list_SW, axis=0)
-table=np.stack((time, averageSW), axis=-1)
-
-plt.subplot(4,1,3)
-plt.scatter(table[:,0],table[:,1], s=1, c="g", label='shortwave data')       
-     
-res = fit_sin(table[:,0],table[:,1])
-print( "Amplitude=%(amp)s, Angular freq.=%(omega)s, phase=%(phase)s, offset=%(offset)s, Max. Cov.=%(maxcov)s" % res )
-SWfit_lt= res["fitfunc"](tt)
-SWfit= res["fitfunc"](table[:,0])
-plt.plot(table[:,0],SWfit, "g-", label="Fit shortwave", linewidth=2)
-
-########################### LONGWAVE ##########################
-
-os.chdir(r'R:\GitHub\Data_phD\Data\Climate_Data\Paisley\Longwave')
-LW= {}
-alldate=[]
-allLW=[]
-with open('listfile.txt', 'r') as filehandle:
-    for line in filehandle:
-        line = line[:-1]
-        data = pd.read_csv(line, delimiter=',', header=6)
-        year=data['DATES']
-        lgWave=data['Surface Downwelling Longwave Radiation (W m-2)']
-        date=np.array(year)
-        longwave=np.array(lgWave)
-        alldate.append(date)
-        allLW.append(longwave)
-alldate=[x for xs in alldate for x in xs]
-allLW=[x for xs in allLW for x in xs]  
-
-for i in datelist:
-    i=str(i)
-    for line in alldate:
-        if(i in line):
-            id=alldate.index(line)
-            if i not in LW:
-                LW[i] = []
-            LW[i].append(allLW[id])   
-list_LW=[]       
-for year in LW:
-     if(np.size(LW[year])<366):
-        continue
-     else:
-        longwave= LW[year]
-        longwave=np.array(longwave[0:366])
-        list_LW.append(longwave)        
-        
-averageLW= np.mean(list_LW, axis=0)
-table=np.stack((time, averageLW), axis=-1)
-
-plt.scatter(table[:,0],table[:,1], s=1, c="b", label='longwave data')       
-     
-res = fit_sin(table[:,0],table[:,1])
-print( "Amplitude=%(amp)s, Angular freq.=%(omega)s, phase=%(phase)s, offset=%(offset)s, Max. Cov.=%(maxcov)s" % res )
-LWfit_lt= res["fitfunc"](tt)
-LWfit= res["fitfunc"](table[:,0])
-plt.plot(table[:,0],LWfit, "b-", label="Fit longwave", linewidth=2)
-
-########################## Longwave Radiation from Earth ##################
-
-a=17.3          # Qin et al., 2013 (q_irr)
-b=237.7
-c=5.67*10**(-8) # Stefan-Boltzmann constant
-e=0.9           # ground surface emissivity
-RH= 80 
-
-#gamma=(a*ATfit)/(b+ATfit)+ln(RH/100) # Qin et al., 2013 (q_irr)
-#Tdp=(b*gamma)/(a-gamma)
-#Esky=0.754+0.0044*Tdp
-#Tsky=Esky*ATfit
-#LWEarth0=c*e*((Tsky+273.15)**4-(STfit+273.15)**4) 
-
-Td= np.mean(ATfit) - ((100 - RH)/5) 
-Tsky = (ATfit+273.15)*(0.711+0.0056*Td+0.000073*Td**2)**(1/4)  # Gwadera et al (2017)
-TLWm=0.5*((STfit+273.15)+Tsky)
-LWEarth=4*c*TLWm**3*((STfit+273)-Tsky)
-#LWEarth=c*((STfit+273)**4-Tsky**4)
-#LWEarth=e*c*((STfit+273)**4-Tsky*4)                           # Larwa, 2018 
-#LWEarth=e*4.83*((STfit+273)-Tsky) 
-
-plt.plot(table[:,0],LWEarth, label='Average Longwave from Earth') 
-plt.legend(loc="best")
-
-
-############################## Convective Flux #######################
-
-hu=[]
+# Convective heat flux
+h_conv=[] #h—convective heat transfer coefficient (W/(m2K))
 for u in WSfit:
     if u < 4.88:
-        h=5.7+3.8*u
+        h = 5.7 + 3.8*u
     else:
-        h=7.2*u**0.78
-    hu.append(h)
-       
-H=hu*(ATfit-STfit)
-plt.plot(table[:,0],H, label='Convective flux')  
-plt.ylabel('W/m2')
-plt.legend(loc="best")
+        h = 7.2*u**0.78
+    h_conv.append(h)
+# h_conv = 0.5+ 1.2*WSfit**0.5 # SalahSaadi et al (2017)       
+q_conv=h_conv*((ATfit+273)-(ST1fit+273))
 
+#% SHORTWAVE (solar radiations)
+os.chdir(r'S:\GitHub\Data_phD\Data\Climate_Data\Paisley\Shortwave')
+shortwave= {}
 
-######################### conductive heat flux ##########################
-os.chdir(r'R:\GitHub\Data_phD\Data\Climate_Data\Paisley')
-
-plt.subplot(4,1,4)
-qcond=H+SWfit-LWEarth      #qconv+qabs+qirr in Qin et al., 2013
-plt.plot(table[:,0],qcond, label='Conductive heat flux')
-plt.legend(loc="best")
-plt.xlabel('Time (s)')
-plt.ylabel('W/m2')
-plt.grid(True, which='both')
-#plt.savefig('Paisley_meteo.png') 
-
-#######"" create AT and qcond output file for 30 years simulation ###########
-
-AT_sim=[]
-for i in range(30):
-     AT_sim.append(ATfit)
-AT_sim=[x for xs in AT_sim for x in xs]
-Curve_AT=np.stack((tt, AT_sim), axis=-1)
-
-qcond_sim=[]
-for i in range(30):
-     qcond_sim.append(qcond)
-qcond_sim=[x for xs in qcond_sim for x in xs]
-Curve_qcond=np.stack((tt, qcond_sim), axis=-1)
-
-plt.figure(figsize=(16,5))
-#plt.plot(tt, AT_sim, label="AT stack")
-#plt.plot(tt, ATfit_lt, label="lt interpolation")
-
-def moving_average(y, K=5):
-    """
-    2K+1 point moving average of array y
-    """
-    N = np.size(y)      # find the size of y
-    s = np.zeros(N)     # make an array of zeros with the same size
-    for n in range(N):  # loop for the moving average
-        kmin = max(n-K, 0)    # limit to indices within the array
-        kmax = min(n+K+1, N)  # i.e. range 0 to N-1
-        s[n] = np.mean(y[kmin:kmax])
-    return s            # return the smoothed array
-
-# plot smoothed temperatures
-AT_smooth = moving_average(AT_sim, K=30)
-plt.plot(tt, AT_smooth, color='black', lw=1)
-plt.xlabel('Time (s)')
-plt.ylabel('Temperature (°C)')
-plt.legend(loc='best')
-
-plt.twinx()
-plt.plot(Curve_qcond[:,0],Curve_qcond[:,1],c='r')
-plt.ylim(-150,150)
-plt.ylabel('Flux (W/m²)',color='r')
-
-#plt.savefig('Paisley_inputs.png') 
-#np.savetxt('Curve_AT_Paisley.txt', Curve_AT)
-#np.savetxt('Curve_qcond_Paisley.txt', Curve_qcond)
-
-
-
-########################################################################
-########### Effective surface temperature Singh and Sharma 2017 T########
-########################################################################
-
-os.chdir(r'C:\Users\s1995204\Documents_LOCAL\Modeling')
-c=5.67*10**(-8)  # Stefan-Boltzmann constant
-e=0.9            # ground surface emissivity
-absorp=0.5
-hr=4*e*c*ATfit**3
-hc=2.8+3*WSfit
-Tsky=ATfit-12
-h=hr+hc
-S=SWfit
-DR=c*((ATfit+273.15)**4-(Tsky+273.15)**4)
-
-#calculate effetcive air temperature
-Te=ATfit+absorp*S/h-e*DR/h
-meanSoilTemp=np.mean(STfit)
-meanTe=np.mean(Te)
-
-# calculate ground temperature
-Tg0=[]
-Dy=2
-k=3.14
-for i in np.arange(366):
-    temp=(STfit[i]+(h[i]*Dy/k)*Te[i])/(1+(h[i]*Dy/k))
-    Tg0.append(temp)
-
-# plot Teff
-plt.figure(figsize=(16,10))
-plt.subplot(2,1,1)
-plt.plot(table[:,0], STfit , "k-", label="Fit Soil Temperature 30 cm", linewidth=2) 
-plt.plot(table[:,0], Te, color='blue', label="Effective temperature", linewidth=2)
-plt.plot(table[:,0], Tg0, color='r', label="Calculated ground temperature", linewidth=2)
-plt.xlabel('Time (s)')
-plt.ylabel('Temperature (°C)')
-plt.legend(loc='best')
-
-
-#plot flux
-plt.subplot(2,1,2)
-qsurf= 1.2 *(Tg0-STfit)/0.3 # Soil conductivity and temperature at 30 cm              #v3 (deleted)
-averageq = np.mean(qsurf)
-minq= np.min(qsurf) 
-maxq= np.max(qsurf) 
-
-plt.plot(table[:,0], qsurf , "k-", linewidth=2) 
-plt.xlabel('Time (s)')
-plt.ylabel('Flux (W/m2)')
-#plt.savefig('Surface_Temperature.png') 
-
-###################### R:\Modeling\2D_Models\M1 ######################
-dt_d = 1 
-dt_s=3600*24 # 1 day
-t_y= 1000 # year
-t_d=dt_d*365.25*t_y
-t_s=dt_s*365.25*t_y
-
-time = np.arange(0, t_d, dt_d)
-time_s= np.arange(0, t_s, dt_s)
-#surflux = 4*np.cos(2*np.pi*(time/t_d*t_y)+1.571) -0.026                                #BEMCHMARK        
-surflux = 4*np.cos(2*np.pi*(time/t_d*t_y)+1.5708) -0.068                                #M1    
-
-plt.figure(figsize=(16,5))
-plt.plot(time, surflux)
-plt.title('Average daily surface flux for 30 years')
-plt.xlabel('Time (days)')
-plt.ylabel('Amplitude = flux')
-plt.grid(True, which='both')
-plt.axhline(y=0, color='k')
-
-#plt.savefig('q_surface_4.png') 
-
-qsurfaceinput=np.stack((time_s, surflux), axis=-1)
-
-#np.savetxt('qsurf_4.txt', qsurfaceinput)
-
-########################### SHORTWAVE (solar radiations) ##########################
- 
-os.chdir(r'R:\GitHub\Data_phD\Data\Climate_Data\Paisley\RelativeHumidity')
-RH= {}
-alldate=[]
-allRH=[]
 with open('listfile.txt', 'r') as filehandle:
     for line in filehandle:
+        print(line)
+        date = line.split('.')[0]
         line = line[:-1]
         data = pd.read_csv(line, delimiter=',', header=6)
-        year=data['DATES']
-        srh=data['Near-Surface Specific Humidity (kg kg-1)']
-        date=np.array(year)
-        relhumidity=np.array(srh)
-        alldate.append(date)
-        allRH.append(relhumidity)
-alldate=[x for xs in alldate for x in xs]
-allRH=[x for xs in allRH for x in xs]  
+        data.DATES = pd.to_datetime(pd.Series(data.DATES))
+        data.DATES = data.DATES.dt.strftime('%m/%d')
+        data = data.sort_values(by=['DATES'])
+        shortwave[date] = data
+df = pd.DataFrame()
+for i in shortwave:
+    df[i] = shortwave[i]['Surface Downwelling Shortwave Radiation (W m-2)'][0:366]
+mean_val = (1-albedo_sw)* df.mean(axis = 1) #absorbed radiations
+table=np.stack((time, mean_val), axis=-1)
 
-for i in datelist:
-    i=str(i)
-    for line in alldate:
-        if(i in line):
-            id=alldate.index(line)
-            if i not in RH:
-                RH[i] = []
-            RH[i].append(allRH[id])   
-list_RH=[]       
-for year in RH:
-     if(np.size(RH[year])<366):
-        continue
-     else:
-        relhumidity= RH[year]
-        relhumidity=np.array(relhumidity[0:366])
-        list_RH.append(relhumidity)  
-      
-averageRH= np.mean(list_RH, axis=0)
-table=np.stack((time, averageRH), axis=-1)
-
-
-plt.figure(figsize=(16,5))
-plt.scatter(table[:,0],table[:,1], s=1, c="g", label='relative humidity data')       
-     
+plt.subplot(4,2,3)
+plt.scatter(table[:,0],table[:,1], s=1, c = 'orange', label='Downwelling Shortwave Radiation data')
 res = fit_sin(table[:,0],table[:,1])
+SWfit=res["fitfunc"](table[:,0])
 print( "Amplitude=%(amp)s, Angular freq.=%(omega)s, phase=%(phase)s, offset=%(offset)s, Max. Cov.=%(maxcov)s" % res )
-RHfit_lt= res["fitfunc"](tt)
-RHfit= res["fitfunc"](table[:,0])
-plt.plot(table[:,0],RHfit, "g-", label="Fit relative humidity", linewidth=2)
-
-plt.title('Average daily relative humidity')
-plt.xlabel('Time (days)')
-plt.ylabel('Relative humidity')
+plt.plot(table[:,0], SWfit, '-', c = 'orange', label="Fit Downwelling Shortwave Radiation", linewidth=2)
+plt.ylabel('Shortwave (W/m$^2$)')
+plt.legend(loc="best")
 plt.grid(True, which='both')
-plt.axhline(y=0, color='k')
 
+If = 0.5 #intensity factor (Qin et al., 2013)
+q_abs = SWfit * If
 
+#% Downward LONGWAVE radiations
+os.chdir(r'S:\GitHub\Data_phD\Data\Climate_Data\Paisley\Longwave')
+longwave= {}
 
-########################################################################
-########### sALAHsAADIeTaL 2017 T########
-########################################################################
-f=0.7
-alb=0.1
-sigma=5.67e-8
-HTC = 0.5+1.2*WSfit**(0.5)
-CE = HTC * (ATfit - STfit) #Convective energy
-LR = e  * sigma * ((STfit+273)**4  - (ATfit+273)**4)# longwave radiation emitted from the ground, T in Kelvin
-SR = (1 - alb) * SWfit #absorbed solar radiations
-LE = 0.0168*f* HTC*(103*STfit+609-RHfit*(103*ATfit+609))# latent heat due to evaporation
+with open('listfile.txt', 'r') as filehandle:
+    for line in filehandle:
+        print(line)
+        date = line.split('.')[0]
+        line = line[:-1]
+        data = pd.read_csv(line, delimiter=',', header=6)
+        data.DATES = pd.to_datetime(pd.Series(data.DATES))
+        data.DATES = data.DATES.dt.strftime('%m/%d')
+        data = data.sort_values(by=['DATES'])
+        longwave[date] = data
+df = pd.DataFrame()
+for i in longwave:
+    df[i] = longwave[i]['Surface Downwelling Longwave Radiation (W m-2)'][0:366]
+#mean_val = df.mean(axis = 1) 
+mean_val = (1-albedo_lw)*df.mean(axis = 1) 
+table=np.stack((time, mean_val), axis=-1)
 
-q = CE - LR + DR - LE
-plt.figure(figsize=(16,5))
-plt.scatter(table[:,0],q)    
-plt.title('surface heat flux')
-plt.xlabel('Time (days)')
-plt.ylabel('Relative humidity')
+plt.subplot(4,2,4)
+plt.scatter(table[:,0],table[:,1], s=1, c = 'orange', label='Downwelling Longwave Radiation data')
+res = fit_sin(table[:,0],table[:,1])
+LWfit=res["fitfunc"](table[:,0])
+print( "Amplitude=%(amp)s, Angular freq.=%(omega)s, phase=%(phase)s, offset=%(offset)s, Max. Cov.=%(maxcov)s" % res )
+plt.plot(table[:,0], LWfit, '-',c = 'orange', label="Fit Downwelling Longwave Radiation", linewidth=2)
+
+#Reflected thermal radiations from ground
+#plt.subplot(4,2,6)
+# Analytical calculations of longwave thermal radiations (Qin et al 2013)
+sigma = 5.669e-8 # W/(m2K4) Stefan-Boltzmann constant
+Tdp = ATfit- 10 # dew point (Perry and Green, 1997)
+emissivity = 0.754 + 0.0044*Tdp # ground surface emissivity (Tang et al., 2004)
+Tsky = ATfit*emissivity**0.25
+q_irr = sigma * emissivity * ((Tsky+273)**4- (ST1fit+273)**4)
+#plt.plot(table[:,0], q_irr, 'k', label="Analytical Longwave (Qin et al., 2013)", linewidth=2)
+
+# Analytical calculations of longwave thermal radiations (larwa, 2018)
+Tsky = ATfit*(0.711+0.0056*Tdp+0.000073*Tdp**2)**0.25
+LW = sigma * emissivity * ((ST1fit+273)**4 - (Tsky+273)**4)
+#plt.plot(table[:,0], LW, 'r', label="Analytical Longwave (Salah Saadi et al., 2017)", linewidth=2)
+
+# Analytical calculations of longwave thermal radiations (Salah Saadi et al 2017)
+LR = emissivity * sigma * ((ST1fit+273)**4-(ATfit+273)**4)
+#plt.plot(table[:,0], LR, 'r', label="Analytical Longwave (Salah Saadi et al., 2017)", linewidth=2)
+
+# Analytical calculations of longwave thermal radiations (Singh and sharma 2017)
+Tsky = ATfit-12
+TR = emissivity * sigma * ((ATfit+273)**4-(Tsky+273)**4)
+#plt.plot(table[:,0], TR, 'g', label="Analytical Longwave (Singh & sharma, 2017)", linewidth=2)
+
+# from Banks, 2008
+emissivity = 0.97
+q_back = emissivity * sigma * (ATfit + 273)**4
+plt.plot(table[:,0], q_back, c='darkred', label="Reflected Longwave (Banks, 2008)", linewidth=2)
+plt.ylabel('Longwave (W/m$^2$)')
+plt.legend(loc="best")
 plt.grid(True, which='both')
-plt.axhline(y=0, color='k')
+
+
+#% Relative Humidity
+os.chdir(r'S:\GitHub\Data_phD\Data\Climate_Data\Paisley\RelativeHumidity')
+humidity= {}
+
+with open('listfile.txt', 'r') as filehandle:
+    for line in filehandle:
+        print(line)
+        date = line.split('.')[0]
+        line = line[:-1]
+        data = pd.read_csv(line, delimiter=',', header=6)
+        data.DATES = pd.to_datetime(pd.Series(data.DATES))
+        data.DATES = data.DATES.dt.strftime('%m/%d')
+        data = data.sort_values(by=['DATES'])
+        humidity[date] = data
+df = pd.DataFrame()
+for i in humidity:
+    df[i] = humidity[i]['Near-Surface Specific Humidity (kg kg-1)'][0:366]
+mean_val = df.mean(axis = 1) 
+table=np.stack((time, mean_val), axis=-1)
+
+#plt.subplot(4,2,6)
+#plt.scatter(table[:,0],table[:,1], s=1, label='Relative Humidity data')
+res = fit_sin(table[:,0],table[:,1])
+RHfit=res["fitfunc"](table[:,0])
+print( "Amplitude=%(amp)s, Angular freq.=%(omega)s, phase=%(phase)s, offset=%(offset)s, Max. Cov.=%(maxcov)s" % res )
+#plt.plot(table[:,0], RHfit, '-', label="Fit Relative Humidity", linewidth=2)
+#plt.ylabel('m/s')
+#plt.legend(loc="best")
+#plt.xlabel('Time (days)')
+#plt.ylabel('Relative humidity (%)')
+#plt.grid(True, which='both')
+
+# latent heat of evaporation # SalahSaadi et al (2017); Larwa (2018)
+f = 0.7
+hc = 0.5+ 1.2*WSfit**0.5 # SalahSaadi et al (2017)       
+LE = 0.0168 * f * hc * (103 * (ST1fit+273) + 609 - RHfit * (103 * (ATfit + 273) + 609))
+#plt.plot(table[:,0], LE, label='Latent heat of evaporation')
+
+#% EVAPOTRANSPIRATION
+os.chdir(r'S:\GitHub\Data_phD\Data\Climate_Data\Paisley\Evapotranspiration')
+evapo= {}
+
+with open('listfile.txt', 'r') as filehandle:
+    for line in filehandle:
+        print(line)
+        date = line.split('.')[0]
+        line = line[:-1]
+        data = pd.read_csv(line, delimiter=',', header=6)
+        data.DATES = pd.to_datetime(pd.Series(data.DATES))
+        data.DATES = data.DATES.dt.strftime('%m/%d')
+        data = data.sort_values(by=['DATES'])
+        evapo[date] = data
+df = pd.DataFrame()
+for i in evapo:
+    df[i] = evapo[i]['Potential evapotranspiration with interception correction (mm/day)'][0:366]
+mean_val = df.mean(axis = 1) 
+table=np.stack((time, mean_val), axis=-1)
+
+plt.subplot(4,2,5)
+#plt.scatter(table[:,0],table[:,1], s=1, label='Evapo-Transpiration data')
+res = fit_sin(table[:,0],table[:,1])
+EVfit=res["fitfunc"](table[:,0])
+print( "Amplitude=%(amp)s, Angular freq.=%(omega)s, phase=%(phase)s, offset=%(offset)s, Max. Cov.=%(maxcov)s" % res )
+#plt.plot(table[:,0], EVfit, '-', label="Fit Evapo-Transpiration", linewidth=2)
+#plt.xlabel('Time (days)')
+#plt.ylabel('Evapo-transpiration (mm/day)')
+
+# latent heat of evaporation (Banks, 2008)
+q_evap = EVfit * 1000 * 2257 / 86400 #(Banks, 2008) mm/day * 1000 g/m2 *2257 J/g /86400s = W/m2
+#https://www.researchgate.net/post/How-to-calculate-evapotranspiration-from-latent-heat-flux
+plt.plot(table[:,0], q_evap, c='darkred', label='Latent heat of evaporation')
+plt.xlabel('Time (days)')
+plt.ylabel('Evapo-transpiration (W/m$^2$)')
+plt.legend(loc="best")
+plt.grid(True, which='both')
+
+#% plot Convective heat flux
+#plt.figure(figsize=(20,20))
+plt.subplot(4,2,6)
+plt.plot(table[:,0],q_conv, c = 'teal', label='Convective flux')  
+plt.ylabel('W/m$^2$')
+plt.legend(loc="best")
+
+#% plot Conductive heat flux
+#qcond0 = q_conv - LWfit + SWfit - EVfit #ref
+qcond0 = q_conv + LR + SWfit #ref
+qcond1 = q_conv - LW + SWfit - LE # Larwa, 2018
+qcond2 = q_conv + q_irr + q_abs # Qin et al., 2013
+qcond3 = q_conv - LR + SWfit - LE #CE (convective energy)- lR (Longwave radiations emitted form ground)+ SR (absobed radiation) - LE (latente heat evaporation) # SalahSaadi et al (2017)
+qcond4 = q_conv - TR + SWfit # Singh and Sharma 2017
+
+#plt.plot(table[:,0],qcond0, label='Conductive flux (reference)')
+##plt.plot(table[:,0],qcond1, label='Conductive flux Larwa (2018)')
+#plt.plot(table[:,0],qcond2, label='Conductive flux Qin et al. (2013)')
+##plt.plot(table[:,0],qcond3, label='Conductive flux Salah Saadi et al. (2017)')
+##plt.plot(table[:,0],qcond4, label='Conductive flux Singh and Sharma (2017)')
+
+#% plot net incoming radiations (Banks,2008)
+rn = SWfit + LWfit - q_back
+rn2 = rn - (q_conv + q_evap)
+plt.plot(table[:,0],rn, c = 'orange', label='Net incoming radiations (Banks, 2008)')
+plt.plot(table[:,0],rn2, c='darkred', label='Thermal input (Banks, 2008)')
+
+plt.legend(loc="best")
+plt.xlabel('Time (s)')
+plt.ylabel('W/m$^2$')
+plt.grid(True, which='both')
+
+os.chdir(r'S:\GitHub\Data_phD\Data\Climate_Data\Paisley')
+#plt.savefig('Data_plot_v2.png') 
+
+#%%
+tot_irr = np.mean(SWfit)+np.mean(LWfit) # total incoming radiations
+    
+sw = np.mean(SWfit)# shortwave radiations
+lw = np.mean(LWfit) # downwelling LW rad 
+th = np.mean(q_back) #emitted rad 
+rn_mean = np.mean(rn)
+rn2_mean = np.mean(rn2)
+
+#print('assuming shortwave reflectivity of '+ str(albedo_sw) + ' and longwave reflectivity of ' + str(albedo_lw)))
+print(sw)
+print(lw)
+print(th)
+print(rn_mean)
+print(rn2_mean)

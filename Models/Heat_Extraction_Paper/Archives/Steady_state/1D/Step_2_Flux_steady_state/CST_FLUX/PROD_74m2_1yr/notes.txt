@@ -1,1 +1,0 @@
-Deleted No-Production folder as initial conditions are well maintained if flux only with 70m2 area

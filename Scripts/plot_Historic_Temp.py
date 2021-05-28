@@ -61,4 +61,4 @@ plt.legend(); plt.xlabel('time (s)'); plt.ylabel('temperature');
 #save
 data=np.array([dt_s,curve[:,1]])
 data=data.T
-np.savetxt('curveT_corr.txt', data, fmt=['%i','%f'])
+#np.savetxt('curveT_corr.txt', data, fmt=['%i','%f'])

@@ -1,0 +1,40 @@
+
+#w=2*np.pi/365 # frequency of annual cyle
+#L= (2*a/w) #damping depth
+
+qcond_sim=[]
+for i in range(30):
+     qcond_sim.append(qcond)
+qcond_sim=[x for xs in qcond_sim for x in xs]
+Curve_qcond=np.stack((tt, qcond_sim), axis=-1)
+
+
+def moving_average(y, K=5):
+    """
+    2K+1 point moving average of array y
+    """
+    N = np.size(y)      # find the size of y
+    s = np.zeros(N)     # make an array of zeros with the same size
+    for n in range(N):  # loop for the moving average
+        kmin = max(n-K, 0)    # limit to indices within the array
+        kmax = min(n+K+1, N)  # i.e. range 0 to N-1
+        s[n] = np.mean(y[kmin:kmax])
+    return s            # return the smoothed array
+
+# plot smoothed temperatures
+AT_smooth = moving_average(AT_sim, K=30)
+plt.plot(tt, AT_smooth, color='black', lw=1)
+plt.xlabel('Time (s)')
+plt.ylabel('Temperature (°C)')
+plt.legend(loc='best')
+
+plt.twinx()
+plt.plot(Curve_qcond[:,0],Curve_qcond[:,1],c='r')
+plt.ylim(-150,150)
+plt.ylabel('Flux (W/m²)',color='r')
+
+#plt.savefig('Paisley_inputs.png') 
+#np.savetxt('Curve_AT_Paisley.txt', Curve_AT)
+#np.savetxt('Curve_qcond_Paisley.txt', Curve_qcond)
+
+

@@ -1,9 +1,0 @@
-Integrated temperature difference along profile after 30 years of production, for: 
- a 1D rock column (2200 m2) with infinite vertical recharge (no lateral recharge): 6053.727, 
- a 1D rock column (2200 m2) of BHE height (40 m): 6067.266, 
- at 26.5m from the BHE for an infinite 3D rock volume (lateral and vertical recharge): 836.334
- and at 26.5m from the BHE for a volume with lateral recharge only: 836.279
-In those models, only the geothermal flux contribute to recharge, as steady state gradient and heat comes from below (explain the cooling at the surface).
-Percentage axial recharge (1D) : 65.0%
-Percentage lateral recharge : 86.2%
-Percentage axial recharge (3D) : 58.9%

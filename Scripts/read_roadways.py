@@ -10,7 +10,7 @@ import numpy as np
 import os
 roadways = []
 
-os.chdir(r'R:\Data\Data_GIS\seams')
+os.chdir(r'S:\Data\Data_GIS\CoalAuthority_Data\Mine_Data\seams')
 with open('roadways.txt', 'r') as file:
   next(file)
   for line in file:
