@@ -792,3 +792,70 @@ with open('list.txt', 'r') as list:
         else:
             # create a new array in this slot
             years_dict[line[0]] = [line[1]]
+            
+#########################################################################
+# Import cars data
+import pandas as pd
+cars = pd.read_csv('cars.csv', index_col = 0)
+
+# Create car_maniac: observations that have a cars_per_cap over 500
+cpc = cars['cars_per_cap']
+many_cars = cpc > 500
+car_maniac=cars[many_cars]
+
+# Print car_maniac
+print(car_maniac)
+
+
+-----------------------------------------------------------------
+
+# Import cars data
+import pandas as pd
+cars = pd.read_csv('cars.csv', index_col = 0)
+
+# Import numpy, you'll need this
+import numpy as np
+
+# Create medium: observations with cars_per_cap between 100 and 500
+cpc = cars['cars_per_cap']
+between = np.logical_and(cpc > 100, cpc < 500)
+medium = cars[between]
+
+# Print medium
+print(medium)
+
+------------------------------------------------------------------
+
+# areas list
+areas = [11.25, 18.0, 20.0, 10.75, 9.50]
+
+# Change for loop to use enumerate() and update print()
+for a,b in enumerate(areas) :
+    print("room "+ str(a)+ ": "+str(b))
+    
+-------------------------------------------------------------------
+# Import numpy as np
+import numpy as np
+
+# For loop over np_height (1D numpy array)
+for x in np_height:
+    print(str(x) + ' inches')
+
+# For loop over np_baseball (2D numpy array)
+for x in np.nditer(np_baseball):
+    print(str(x))
+
+# iterate through pd DataFrame
+import pandas as pd
+cars = pd.read_csv('cars.csv', index_col = 0)
+
+for lab, row in cars.iterrows() :
+    print(lab + ": "+ str(row['cars_per_cap']))
+    
+# Code for loop that adds COUNTRY column
+for lab, row in cars.iterrows():
+    cars.loc[lab, "COUNTRY"]= row['country'].upper()
+
+# using apply()
+- brics["name_length"] = brics["country"].apply(len)
+- cars["COUNTRY"] = cars["country"].apply(str.upper) for a method

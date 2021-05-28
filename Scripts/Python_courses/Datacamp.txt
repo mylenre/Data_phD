@@ -1,0 +1,767 @@
+Inner functions
+---------------
+
+# Define three_shouts
+def three_shouts(word1, word2, word3):
+    """Returns a tuple of strings
+    concatenated with '!!!'."""
+
+    # Define inner
+    def inner(word):
+        """Returns a string concatenated with '!!!'."""
+        return word + '!!!'
+
+    # Return a tuple of strings
+    return (inner(word1),inner(word2),inner(word3))
+
+# Call three_shouts() and print
+print(three_shouts('a', 'b', 'c'))
+
+multiple arguments:
+----------------
+
+# Define gibberish
+def gibberish(*args):
+    """Concatenate strings in *args together."""
+
+    # Initialize an empty string: hodgepodge
+    hodgepodge = ''
+
+    # Concatenate the strings in args
+    for word in args:
+        hodgepodge += word
+
+    # Return hodgepodge
+    return hodgepodge
+
+# Call gibberish() with one string: one_word
+one_word = gibberish('luke')
+
+# Call gibberish() with five strings: many_words
+many_words = gibberish("luke", "leia", "han", "obi", "darth")
+
+# Print one_word and many_words
+print(one_word)
+print(many_words)
+
+
+kwargs dictionnaries within functions
+--------------------------------------
+
+# Define report_status
+def report_status(**kwargs):
+    """Print out the status of a movie character."""
+
+    print("\nBEGIN: REPORT\n")
+
+    # Iterate over the key-value pairs of kwargs
+    for keys, value in kwargs.items():
+        # Print out the keys and values, separated by a colon ':'
+        print(keys + ": " + value)
+
+    print("\nEND REPORT")
+
+# First call to report_status()
+report_status(name='luke', affiliation='jedi', status='missing')
+
+# Second call to report_status()
+report_status(name='anakin', affiliation='sith lord', status='deceased')
+
+
+BRINGING IT ALL TOGETHER
+------------------------
+# Define count_entries()
+def count_entries(df,col_name='lang'):
+    """Return a dictionary with counts of
+    occurrences as value for each key."""
+
+    # Initialize an empty dictionary: cols_count
+    cols_count = {}
+
+    # Extract column from DataFrame: col
+    col = df[col_name]
+    
+    # Iterate over the column in DataFrame
+    for entry in col:
+
+        # If entry is in cols_count, add 1
+        if entry in cols_count.keys():
+            cols_count[entry] += 1
+
+        # Else add the entry to cols_count, set the value to 1
+        else:
+            cols_count[entry] = 1
+
+    # Return the cols_count dictionary
+    return cols_count
+
+# Call count_entries(): result1
+result1 = count_entries(tweets_df)
+
+# Call count_entries(): result2
+result2 = count_entries(tweets_df,'source')
+
+# Print result1 and result2
+print(result1)
+print(result2)
+------------------------------
+# Define count_entries()
+def count_entries(df,*args):
+    """Return a dictionary with counts of
+    occurrences as value for each key."""
+    
+    #Initialize an empty dictionary: cols_count
+    cols_count = {}
+    
+    # Iterate over column names in args
+    for col_name in args:
+    
+        # Extract column from DataFrame: col
+        col = df[col_name]
+    
+        # Iterate over the column in DataFrame
+        for entry in col:
+    
+            # If entry is in cols_count, add 1
+            if entry in cols_count.keys():
+                cols_count[entry] += 1
+    
+            # Else add the entry to cols_count, set the value to 1
+            else:
+                cols_count[entry] = 1
+
+    # Return the cols_count dictionary
+    return cols_count
+
+# Call count_entries(): result1
+result1 = count_entries(tweets_df, 'lang')
+
+# Call count_entries(): result2
+result2 = count_entries(tweets_df, 'lang', 'source')
+
+# Print result1 and result2
+print(result1)
+print(result2)
+__________________________________________________________________
+
+map(lambda)
+-----------
+# Create a list of strings: spells
+spells = ["protego", "accio", "expecto patronum", "legilimens"]
+
+# Use map() to apply a lambda function over spells: shout_spells
+shout_spells = map(lambda item: item+'!!!',spells)
+
+# Convert shout_spells to a list: shout_spells_list
+shout_spells_list=list(shout_spells)
+
+# Print the result
+print(shout_spells_list)
+
+
+filter
+------
+# Create a list of strings: fellowship
+fellowship = ['frodo', 'samwise', 'merry', 'pippin', 'aragorn', 'boromir', 'legolas', 'gimli', 'gandalf']
+
+# Use filter() to apply a lambda function over fellowship: result
+result = filter(lambda member: len(member)>6, fellowship)
+
+# Convert result to a list: result_list
+result_list=list(result)
+# Print result_list
+print(result_list)
+
+
+reduce
+------
+# Import reduce from functools
+from functools import reduce
+
+# Create a list of strings: stark
+stark = ['robb', 'sansa', 'arya', 'brandon', 'rickon']
+
+# Use reduce() to apply a lambda function over stark: result
+result = reduce(lambda item1, item2: item1+item2, stark)
+
+# Print the result
+print(result)
+
+____________________________________________________________
+errors
+--------
+
+# Define shout_echo
+def shout_echo(word1, echo=1):
+    """Concatenate echo copies of word1 and three
+    exclamation marks at the end of the string."""
+
+    # Initialize empty strings: echo_word, shout_words
+    echo_word=''
+    shout_words=''
+    
+
+    # Add exception handling with try-except
+    try:
+        # Concatenate echo copies of word1 using *: echo_word
+        echo_word = word1*echo
+
+        # Concatenate '!!!' to echo_word: shout_words
+        shout_words = echo_word + '!!!'
+    except:
+        # Print error message
+        print("word1 must be a string and echo must be an integer.")
+
+    # Return shout_words
+    return shout_words
+
+# Call shout_echo
+shout_echo("particle", echo="accelerator")
+
+--------------------------------------------
+# Define shout_echo
+def shout_echo(word1, echo=1):
+    """Concatenate echo copies of word1 and three
+    exclamation marks at the end of the string."""
+
+    # Raise an error with raise
+    if echo<0:
+        raise ValueError('echo must be greater than or equal to 0')
+
+    # Concatenate echo copies of word1 using *: echo_word
+    echo_word = word1 * echo
+
+    # Concatenate '!!!' to echo_word: shout_word
+    shout_word = echo_word + '!!!'
+
+    # Return shout_word
+    return shout_word
+
+# Call shout_echo
+shout_echo("particle", echo=5)
+
+_______________________________________________________
+# Select retweets from the Twitter DataFrame: result
+result = filter(lambda x: x[0:2]=='RT', tweets_df['text'])
+# Create list from filter object result: res_list
+res_list=list(result)
+# Print all retweets in res_list
+for tweet in res_list:
+    print(tweet)
+
+
+-------------------
+# Define count_entries()
+def count_entries(df, col_name='lang'):
+    """Return a dictionary with counts of
+    occurrences as value for each key."""
+
+    # Initialize an empty dictionary: cols_count
+    cols_count = {}
+
+    # Add try block
+    try:
+        # Extract column from DataFrame: col
+        col = df[col_name]
+        
+        # Iterate over the column in dataframe
+        for entry in col:
+    
+            # If entry is in cols_count, add 1
+            if entry in cols_count.keys():
+                cols_count[entry] += 1
+            # Else add the entry to cols_count, set the value to 1
+            else:
+                cols_count[entry] = 1
+    
+        # Return the cols_count dictionary
+        return cols_count
+
+    # Add except block
+    except:
+        print('The DataFrame does not have a ' + col_name + ' column.')
+
+# Call count_entries(): result1
+result1 = count_entries(tweets_df, 'lang')
+
+# Print result1
+print(result1)
+--------------------------------
+# Define count_entries()
+def count_entries(df, col_name='lang'):
+    """Return a dictionary with counts of
+    occurrences as value for each key."""
+    
+    # Raise a ValueError if col_name is NOT in DataFrame
+    if col_name not in df.columns:
+        raise ValueError('The DataFrame does not have a ' + col_name + ' column.')
+
+    # Initialize an empty dictionary: cols_count
+    cols_count = {}
+    
+    # Extract column from DataFrame: col
+    col = df[col_name]
+    
+    # Iterate over the column in DataFrame
+    for entry in col:
+
+        # If entry is in cols_count, add 1
+        if entry in cols_count.keys():
+            cols_count[entry] += 1
+            # Else add the entry to cols_count, set the value to 1
+        else:
+            cols_count[entry] = 1
+        
+        # Return the cols_count dictionary
+    return cols_count
+
+# Call count_entries(): result1
+result1 = count_entries(tweets_df)
+
+# Print result1
+print(result1)
+
+---------------------------------
+Random float
+seed(): sets the random seed, so that your results are reproducible between simulations. As an argument, it takes an integer of your choosing. If you call the function, no output will be generated.
+rand(): if you don't specify any arguments, it generates a random float between zero and one.
+
+import numpy as np
+np.random.seed(123)
+print(np.random.rand())
+print(np.random.randint(1,7))
+
+step = 50
+dice = np.random.randint(1,7)
+if dice <= 2 :
+    step = step - 1
+elif (dice == 1) or (dice == 2) :
+    step = step - np.random.randint(1,7)
+else :
+    step = step + np.random.randint(1,7)
+--------------------------------------------------------------------
+random_walk = [0]
+
+for x in range(100) :
+    step = random_walk[-1]
+    dice = np.random.randint(1,7)
+
+    if dice <= 2:
+        # Replace below: use max to make sure step can't go below 0
+        step = max(0,step - 1)
+    elif dice <= 5:
+        step = step + 1
+    else:
+        step = step + np.random.randint(1,7)
+
+    random_walk.append(step)
+
+print(random_walk)
+
+
+--------------------------------------------------------------------
+# numpy and matplotlib imported, seed set.
+# initialize and populate all_walks
+all_walks = []
+for i in range(10) :
+    random_walk = [0]
+    for x in range(100) :
+        step = random_walk[-1]
+        dice = np.random.randint(1,7)
+        if dice <= 2:
+            step = max(0, step - 1)
+        elif dice <= 5:
+            step = step + 1
+        else:
+            step = step + np.random.randint(1,7)
+        random_walk.append(step)
+    all_walks.append(random_walk)
+
+# Convert all_walks to Numpy array: np_aw
+np_aw = np.array(all_walks)
+
+# Transpose np_aw: np_aw_t
+np_aw_t=np.transpose(np_aw)
+
+# Plot np_aw_t and show
+plt.plot(np_aw_t)
+plt.show()
+
+
+--------------------------------## Time-series ------------------------------------------------------------------------
+climate_change = pd.read_csv('climate_change.csv', parse_dates = ['date'], index_col = "date")
+fig, ax = plt.subplots(1,1)
+ax.plot(climate_change.index, climate_change["relative_temp"])
+ax.set_xlabel('Time')
+ax.set_ylabel('Relative temperature (Celsius)')
+## subextract data from dataframe
+seventies = climate_change["1970-01-01" : "1979-12-31"]
+ax.plot(seventies.index,seventies["co2"])
+plt.show()
+
+## share x axis
+import matplotlib.pyplot as plt
+fig, ax = plt.subplots()
+ax.plot(climate_change.index, climate_change['co2'], color='b')
+ax2 = ax.twinx()
+ax2.plot(climate_change.index, climate_change['relative_temp'], color='r')
+ax2.annotate('>1 degree',(pd.Timestamp('2015-10-06'), 1))
+plt.show()
+
+
+# Define a function called plot_timeseries
+def plot_timeseries(axes, x, y, color, xlabel, ylabel):
+  # Plot the inputs x,y in the provided color
+  axes.plot(x,y, color=color)
+  # Set the x-axis label
+  axes.set_xlabel(xlabel)
+  # Set the y-axis label
+  axes.set_ylabel(ylabel, color=color)
+  # Set the colors tick params for y-axis
+  axes.tick_params('y', colors=color)
+  
+# use function
+plot_timeseries(ax, climate_change.index, climate_change["co2"], 'blue', "Time (years)", "CO2 levels")
+ax2 = ax.twinx()
+plot_timeseries(ax2, climate_change.index, climate_change['relative_temp'], 'red', "Time (years)", "Relative temp (Celsius)")
+ax2.annotate(">1 degree", xy=(pd.Timestamp('2015-10-06'), 1), xytext=(pd.Timestamp('2008-10-06'), -0.2), arrowprops={'arrowstyle':'->', 'color':'gray'})
+plt.show()
+
+
+#add errorbars 
+ax.errorbar(seattle_weather['MONTH'], seattle_weather['MLY-TAVG-NORMAL'], yerr = seattle_weather['MLY-TAVG-STDDEV'])
+ax.errorbar(austin_weather['MONTH'], austin_weather['MLY-TAVG-NORMAL'], yerr = austin_weather['MLY-TAVG-STDDEV'])
+# Set the y-axis label
+ax.set_ylabel("Temperature (Fahrenheit)")
+plt.show()
+  
+--------------------------## Bar charts --------------------------------------------------------
+fig, ax = plt.subplots()
+
+# Add bars for "Gold" with the label "Gold"
+ax.bar(medals.index, medals["Gold"], label="Gold")
+
+# Stack bars for "Silver" on top with label "Silver"
+ax.bar(medals.index, medals["Silver"], bottom=medals["Gold"], label="Silver")
+
+# Stack bars for "Bronze" on top of that with label "Bronze"
+ax.bar(medals.index, medals["Bronze"], bottom = medals["Gold"] + medals["Silver"], label="Bronze")
+
+ax.set_xticklabels(medals.index, rotation = 90)
+ax.set_ylabel("Number of medals")
+ax.legend()
+plt.show()
+
+# Add errorbars
+ax.bar("Rowing",mens_rowing["Height"].mean(), yerr=mens_rowing["Height"].std())
+ax.bar("Gymnastics",mens_gymnastics["Height"].mean(), yerr=mens_gymnastics["Height"].std())
+ax.set_ylabel("Height (cm)")
+plt.show()
+
+
+# Loop over the different sports branches
+for sport in sports:
+  # Extract the rows only for this sport
+  sport_df = summer_2016_medals[summer_2016_medals["Sport"] == sport]
+  # Add a bar for the "Weight" mean with std y error bar
+  ax.bar(sport, sport_df["Weight"].mean(), yerr= sport_df["Weight"].std(),  label = sport)
+
+ax.set_ylabel("Weight")
+ax.set_xticklabels(sports, rotation=90)
+
+# Save the figure to file
+fig.savefig("sports_weights.png")
+
+------------------------- Historgrams ---------------------------------------------------------
+fig, ax = plt.subplots()
+
+ax.hist(mens_rowing["Weight"], label = "Rowing", histtype = 'step', bins = 5)
+ax.hist(mens_gymnastics["Weight"], label = "Gymnastics",histtype = 'step', bins = 5)
+ax.set_xlabel("Weight (kg)")
+ax.set_ylabel("# of observations")
+ax.legend()
+plt.show()
+
+
+----------------------Boxplots------------------------------------------------------------------
+fig, ax = plt.subplots()
+
+# Add a boxplot for the "Height" column in the DataFrames
+ax.boxplot([mens_rowing["Height"],mens_gymnastics["Height"]])
+
+# Add x-axis tick labels:
+ax.set_xticklabels(["Rowing", "Gymnastics"])
+
+# Add a y-axis label
+ax.set_ylabel('Height (cm)')
+plt.show()
+
+
+------------------------------scatter plots for quantitative comaprisons ------------------------
+fig, ax = plt.subplots()
+
+# Add data: "co2", "relative_temp" as x-y, index as color
+ax.scatter(climate_change["co2"],climate_change["relative_temp"], c=climate_change.index)
+
+
+# Set the x-axis label to "CO2 (ppm)"
+ax.set_xlabel('CO2 (ppm)')
+
+# Set the y-axis label to "Relative temperature (C)"
+ax.set_ylabel('Relative temperature (C)')
+
+plt.show()
+
+--------------------------- prepare figures for sharing --------------------------------
+plt.style.use('Solarize_Light2')
+
+fig.set_size_inches([3,5])
+fig.savefig('figure_3_5.png')
+fig.savefig('my_figure_300dpi.png', dpi = 300)
+
+----------------- image processing -----------------------------------
+# Load the image into an array: image
+image = plt.imread('640px-Unequalized_Hawkes_Bay_NZ.jpg')
+
+# Display image in top subplot using color map 'gray'
+plt.subplot(2,1,1)
+plt.title('Original image')
+plt.axis('off')
+plt.imshow(image, cmap = 'gray')
+
+# Flatten the image into 1 dimension: pixels
+pixels = image.flatten()
+
+# Display a histogram of the pixels in the bottom subplot
+plt.subplot(2,1,2)
+plt.xlim((0,255))
+plt.title('Normalized histogram')
+plt.hist(pixels, bins = 64, range = (0,256), normed = True, color = 'red', alpha = 0.4)
+plt.grid('off')
+
+# Use plt.twinx() to overlay the CDF in the bottom subplot
+plt.twinx()
+
+# Generate a cumulative histogram of pixels
+cdf, bins, patches = plt.hist(pixels, bins=256, range=(0,256), normed=True, cumulative=True color='blue', alpha=0.4)
+
+# Specify x-axis range, hide axes, add title and display plot
+plt.xlim((0,256))
+plt.grid('off')
+plt.title('PDF & CDF (original image)')
+
+------- new -------
+
+# Reshape new_pixels as a 2-D array: new_image
+new_pixels = np.interp(pixels, bins[:-1], cdf*255)
+new_image = new_pixels.reshape(image.shape)
+
+# Display the new image with 'gray' color map
+plt.subplot(2,1,1)
+plt.title('Equalized image')
+plt.axis('off')
+plt.imshow(new_image, cmap='gray')
+
+# Generate a histogram of the new pixels
+plt.subplot(2,1,2)
+pdf = plt.hist(new_pixels, bins=64, range=(0,256), normed=False,
+               color='red', alpha=0.4)
+plt.grid('off')
+
+# Use plt.twinx() to overlay the CDF in the bottom subplot
+plt.twinx()
+
+# Generate a cumulative histogram of the new pixels
+cdf = plt.hist(new_pixels, bins=64, range=(0,256),
+               cumulative=True, normed=True,
+               color='blue', alpha=0.4)
+plt.xlim((0,256))
+plt.grid('off')
+plt.title('PDF & CDF (equalized image)')
+plt.show()
+
+-----colored image ------------
+# Load the image into an array: image
+image = plt.imread('hs-2004-32-b-small_web.jpg')
+
+# Display image in top subplot
+plt.subplot(2,1,1)
+plt.title('Original image')
+plt.axis('off')
+plt.imshow(image)
+
+# Extract 2-D arrays of the RGB channels: red, green, blue
+red, green, blue = image[:,:,0], image[:,:,1], image[:,:,2]
+
+# Flatten the 2-D arrays of the RGB channels into 1-D
+red_pixels = red.flatten()
+green_pixels = green.flatten()
+blue_pixels = blue.flatten()
+
+# Overlay histograms of the pixels of each color in the bottom subplot
+plt.subplot(2,1,2)
+plt.title('Histograms from color image')
+plt.xlim((0,256))
+plt.hist(red_pixels, bins=64, normed=True, color='red', alpha=0.2)
+plt.hist(green_pixels, bins=64, normed=True, color='green', alpha=0.2)
+plt.hist(blue_pixels, bins=64, normed=True, color='blue', alpha=0.2)
+
+# Display the plot
+plt.show()
+
+
+----------------------WRITING EFFICIENT PYTHON CODE---------------------
+# Create a list of arrival times
+arrival_times = [*range(10,60,10)]
+
+# Convert arrival_times to an array and update the times
+arrival_times_np = np.array(arrival_times)
+new_times = arrival_times_np - 3
+
+# Use list comprehension and enumerate to pair guests to new times
+guest_arrivals = [(names[i],time) for i,time in enumerate(new_times)]
+
+# Map the welcome_guest function to each (guest,time) pair
+welcome_map = map(welcome_guest, guest_arrivals)
+
+guest_welcomes = [*welcome_map]
+print(*guest_welcomes, sep='\n')
+
+---------------------------------------------------------------------
+[num for num in range(51)]
+[*range(51)]
+---------------------------------------------------------------------
+
+# Collect Pokémon that belong to generation 1 or generation 2
+gen1_gen2_pokemon = [name for name,gen in zip(poke_names, poke_gens) if gen < 3]
+
+# Create a map object that stores the name lengths
+name_lengths_map = map(len, gen1_gen2_pokemon)
+
+# Combine gen1_gen2_pokemon and name_lengths_map into a list
+gen1_gen2_name_lengths = [*zip(gen1_gen2_pokemon, name_lengths_map)]
+
+print(gen1_gen2_name_lengths_loop[:5])
+print(gen1_gen2_name_lengths[:5])
+
+-------------------------------------------------------------------------
+# Import Counter
+from collections import Counter
+
+# Collect the count of each generation
+gen_counts = Counter(generations)
+
+# Improve for loop by moving one calculation above the loop
+total_count = len(generations)
+
+for gen,count in gen_counts.items():
+    gen_percent = round(count / total_count * 100, 2)
+    print('generation {}: count = {:3} percentage = {}'
+          .format(gen, count, gen_percent))
+-------------------------------------------------------------------
+# Collect all possible pairs using combinations()
+possible_pairs = [*combinations(pokemon_types,2)]
+
+# Create an empty list called enumerated_tuples
+enumerated_tuples = []
+
+# Add a line to append each enumerated_pair_tuple to the empty list above
+for i,pair in enumerate(possible_pairs, 1):
+    enumerated_pair_tuple = (i,) + pair
+    enumerated_tuples.append(enumerated_pair_tuple)
+
+# Convert all tuples in enumerated_tuples to a list
+enumerated_pairs = [*map(list,enumerated_tuples)]
+print(enumerated_pairs)
+
+---------------------------------------------------------------
+# Calculate the total HP avg and total HP standard deviation
+hp_avg = hps.mean()
+hp_std = hps.std()
+
+# Use NumPy to eliminate the previous for loop
+z_scores = (hps - hp_avg)/hp_std
+
+# Combine names, hps, and z_scores
+poke_zscores2 = [*zip(names, hps, z_scores)]
+print(*poke_zscores2[:3], sep='\n')
+
+# Use list comprehension with the same logic as the highest_hp_pokemon code block
+highest_hp_pokemon2 = [(name, hp, zscore) for name, hp, zscore in poke_zscores2 if zscore > 2]
+print(*highest_hp_pokemon2, sep='\n')
+--------------------------------------------------------------
+If Dataframe: iterrows() or itertuples(): 
+
+# Loop over the DataFrame and print each row's Index, Year and Wins (W)
+for row in rangers_df.itertuples():
+  i = row.Index
+  year = row.Year
+  wins = row.W
+  
+  # Check if rangers made Playoffs (1 means yes; 0 means no)
+  if row.Playoffs == 1:
+    print(i, year, wins)
+------------------------------------------------------------
+run_diffs = []
+
+# Loop over the DataFrame and calculate each row's run differential
+for row in yankees_df.itertuples():
+    
+    runs_scored = row.RS
+    runs_allowed = row.RA
+
+    run_diff = calc_run_diff(runs_scored, runs_allowed)
+    
+    run_diffs.append(run_diff)
+
+# Append new column
+yankees_df['RD'] = run_diffs
+print(yankees_df)
+---------------------------------------------------------------
+Pandas alternative to looping:
+textual_playoffs = rays_df.apply(lambda row: text_playoffs(row['Playoffs']), axis=1)
+
+# Display the first five rows of the DataFrame
+print(dbacks_df.head())
+
+# Create a win percentage Series 
+win_percs = dbacks_df.apply(lambda row: calc_win_perc(row['W'], row['G']), axis=1)
+print(win_percs, '\n')
+
+# Append a new column to dbacks_df
+dbacks_df['WP'] = win_percs
+print(dbacks_df, '\n')
+
+# Display dbacks_df where WP is greater than 0.50
+print(dbacks_df[dbacks_df['WP'] >= 0.50])
+----------------------------------------------------------------
+# Use the W array and G array to calculate win percentages
+win_percs_np = calc_win_perc(baseball_df['W'].values, baseball_df['G'].values)
+baseball_df['WP'] = win_percs_np
+print(baseball_df.head())
+
+is an alternative code for:
+
+for i in range(len(baseball_df)):
+    row = baseball_df.iloc[i]
+    wins = row['W']
+    games_played = row['G']
+    win_perc = calc_win_perc(wins, games_played)
+    win_percs_list.append(win_perc)
+
+---> combine all: efficiency are 1) numpy method, 2)itertuple, 3)apply method
+win_perc_preds_loop = []
+# Use a loop and .itertuples() to collect each row's predicted win percentage
+for row in baseball_df.itertuples():
+    runs_scored = row.RS
+    runs_allowed = row.RA
+    win_perc_pred = predict_win_perc(runs_scored, runs_allowed)
+    win_perc_preds_loop.append(win_perc_pred)
+
+# Apply predict_win_perc to each row of the DataFrame
+win_perc_preds_apply = baseball_df.apply(lambda row: predict_win_perc(row['RS'], row['RA']), axis=1)
+
+# Calculate the win percentage predictions using NumPy arrays
+win_perc_preds_np = predict_win_perc(baseball_df['RS'].values, baseball_df['RA'].values)
+baseball_df['WP_preds'] = win_perc_preds_np
+print(baseball_df.head())
